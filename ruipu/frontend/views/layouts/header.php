@@ -34,7 +34,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="header_right">
       <div class="rgt-bottom">
         <li><a href="index.php?r=index/index">Home</a></li>
-        <li><a href="index.php?r=index/contact">Contact</a></li>
+        <li><a href="index.php?r=login/signin">注册</a>||<a href="index.php?r=login/login">登录</a></li>
         <li><a href="index.php?r=index/contact">Sitemap</a></li>
         <li a="" href="#">
           <div class="drop-down">
