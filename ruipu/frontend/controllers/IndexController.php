@@ -27,6 +27,13 @@ class IndexController extends Controller
     	$this->layout="header";
     	return $this->render('index');  			
 	}
+	//用户中心
+	public  function actionUser_center(){
+		$this->layout="header";
+		return $this->render('usercenter');
+	}
+
+
 	public function actionContact()
 	{
     	$this->layout="header";
