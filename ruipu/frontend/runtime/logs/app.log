@@ -1354,27 +1354,27 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1460530817.8384
     'REQUEST_TIME' => 1460530817
 ]
-2016-04-14 18:34:57 [127.0.0.1][-][sc0mte00k8d9qkbf3rgpp17fh7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/usercenter' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php:122
+
+2016-04-14 19:14:54 [127.0.0.1][-][0l13dpirqrcrv2mpun15hsecs1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: login/login' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php:122
 Stack trace:
-#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('usercenter', Array)
-#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/usercente...', Array)
-#2 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#3 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/login', Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
 #4 {main}
 
-Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
 Stack trace:
-#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
 #2 {main}
-2016-04-14 18:34:57 [127.0.0.1][-][sc0mte00k8d9qkbf3rgpp17fh7][info][application] $_GET = [
-    'r' => 'index/usercenter'
+2016-04-14 19:14:53 [127.0.0.1][-][0l13dpirqrcrv2mpun15hsecs1][info][application] $_GET = [
+    'r' => 'login/login'
 ]
 
 $_COOKIE = [
-    'pgv_pvi' => '6824312832'
-    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
-    'Huiskin' => 'green'
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
 ]
 
 $_SESSION = [
@@ -1382,12 +1382,15 @@ $_SESSION = [
 ]
 
 $_SERVER = [
-    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+
     'SYSTEMROOT' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\Windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+
     'PHPRC' => 'D:/wamp/phpStudy/php56n'
     '_FCGI_SHUTDOWN_EVENT_' => '476'
     'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
@@ -2371,4 +2374,5 @@ $_SERVER = [
     'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
     'REQUEST_TIME_FLOAT' => 1460636894.2331
     'REQUEST_TIME' => 1460636894
+
 ]

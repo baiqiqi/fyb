@@ -34,9 +34,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- start header_right -->
     <div class="header_right">
       <div class="rgt-bottom">
+
         <li><a href="index.php?r=index/index">首页</a></li>
         <li><a href="index.php?r=index/contact">Contact</a></li>
         <li><a href="index.php?r=index/user_center">用户中心</a></li>
+
         <li a="" href="#">
           <div class="drop-down">
               <select class="d-arrow">
