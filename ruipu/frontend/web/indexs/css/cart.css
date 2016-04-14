@@ -1,0 +1,28 @@
+.shopbox {display:none; width: 750px; padding: 0px 21px 24px; border:1px solid #dfdfdf; height: 340px; background: #fff; z-index:89899999; position:fixed; *position:absolute; left:15%; top: 8%;}
+.shopbox h1{ height: 36px; width: 100%;}
+.shopbox h1 a{ width: 28px; height: 36px;background: url("../images/cl.png") no-repeat center center; display: block; float: right;}
+.shopbox h2 {font-weight: bold;height: 30px;line-height: 30px;background: url("../images/success.png") no-repeat  300px center;overflow: hidden;padding-left: 20px;margin: 0; text-align: center;}
+
+.clearfix:after{content:''; display:table; clear:both}  
+.clearfix{*zoom:1;} 
+.ibtn{margin-top:30px;margin-bottom:10px;padding-left: 250px;}
+.ibtn a{ display: block; width: 120px; height: 36px; line-height: 36px; text-align: center; color: #FFF; display: block; float: left; border-radius: 3px;}
+.ibtn a:hover{ text-decoration: none;}
+.ibtn_red{ background: #cc0001;}
+.ibtn_shop{ background: #91746a; margin-left: 40px;}
+
+.t_shop{ width: 100%; border: 1px solid #e6e6e6; margin-top: 16px;}
+.t_span{ height: 35px; line-height: 35px; padding-left: 17px; display: block; background: #f7f7f7;}
+.t_shop ul{height: 150px; overflow: hidden;}
+.t_shop ul li{ float: left; width: 320px; padding:20px 0; padding-left: 50px;}
+.t_shop ul li div{ float: left;}
+
+.div_img{ width:100px; height:100px; text-align:left; border: 1px solid #ccc; padding: 3px 3px;}
+.div_img a{ width:100px; height:100px; display:block;}
+.div_concent{ width: 150px; height: 100px; margin-left: 20px;}
+.div_concent .title{ width:150px; height:48px; line-height:24px; overflow:hidden;}
+.div_concent .comment{ width:150px; height:24px; line-height:24px; color:#029ae1;}
+.div_concent .addToCart{ width:150px; height:24px;}
+.div_concent .addToCart a{ display:block; *float:left; width:80px; height:24px; line-height:24px; text-align:center; color:#fff; background:#cc0001; border-radius:3px;}
+.div_concent .addToCart a:hover{ text-decoration: none;}
+.line_v{width: 1px;height:120px;margin-left: 30px}

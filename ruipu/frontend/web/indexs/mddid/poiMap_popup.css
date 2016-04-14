@@ -1,0 +1,96 @@
+.popup-wrap{width:100%;height:100%;display:none;position:fixed;_position:absolute;top:0;right:0;bottom:0;left:0;z-index: 1001;}
+.hotel-maps{position:relative;top:0;color:#666;z-index:999;overflow:hidden;}
+.hotel-maps .pop-ctrl{position:absolute;right:15px;top:6px;z-index:5;line-height:24px;font-family:'\5B8B\4F53';}
+.hotel-maps .pop-ctrl a{float:left;padding-left:20px;font-size:14px;color:#ff7000;}
+.hotel-maps .pop-ctrl i{float:left;margin:5px 5px 0 -20px;width:14px;height:14px;background:url(/images/mdd/new_img/hotel-maps-bg12.png) no-repeat 0 -120px;overflow:hidden;}
+.hotel-maps .pop-ctrl .btn-zoom i{background-position:-15px -120px;}
+.hotel-maps .pop-ctrl .btn-close{background-color:#fa9f00;height:27px;line-height:27px;padding:0 14px 0 32px;color:#fff;font-size:12px;border-radius:4px;font-weight:bold;}
+.hotel-maps .pop-ctrl .btn-close:hover{background-color:#ff8a00;text-decoration:none;}
+.hotel-maps .pop-ctrl .btn-close i{width:12px;height:12px;margin:8px 5px 0 -17px;background-position:-30px -120px;}
+
+.hotel-maps .pop-ctrl .line{float:left;margin:0 17px;width:1px;height:24px;background-color:#e6e6e6;}
+
+.hotel-maps .close{position:absolute;right:-18px;top:-18px;z-index:5;width:43px;height:43px;background:url(/images/mdd/new_img/hotel-maps-bg12.png) no-repeat 0 -120px;overflow:hidden;}
+.hotel-maps .close:hover{background-position:-50px -120px;}
+.hotel-maps .inner{background-color:#fff;overflow: hidden;}
+.hotel-maps .hm-bar{float:left;width:275px;background-color:#fff;height:100%;overflow:hidden;position:relative;z-index:3;box-shadow:1px 0 5px rgba(0,0,0,0.1);}
+.hotel-maps .hm-cont .hd{position:relative;z-index:2;height:36px;padding:0 10px;border-bottom:1px solid #cac8c1;line-height:36px;background-color:#fff;font-size:14px;color:#ff7000;box-shadow:0 1px 2px rgba(0,0,0,0.1);}
+.hotel-maps .hm-bar .hd{border-bottom:1px solid #cac8c1;box-shadow:0 1px 2px rgba(0,0,0,0.1);overflow:hidden;}
+.hotel-maps .hm-bar dl{padding:20px 32px 0;}
+.hotel-maps .hm-bar dt{height:50px;font-size:28px;font-weight:bold;color:#333;line-height:50px;}
+.hotel-maps .hm-bar dd{padding-bottom:21px;font-size:18px;line-height:30px;}
+.hotel-maps .nav-type{margin:11px 0 0 -1px;height:60px;padding:10px 0;border-top:2px solid #e4e4e4;}
+.hotel-maps .nav-type li{float:left;border-left:1px solid #f1f1f1;width:68px;height:60px;text-align:center;_overflow:hidden;}
+.hotel-maps .nav-type a{display:block;height:60px;color:#666;overflow:hidden;line-height:20px;}
+.hotel-maps .nav-type i{float:none;margin:0 0 7px 0;display:inline-block;width:36px;height:36px;background:url(/images/mdd/detail_v2/cate-icon3.gif) no-repeat -100px 0;overflow:hidden;vertical-align:top;}
+.hotel-maps .nav-type .icon-scenic{background-position:-100px 0;}
+.hotel-maps .nav-type a:hover .icon-scenic,.hotel-maps .nav-type .on .icon-scenic{background-position:-150px 0;}
+.hotel-maps .nav-type .icon-cate{background-position:-100px -50px;}
+.hotel-maps .nav-type a:hover .icon-cate,.hotel-maps .nav-type .on .icon-cate{background-position:-150px -50px;}
+.hotel-maps .nav-type .icon-shop{background-position:-100px -200px;}
+.hotel-maps .nav-type a:hover .icon-shop,.hotel-maps .nav-type .on .icon-shop{background-position:-150px -200px;}
+.hotel-maps .nav-type .icon-amusement{background-position:-100px -150px;}
+.hotel-maps .nav-type a:hover .icon-amusement,.hotel-maps .nav-type .on .icon-amusement{background-position:-150px -150px;}
+.hotel-maps .nav-type .on i{_width:36px;_height:36px;}
+.hotel-maps .nav-type span{display:block;}
+.hotel-maps .nav-type a:hover,.hotel-maps .nav-type .on a,.hotel-maps .nav-type .on{border-top:2px solid #ffa800;padding-top:10px;margin-top:-12px;text-decoration:none;color:#ff8a00;}
+.hotel-maps .poi-mList{position:relative;overflow-x:hidden;overflow-y:scroll;}
+.hotel-maps .poi-mList .item{height:70px;padding:15px 15px 15px 20px;border-bottom:1px dotted #dcdcdc;overflow:hidden;*zoom:1;line-height:20px;color:#999;}
+.hotel-maps .poi-mList .item.active,.hotel-maps .poi-mList .item:hover{background-color:#fff8e6;}
+.hotel-maps .poi-mList .p-img{float:left;margin-right:10px;width:110px;height:70px;position:relative;overflow:hidden;}
+.hotel-maps .poi-mList .p-img em{position:absolute;left:0;bottom:0;_bottom:-1px;width:25px;height:25px;line-height:24px;text-align:center;color:#fff;font-size:16px;font-weight:bold;background-color:#0A89E4;font-style:normal;font-family:verdana}
+.hotel-maps .poi-mList h3{margin-bottom:4px;height:24px;line-height:24px;font-size:14px;font-weight:normal;overflow:hidden;}
+.hotel-maps .poi-mList h3 a{color:#654939;}
+.hotel-maps .poi-mList .num-orange{color:#FF8C00;}
+.hotel-maps .poi-mList .num-blue{color:#0D89E3;}
+
+.hotel-maps .hm-bar .ft{padding:12px 10px;height:27px;}
+.hotel-maps .hm-bar .ft a{float:left;margin-right:12px;width:112px;height:25px;border:1px solid #fa9f00;border-radius:40px;color:#ff8a00;text-decoration:none;font-size:14px;text-align:center;line-height:24px;}
+.hotel-maps .hm-bar .ft a:hover{background-color:#fa9f00;color:#fff;}
+.hotel-maps .hm-bar .ft a:active{background-color:#ff8a00;color:#fff;}
+.hotel-maps .hm-bar .ft .disable,.hotel-maps .hm-bar .ft .disable:hover,.hotel-maps .hm-bar .ft .disable:active{border-color:#999;background-color:#fff;color:#999;cursor:default;}
+.hotel-maps .hotel-list .loading{position:absolute;left:0;top:45%;width:100%;height:10px;background:url(/images/common/loading_big.gif) no-repeat center center;}
+.hotel-maps .hm-cont{_float:left;margin-left:275px;_margin-left:0!important;}
+.hotel-maps .hm-cont .bd{position:relative;}
+.hotel-maps .hm-box{height: 620px;overflow: hidden;}
+.hotel-maps .m-hotelPop,.hotel-maps .m-poiPop{padding:8px;width:305px;height:95px;background-color:#fff;box-shadow:0 0 0 3px rgba(0,0,0,0.2);border:3px solid #bab6b0\9;border-radius:1px;line-height:18px;z-index:1001;}
+.hotel-maps .m-hotelPop .pic{float:left;width:95px;height:95px;margin-right:8px;overflow:hidden;border-radius:4px;}
+.hotel-maps .m-hotelPop h3,.hotel-maps .m-poiPop h3{height:20px;margin-right:25px;overflow:hidden;font-size:14px;line-height:20px;}
+.hotel-maps .m-hotelPop h3 a,.hotel-maps .m-poiPop h3 a{display:block;color:#ff7000;}
+.hotel-maps .m-close{position:absolute;top:10px;right:14px;z-index:2;width:15px;height:15px;background:url(/images/mdd/new_img/hotel-maps-bg12.png) no-repeat -50px -120px;overflow:hidden;}
+.hotel-maps .m-close:hover{background-position:-65px -120px;}
+.hotel-maps .m-hotelPop p{height:54px;overflow:hidden;font-size:12px;}
+.hotel-maps .m-hotelPop .ext{line-height:20px;}
+.hotel-maps .m-hotelPop .price{color:#ff7000;font-size:14px;font-weight:bold;}
+.hotel-maps .m-hotelPop .ext a{float:right;margin-right:5px;color:#0a89e4;font-size:12px;}
+.hotel-maps .m-poiPop{height:20px;width:auto;_width:200px;_text-overflow:ellipsis;padding:5px 8px;}
+.hotel-maps .m-poiPop h3{white-space:nowrap;}
+.hotel-maps .m-poiPop h3 a{padding-right:50px;}
+.hotel-maps .m-poiPop .m-close{right:8px;top:8px;}
+.hotel-maps .mark-smallHotel{position:relative;width:7px;height:7px;}
+.hotel-maps .mark-smallHotel i{position:absolute;left:-9px;bottom:-10px;width:25px;height:25px;background:url(/images/mdd/new_img/hotel-maps-bg12.png) no-repeat -83px 8px;overflow:hidden;cursor:pointer;}
+.hotel-maps .mark-smallHotel:hover{z-index:1008;}
+.hotel-maps .mark-smallHotel:hover i{background-position:-103px 8px;}
+.hotel-maps .mark-smallHotel.on{z-index:1009;}
+.hotel-maps .mark-smallHotel.on i{left:-9px;bottom:0;width:24px;height:28px;background-position:-85px -56px;}
+
+.hotel-maps .mark-panel{position:absolute;right:15px;top:60px;width:68px;background-color:#fff;box-shadow:0 0 5px rgba(0,0,0,0.2);}
+.hotel-maps .mark-panel div{border-left:4px solid #34b67a;}
+.hotel-maps .mark-panel .jingdian{border-color:#f03f34;}
+.hotel-maps .mark-panel .meishi{border-color:#99befd;}
+.hotel-maps .mark-panel .yule{border-color:#fbcd48;}
+.hotel-maps .mark-panel .gouwu{border-color:#5c5c5c;}
+.hotel-maps .mark-panel label{display:block;height:27px;border-bottom:1px solid #ededed;line-height:27px;cursor:pointer;}
+.hotel-maps .mark-panel input{float:left;width:13px;height:13px;padding:0;margin:7px 5px 0 8px;}
+.hotel-maps .mark-poi{width:13px;height:15px;background:url(/images/mdd/new_img/hotel-maps-bg12.png) no-repeat 0 -70px;overflow:hidden;cursor:pointer;}
+.hotel-maps .mark-poi.on{background-position:-96px -35px;position:relative;z-index:1009;}
+.hotel-maps .mark-poi-3{background-position:-35px -70px;}
+.hotel-maps .mark-poi-6{background-position:-18px -70px;}
+.hotel-maps .label-hotel{padding:3px 12px;float:left;box-shadow:0 0 0 3px rgba(0,0,0,0.12);background-color:#fff;border:2px solid #d4d2cd\9;color:#0a89e4;border-radius:30px;line-height:18px;font-size:12px;cursor:pointer;}
+.hotel-maps .label-hotel:hover{background-color:#0a89e4;color:#fff;border-color:#fff;box-shadow:0 0 0 3px rgba(255,255,255,1);}
+
+.mark-hotel{width:24px;height:28px;background:url(/images/mdd/new_img/hotel-maps-bg12.png) no-repeat -35px 0;overflow:hidden;color:#fff;font-size:14px;font-weight:bold;text-align:center;line-height:22px;cursor:pointer;position:relative;z-index:1008;}
+.mark-hotel.on{background-position:-35px -35px;z-index: 1009;}
+
+.mHotel-loading{position:absolute;left:50%;top:50%;z-index:999;margin:-39px 0 0 -69px;width:135px;padding:18px 0;border:1px solid #ebebeb;background-color:#fff;border-radius:4px;text-align:center;font-size:14px;color:#666;line-height:20px;}
+.mHotel-loading p{padding-bottom:20px;background:url(/images/common/loading_big.gif) no-repeat center bottom;}
