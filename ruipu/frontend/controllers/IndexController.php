@@ -17,6 +17,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 
+
 /**
  * Site controller
  */
@@ -42,9 +43,6 @@ class IndexController extends Controller
     	$this->layout="header";
     	return $this->render('sale');  			
 	}
-	public function actionAbout()
-	{
-    	$this->layout="header";
-    	return $this->render('about');  			
-	}
+
+	
 }
