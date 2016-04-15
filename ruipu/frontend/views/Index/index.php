@@ -22,14 +22,6 @@
     </script>
     <script type="text/javascript">
     $(document).ready(function() {
-        /*
-        var defaults = {
-        containerID: 'toTop', // fading element id
-        containerHoverID: 'toTopHover', // fading element hover id
-        scrollSpeed: 1200,
-        easingType: 'linear' 
-        };
-        */
     $().UItoTop({ easingType: 'easeOutQuart' });
 });
 </script>
@@ -58,18 +50,15 @@
 		<div class="col-md-6 banner-right">
 			<div class="col-md-6 banner-top">
 				<h6>Dialysis Chairs</h6>
-				
 			</div>
 			<div class="col-md-6 banner-top1">
 				<h6>Surgical Bed</h6>
 			</div>
 			<div class="col-md-6 banner-top2">
 				<h6>Wheel Chairs</h6>
-				
 			</div>
 			<div class="col-md-6 banner-top3">
 				<h6>Radiant Warmers</h6>
-				
 			</div>
 			<div class="clearfix"> </div>
 		</div>
