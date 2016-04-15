@@ -1,13 +1,6 @@
 
 
 
-
-
-
-
-
-
-
 <script>
     $(function () {
       $("#slider").responsiveSlides({

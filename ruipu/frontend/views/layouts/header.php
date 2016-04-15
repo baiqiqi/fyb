@@ -5,6 +5,7 @@
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary JavaScript plugins) -->
 <script type='text/javascript' src="js/jquery-1.11.1.min.js"></script>
+
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
@@ -33,9 +34,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- start header_right -->
     <div class="header_right">
       <div class="rgt-bottom">
-        <li><a href="index.php?r=index/index">Home</a></li>
+
+        <li><a href="index.php?r=index/index">首页</a></li>
         <li><a href="index.php?r=index/contact">Contact</a></li>
-        <li><a href="index.php?r=index/contact">Sitemap</a></li>
+        <li><a href="index.php?r=index/user_center">用户中心</a></li>
+
         <li a="" href="#">
           <div class="drop-down">
               <select class="d-arrow">
@@ -94,7 +97,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.php?r=index/index">Home </a></li>
+        <li class="active"><a href="index.php?r=index/index">首页 </a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -128,7 +131,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <?= $content ?>
 
-      
+
 <div class="foot-top">
   <div class="container">
     <div class="col-md-6 s-c">

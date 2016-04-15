@@ -49,6 +49,7 @@ class Company extends \yii\db\ActiveRecord
         ];
     }
 
+
     /*
     * 赵思敏
     * 查询表中所有数据
@@ -58,4 +59,5 @@ class Company extends \yii\db\ActiveRecord
 
         return $this->findBySql("SELECT * FROM company")->asArray()->all();
     }
+
 }
