@@ -28,14 +28,9 @@
         font-size:16px;
     }
 </style>
-<!--[if IE 6]>
-    <script type="text/javascript" src="indexs/js/DD_belatedPNG_0.0.8a.js"></script>
-    <script type="text/javascript">
-        DD_belatedPNG.fix('div, ul, img, li, input ,span,a'); 
-    </script>
-<![endif]-->
 </head>
 <body>
+<div>
         <div id="bigView" style="display:none;"><img width="800" height="800" alt="" src="" /></div>
         
         <!-- <link rel="stylesheet" href="indexs/css/base.css" /> -->
@@ -150,9 +145,6 @@
       font-weight: bold;
    }
  </style>
- <div id="ur_here" class="fontwy14b">
-<img src="indexs/images/location.png" style="margin-right: 10px; margin-top: -5px;width:25px" />
-</div>
 </div>
 <div class="blank5"></div>
             </div>
@@ -270,13 +262,13 @@ function clear_history_Response(res){
                             <ul id="shop_msg_ul" style="height:78px;margin-top:20px">
                                 <li>
                                     <a class="nou" href="javascript:;">
-                                        <p class="wy font12" style="color:#A2754D;font-weight:bold">0</p>
+                                        <p class="wy font12" style="color:#A2754D;font-weight:bold"><?php echo $arr['pro_sales']?></p>
                                         <span class="clo9 wy font12">月销量</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a class="nou" href="javascript:;">
-                                        <p class="wy font12" style="color:#3486C5;font-weight:bold">0</p>
+                                        <p class="wy font12" style="color:#3486C5;font-weight:bold">2689</p>
                                         <span class="clo9 wy font12">累计评价</span>
                                     </a>
                                 </li>
@@ -304,9 +296,8 @@ function clear_history_Response(res){
               </span>
               <span class="wy font12" style="margin: 0 10px 0 35px;">件</span>
               <font id="ECS_GOODS_AMOUNT" class="shop" style="display: none;"></font>&nbsp;&nbsp;
-              <span class="clo9 wy font12" id="max_num">库存 1&nbsp;&nbsp; </span>
-              <a class="a_wx wy font12" href="javascript:;" style=" text-decoration: none; display: inline-block; width: 103px; height: 30px; color: #c60000; line-height: 30px; border: 1px solid #ccc; position: relative; padding-left: 25px; background: url(indexs/images/phone_w.png) no-repeat 3px center; ">
-                手机购物更方便
+              <span class="clo9 wy font12" id="max_num">库存 <?php echo $arr['pro_count']?>&nbsp;&nbsp; </span>
+              
                 <span class="wx01" style="position: absolute; display: none; z-index: 9990; border: 1px solid #ccc; padding:2px; width: 124px; height: 160px; left: 0px; top: -180px; background: #fff;">
                 <span style="overflow: hidden; text-overflow:ellipsis;white-space:nowrap; width: 124px; word-wrap:normal;display:block; height: 30px; color: #333;">{{$v->s_name}}</span>
                 <img src="indexs/images/qr.jpg" width="124px" height="130px"/>  
@@ -1042,5 +1033,6 @@ script.src = src;
             }
         </script>
     <script type="text/javascript" src="indexs/js/jquery-zoom.js" ></script>
+    </div>
 </body>
 </html>

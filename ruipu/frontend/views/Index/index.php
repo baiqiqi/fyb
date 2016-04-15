@@ -1,4 +1,3 @@
-
 <script>
     $(function () {
       $("#slider").responsiveSlides({
@@ -23,14 +22,6 @@
     </script>
     <script type="text/javascript">
     $(document).ready(function() {
-        /*
-        var defaults = {
-        containerID: 'toTop', // fading element id
-        containerHoverID: 'toTopHover', // fading element hover id
-        scrollSpeed: 1200,
-        easingType: 'linear' 
-        };
-        */
     $().UItoTop({ easingType: 'easeOutQuart' });
 });
 </script>
@@ -59,18 +50,15 @@
 		<div class="col-md-6 banner-right">
 			<div class="col-md-6 banner-top">
 				<h6>Dialysis Chairs</h6>
-				
 			</div>
 			<div class="col-md-6 banner-top1">
 				<h6>Surgical Bed</h6>
 			</div>
 			<div class="col-md-6 banner-top2">
 				<h6>Wheel Chairs</h6>
-				
 			</div>
 			<div class="col-md-6 banner-top3">
 				<h6>Radiant Warmers</h6>
-				
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -98,5 +86,3 @@
 		</div>
 	</div>
 </div>
-我没有你那么多经历，所以我懂得比你少，我知道有些事是我想的太少，做的不够好。可你依然能包容我，体谅我。
-虽然今天的谈话我有点不开心，但更多的是让我知道自己确实该长大。还是谢谢你。
