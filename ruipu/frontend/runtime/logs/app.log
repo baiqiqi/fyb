@@ -2376,3 +2376,2827 @@ $_SERVER = [
     'REQUEST_TIME' => 1460636894
 
 ]
+2016-04-15 11:10:29 [127.0.0.1][-][nes6eh71l6m4bcvl9clca9hj44][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2016-04-15 11:10:28 [127.0.0.1][-][nes6eh71l6m4bcvl9clca9hj44][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => '1'
+    'user' => ''
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1968'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52347'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '14'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460689828.9057
+    'REQUEST_TIME' => 1460689828
+]
+2016-04-15 11:10:29 [127.0.0.1][-][nes6eh71l6m4bcvl9clca9hj44][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\BadRequestHttpException))
+#6 {main}
+2016-04-15 11:10:28 [127.0.0.1][-][nes6eh71l6m4bcvl9clca9hj44][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => '1'
+    'user' => ''
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1968'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52347'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '14'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460689828.9057
+    'REQUEST_TIME' => 1460689828
+]
+2016-04-15 11:10:40 [127.0.0.1][-][nes6eh71l6m4bcvl9clca9hj44][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2016-04-15 11:10:40 [127.0.0.1][-][nes6eh71l6m4bcvl9clca9hj44][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => ''
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'nes6eh71l6m4bcvl9clca9hj44'
+    '_csrf' => '8f9c60f54c80623ffab97ab4fd68c2d6fdae7e7f9b1f9e3a93d5ba3ff653fdfca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OW-L3KGK7ZLNZ4MnAqtWJAfKaKwZ5ryt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1968'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52353'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '13'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23; PHPSESSID=nes6eh71l6m4bcvl9clca9hj44; _csrf=8f9c60f54c80623ffab97ab4fd68c2d6fdae7e7f9b1f9e3a93d5ba3ff653fdfca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OW-L3KGK7ZLNZ4MnAqtWJAfKaKwZ5ryt%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460689840.0423
+    'REQUEST_TIME' => 1460689840
+]
+2016-04-15 11:10:40 [127.0.0.1][-][nes6eh71l6m4bcvl9clca9hj44][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\BadRequestHttpException))
+#6 {main}
+2016-04-15 11:10:40 [127.0.0.1][-][nes6eh71l6m4bcvl9clca9hj44][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => ''
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'nes6eh71l6m4bcvl9clca9hj44'
+    '_csrf' => '8f9c60f54c80623ffab97ab4fd68c2d6fdae7e7f9b1f9e3a93d5ba3ff653fdfca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OW-L3KGK7ZLNZ4MnAqtWJAfKaKwZ5ryt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1968'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52353'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '13'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23; PHPSESSID=nes6eh71l6m4bcvl9clca9hj44; _csrf=8f9c60f54c80623ffab97ab4fd68c2d6fdae7e7f9b1f9e3a93d5ba3ff653fdfca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OW-L3KGK7ZLNZ4MnAqtWJAfKaKwZ5ryt%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460689840.0423
+    'REQUEST_TIME' => 1460689840
+]
+2016-04-15 11:14:01 [127.0.0.1][-][nes6eh71l6m4bcvl9clca9hj44][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2016-04-15 11:14:01 [127.0.0.1][-][nes6eh71l6m4bcvl9clca9hj44][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => ''
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'nes6eh71l6m4bcvl9clca9hj44'
+    '_csrf' => '8f9c60f54c80623ffab97ab4fd68c2d6fdae7e7f9b1f9e3a93d5ba3ff653fdfca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OW-L3KGK7ZLNZ4MnAqtWJAfKaKwZ5ryt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1968'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52394'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '13'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23; PHPSESSID=nes6eh71l6m4bcvl9clca9hj44; _csrf=8f9c60f54c80623ffab97ab4fd68c2d6fdae7e7f9b1f9e3a93d5ba3ff653fdfca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OW-L3KGK7ZLNZ4MnAqtWJAfKaKwZ5ryt%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460690041.7519
+    'REQUEST_TIME' => 1460690041
+]
+2016-04-15 11:14:01 [127.0.0.1][-][nes6eh71l6m4bcvl9clca9hj44][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\BadRequestHttpException))
+#6 {main}
+2016-04-15 11:14:01 [127.0.0.1][-][nes6eh71l6m4bcvl9clca9hj44][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => ''
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'nes6eh71l6m4bcvl9clca9hj44'
+    '_csrf' => '8f9c60f54c80623ffab97ab4fd68c2d6fdae7e7f9b1f9e3a93d5ba3ff653fdfca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OW-L3KGK7ZLNZ4MnAqtWJAfKaKwZ5ryt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1968'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52394'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '13'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23; PHPSESSID=nes6eh71l6m4bcvl9clca9hj44; _csrf=8f9c60f54c80623ffab97ab4fd68c2d6fdae7e7f9b1f9e3a93d5ba3ff653fdfca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OW-L3KGK7ZLNZ4MnAqtWJAfKaKwZ5ryt%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460690041.7519
+    'REQUEST_TIME' => 1460690041
+]
+2016-04-15 11:18:56 [127.0.0.1][-][nes6eh71l6m4bcvl9clca9hj44][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2016-04-15 11:18:56 [127.0.0.1][-][nes6eh71l6m4bcvl9clca9hj44][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => ''
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'nes6eh71l6m4bcvl9clca9hj44'
+    '_csrf' => '8f9c60f54c80623ffab97ab4fd68c2d6fdae7e7f9b1f9e3a93d5ba3ff653fdfca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OW-L3KGK7ZLNZ4MnAqtWJAfKaKwZ5ryt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52430'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '13'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23; PHPSESSID=nes6eh71l6m4bcvl9clca9hj44; _csrf=8f9c60f54c80623ffab97ab4fd68c2d6fdae7e7f9b1f9e3a93d5ba3ff653fdfca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OW-L3KGK7ZLNZ4MnAqtWJAfKaKwZ5ryt%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460690336.4077
+    'REQUEST_TIME' => 1460690336
+]
+2016-04-15 11:18:56 [127.0.0.1][-][nes6eh71l6m4bcvl9clca9hj44][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\BadRequestHttpException))
+#6 {main}
+2016-04-15 11:18:56 [127.0.0.1][-][nes6eh71l6m4bcvl9clca9hj44][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => ''
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'nes6eh71l6m4bcvl9clca9hj44'
+    '_csrf' => '8f9c60f54c80623ffab97ab4fd68c2d6fdae7e7f9b1f9e3a93d5ba3ff653fdfca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OW-L3KGK7ZLNZ4MnAqtWJAfKaKwZ5ryt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52430'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '13'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23; PHPSESSID=nes6eh71l6m4bcvl9clca9hj44; _csrf=8f9c60f54c80623ffab97ab4fd68c2d6fdae7e7f9b1f9e3a93d5ba3ff653fdfca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OW-L3KGK7ZLNZ4MnAqtWJAfKaKwZ5ryt%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460690336.4077
+    'REQUEST_TIME' => 1460690336
+]
+2016-04-15 16:28:20 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\Application::mail' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\di\ServiceLocator.php(73): yii\base\Component->__get('mail')
+#1 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(49): yii\di\ServiceLocator->__get('mail')
+#2 [internal function]: frontend\controllers\LoginController->actionDosignin()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-04-15 16:28:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1856'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50237'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460708900.1116
+    'REQUEST_TIME' => 1460708900
+]
+2016-04-15 16:28:20 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#6 {main}
+2016-04-15 16:28:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1856'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50237'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460708900.1116
+    'REQUEST_TIME' => 1460708900
+]
+2016-04-15 17:46:13 [127.0.0.1][-][-][error][Swift_TransportException] exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "15810339670@163.com" using 2 possible authenticators' in E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php:181
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-swiftmailer\Mailer.php(146): Swift_Mailer->send(Object(Swift_Message))
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\mail\BaseMailer.php(260): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\mail\BaseMessage.php(48): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#6 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(55): yii\mail\BaseMessage->send()
+#7 [internal function]: frontend\controllers\LoginController->actionDosignin()
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2016-04-15 17:46:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1840'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51140'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460713569.7955
+    'REQUEST_TIME' => 1460713569
+]
+2016-04-15 17:46:13 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Swift_TransportException))
+#6 {main}
+2016-04-15 17:46:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1840'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51140'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460713569.7955
+    'REQUEST_TIME' => 1460713569
+]
+2016-04-15 17:54:51 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for yii\swiftmailer\Message::setTo(), called in E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php on line 51 and defined' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-swiftmailer\Message.php:110
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-swiftmailer\Message.php(110): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', 'E:\\PHPstudy\\zzz...', 110, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(51): yii\swiftmailer\Message->setTo()
+#2 [internal function]: frontend\controllers\LoginController->actionDosignin()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-04-15 17:54:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1904'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51222'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460714090.9693
+    'REQUEST_TIME' => 1460714090
+]
+2016-04-15 17:54:51 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-15 17:54:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1904'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51222'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460714090.9693
+    'REQUEST_TIME' => 1460714090
+]
+2016-04-15 17:55:15 [127.0.0.1][-][-][error][Swift_RfcComplianceException] exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php:348
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php(263): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\SimpleHeaderFactory.php(58): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\SimpleHeaderSet.php(68): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\SimpleMessage.php(323): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-swiftmailer\Message.php(112): Swift_Mime_SimpleMessage->setTo('')
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(51): yii\swiftmailer\Message->setTo('')
+#8 [internal function]: frontend\controllers\LoginController->actionDosignin()
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+2016-04-15 17:55:15 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1904'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51234'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460714115.2457
+    'REQUEST_TIME' => 1460714115
+]
+2016-04-15 17:55:15 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Swift_RfcComplianceException))
+#6 {main}
+2016-04-15 17:55:15 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1904'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51234'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460714115.2457
+    'REQUEST_TIME' => 1460714115
+]
+2016-04-15 18:20:08 [127.0.0.1][-][-][error][Swift_TransportException] exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "15618380091@163.com" using 2 possible authenticators' in E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php:181
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-swiftmailer\Mailer.php(146): Swift_Mailer->send(Object(Swift_Message))
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\mail\BaseMailer.php(260): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\mail\BaseMessage.php(48): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#6 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(70): yii\mail\BaseMessage->send()
+#7 [internal function]: frontend\controllers\LoginController->actionDosignin()
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2016-04-15 18:20:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1912'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51833'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460715606.922
+    'REQUEST_TIME' => 1460715606
+]
+2016-04-15 18:20:08 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Swift_TransportException))
+#6 {main}
+2016-04-15 18:20:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1912'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51833'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460715606.922
+    'REQUEST_TIME' => 1460715606
+]
+2016-04-15 18:20:47 [127.0.0.1][-][-][error][Swift_TransportException] exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "15810339670@163.com" using 2 possible authenticators' in E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php:181
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-swiftmailer\Mailer.php(146): Swift_Mailer->send(Object(Swift_Message))
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\mail\BaseMailer.php(260): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\mail\BaseMessage.php(48): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#6 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(70): yii\mail\BaseMessage->send()
+#7 [internal function]: frontend\controllers\LoginController->actionDosignin()
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2016-04-15 18:20:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1904'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51842'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460715645.8322
+    'REQUEST_TIME' => 1460715645
+]
+2016-04-15 18:20:47 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Swift_TransportException))
+#6 {main}
+2016-04-15 18:20:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1904'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51842'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460715645.8322
+    'REQUEST_TIME' => 1460715645
+]
+2016-04-15 18:56:09 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: doctor' in E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php:61
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(61): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\PHPstudy\\zzz...', 61, Array)
+#1 [internal function]: frontend\controllers\LoginController->actionDosignin()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-15 18:56:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1876'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52159'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460717769.5537
+    'REQUEST_TIME' => 1460717769
+]
+2016-04-15 18:56:09 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-15 18:56:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1876'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52159'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460717769.5537
+    'REQUEST_TIME' => 1460717769
+]
+2016-04-15 23:19:07 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}', expecting ',' or ';'' in E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php:59
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-15 23:19:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => ''
+    'username' => '请输入您的用户名 '
+    'email' => '请输入您的邮箱'
+    'pwd' => 'Password '
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50268'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '180'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460733547.6685
+    'REQUEST_TIME' => 1460733547
+]
+2016-04-15 23:19:19 [127.0.0.1][-][-][error][Swift_RfcComplianceException] exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [请输入您的邮箱] does not comply with RFC 2822, 3.6.2.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php:348
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php(263): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('\xE8\xAF\xB7\xE8\xBE\x93\xE5\x85\xA5\xE6\x82\xA8\xE7\x9A\x84...')
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\SimpleHeaderFactory.php(58): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\SimpleHeaderSet.php(68): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\SimpleMessage.php(323): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-swiftmailer\Message.php(112): Swift_Mime_SimpleMessage->setTo('\xE8\xAF\xB7\xE8\xBE\x93\xE5\x85\xA5\xE6\x82\xA8\xE7\x9A\x84...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(51): yii\swiftmailer\Message->setTo('\xE8\xAF\xB7\xE8\xBE\x93\xE5\x85\xA5\xE6\x82\xA8\xE7\x9A\x84...')
+#8 [internal function]: frontend\controllers\LoginController->actionDosignin()
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+2016-04-15 23:19:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => ''
+    'username' => '请输入您的用户名 '
+    'email' => '请输入您的邮箱'
+    'pwd' => 'Password '
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50278'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '180'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460733559.171
+    'REQUEST_TIME' => 1460733559
+]
+2016-04-15 23:19:19 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Swift_RfcComplianceException))
+#6 {main}
+2016-04-15 23:19:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => ''
+    'username' => '请输入您的用户名 '
+    'email' => '请输入您的邮箱'
+    'pwd' => 'Password '
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50278'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '180'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460733559.171
+    'REQUEST_TIME' => 1460733559
+]
+2016-04-15 23:19:44 [127.0.0.1][-][-][error][Swift_RfcComplianceException] exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [请输入您的邮箱] does not comply with RFC 2822, 3.6.2.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php:348
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php(263): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('\xE8\xAF\xB7\xE8\xBE\x93\xE5\x85\xA5\xE6\x82\xA8\xE7\x9A\x84...')
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\SimpleHeaderFactory.php(58): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\SimpleHeaderSet.php(68): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\SimpleMessage.php(323): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-swiftmailer\Message.php(112): Swift_Mime_SimpleMessage->setTo('\xE8\xAF\xB7\xE8\xBE\x93\xE5\x85\xA5\xE6\x82\xA8\xE7\x9A\x84...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(51): yii\swiftmailer\Message->setTo('\xE8\xAF\xB7\xE8\xBE\x93\xE5\x85\xA5\xE6\x82\xA8\xE7\x9A\x84...')
+#8 [internal function]: frontend\controllers\LoginController->actionDosignin()
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+2016-04-15 23:19:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => ''
+    'username' => '请输入您的用户名 '
+    'email' => '请输入您的邮箱'
+    'pwd' => 'Password '
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50289'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '180'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460733584.4511
+    'REQUEST_TIME' => 1460733584
+]
+2016-04-15 23:19:44 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Swift_RfcComplianceException))
+#6 {main}
+2016-04-15 23:19:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => ''
+    'username' => '请输入您的用户名 '
+    'email' => '请输入您的邮箱'
+    'pwd' => 'Password '
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50289'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '180'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460733584.4511
+    'REQUEST_TIME' => 1460733584
+]
+2016-04-15 23:45:50 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: email' in E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php:48
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(48): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\PHPstudy\\zzz...', 48, Array)
+#1 [internal function]: frontend\controllers\LoginController->actionDosignin()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-15 23:45:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1860'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50848'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460735150.7719
+    'REQUEST_TIME' => 1460735150
+]
+2016-04-15 23:45:50 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-15 23:45:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1860'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50848'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460735150.7719
+    'REQUEST_TIME' => 1460735150
+]
+2016-04-15 23:47:06 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: table' in E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php:71
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(71): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\PHPstudy\\zzz...', 71, Array)
+#1 [internal function]: frontend\controllers\LoginController->actionDosignin()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-15 23:46:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => ''
+    'username' => 'zcy'
+    'email' => '1321297808@qq.com'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '472'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50865'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '60'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460735218.812
+    'REQUEST_TIME' => 1460735218
+]
+2016-04-15 23:47:06 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-15 23:46:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => ''
+    'username' => 'zcy'
+    'email' => '1321297808@qq.com'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '472'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50865'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '60'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; menuClosed=%23user_menu_loan%23'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460735218.812
+    'REQUEST_TIME' => 1460735218
+]
+2016-04-15 23:53:30 [127.0.0.1][-][0gsktuqa2ql5vqf3ml5a2r1sp5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: login/region?' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('region?', Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/region?', Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-15 23:53:30 [127.0.0.1][-][0gsktuqa2ql5vqf3ml5a2r1sp5][info][application] $_GET = [
+    'r' => 'login/region?'
+    'token' => 'ecmxNp5hUpGFzc3dvcmQg'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '548'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/region?&token=ecmxNp5hUpGFzc3dvcmQg'
+    'QUERY_STRING' => 'r=login/region?&token=ecmxNp5hUpGFzc3dvcmQg'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51030'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460735610.3883
+    'REQUEST_TIME' => 1460735610
+]
+2016-04-15 23:54:06 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: token' in E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php:75
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(75): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\PHPstudy\\zzz...', 75, Array)
+#1 [internal function]: frontend\controllers\LoginController->actionRegion()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('region', Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/region', Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-15 23:54:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/region'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0gsktuqa2ql5vqf3ml5a2r1sp5'
+    '_csrf' => '2ade9e6825ba2875194f3fdf57100c359af3923d0468eb37ae6fa1b9ceb1c702a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BZo7lUfSIo4LXvwhEkPXSc9eMAnzEJb0\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '548'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/region'
+    'QUERY_STRING' => 'r=login/region'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51043'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'PHPSESSID=0gsktuqa2ql5vqf3ml5a2r1sp5; _csrf=2ade9e6825ba2875194f3fdf57100c359af3923d0468eb37ae6fa1b9ceb1c702a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BZo7lUfSIo4LXvwhEkPXSc9eMAnzEJb0%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460735646.761
+    'REQUEST_TIME' => 1460735646
+]
+2016-04-15 23:54:06 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-15 23:54:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/region'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0gsktuqa2ql5vqf3ml5a2r1sp5'
+    '_csrf' => '2ade9e6825ba2875194f3fdf57100c359af3923d0468eb37ae6fa1b9ceb1c702a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BZo7lUfSIo4LXvwhEkPXSc9eMAnzEJb0\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '548'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/region'
+    'QUERY_STRING' => 'r=login/region'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51043'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'PHPSESSID=0gsktuqa2ql5vqf3ml5a2r1sp5; _csrf=2ade9e6825ba2875194f3fdf57100c359af3923d0468eb37ae6fa1b9ceb1c702a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BZo7lUfSIo4LXvwhEkPXSc9eMAnzEJb0%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460735646.761
+    'REQUEST_TIME' => 1460735646
+]
+2016-04-15 23:54:21 [127.0.0.1][-][0gsktuqa2ql5vqf3ml5a2r1sp5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: login/region?' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('region?', Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/region?', Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-15 23:54:21 [127.0.0.1][-][0gsktuqa2ql5vqf3ml5a2r1sp5][info][application] $_GET = [
+    'r' => 'login/region?'
+    'token' => '\'ecmxNp5hUpGFzc3dvcmQg\''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0gsktuqa2ql5vqf3ml5a2r1sp5'
+    '_csrf' => '2ade9e6825ba2875194f3fdf57100c359af3923d0468eb37ae6fa1b9ceb1c702a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BZo7lUfSIo4LXvwhEkPXSc9eMAnzEJb0\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '548'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/region?&token=%27ecmxNp5hUpGFzc3dvcmQg%27'
+    'QUERY_STRING' => 'r=login/region?&token=%27ecmxNp5hUpGFzc3dvcmQg%27'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51047'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'PHPSESSID=0gsktuqa2ql5vqf3ml5a2r1sp5; _csrf=2ade9e6825ba2875194f3fdf57100c359af3923d0468eb37ae6fa1b9ceb1c702a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BZo7lUfSIo4LXvwhEkPXSc9eMAnzEJb0%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460735661.7261
+    'REQUEST_TIME' => 1460735661
+]
+2016-04-16 00:09:09 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: email' in E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php:49
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(49): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\PHPstudy\\zzz...', 49, Array)
+#1 [internal function]: frontend\controllers\LoginController->actionDosignin()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-16 00:09:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+    'token' => 'ecmxNp5hUpGFzc3dvcmQg'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0gsktuqa2ql5vqf3ml5a2r1sp5'
+    '_csrf' => '2ade9e6825ba2875194f3fdf57100c359af3923d0468eb37ae6fa1b9ceb1c702a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BZo7lUfSIo4LXvwhEkPXSc9eMAnzEJb0\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1860'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin&token=ecmxNp5hUpGFzc3dvcmQg'
+    'QUERY_STRING' => 'r=login/dosignin&token=ecmxNp5hUpGFzc3dvcmQg'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51484'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'PHPSESSID=0gsktuqa2ql5vqf3ml5a2r1sp5; _csrf=2ade9e6825ba2875194f3fdf57100c359af3923d0468eb37ae6fa1b9ceb1c702a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BZo7lUfSIo4LXvwhEkPXSc9eMAnzEJb0%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460736549.5314
+    'REQUEST_TIME' => 1460736549
+]
+2016-04-16 00:09:09 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-16 00:09:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+    'token' => 'ecmxNp5hUpGFzc3dvcmQg'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0gsktuqa2ql5vqf3ml5a2r1sp5'
+    '_csrf' => '2ade9e6825ba2875194f3fdf57100c359af3923d0468eb37ae6fa1b9ceb1c702a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BZo7lUfSIo4LXvwhEkPXSc9eMAnzEJb0\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1860'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin&token=ecmxNp5hUpGFzc3dvcmQg'
+    'QUERY_STRING' => 'r=login/dosignin&token=ecmxNp5hUpGFzc3dvcmQg'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51484'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'PHPSESSID=0gsktuqa2ql5vqf3ml5a2r1sp5; _csrf=2ade9e6825ba2875194f3fdf57100c359af3923d0468eb37ae6fa1b9ceb1c702a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BZo7lUfSIo4LXvwhEkPXSc9eMAnzEJb0%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460736549.5314
+    'REQUEST_TIME' => 1460736549
+]
+2016-04-16 00:18:02 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: _SESSION' in E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php:79
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(79): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\PHPstudy\\zzz...', 79, Array)
+#1 [internal function]: frontend\controllers\LoginController->actionDosignin()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-16 00:18:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+    'token' => 'ecmxNp5hLpTEy'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0gsktuqa2ql5vqf3ml5a2r1sp5'
+    '_csrf' => '2ade9e6825ba2875194f3fdf57100c359af3923d0468eb37ae6fa1b9ceb1c702a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BZo7lUfSIo4LXvwhEkPXSc9eMAnzEJb0\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1948'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin&token=ecmxNp5hLpTEy'
+    'QUERY_STRING' => 'r=login/dosignin&token=ecmxNp5hLpTEy'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51554'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'PHPSESSID=0gsktuqa2ql5vqf3ml5a2r1sp5; _csrf=2ade9e6825ba2875194f3fdf57100c359af3923d0468eb37ae6fa1b9ceb1c702a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BZo7lUfSIo4LXvwhEkPXSc9eMAnzEJb0%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460737082.7529
+    'REQUEST_TIME' => 1460737082
+]
+2016-04-16 00:18:02 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-16 00:18:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+    'token' => 'ecmxNp5hLpTEy'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0gsktuqa2ql5vqf3ml5a2r1sp5'
+    '_csrf' => '2ade9e6825ba2875194f3fdf57100c359af3923d0468eb37ae6fa1b9ceb1c702a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BZo7lUfSIo4LXvwhEkPXSc9eMAnzEJb0\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1948'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin&token=ecmxNp5hLpTEy'
+    'QUERY_STRING' => 'r=login/dosignin&token=ecmxNp5hLpTEy'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51554'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'PHPSESSID=0gsktuqa2ql5vqf3ml5a2r1sp5; _csrf=2ade9e6825ba2875194f3fdf57100c359af3923d0468eb37ae6fa1b9ceb1c702a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BZo7lUfSIo4LXvwhEkPXSc9eMAnzEJb0%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460737082.7529
+    'REQUEST_TIME' => 1460737082
+]
+2016-04-16 00:20:56 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: session' in E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php:48
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(48): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\PHPstudy\\zzz...', 48, Array)
+#1 [internal function]: frontend\controllers\LoginController->actionDosignin()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dosignin', Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dosignin', Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-16 00:20:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => '1'
+    'username' => 'zcy'
+    'email' => '1321297808@qq.com'
+    'pwd' => 'Password '
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1948'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51660'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '67'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460737256.0509
+    'REQUEST_TIME' => 1460737256
+]
+2016-04-16 00:20:56 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-16 00:20:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dosignin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => '1'
+    'username' => 'zcy'
+    'email' => '1321297808@qq.com'
+    'pwd' => 'Password '
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1948'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dosignin'
+    'QUERY_STRING' => 'r=login/dosignin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51660'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '67'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460737256.0509
+    'REQUEST_TIME' => 1460737256
+]
