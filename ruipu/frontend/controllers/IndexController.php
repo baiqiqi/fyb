@@ -17,6 +17,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 
+
 /**
  * Site controller
  */
@@ -48,6 +49,13 @@ class IndexController extends Controller
     	$arr=\Yii::$app->db->createCommand($sql)->queryOne();
     	return $this->render('details',['arr'=>$arr]); 
 	}
+	//用户中心
+	public  function actionUser_center(){
+		$this->layout="header";
+		return $this->render('usercenter');
+	}
+
+
 	public function actionContact()
 	{
     	$this->layout="header";
@@ -63,9 +71,6 @@ class IndexController extends Controller
     	$this->layout="header";
     	return $this->render('sale');  			
 	}
-	public function actionAbout()
-	{
-    	$this->layout="header";
-    	return $this->render('about');  			
-	}
+
+	
 }
