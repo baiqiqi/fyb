@@ -58,7 +58,7 @@ class Article extends \yii\db\ActiveRecord
 
     /*
     * 赵思敏
-    * 查询表中所有数据
+    * 根据时间倒序查询5条信息
     */
 
     public function selectall(){
