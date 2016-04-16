@@ -1,7 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+
 <title>瑞普</title>
+
+
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary JavaScript plugins) -->
 <script type='text/javascript' src="js/jquery-1.11.1.min.js"></script>
@@ -34,7 +37,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- start header_right -->
     <div class="header_right">
       <div class="rgt-bottom">
-
         <li><a href="index.php?r=index/index">首页</a></li>
         <li><a href="index.php?r=login/signin">注册  </a><a href="index.php?r=login/login">登录</a></li>
         <li><a href="index.php?r=index/user_center">用户中心</a></li>
@@ -129,7 +131,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 </div>
 
+<link href="css/lanrenzhijia.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/cloud-zoom.1.0.2.min.js"></script>
+
 <?= $content ?>
+
+
 
 
 <div class="foot-top">

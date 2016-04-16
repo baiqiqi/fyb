@@ -1,0 +1,74 @@
+$(function(){
+	$("#masterImage").mouseover(function(){
+		$("#zoomPup").show();
+		$(".zoomWindow").show();
+	}).mouseout(function(){
+		$("#zoomPup").hide();
+		$(".zoomWindow").hide();
+	})
+
+	$(".shop_btn a").click(function(){
+		$(this).addClass("selected").siblings().removeClass("selected");
+		var txt=$(this).text();
+		switch (txt){
+			case "商品介绍":
+				$(".shop_two").hide().prev().show();
+				break;
+			case "商品评价":
+				$(".shop_one").hide().next().show();
+				break;
+			default:
+				break;
+		}
+	})
+	
+	/* 判断锚记到#comment */
+	var comment_href = window.location.href;
+	if(comment_href.indexOf("#comment") > 0){
+		$(".shop_btn a").removeClass("selected");
+		$("#comment").addClass("selected");
+		$(".shop_one").hide();
+		$(".shop_two").show();
+	}
+	
+	//点击加入购物车，图片飞入效果
+	var oImg;
+	$(".btn_in").click(function(){
+		if(oImg){
+			oImg.remove(); 
+		}
+		/* $(this).closest('li')从当前层开始查找，$(this).parents('li')从父层开始查找*/
+		var shop_box=$(this).parents('li');
+		var img=shop_box.find("img");
+		var oImg=img.clone();
+		var img_position=img.offset();
+		var car_position=$(".sidebar_car").offset();
+		var car_top=car_position.top+10;
+		var car_left=car_position.left+10;
+		
+		function scroll(ev){
+			var ev=ev || event;
+        		ev.preventDefault();
+		}
+
+		//FF阻止滚动条滚动
+		if(document.addEventListener){
+        	document.addEventListener('DOMMouseScroll',scroll,false)
+        }
+		//IE阻止滚动条滚动
+     	$("body").attr({"onmousewheel":"return false"});
+		
+		//创建克隆的img图片
+		oImg.addClass("cloneImg").css(img_position).appendTo("body");
+		//动画参数
+		car_position=$.extend(car_position,{left:car_left,top:car_top,height:5,width:5,opacity:0.5});
+		$(oImg).animate(car_position,"slow",function(){
+			oImg.remove();
+			if(document.addEventListener){
+	        	document.removeEventListener('DOMMouseScroll',scroll,false)
+	        }
+			$("body").attr({"onmousewheel":"return true"});
+		})
+	})
+})
+

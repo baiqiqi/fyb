@@ -1,6 +1,3 @@
-
-
-
 <script>
     $(function () {
       $("#slider").responsiveSlides({
@@ -25,25 +22,9 @@
     </script>
     <script type="text/javascript">
     $(document).ready(function() {
-        /*
-        var defaults = {
-        containerID: 'toTop', // fading element id
-        containerHoverID: 'toTopHover', // fading element hover id
-        scrollSpeed: 1200,
-        easingType: 'linear' 
-        };
-        */
     $().UItoTop({ easingType: 'easeOutQuart' });
 });
 </script>
-
-
-
-
-
-
-
-
 <!-- start banner -->
 <div class="banner">
 	<div class="container">
@@ -52,27 +33,15 @@
 				<div class="slider">
 					<div class="callbacks_container">
 					  	<ul class="rslides" id="slider">
+					  	<?php foreach ($row as $k => $v) { ?>
 							<li>
-								<img src="images/1.jpg" class="img-responsive" alt="">
+								<img src="<?php echo $v['pro_img']?>" class="img-responsive" alt="">
 								<div class="caption">
-									<h3>Maecenas malesuada elit </h3>
-									<p>Curabitur et ligula. Ut molestie a, ultricies </p>
+									<h3><?php echo $v['pro_name']?></h3>
+									<p><?php echo $v['pro_content']?></p>
 								</div>
 							</li>
-							<li>
-								<img src="images/4.jpg" class="img-responsive" alt="">
-								<div class="caption">
-									<h3>Ultrasound Machine</h3>
-									<p>Maecenas malesuada elit lectus felis,igula.</p>
-								</div>
-							</li>
-							<li>
-								<img src="images/10.jpg" class="img-responsive" alt="">
-								<div class="caption">
-									<h3>Etiam ullamcorper. e</h3>
-									<p>Suspendisse a pellentesque dui, non felis. </p>
-								</div>
-							</li>
+						<?php } ?>
 						</ul>
 			  		</div>
 				 </div>
@@ -81,19 +50,15 @@
 		<div class="col-md-6 banner-right">
 			<div class="col-md-6 banner-top">
 				<h6>Dialysis Chairs</h6>
-				
 			</div>
 			<div class="col-md-6 banner-top1">
 				<h6>Surgical Bed</h6>
-				
 			</div>
 			<div class="col-md-6 banner-top2">
 				<h6>Wheel Chairs</h6>
-				
 			</div>
 			<div class="col-md-6 banner-top3">
 				<h6>Radiant Warmers</h6>
-				
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -105,94 +70,19 @@
 <div class="special">
 	<div class="container">
 		<div class="specia-top">
-			<ul class="grid_2">
+		   	<ul class="grid_2">
+			<?php foreach ($arr as $k => $v) { ?>
 		<li>
-				<a href="sale.html"><img src="images/2.jpg" class="img-responsive" alt=""></a>
+				<a href="index.php?r=index/details&pro_id=<?php echo $v['pro_id']?>"><img src="<?php echo $v['pro_img']?>" class="img-responsive" alt=""></a>
 				<div class="special-info grid_1 simpleCart_shelfItem">
-					<h5>Lorem ipsum dolor</h5>
-					<div class="item_add"><span class="item_price"><h6>ONLY $540.00</h6></span></div>
+					<h5><?php echo $v['pro_name']?></h5>
+					<div class="item_add"><span class="item_price"><h6>ONLY $<?php echo $v['pro_price']?></h6></span></div>
 					<div class="item_add"><span class="item_price"><a href="#">Add to cart</a></span></div>
 				</div>
 		</li>
-		<li>
-				<a href="sale.html"><img src="images/3.jpg" class="img-responsive" alt=""></a>
-				<div class="special-info grid_1 simpleCart_shelfItem">
-					<h5>Consectetur adipis</h5>
-					<div class="item_add"><span class="item_price"><h6>ONLY $460.00</h6></span></div>
-					<div class="item_add"><span class="item_price"><a href="#">Add to cart</a></span></div>
-			</div>
-		</li>
-		<li>
-				<a href="sale.html"><img src="images/5.jpg" class="img-responsive" alt=""></a>
-				<div class="special-info grid_1 simpleCart_shelfItem">
-					<h5>Commodo consequ</h5>
-					<div class="item_add"><span class="item_price"><h6>ONLY $614.00</h6></span></div>
-					<div class="item_add"><span class="item_price"><a href="#">Add to cart</a></span></div>
-			</div>
-		</li>
-		<li>
-				<a href="sale.html"><img src="images/11.jpg" class="img-responsive" alt=""></a>
-				<div class="special-info grid_1 simpleCart_shelfItem">
-					<h5>Voluptate velit</h5>
-					<div class="item_add"><span class="item_price"><h6>ONLY $337.00</h6></span></div>
-					<div class="item_add"><span class="item_price"><a href="#">Add to cart</a></span></div>
-				</div>
-		</li>
+		<?php } ?>
 		<div class="clearfix"> </div>
 	</ul>
 		</div>
 	</div>
 </div>
-<!-- special -->
-<div class="special">
-	<div class="container">
-		<div class="specia-top">
-			<ul class="grid_2">
-		<li>
-				<a href="sale.html"><img src="images/4.jpg" class="img-responsive" alt=""></a>
-				<div class="special-info grid_1 simpleCart_shelfItem">
-					<h5>Lorem ipsum dolor</h5>
-					<div class="item_add"><span class="item_price"><h6>ONLY $640.00</h6></span></div>
-					<div class="item_add"><span class="item_price"><a href="#">Add to cart</a></span></div>
-				</div>
-		</li>
-		<li>
-				<a href="sale.html"><img src="images/6.jpg" class="img-responsive" alt=""></a>
-				<div class="special-info grid_1 simpleCart_shelfItem">
-					<h5>Consectetur adipis</h5>
-					<div class="item_add"><span class="item_price"><h6>ONLY $560.00</h6></span></div>
-					<div class="item_add"><span class="item_price"><a href="#">Add to cart</a></span></div>
-			</div>
-		</li>
-		<li>
-				<a href="sale.html"><img src="images/1.jpg" class="img-responsive" alt=""></a>
-				<div class="special-info grid_1 simpleCart_shelfItem">
-					<h5>Commodo consequ</h5>
-					<div class="item_add"><span class="item_price"><h6>ONLY $514.00</h6></span></div>
-					<div class="item_add"><span class="item_price"><a href="#">Add to cart</a></span></div>
-			</div>
-		</li>
-		<li>
-				<a href="sale.html"><img src="images/7.jpg" class="img-responsive" alt=""></a>
-				<div class="special-info grid_1 simpleCart_shelfItem">
-					<h5>Voluptate velit</h5>
-					<div class="item_add"><span class="item_price"><h6>ONLY $437.00</h6></span></div>
-					<div class="item_add"><span class="item_price"><a href="#">Add to cart</a></span></div>
-				</div>
-		</li>
-		<div class="clearfix"> </div>
-	</ul>
-		</div>
-	</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-

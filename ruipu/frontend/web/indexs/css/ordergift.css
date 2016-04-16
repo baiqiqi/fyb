@@ -1,0 +1,251 @@
+
+/**标题**/
+.odgift_tel{
+color: #5b5b5b;
+font-size: 15px;
+height: 40px;
+line-height: 40px;
+padding-left: 12px;
+}
+.order_wen{
+border: 1px solid #e1e1e1;
+border-bottom: none;	
+}
+.order_btlist{
+height: 30px;
+background: #f5f5f5;
+ overflow: hidden;
+}
+.order_btlist tr td{
+line-height:20px;
+text-align: center;
+color: #7b7b7b;
+font-size: 14px;
+
+}
+.order_btlist tr td.one{
+width: 430px;
+}
+.order_btlist tr td.two{
+width: 150px;
+}
+.order_btlist tr td.thr{
+width: 140px;
+}
+.order_btlist tr td.for{
+width: 150px;
+}
+.order_btlist tr td.fiv{
+width: 180px;
+}
+.order_btlist tr td.six{
+width: 140px;
+}
+
+
+.order_gdlist{
+height: 104px;
+width: 100%;
+overflow: hidden;
+border-bottom: 1px solid #e1e1e1;
+}
+
+
+.order_gdlist table td{
+text-align: center;
+ color: #7b7b7b;
+ line-height: 20px;
+}
+.order_gdlist table td.one{
+padding: 10px 0 0 10px;
+text-align:left;	
+width: 425px;
+line-height: 20px;
+}
+.order_gdlist table td.two{
+width: 150px;
+}
+.order_gdlist table td.thr{
+width: 140px;
+}
+.order_gdlist table td.for{
+width: 150px;
+}
+.order_gdlist table td.fiv{
+width: 160px;
+padding-left: 20px;
+text-align: left;
+color: #000;
+}
+.order_gdlist table td.six{
+width: 140px;
+}
+
+.order_gdlist table td.one img{
+width:80px;
+height: 80px;
+float: left;
+margin-right:10px;
+}
+.order_gdlist table td.one a{
+ color: #7b7b7b;	
+}
+.order_gdlist table td.delprice{
+color: #999;
+font-weight: bold;
+text-decoration:line-through
+}
+.order_gdlist table td.gtprice{
+color: #f01318;
+font-weight: bold;
+}
+
+.gift_psr{
+width:40px;
+height: 24px;
+text-align: center;
+border: 1px solid #ebebeb;
+margin: 0 5px;
+}
+.order_gdlist table td.for a{
+border: 1px solid #ebebeb;
+padding: 2px 8px 4px;
+cursor: pointer;
+font-size: 14px;
+}
+.order_gdlist table td.for a:hover{
+background: #cc0002;
+border: 1px solid #cc0002;
+color: #fff;
+}
+.order_gdlist table td.for span.on{
+background: #cc0002;
+border: 1px solid #cc0002;
+color: #fff;
+}
+
+.gift_yh{
+ border-bottom: 1px solid #e1e1e1;
+ line-height: 32px;
+ padding-left: 15px;
+ color: #b47454;	
+}
+.gift_yh span{
+margin: 0 0px 0 10px;
+border: 1px solid #ccc;
+padding: 2px 8px;
+}
+.gift_yh span:hover{
+border: 1px solid #f01318;
+cursor: pointer;	
+}
+.gift_yh a{
+color: #b47454;
+}
+
+/**备注提交**/
+.gift_remark{
+margin-top: 20px;
+border: 1px solid #e1e1e1;
+background: #f5f5f5;
+min-height: 200px;
+padding: 10px 20px;
+}
+.gift_rkleft{
+width: 670px;
+float: left;
+}
+.gift_rinput{
+color: #000;
+text-indent: 2em;	
+}
+.gift_rinput span{
+line-height: 24px;
+
+}
+.gift_tare{
+vertical-align: top;
+}
+.gift_tare{
+width: 550px;
+height: 100px;
+line-height: 22px;
+}
+.gift_lack{
+margin-top: 15px;
+}
+.gift_lack label{
+margin-right: 10px;
+}
+.gift_rkright{
+padding-left: 100px;
+width: 370px;
+float: left;
+}
+.gift_xz{
+height: 30px;
+line-height: 30px;
+margin-bottom: 10px;	
+}
+.gift_xz select{
+width: 180px;
+height: 30px;
+border: 1px solid #e1e1e1;	
+}
+.gift_xprice{
+margin-left: 8px;
+color: #f01318;
+}
+.gift_xw{
+line-height: 25px;
+width: 500px;
+}
+.gift_point{
+margin-top: 5px;
+padding: 5px 0;
+line-height: 30px;	
+height: 50px;
+position: relative;
+}
+.gift_syjf{
+display: none;
+}
+.gift_pont{
+height: 28px;
+border: 1px solid #e1e1e1;	
+margin: 0 5px;
+width:70px;
+}
+.gift_use{
+position: absolute;
+color: #7b7b7b;
+font-size: 12px;
+width: 90px;
+height: 16px;
+line-height: 16px;
+left:92px;
+text-align: center;
+top:42px;
+}
+.gift_pay{
+margin-left: 20px;
+float: right;
+}
+.gift_pay big{
+color: #f01318;
+font-weight: bold;
+font-size:22px;
+}
+.gift_pay_submit{
+float: right;
+width: 120px;
+height: 34px;
+background: #cc0001;
+border: none;
+color:#fff;
+font-size: 14px;
+cursor: pointer;
+}
+.gift_pay_submit:hover{
+background: #dc090a;	
+};

@@ -60,8 +60,18 @@ class Product extends \yii\db\ActiveRecord
     * 查询表中所有数据
     */
 
-    public function selectall(){
+    public function selecteight(){
 
-        return $this->findBySql("SELECT * FROM product")->asArray()->all();
+        return $this->findBySql("SELECT * FROM product order by pro_price desc limit 8")->asArray()->all();
+    }
+
+     /*
+    * 赵思敏
+    * 查询一条数据
+    */
+
+    public function selectone($pro_id=''){
+
+        return $this->findBySql("SELECT * FROM product where pro_id=$pro_id")->asArray()->one();
     }
 }
