@@ -1,0 +1,33 @@
+.red{color:#D32628}
+
+/*步骤*/
+.car_titer_ul{margin-top:15px;}
+
+/*商品表格*/
+#ck_table{width:1200px;margin:20px 0;border:1px solid #E1E1E1;border-width:0 1px}#ck_table tbody tr th{ height: 40px; line-height: 40px;}
+#ck_table tr th{background:#eee;height:25px;line-height:2em;color:#474747}
+#ck_table tr th,#ck_table tr td{text-align:center}
+#ck_table tr td{padding:10px 0;border-bottom:1px solid #E1E1E1}
+.shop_name{display:inline-block;width:350px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.shop_number{width:40px;text-align:center;color:#999;}
+
+/*商品数*/
+.number_box{padding-left:35px!important}
+.input_prev,.input_next{border:none;background:#fff;color:#B9B9B9; }.number_box a:hover { text-decoration:none;}
+.shop_sum{text-align:right;padding-right:15px}
+
+/*按钮*/
+.pay_btn{text-align:right;padding:15px}
+.btn1,.btn2{border:none;padding:6px 20px;color:#fff;border-radius:3px;*padding:6px 10px;}
+.btn1{background:#E03434}
+.btn2{background:#91756A }
+
+/*关联商品*/
+.shop_more{border:1px solid #e2e2e2;margin-top:20px}
+.shop_more .more_name{height:25px;line-height:25px;padding-left:5px;background:#F7F7F7}
+.shop_list{overflow:hidden;width:1200px}
+.shop_list li{float:left;width:400px;padding:10px 0;line-height:1.5em}
+.shop_list li img{margin-right:10px}
+.shop_list .shop_name{overflow:hidden;width:230px;white-space:nowrap;text-overflow;ellipsis}
+.people_sum{color:#039AE1}
+.add_pay{border:none;background:#CC0000;margin-top:10px;padding:5px 20px;color:#fff;*padding:5px 5px;}

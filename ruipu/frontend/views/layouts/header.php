@@ -1,7 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Home</title>
+
+<title>瑞普</title>
+
+
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary JavaScript plugins) -->
 <script type='text/javascript' src="js/jquery-1.11.1.min.js"></script>
@@ -34,9 +37,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- start header_right -->
     <div class="header_right">
       <div class="rgt-bottom">
-
         <li><a href="index.php?r=index/index">首页</a></li>
-        <li><a href="index.php?r=index/contact">Contact</a></li>
+        <li><a href="index.php?r=login/signin">注册  </a><a href="index.php?r=login/login">登录</a></li>
         <li><a href="index.php?r=index/user_center">用户中心</a></li>
 
         <li a="" href="#">
@@ -115,7 +117,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
            
           </ul>
         </li>
-    <li><a href="index.php?r=index/about">About Us</a></li>
+    <li><a href="index.php?r=about/about">关于我们</a></li>
     <li><a href="index.php?r=index/contact">Contact Us</a></li>
       </ul>
       
@@ -129,7 +131,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 </div>
 
+<link href="css/lanrenzhijia.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/cloud-zoom.1.0.2.min.js"></script>
+
 <?= $content ?>
+
+
 
 
 <div class="foot-top">
@@ -181,11 +189,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <li><a href="#">Delivery</a></li>
     </div>
     <div class="col-md-3 abt">
-      <h4>ABOUT US</h4>
-        <li><a href="#">Our Stories</a></li>
-        <li><a href="#">Press</a></li>
-        <li><a href="#">Career</a></li>
-        <li><a href="contact.html">Contact</a></li>
+      <h4>关于我们</h4>
+        <li><a href="./index.php?r=about/intro">医院简介</a></li>
+        <li><a href="./index.php?r=index/contact">联系我们</a></li>
     </div>
     <div class="col-md-3 myac">
       <h4>MY ACCOUNT</h4>

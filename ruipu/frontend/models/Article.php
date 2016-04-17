@@ -34,7 +34,7 @@ class Article extends \yii\db\ActiveRecord
             [['art_time'], 'safe'],
             [['typ_id'], 'integer'],
             [['art_name'], 'string', 'max' => 11],
-            [['art_content'], 'string', 'max' => 255],
+            [['art_title', 'art_content'], 'string', 'max' => 255],
             [['art_status'], 'string', 'max' => 30]
         ];
     }
@@ -47,10 +47,23 @@ class Article extends \yii\db\ActiveRecord
         return [
             'art_id' => 'Art ID',
             'art_name' => 'Art Name',
+            'art_title' => 'Art Title',
             'art_content' => 'Art Content',
             'art_time' => 'Art Time',
             'art_status' => 'Art Status',
             'typ_id' => 'Typ ID',
         ];
     }
+
+
+    /*
+    * 赵思敏
+    * 根据时间倒序查询5条信息
+    */
+
+    public function selectall(){
+
+        return $this->findBySql("SELECT * FROM article order by art_time desc limit 5")->asArray()->all();
+    }
+
 }

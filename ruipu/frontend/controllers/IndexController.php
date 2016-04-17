@@ -18,15 +18,37 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 
+
 /**
  * Site controller
  */
 class IndexController extends Controller
 {
+	/*
+	*首页循环显示
+	*作者：程啊倩
+	*时间：2016/4/14  14:40
+	*/
 	public function actionIndex()
-	{
+	{  
     	$this->layout="header";
-    	return $this->render('index');  			
+    	$sql="select * from product";
+    	$arr=\Yii::$app->db->createCommand($sql)->queryAll();
+    	$sql1="select * from product limit 0,3";
+    	$row=\Yii::$app->db->createCommand($sql1)->queryAll();
+    	return $this->render('index',['arr'=>$arr,'row'=>$row]);  			
+	}
+	/*
+	*详情显示
+	*作者：程啊倩
+	*时间：2016/4/14  16:16
+	*/
+	public function actionDetails(){
+		$this->layout="header";
+		$pro_id=$_GET['pro_id'];
+    	$sql="select * from product where pro_id='$pro_id'";
+    	$arr=\Yii::$app->db->createCommand($sql)->queryOne();
+    	return $this->render('details',['arr'=>$arr]); 
 	}
 	//用户中心
 	public  function actionUser_center(){
@@ -53,9 +75,6 @@ class IndexController extends Controller
     	$this->layout="header";
     	return $this->render('sale');  			
 	}
-	public function actionAbout()
-	{
-    	$this->layout="header";
-    	return $this->render('about');  			
-	}
+
+	
 }

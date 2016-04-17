@@ -1,0 +1,72 @@
+/*---------------以下信息提示框样式-------------------*/
+.message_width{
+	width: 420px;
+	color: #727272;
+    font-family: 微软雅黑;
+} 
+.message_title {
+	width: 420px;
+	background-color: #e46362;
+	border-top: solid 1px #F9CADE;
+	border-left: solid 1px #F9CADE;
+	border-right: solid 1px #F9CADE;
+	border-bottom: 0px;
+}
+.message_div {
+    color:#fff;
+	float: left;
+	font-weight: bold;
+	padding-top: 6px;
+	padding-left: 10px;
+}
+.message_close {
+	float: right;
+	padding: 10px;
+}
+.message_close img {
+	border: 0px;
+}
+
+.message_contain {
+	width: 420px;
+	border-top: 0px;
+	border-left: solid 1px #F9CADE;
+	border-right: solid 1px #F9CADE;
+	border-bottom: solid 1px #F9CADE;
+	background-color: #FFFFFF;
+}
+.message_leftcontain {
+	width: 35px;
+	text-align: right;
+	vertical-align: top;
+}
+.message_rightcontain 
+{
+	word-break:break-all;
+	padding: 0px 45px;
+}
+.message_button {
+	text-align:center;
+	padding: 10px;
+} 
+.list {
+	margin: 0px 20px 0px 5px;
+	padding: 0px 3px 0px 3px;
+	line-height: 20px;
+    border: 1px solid #F9CADE;
+	font-size: 12px;
+}
+.button_short{
+    padding: 0px 6px 0px 6px;
+border:none !important;
+outline:none !important;	
+}
+
+/*弹出框透明度设置*/
+#shield{filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity: 0.5;}
+}
+input.button_short:hover,
+input.button_short:focus{
+border:none !important;
+outline:none !important;
+}
