@@ -61,4 +61,20 @@ class User extends \yii\db\ActiveRecord
             'u_weight' => 'U Weight',
         ];
     }
+    /*
+     * 用户中心 user_center
+     * */
+    public  function  user_center(){
+       $user_name = '张晨阳';
+       $db = Yii::$app->db;
+       //$arr = $db->createCommand("select * from user where u_name = '$user_name'")->queryAll();
+      $arr =(new \yii\db\Query())
+              ->select('*')
+              ->from('user as u')
+              ->innerJoin("exercise as ex","u.u_id=ex.u_id")
+              ->innerJoin("doctor as doc","ex.d_id=doc.doc_id")
+              ->where("u.u_name = '$user_name'")
+              ->one();
+       return $arr;
+    }
 }

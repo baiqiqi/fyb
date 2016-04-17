@@ -5,7 +5,7 @@
     <link href="css/UserCSS.css" rel="stylesheet" type="text/css" />
     <script src="js/ops.js" type="text/javascript"></script>
 </head>
-<div style="margin: auto;margin-top: 60px;">
+<div style="margin: auto;margin-top: 60px;height:1000px;">
 <div class="row" >
     <div class="u-menu">
         <ul class="u-nav" id="user_menu">
@@ -90,6 +90,7 @@
             }
         </script>
     </div>
+
     <!-- /.u-menu -->
     <div class="u-main">
         <div class="ucenter">
@@ -99,24 +100,38 @@
                 </div>
                 <div class="info">
                     <ul class="info-img">
-                     <li><img src="images/tx_img.gif" class="avatar" /></li>
+                     <li><img src="<?= $userinfo['u_img'];?>" class="avatar" /></li>
                     </ul>
                     <div class="info-main">
                         <div class="row">
                             <label>
-                                用户名：</label>张三</div>
+                                用户名：</label><?= $userinfo['u_name'];?></div>
                         <div class="row">
                             <label>
-                                手机号：</label>2013-07-13</div>
+                                性别：</label>
+                                <?php if($userinfo['u_sex']==1){?>
+                            <input type="radio" name="sex" value="1" checked>男
+                            <input type="radio" name="sex" value="0">女
+                            <?php }else{?>
+                               <input type="radio" name="sex" value="1" >男
+                                <input type="radio" name="sex" value="0" checked>女
+                             <?php }?>
+                                </div>
                         <div class="row">
                             <label>
-                                身高：</label>重庆</div>
+                                手机号：</label><?= $userinfo['u_tel'];?></div>
                         <div class="row">
                             <label>
-                                体重：</label><span class="orange">普通会员 &nbsp;&nbsp; 借入者</span></div>
+                                身高：</label><?= $userinfo['u_height'];?>&nbsp;cm</div>
                         <div class="row">
                             <label>
-                                我的锻炼计划：</label><span class="orange">普通会员 &nbsp;&nbsp; 借入者</span></div>
+                                体重：</label><?= $userinfo['u_weight'];?>&nbsp;&nbsp;kg</div>
+                        <div class="row">
+                            <label style="width: 80px;">
+                               主治医生：</label><?= $userinfo['doc_name'];?>&nbsp;&nbsp;医生</div>
+                        <div class="row">
+                            <label style="width: 100px;">
+                                我的锻炼计划：</label><span class="orange"><?= $userinfo['exe_content'];?></span></div>
 
                     </div>
                     <div class="clear">

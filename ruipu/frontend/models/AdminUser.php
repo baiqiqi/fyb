@@ -50,4 +50,5 @@ class AdminUser extends \yii\db\ActiveRecord
             'admin_email' => 'Admin Email',
         ];
     }
+
 }

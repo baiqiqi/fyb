@@ -27,6 +27,10 @@ use app\models\Agency;
 
 class AboutController extends Controller
 {
+    /*
+    *关于我们的首页显示
+    */
+
 	public function actionAbout()
 	{
     	$this -> layout = "header";
@@ -38,6 +42,10 @@ class AboutController extends Controller
         $data_agency = $model_agency -> selectall();
     	return $this->render('about',['data'=>$data,'data_article'=>$data_article,'data_agency'=>$data_agency]);  			
 	}
+    
+    /*
+    *医院简介
+    */
 
 	public function actionIntro(){
 
@@ -46,6 +54,10 @@ class AboutController extends Controller
     	$data = $model -> selectall();
     	return $this->render('intro',['data'=>$data]);
 	}
+    
+    /*
+    *合作机构的详情页面
+    */
 
     public function actionAgency(){
 
@@ -55,6 +67,10 @@ class AboutController extends Controller
         $data = $model -> selectone($ag_id);
         return $this -> render('agency',['data'=>$data]);
     }
+
+    /*
+    *最新医疗器材的详情页面
+    */
 
     public function actionDetails(){
         $this -> layout = "header";
