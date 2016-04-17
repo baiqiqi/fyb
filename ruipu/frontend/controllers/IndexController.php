@@ -5,6 +5,7 @@ namespace frontend\controllers;
  *作者：张晨阳
  *时间：2016/04/13 14:04
  */
+use app\models\User;
 use Yii;
 use common\models\LoginForm;
 use frontend\models\PasswordResetRequestForm;
@@ -30,7 +31,10 @@ class IndexController extends Controller
 	//用户中心
 	public  function actionUser_center(){
 		$this->layout="header";
-		return $this->render('usercenter');
+		$model = new User();
+		$user_info = $model->user_center();
+		//print_r($user_info);die;
+		return  $this->render('usercenter',['userinfo'=>$user_info]);
 	}
 
 
