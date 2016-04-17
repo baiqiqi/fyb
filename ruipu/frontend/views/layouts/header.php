@@ -99,26 +99,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.php?r=index/index">首页 </a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="index.php?r=index/products">Action</a></li>
-            <li><a href="index.php?r=index/products">Another action</a></li>
-            <li><a href="index.php?r=index/products">Something else here</a></li>
-          </ul>
-        </li>
-     <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sale <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-            <li><a href="index.php?r=index/sale">Action</a></li>
-            <li><a href="index.php?r=index/sale">Another action</a></li>
-            <li><a href="index.php?r=index/sale">Something else here</a></li>
-           
-          </ul>
-        </li>
-    <li><a href="index.php?r=about/about">关于我们</a></li>
-    <li><a href="index.php?r=index/contact">Contact Us</a></li>
+       <?php include('../views/layouts/nav.php');?>
       </ul>
       
     
