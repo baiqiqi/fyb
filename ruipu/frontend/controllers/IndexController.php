@@ -54,9 +54,22 @@ class IndexController extends Controller
 	public  function actionUser_center(){
 		$this->layout="header";
 		$model = new User();
-		$user_info = $model->user_center();
-		//print_r($user_info);die;
-		return  $this->render('usercenter',['userinfo'=>$user_info]);
+		$m = $_GET['m'];
+		switch ($m) {
+			case '' :$user_info = $model->user_center();
+				//print_r($user_info);die;
+				return  $this->render('usercenter',['userinfo'=>$user_info]);
+				break;
+			case 'personal_data' :
+			    $personal_data = $model->personal_data();
+			    //print_r($personal_data);
+				return  $this->render('personaldata',['personal'=>$personal_data]);
+			    break;
+
+
+
+		}
+
 	}
 
 
