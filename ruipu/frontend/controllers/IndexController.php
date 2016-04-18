@@ -5,6 +5,7 @@ namespace frontend\controllers;
  *作者：张晨阳
  *时间：2016/04/13 14:04
  */
+use app\models\Receipt;
 use app\models\User;
 use Yii;
 use common\models\LoginForm;
@@ -54,6 +55,7 @@ class IndexController extends Controller
 	public  function actionUser_center(){
 		$this->layout="header";
 		$model = new User();
+		$model_receipt =new Receipt();
 		$m = $_GET['m'];
 		switch ($m) {
      		//个人主页
@@ -71,7 +73,10 @@ class IndexController extends Controller
 			case 'personal_pwd': return $this->render('personalpwd');
 			    break;
 			//收货地址
-			case 'get_address': return $this->render('getaddress');
+			case 'get_address':
+			    $address = $model_receipt->get_address();
+			   // print_r($address);die;
+			    return $this->render('getaddress',['address'=>$address]);
 			    break;
 			//我的消息
 			case 'personal_news' : return $this->render('personalnews') ;
@@ -84,7 +89,9 @@ class IndexController extends Controller
 
 	}
     public  function actionPersonal_pwd_pro(){
-
+      $model = new User();
+      $info = $model->pwd_update();
+      print_r($info);
 
     }
 

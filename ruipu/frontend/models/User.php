@@ -95,7 +95,16 @@ class User extends \yii\db\ActiveRecord
           $new_pwd = $_GET['new_pwd'];
           $user_name = '张晨阳';
           $arr = $this->find()->where("u_name = '$user_name'")->asArray()->one();
-
+          if($old_pwd == $arr['u_pwd']){
+           $info = Yii::$app->db->createCommand("update user set u_pwd= '$new_pwd' where u_name = '$user_name'")->execute();
+            if($info){
+              return "密码设置成功";
+            }else{
+              return '密码设置失败';
+            }
+          }else{
+            return "原密码填写错误" ;
+          }
 
       }
 }
