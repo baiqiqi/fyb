@@ -54,11 +54,39 @@ class IndexController extends Controller
 	public  function actionUser_center(){
 		$this->layout="header";
 		$model = new User();
-		$user_info = $model->user_center();
-		//print_r($user_info);die;
-		return  $this->render('usercenter',['userinfo'=>$user_info]);
-	}
+		$m = $_GET['m'];
+		switch ($m) {
+     		//个人主页
+			case '' :$user_info = $model->user_center();
+				//print_r($user_info);die;
+				return  $this->render('usercenter',['userinfo'=>$user_info]);
+				break;
+			//个人资料
+			case 'personal_data' :
+			    $personal_data = $model->personal_data();
+			    //print_r($personal_data);
+				return  $this->render('personaldata',['personal'=>$personal_data]);
+			    break;
+			//密码设置
+			case 'personal_pwd': return $this->render('personalpwd');
+			    break;
+			//收货地址
+			case 'get_address': return $this->render('getaddress');
+			    break;
+			//我的消息
+			case 'personal_news' : return $this->render('personalnews') ;
+			    break;
+			//我的微留言
+			case 'personal_words' : return $this->render('personalwords') ;
+			    break;
 
+		}
+
+	}
+    public  function actionPersonal_pwd_pro(){
+
+
+    }
 
 	public function actionContact()
 	{
