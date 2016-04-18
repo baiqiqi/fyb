@@ -1,106 +1,72 @@
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/ej_class.css" />
+<link rel="stylesheet" type="text/css" href="css/gwc.css" />
+<body>
+ <div class="w_980 fl_l">
+  		<div class="gwc_pos first">
+                  <div class="sel fl_l">1.我的购物车</div>
+                  <div class="un fl_l">2.填写核对订单信息</div>
+                  <div class="un fl_l">3.成功填写订单</div>                
+            </div>            
+  </div>
+    <div class="w_978 fl_l bor">
+              <div class="title">我挑选的商品</div>
+              <div class="gwc_c">
+                <table width="130%" border="0" align="center" cellpadding="0" cellspacing="0" class="gwc_table">
+                  <tr>
+                    <td width="10%" class="title">商品编号</td>
+                    <td width="20%" class="title">商品图片</td>
+                    <td width="20%" class="title">商品名称</td>
+                    <td width="10%" class="title">市场价</td>
+                    <td width="10%" class="title">本站价</td>
+                    <td width="10%" class="title">数量</td>
+                    <td width="10%" class="title">操作</td>
+                  </tr>
+                  <tr>
+                    <td><?php echo $arr['pro_id']?></td>
+                    <td><img src="<?php echo $arr['pro_img']?>" width="100" height="100" /><p>205199</p></td>
+                    <td><?php echo $arr['pro_name']?></td>
+                    <td><?php echo $arr['pro_price']?>元</td>
+                    <td><span id="aaa"><?php echo $arr['pro_price']?></span>元</td>
+                    <td>
+                    <span class="min"><img src="images/bag_close.gif" width="9" height="9" /></span>
+                    <input id="text_box" class="text_box" name="" type="text" value="1" size="2" /> 
+                    <span class="add"><img src="images/bag_open.gif" width="9" height="9" /></span></td>
+                    <td><a href="index.php?r=check/delete&pro_id=<?php echo $arr['pro_id']?>">删除</a></td>
+                  </tr>
+                  <tr>
+                    <td colspan="7" class="te_r">商品总金额（不含运费）：<span class=" redfont font_c_14" id="total"></span> 元</td>
+                  </tr>
+                  <tr>
+                    <td colspan="7" class="content_bot"><span class="fl_r"><a href="index.php?r=index/index"><img src="images/jxgw.gif" width="110" height="37" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="index.php?r=check/pay_hou"><img src="images/payment.gif" width="110" height="37" /></a>&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+                  </tr>
+                </table>
+      </div>
+      </div>
+      </body>
+      <script type="text/javascript" src="jquery-111.js"></script> 
+<script> 
+		$(function(){
+			var price = $('#aaa').text()
+			var total = $('#total')
+			$(".add").click(function(){ 
+				var t=$(this).parent().find('input[class*=text_box]'); 
+				t.val(parseInt(t.val())+1)
+				var val = t.val();
+				total.text(val*price)
+				// setTotal();
+			}) 
+			$(".min").click(function(){ 
+				var t=$(this).parent().find('input[class*=text_box]'); 
+				t.val(parseInt(t.val())-1) 
+				if(parseInt(t.val())<1){ 
+					t.val(1); 
+				} 
+				var val = t.val();
+				total.text(val*price)
+			 	// setTotal(); 
+			})
+		}) 
 
-<!-- start banner -->
-<div class="check">	 
-<div class="container">
-	
-			 <div class="col-md-3 cart-total">
-			 <a class="continue" href="#">Continue to basket</a>
-			 <div class="price-details">
-				 <h3>Price Details</h3>
-				 <span>Total</span>
-				 <span class="total1">6200.00</span>
-				 <span>Discount</span>
-				 <span class="total1">---</span>
-				 <span>Delivery Charges</span>
-				 <span class="total1">150.00</span>
-				 <div class="clearfix"></div>				 
-			 </div>	
-			 <ul class="total_price">
-			   <li class="last_price"> <h4>TOTAL</h4></li>	
-			   <li class="last_price"><span>6350.00</span></li>
-			   <div class="clearfix"> </div>
-			 </ul>
-			
-			 
-			 <div class="clearfix"></div>
-			 <a class="order" href="#">Place Order</a>
-			 <div class="total-item">
-				 <h3>OPTIONS</h3>
-				 <h4>COUPONS</h4>
-				 <a class="cpns" href="#">Apply Coupons</a>
-				 <p><a href="#">Log In</a> to use accounts - linked coupons</p>
-			 </div>
-			</div>
-		 <div class="col-md-9 cart-items">
-			 <h1>My Shopping Bag (2)</h1>
-				<script>$(document).ready(function(c) {
-					$('.close1').on('click', function(c){
-						$('.cart-header').fadeOut('slow', function(c){
-							$('.cart-header').remove();
-						});
-						});	  
-					});
-			   </script>
-			 <div class="cart-header">
-				 <div class="close1"> </div>
-				 <div class="cart-sec simpleCart_shelfItem">
-						<div class="cart-item cyc">
-							 <img src="images/8.jpg" class="img-responsive" alt=""/>
-						</div>
-					   <div class="cart-item-info">
-						<h3><a href="#">Mountain Hopper(XS R034)</a><span>Model No: 3578</span></h3>
-						<ul class="qty">
-							<li><p>Size : 5</p></li>
-							<li><p>Qty : 1</p></li>
-						</ul>
-						
-							 <div class="delivery">
-							 <p>Service Charges : Rs.100.00</p>
-							 <span>Delivered in 2-3 bussiness days</span>
-							 <div class="clearfix"></div>
-				        </div>	
-					   </div>
-					   <div class="clearfix"></div>
-											
-				  </div>
-			 </div>
-			 <script>$(document).ready(function(c) {
-					$('.close2').on('click', function(c){
-							$('.cart-header2').fadeOut('slow', function(c){
-						$('.cart-header2').remove();
-					});
-					});	  
-					});
-			 </script>
-			 <div class="cart-header2">
-				 <div class="close2"> </div>
-				  <div class="cart-sec simpleCart_shelfItem">
-						<div class="cart-item cyc">
-							 <img src="images/11.jpg" class="img-responsive" alt=""/>
-						</div>
-					   <div class="cart-item-info">
-						<h3><a href="#">Mountain Hopper(XS R034)</a><span>Model No: 3578</span></h3>
-						<ul class="qty">
-							<li><p>Size : 5</p></li>
-							<li><p>Qty : 1</p></li>
-						</ul>
-							 <div class="delivery">
-							 <p>Service Charges : Rs.100.00</p>
-							 <span>Delivered in 2-3 bussiness days</span>
-							 <div class="clearfix"></div>
-				        </div>	
-					   </div>
-					   <div class="clearfix"></div>
-											
-				  </div>
-			  </div>		
-		 </div>
-		 
-		
-			<div class="clearfix"> </div>
-	 </div>
-	 </div>
-
-
-
-
+</script> 
