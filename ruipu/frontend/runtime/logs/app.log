@@ -4120,3 +4120,1288 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1460937747.427
     'REQUEST_TIME' => 1460937747
 ]
+2016-04-18 09:13:08 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php:9
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php(9): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\chongci\\fyb\\...', 9, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(388): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(yii\gii\controllers\DefaultController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(374): yii\base\Controller->renderContent('         <li><a...')
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(504): yii\base\Controller->render('//layouts/nav')
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#7 [internal function]: yii\base\Controller->__construct('default', Object(yii\gii\Module), Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\gii\\control...', Array, Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('yii\\gii\\control...', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('yii\\gii\\control...', Array)
+#12 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('default')
+#13 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(513): yii\base\Module->createController('')
+#14 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('gii')
+#15 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('gii', Array)
+#16 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2016-04-18 09:13:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'veibeeup21mhcquphee5d9o821'
+    '_csrf' => '991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=veibeeup21mhcquphee5d9o821; _csrf=991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '51554'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460941987.382
+    'REQUEST_TIME' => 1460941987
+]
+2016-04-18 09:13:08 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 09:13:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'veibeeup21mhcquphee5d9o821'
+    '_csrf' => '991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=veibeeup21mhcquphee5d9o821; _csrf=991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '51554'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460941987.382
+    'REQUEST_TIME' => 1460941987
+]
+2016-04-18 09:13:44 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php:9
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php(9): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\chongci\\fyb\\...', 9, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(388): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(yii\gii\controllers\DefaultController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(374): yii\base\Controller->renderContent('         <li><a...')
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(504): yii\base\Controller->render('//layouts/nav')
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#7 [internal function]: yii\base\Controller->__construct('default', Object(yii\gii\Module), Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\gii\\control...', Array, Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('yii\\gii\\control...', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('yii\\gii\\control...', Array)
+#12 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('default')
+#13 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(513): yii\base\Module->createController('')
+#14 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('gii')
+#15 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('gii', Array)
+#16 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2016-04-18 09:13:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'veibeeup21mhcquphee5d9o821'
+    '_csrf' => '991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=veibeeup21mhcquphee5d9o821; _csrf=991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '51573'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460942023.941
+    'REQUEST_TIME' => 1460942023
+]
+2016-04-18 09:13:44 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 09:13:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'veibeeup21mhcquphee5d9o821'
+    '_csrf' => '991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=veibeeup21mhcquphee5d9o821; _csrf=991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '51573'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460942023.941
+    'REQUEST_TIME' => 1460942023
+]
+2016-04-18 09:20:38 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php:9
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php(9): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\chongci\\fyb\\...', 9, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(388): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(yii\gii\controllers\DefaultController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(374): yii\base\Controller->renderContent('         <li><a...')
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(504): yii\base\Controller->render('//layouts/nav')
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#7 [internal function]: yii\base\Controller->__construct('default', Object(yii\gii\Module), Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\gii\\control...', Array, Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('yii\\gii\\control...', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('yii\\gii\\control...', Array)
+#12 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('default')
+#13 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(513): yii\base\Module->createController('')
+#14 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('gii')
+#15 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('gii', Array)
+#16 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2016-04-18 09:20:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'veibeeup21mhcquphee5d9o821'
+    '_csrf' => '991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=veibeeup21mhcquphee5d9o821; _csrf=991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '51952'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460942438.035
+    'REQUEST_TIME' => 1460942438
+]
+2016-04-18 09:20:38 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 09:20:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'veibeeup21mhcquphee5d9o821'
+    '_csrf' => '991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=veibeeup21mhcquphee5d9o821; _csrf=991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '51952'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460942438.035
+    'REQUEST_TIME' => 1460942438
+]
+2016-04-18 10:23:25 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php:9
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php(9): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\chongci\\fyb\\...', 9, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(388): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(yii\gii\controllers\DefaultController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(374): yii\base\Controller->renderContent('         <li><a...')
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(504): yii\base\Controller->render('//layouts/nav')
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#7 [internal function]: yii\base\Controller->__construct('default', Object(yii\gii\Module), Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\gii\\control...', Array, Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('yii\\gii\\control...', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('yii\\gii\\control...', Array)
+#12 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('default')
+#13 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(513): yii\base\Module->createController('')
+#14 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('gii')
+#15 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('gii', Array)
+#16 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2016-04-18 10:23:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'veibeeup21mhcquphee5d9o821'
+    '_csrf' => '991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=veibeeup21mhcquphee5d9o821; _csrf=991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '54810'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460946204.492
+    'REQUEST_TIME' => 1460946204
+]
+2016-04-18 10:23:25 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 10:23:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'veibeeup21mhcquphee5d9o821'
+    '_csrf' => '991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=veibeeup21mhcquphee5d9o821; _csrf=991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '54810'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460946204.492
+    'REQUEST_TIME' => 1460946204
+]
+2016-04-18 10:23:30 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php:9
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php(9): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\chongci\\fyb\\...', 9, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(388): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(yii\gii\controllers\DefaultController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(374): yii\base\Controller->renderContent('         <li><a...')
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(504): yii\base\Controller->render('//layouts/nav')
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#7 [internal function]: yii\base\Controller->__construct('default', Object(yii\gii\Module), Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\gii\\control...', Array, Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('yii\\gii\\control...', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('yii\\gii\\control...', Array)
+#12 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('default')
+#13 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(513): yii\base\Module->createController('')
+#14 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('gii')
+#15 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('gii', Array)
+#16 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2016-04-18 10:23:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'veibeeup21mhcquphee5d9o821'
+    '_csrf' => '991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=veibeeup21mhcquphee5d9o821; _csrf=991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '54823'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460946209.806
+    'REQUEST_TIME' => 1460946209
+]
+2016-04-18 10:23:30 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 10:23:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'veibeeup21mhcquphee5d9o821'
+    '_csrf' => '991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=veibeeup21mhcquphee5d9o821; _csrf=991fece003a659d7fa2d76391ecb357340c4f49270fce8048127a99ac15ec554a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-nGuRJsUZWqMfG-gZxKeT4E22I3O18t-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '54823'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460946209.806
+    'REQUEST_TIME' => 1460946209
+]
+2016-04-18 10:25:21 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php:9
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php(9): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\chongci\\fyb\\...', 9, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(388): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(yii\gii\controllers\DefaultController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(374): yii\base\Controller->renderContent('         <li><a...')
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(504): yii\base\Controller->render('//layouts/nav')
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#7 [internal function]: yii\base\Controller->__construct('default', Object(yii\gii\Module), Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\gii\\control...', Array, Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('yii\\gii\\control...', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('yii\\gii\\control...', Array)
+#12 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('default')
+#13 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(513): yii\base\Module->createController('')
+#14 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('gii')
+#15 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('gii', Array)
+#16 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2016-04-18 10:25:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '55041'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460946321.364
+    'REQUEST_TIME' => 1460946321
+]
+2016-04-18 10:25:21 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 10:25:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '55041'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460946321.364
+    'REQUEST_TIME' => 1460946321
+]
+2016-04-18 11:08:29 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php:9
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php(9): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\chongci\\fyb\\...', 9, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(388): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(yii\gii\controllers\DefaultController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(374): yii\base\Controller->renderContent('         <li><a...')
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(504): yii\base\Controller->render('//layouts/nav')
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#7 [internal function]: yii\base\Controller->__construct('default', Object(yii\gii\Module), Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\gii\\control...', Array, Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('yii\\gii\\control...', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('yii\\gii\\control...', Array)
+#12 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('default')
+#13 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(513): yii\base\Module->createController('')
+#14 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('gii')
+#15 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('gii', Array)
+#16 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2016-04-18 11:08:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '59723'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460948908.743
+    'REQUEST_TIME' => 1460948908
+]
+2016-04-18 11:08:29 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 11:08:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '59723'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460948908.743
+    'REQUEST_TIME' => 1460948908
+]
+2016-04-18 11:08:31 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php:9
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php(9): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\chongci\\fyb\\...', 9, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(388): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(yii\gii\controllers\DefaultController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(374): yii\base\Controller->renderContent('         <li><a...')
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(504): yii\base\Controller->render('//layouts/nav')
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#7 [internal function]: yii\base\Controller->__construct('default', Object(yii\gii\Module), Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\gii\\control...', Array, Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('yii\\gii\\control...', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('yii\\gii\\control...', Array)
+#12 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('default')
+#13 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(513): yii\base\Module->createController('')
+#14 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('gii')
+#15 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('gii', Array)
+#16 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2016-04-18 11:08:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '59726'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460948911.296
+    'REQUEST_TIME' => 1460948911
+]
+2016-04-18 11:08:31 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 11:08:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '59726'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460948911.296
+    'REQUEST_TIME' => 1460948911
+]
+2016-04-18 11:09:31 [127.0.0.1][-][ivgfblcmmijh8lleovuefn6kb1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in D:\chongci\fyb\ruipu\frontend\views\check\pay.php:42
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\views\check\pay.php(42): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\chongci\\fyb\\...', 42, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(frontend\controllers\CheckController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('pay', Array, Object(frontend\controllers\CheckController))
+#5 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(42): yii\base\Controller->render('pay')
+#6 [internal function]: frontend\controllers\CheckController->actionPay()
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-18 11:09:30 [127.0.0.1][-][ivgfblcmmijh8lleovuefn6kb1][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '59782'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460948970.951
+    'REQUEST_TIME' => 1460948970
+]
+2016-04-18 11:09:31 [127.0.0.1][-][ivgfblcmmijh8lleovuefn6kb1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 11:09:30 [127.0.0.1][-][ivgfblcmmijh8lleovuefn6kb1][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '59782'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460948970.951
+    'REQUEST_TIME' => 1460948970
+]
+2016-04-18 11:10:30 [127.0.0.1][-][ivgfblcmmijh8lleovuefn6kb1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: check/pay_hou' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php:124
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay_hou', Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay_hou', Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-18 11:10:30 [127.0.0.1][-][ivgfblcmmijh8lleovuefn6kb1][info][application] $_GET = [
+    'r' => 'check/pay_hou'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '59812'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay_hou'
+    'REQUEST_URI' => '/index.php?r=check/pay_hou'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460949030.519
+    'REQUEST_TIME' => 1460949030
+]
+2016-04-18 11:21:12 [127.0.0.1][-][ivgfblcmmijh8lleovuefn6kb1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "indexle".' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('indexle', Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-18 11:21:12 [127.0.0.1][-][ivgfblcmmijh8lleovuefn6kb1][info][application] $_GET = [
+    'r' => 'indexle'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '60276'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=indexle'
+    'REQUEST_URI' => '/index.php?r=indexle'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460949672.411
+    'REQUEST_TIME' => 1460949672
+]

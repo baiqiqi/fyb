@@ -80,7 +80,7 @@ class Controller extends Component implements ViewContextInterface
         $this->id = $id;
         $this->module = $module;
         parent::__construct($config);
-        $this->actionHeader1();
+        //$this->actionHeader1();
     }
 
     /**

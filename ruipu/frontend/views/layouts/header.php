@@ -72,7 +72,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           <a href="checkout.html">
             <h3>CART <span class="simpleCart_total"> ($0.00) </span>  <img src="images/bag.png" alt=""></h3>
           </a>  
-          <p><a href="javascript:;" class="simpleCart_empty">(empty card)</a></p>
+          <p><a href="./index.php?r=check/check" class="simpleCart_empty">(empty card)</a></p>
           <div class="clearfix"> </div>
         </div>
       <div class="clearfix"> </div>
@@ -99,7 +99,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-       <?php include('../views/layouts/nav.php');?>
+       <?php //include('../views/layouts/nav.php');?>
+
+       <!-- 首页导航开始 -->
+        <li class="active"><a href="index.php?r=index/index">首页 </a><li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">商品 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="index.php?r=index/products">Action</a><li>
+            <li><a href="index.php?r=index/products">Another action</a><li>
+            <li><a href="index.php?r=index/products">Something else here</a><li>
+          </ul>
+        <li>
+     <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sale <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+            <li><a href="index.php?r=indexle">Action</a><li>
+            <li><a href="index.php?r=indexle">Another action</a><li>
+            <li><a href="index.php?r=indexle">Something else here</a><li>
+           
+          </ul>
+        <li>
+    <li><a href="index.php?r=about/about">关于我们</a><li>
+    <li><a href="index.php?r=index/contact">Contact Us</a><li>
+      </ul>
+    <!-- 首页导航结束 -->
+
       </ul>
       
     
@@ -163,11 +188,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="footer">
   <div class="container">
     <div class="col-md-3 cust">
-      <h4>CUSTOMER CARE</h4>
-        <li><a href="#">Help Center</a></li>
+      <h4>服务</h4>
+        <li><a href="#">帮助中心</a></li>
         <li><a href="#">FAQ</a></li>
-        <li><a href="#">How To Buy</a></li>
-        <li><a href="#">Delivery</a></li>
+        <li><a href="#">如何购买</a></li>
+        <li><a href="#">交易</a></li>
     </div>
     <div class="col-md-3 abt">
       <h4>关于我们</h4>
@@ -175,11 +200,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <li><a href="./index.php?r=index/contact">联系我们</a></li>
     </div>
     <div class="col-md-3 myac">
-      <h4>MY ACCOUNT</h4>
-        <li><a href="register.html">Register</a></li>
-        <li><a href="#">My Cart</a></li>
-        <li><a href="#">Order History</a></li>
-        <li><a href="buy.html">Payment</a></li>
+      <h4>我的账户</h4>
+        <li><a href="register.html">登陆/注册</a></li>
+        <li><a href="#">我的购物车</a></li>
+        <li><a href="#">订单记录</a></li>
+        <li><a href="buy.html">付款方式</a></li>
     </div>
     <div class="col-md-3 our-st">
         <h4>OUR STORE</h4>
@@ -189,7 +214,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       
     </div>
     <div class="clearfix"> </div>
-      <p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+      <p>版权归优秀团队所有 &copy; 2016.优秀公司保留所有权利.</p>
   </div>
 </div>
 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 0;"></span> <span id="toTopHover" style="opacity: 0;"> </span></a>

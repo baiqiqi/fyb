@@ -41,5 +41,16 @@ class CheckController extends Controller
 		$this->layout="header";
 		return $this->render('pay');
 	}
+    
+    /*
+	*支付
+	*作者：赵思敏
+	*时间：2016/04/18 
+	*/
+	
+	public function actionPay_hou(){
+		$this->layout="header";
+		return $this->render('pay_hou');
+	}
 
 }
