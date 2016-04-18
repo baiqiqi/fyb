@@ -1,4 +1,3 @@
-
 <!-- start banner -->
 <div class="about">
 		<div class="container">
