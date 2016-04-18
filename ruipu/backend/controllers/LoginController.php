@@ -17,8 +17,8 @@ class LoginController extends Controller
      * @登录界面
      */
     public function actionIndex(){
-        return $this->render('welcome');
-     /*   $model = new User();
+        //return $this->render('welcome');
+       $model = new User();
         $ip = $_SERVER['REMOTE_ADDR'];
         if(Yii::$app->session->get($ip)){
             return $this->redirect(Url::toRoute('login/welcome'));
@@ -34,7 +34,7 @@ class LoginController extends Controller
             }
         }else{
             return $this->renderPartial('index');
-        }*/
+        }
     }
 
     /*

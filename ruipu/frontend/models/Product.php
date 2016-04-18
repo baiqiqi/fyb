@@ -57,7 +57,7 @@ class Product extends \yii\db\ActiveRecord
 
     /*
     * 赵思敏
-    * 查询表中所有数据
+    * 根据价格倒序显示八条信息
     */
 
     public function selecteight(){

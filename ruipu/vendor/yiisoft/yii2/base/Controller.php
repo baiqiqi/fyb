@@ -68,6 +68,7 @@ class Controller extends Component implements ViewContextInterface
      */
     private $_view;
 
+    public $layout_data  ; 
 
     /**
      * @param string $id the ID of this controller.
@@ -79,6 +80,7 @@ class Controller extends Component implements ViewContextInterface
         $this->id = $id;
         $this->module = $module;
         parent::__construct($config);
+        //$this->actionHeader1();
     }
 
     /**
@@ -491,5 +493,14 @@ class Controller extends Component implements ViewContextInterface
         }
 
         return $path;
+    }
+      public function actionHeader1(){
+
+        $sql = "select * from nav";
+        $arr=\Yii::$app->db->createCommand($sql)->queryAll();
+       
+        $this->layout_data = $arr;
+        
+        return  $this->render('//layouts/nav');
     }
 }

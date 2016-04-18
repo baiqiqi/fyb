@@ -61,11 +61,41 @@ class User extends \yii\db\ActiveRecord
             'u_weight' => 'U Weight',
         ];
     }
-    public function insert($username,$pwd)
-    {
-        $sql = "insert into user('u_id','u_name','u_pwd') value(0,'$username','$pwd')";
-        return $sql;
-        $info =\Yii::$app->db->createCommand($sql)->execute();
-        return $info;
+    /*
+     * 用户中心 user_center
+     * */
+    public  function  user_center(){
+       $user_name = '张晨阳';
+        $db = Yii::$app->db;
+        //$arr = $db->createCommand("select * from user where u_name = '$user_name'")->queryAll();
+      $arr =(new \yii\db\Query())
+              ->select('*')
+              ->from('user as u')
+              ->innerJoin("exercise as ex","u.u_id=ex.u_id")
+              ->innerJoin("doctor as doc","ex.d_id=doc.doc_id")
+              ->where("u.u_name = '$user_name'")
+              ->one();
+       return $arr;
     }
+    /*
+     * 个人资料 personal_data
+     *
+     * */
+     public  function personal_data(){
+        $user_name = '张晨阳';
+         $db = Yii::$app->db;
+         $arr = $db->createCommand("select * from user u join exercise as ex on u.u_id=ex.u_id join doctor as doc on ex.d_id=doc.doc_id where u.u_name = '$user_name'")->queryAll();
+         return $arr;
+     }
+     /*
+      * 修改密码
+      * */
+      public function pwd_update(){
+          $old_pwd = $_GET['old_pwd'];
+          $new_pwd = $_GET['new_pwd'];
+          $user_name = '张晨阳';
+          $arr = $this->find()->where("u_name = '$user_name'")->asArray()->one();
+
+
+      }
 }
