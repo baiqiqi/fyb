@@ -68,25 +68,25 @@ class User extends \yii\db\ActiveRecord
         ];
     }
     /*
-     * @arthurdou
+     * @白琪琪
      * @登录
      * @return int
      */
     public function signin(){
         $uname = htmlspecialchars(Yii::$app->request->post('u_name'));
-        $passwd = htmlspecialchars(md5(Yii::$app->request->post('passwd')));
+        $passwd = htmlspecialchars((Yii::$app->request->post('passwd')));
         if(strpos($uname,'@')){
             return $this->find()->asArray()
                 ->select('*')
-                ->join('INNER JOIN','user_role','user.u_id = user_role.u_id')
-                ->join('INNER JOIN','role','user_role.r_id = role.r_id')
-                ->where(['u_email'=>$uname,'passwd'=>$passwd])->one();
+                //->join('INNER JOIN','user_role','user.u_id = user_role.u_id')
+                //->join('INNER JOIN','role','user_role.r_id = role.r_id')
+                ->where(['u_name'=>$uname,'u_pwd'=>$passwd])->one();
         }else{
             return $this->find()->asArray()
                 ->select('*')
-                ->join('INNER JOIN','user_role','user.u_id = user_role.u_id')
-                ->join('INNER JOIN','role','user_role.r_id = role.r_id')
-                ->where(['u_name'=>$uname,'passwd'=>$passwd])->one();
+                //->join('INNER JOIN','user_role','user.u_id = user_role.u_id')
+                //->join('INNER JOIN','role','user_role.r_id = role.r_id')
+                ->where(['u_name'=>$uname,'u_pwd'=>$passwd])->one();
         }
     }
     /*
