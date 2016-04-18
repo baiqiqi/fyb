@@ -324,7 +324,7 @@ function clear_history_Response(res){
         </script>
             </p>                            
                             <p>
-                                <input class="pointer add_pay" type="button" name="now_buy" id="now_buy" value="立即购买" onclick="addToCart(371,0,1)" style="background-color: rgb(255, 237, 237); color: rgb(196, 0, 0); border: 1px solid rgb(196, 0, 0); width: 170px; font-family: microsoft yahei; font-size: 16px;"/>
+                                <a href="./index.php?r=check/check"><input class="pointer add_pay" type="button" name="now_buy" id="now_buy" value="立即购买" onclick="addToCart(371,0,1)" style="background-color: rgb(255, 237, 237); color: rgb(196, 0, 0); border: 1px solid rgb(196, 0, 0); width: 170px; font-family: microsoft yahei; font-size: 16px;"/></a>
                                 <input class="pointer paying" type="button" name="add_to_cart" id="add_to_cart" value="加入购物车" onclick="javascript:addToCart_choose(371)" style="background-color:#c40000;width: 170px; font-family: microsoft yahei; font-size: 16px;" />
                             </p>
                         </div>

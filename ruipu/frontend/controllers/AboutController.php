@@ -21,8 +21,9 @@ use app\models\Company;
 use app\models\Article;
 use app\models\Agency;
 
-
-
+/*
+ * About 关于我们
+ */
 
 class AboutController extends Controller
 {
@@ -39,7 +40,6 @@ class AboutController extends Controller
     	$data_article = $model_article -> selectall();
         $model_agency = new Agency();
         $data_agency = $model_agency -> selectall();
-    	// print_r($data);die;
     	return $this->render('about',['data'=>$data,'data_article'=>$data_article,'data_agency'=>$data_agency]);  			
 	}
     
@@ -52,7 +52,6 @@ class AboutController extends Controller
 		$this -> layout = "header";
     	$model = new Company();
     	$data = $model -> selectall();
-    	// print_r($data);die;
     	return $this->render('intro',['data'=>$data]);
 	}
     
@@ -66,8 +65,6 @@ class AboutController extends Controller
         $model = new Agency();
         $ag_id = $_GET['ag_id'];
         $data = $model -> selectone($ag_id);
-        
-        // print_r($ag_id);die;
         return $this -> render('agency',['data'=>$data]);
     }
 
