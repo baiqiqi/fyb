@@ -103,14 +103,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
        <!-- 首页导航开始 -->
         <li class="active"><a href="index.php?r=index/index">首页 </a><li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">商品 <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="index.php?r=index/products">Action</a><li>
-            <li><a href="index.php?r=index/products">Another action</a><li>
-            <li><a href="index.php?r=index/products">Something else here</a><li>
-          </ul>
-        <li>
+        <li class="active"><a href="index.php?r=index/contact">商品</a><li>
      <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sale <span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -121,7 +114,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           </ul>
         <li>
     <li><a href="index.php?r=about/about">关于我们</a><li>
-    <li><a href="index.php?r=index/contact">Contact Us</a><li>
+    <li><a href="">Contact Us</a><li>
       </ul>
     <!-- 首页导航结束 -->
 

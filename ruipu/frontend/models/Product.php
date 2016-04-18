@@ -65,7 +65,7 @@ class Product extends \yii\db\ActiveRecord
         return $this->findBySql("SELECT * FROM product order by pro_price desc limit 8")->asArray()->all();
     }
 
-     /*
+    /*
     * 赵思敏
     * 查询一条数据
     */
@@ -73,5 +73,16 @@ class Product extends \yii\db\ActiveRecord
     public function selectone($pro_id=''){
 
         return $this->findBySql("SELECT * FROM product where pro_id=$pro_id")->asArray()->one();
+    }
+
+    /*
+    * 赵思敏
+    * 查询所有数据
+    */
+
+    public function selectall(){
+
+        $sql = "select * from product inner join product_type on product.pro_tid=product_type.t_id ";
+        return  $info = \Yii::$app -> db -> createCommand($sql)->queryAll();
     }
 }
