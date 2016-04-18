@@ -47,4 +47,14 @@ class Region extends \yii\db\ActiveRecord
             'agency_id' => 'Agency ID',
         ];
     }
+
+    /*
+    * 赵思敏
+    * 查询表中所有数据
+    */
+
+    public function selectall(){
+
+        return $this->findBySql("SELECT * FROM region")->asArray()->all();
+    }
 }
