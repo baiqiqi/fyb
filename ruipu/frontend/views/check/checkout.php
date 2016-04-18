@@ -39,7 +39,7 @@
                   </tr>
                   <tr>
                     <td colspan="7" class="content_bot"><span class="fl_r"><a href="index.php?r=index/index"><img src="images/jxgw.gif" width="110" height="37" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="index.php?r=check/pay_hou"><img src="images/payment.gif" width="110" height="37" /></a>&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+                    <a href="index.php?r=check/pay"><img src="images/payment.gif" width="110" height="37" /></a>&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
                   </tr>
                 </table>
       </div>

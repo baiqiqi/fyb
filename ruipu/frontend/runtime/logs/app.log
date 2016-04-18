@@ -9764,3 +9764,2095 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1460959757.3028
     'REQUEST_TIME' => 1460959757
 ]
+2016-04-18 14:40:21 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in D:\day8\fyb\ruipu\frontend\views\check\pay.php:42
+Stack trace:
+#0 D:\day8\fyb\ruipu\frontend\views\check\pay.php(42): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\day8\\fyb\\rui...', 42, Array)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\day8\\fyb\\rui...')
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\day8\\fyb\\rui...', Array)
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\day8\\fyb\\rui...', Array, Object(frontend\controllers\CheckController))
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('pay', Array, Object(frontend\controllers\CheckController))
+#5 D:\day8\fyb\ruipu\frontend\controllers\CheckController.php(56): yii\base\Controller->render('pay')
+#6 [internal function]: frontend\controllers\CheckController->actionPay()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-18 14:40:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1892'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60266'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460961621.0414
+    'REQUEST_TIME' => 1460961621
+]
+2016-04-18 14:40:21 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-18 14:40:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1892'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60266'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460961621.0414
+    'REQUEST_TIME' => 1460961621
+]
+2016-04-18 14:40:29 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: pro_id' in D:\day8\fyb\ruipu\frontend\controllers\CheckController.php:36
+Stack trace:
+#0 D:\day8\fyb\ruipu\frontend\controllers\CheckController.php(36): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\day8\\fyb\\rui...', 36, Array)
+#1 [internal function]: frontend\controllers\CheckController->actionCheck()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('check', Array)
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/check', Array)
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-18 14:40:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/check'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1892'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=check/check'
+    'QUERY_STRING' => 'r=check/check'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60271'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460961629.0599
+    'REQUEST_TIME' => 1460961629
+]
+2016-04-18 14:40:29 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-18 14:40:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/check'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1892'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=check/check'
+    'QUERY_STRING' => 'r=check/check'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60271'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460961629.0599
+    'REQUEST_TIME' => 1460961629
+]
+2016-04-18 14:40:43 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in D:\day8\fyb\ruipu\frontend\views\check\pay.php:42
+Stack trace:
+#0 D:\day8\fyb\ruipu\frontend\views\check\pay.php(42): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\day8\\fyb\\rui...', 42, Array)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\day8\\fyb\\rui...')
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\day8\\fyb\\rui...', Array)
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\day8\\fyb\\rui...', Array, Object(frontend\controllers\CheckController))
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('pay', Array, Object(frontend\controllers\CheckController))
+#5 D:\day8\fyb\ruipu\frontend\controllers\CheckController.php(56): yii\base\Controller->render('pay')
+#6 [internal function]: frontend\controllers\CheckController->actionPay()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-18 14:40:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1892'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60272'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.reap.com/index.php?r=check/check&pro_id=4'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460961643.3737
+    'REQUEST_TIME' => 1460961643
+]
+2016-04-18 14:40:43 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-18 14:40:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1892'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60272'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.reap.com/index.php?r=check/check&pro_id=4'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460961643.3737
+    'REQUEST_TIME' => 1460961643
+]
+2016-04-18 14:40:52 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in D:\day8\fyb\ruipu\frontend\views\check\pay.php:42
+Stack trace:
+#0 D:\day8\fyb\ruipu\frontend\views\check\pay.php(42): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\day8\\fyb\\rui...', 42, Array)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\day8\\fyb\\rui...')
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\day8\\fyb\\rui...', Array)
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\day8\\fyb\\rui...', Array, Object(frontend\controllers\CheckController))
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('pay', Array, Object(frontend\controllers\CheckController))
+#5 D:\day8\fyb\ruipu\frontend\controllers\CheckController.php(56): yii\base\Controller->render('pay')
+#6 [internal function]: frontend\controllers\CheckController->actionPay()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-18 14:40:52 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1892'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60283'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460961652.1522
+    'REQUEST_TIME' => 1460961652
+]
+2016-04-18 14:40:52 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-18 14:40:52 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1892'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60283'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460961652.1522
+    'REQUEST_TIME' => 1460961652
+]
+2016-04-18 15:28:58 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: pro_id' in D:\day8\fyb\ruipu\frontend\controllers\IndexController.php:48
+Stack trace:
+#0 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(48): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\day8\\fyb\\rui...', 48, Array)
+#1 [internal function]: frontend\controllers\IndexController->actionDetails()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('details', Array)
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/details', Array)
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-18 15:28:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/details'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details'
+    'QUERY_STRING' => 'r=index/details'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60889'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460964538.3163
+    'REQUEST_TIME' => 1460964538
+]
+2016-04-18 15:28:58 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-18 15:28:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/details'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details'
+    'QUERY_STRING' => 'r=index/details'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60889'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460964538.3163
+    'REQUEST_TIME' => 1460964538
+]
+2016-04-18 15:49:45 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in D:\day8\fyb\ruipu\frontend\views\check\pay.php:42
+Stack trace:
+#0 D:\day8\fyb\ruipu\frontend\views\check\pay.php(42): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\day8\\fyb\\rui...', 42, Array)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\day8\\fyb\\rui...')
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\day8\\fyb\\rui...', Array)
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\day8\\fyb\\rui...', Array, Object(frontend\controllers\CheckController))
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('pay', Array, Object(frontend\controllers\CheckController))
+#5 D:\day8\fyb\ruipu\frontend\controllers\CheckController.php(56): yii\base\Controller->render('pay')
+#6 [internal function]: frontend\controllers\CheckController->actionPay()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-18 15:49:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1768'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61568'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.reap.com/index.php?r=check/check&pro_id=3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965785.8307
+    'REQUEST_TIME' => 1460965785
+]
+2016-04-18 15:49:45 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-18 15:49:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1768'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61568'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.reap.com/index.php?r=check/check&pro_id=3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965785.8307
+    'REQUEST_TIME' => 1460965785
+]
+2016-04-18 16:42:10 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#8 [internal function]: frontend\controllers\IndexController->actionDetails()
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#6 [internal function]: frontend\controllers\IndexController->actionDetails()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-18 16:41:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/details'
+    'pro_id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '460'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details&pro_id=3'
+    'QUERY_STRING' => 'r=index/details&pro_id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63234'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460968909.5533
+    'REQUEST_TIME' => 1460968909
+]
+2016-04-18 16:42:16 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#8 [internal function]: frontend\controllers\IndexController->actionDetails()
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#6 [internal function]: frontend\controllers\IndexController->actionDetails()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-18 16:41:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/details'
+    'pro_id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details&pro_id=3'
+    'QUERY_STRING' => 'r=index/details&pro_id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63237'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460968915.4937
+    'REQUEST_TIME' => 1460968915
+]
+2016-04-18 16:43:00 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#8 [internal function]: frontend\controllers\IndexController->actionDetails()
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#6 [internal function]: frontend\controllers\IndexController->actionDetails()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-18 16:42:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/details'
+    'pro_id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '460'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details&pro_id=3'
+    'QUERY_STRING' => 'r=index/details&pro_id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63257'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460968959.4392
+    'REQUEST_TIME' => 1460968959
+]
+2016-04-18 16:43:24 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#8 [internal function]: frontend\controllers\IndexController->actionDetails()
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#6 [internal function]: frontend\controllers\IndexController->actionDetails()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-18 16:43:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/details'
+    'pro_id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details&pro_id=3'
+    'QUERY_STRING' => 'r=index/details&pro_id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63267'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460968983.7276
+    'REQUEST_TIME' => 1460968983
+]
+2016-04-18 16:50:12 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#8 [internal function]: frontend\controllers\IndexController->actionDetails()
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#6 [internal function]: frontend\controllers\IndexController->actionDetails()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-18 16:49:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/details'
+    'pro_id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1960'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details&pro_id=3'
+    'QUERY_STRING' => 'r=index/details&pro_id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63381'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460969391.1779
+    'REQUEST_TIME' => 1460969391
+]
+2016-04-18 16:50:14 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#8 [internal function]: frontend\controllers\IndexController->actionDetails()
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#6 [internal function]: frontend\controllers\IndexController->actionDetails()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-18 16:49:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/details'
+    'pro_id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1968'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details&pro_id=3'
+    'QUERY_STRING' => 'r=index/details&pro_id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63383'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460969393.123
+    'REQUEST_TIME' => 1460969393
+]
+2016-04-18 16:50:14 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#8 [internal function]: frontend\controllers\IndexController->actionDetails()
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#6 [internal function]: frontend\controllers\IndexController->actionDetails()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-18 16:49:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/details'
+    'pro_id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1972'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details&pro_id=3'
+    'QUERY_STRING' => 'r=index/details&pro_id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63385'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460969393.248
+    'REQUEST_TIME' => 1460969393
+]
+2016-04-18 16:50:14 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#8 [internal function]: frontend\controllers\IndexController->actionDetails()
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#6 [internal function]: frontend\controllers\IndexController->actionDetails()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-18 16:49:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/details'
+    'pro_id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1988'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details&pro_id=3'
+    'QUERY_STRING' => 'r=index/details&pro_id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63386'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460969393.427
+    'REQUEST_TIME' => 1460969393
+]
+2016-04-18 16:50:14 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#8 [internal function]: frontend\controllers\IndexController->actionDetails()
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#6 [internal function]: frontend\controllers\IndexController->actionDetails()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-18 16:49:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/details'
+    'pro_id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2012'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details&pro_id=3'
+    'QUERY_STRING' => 'r=index/details&pro_id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63387'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460969393.575
+    'REQUEST_TIME' => 1460969393
+]
+2016-04-18 17:06:34 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#8 [internal function]: frontend\controllers\IndexController->actionDetails()
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#6 [internal function]: frontend\controllers\IndexController->actionDetails()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-18 17:06:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/details'
+    'pro_id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1972'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details&pro_id=3'
+    'QUERY_STRING' => 'r=index/details&pro_id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63623'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460970373.151
+    'REQUEST_TIME' => 1460970373
+]
+2016-04-18 17:06:41 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#8 [internal function]: frontend\controllers\IndexController->actionIndex()
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[]')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#12 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#13 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#6 [internal function]: frontend\controllers\IndexController->actionIndex()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[]')
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-18 17:06:20 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2020'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63624'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460970380.9125
+    'REQUEST_TIME' => 1460970380
+]
+2016-04-18 17:09:06 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#8 [internal function]: frontend\controllers\IndexController->actionIndex()
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[]')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#12 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#13 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#6 [internal function]: frontend\controllers\IndexController->actionIndex()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[]')
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-18 17:08:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2020'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63663'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460970525.5658
+    'REQUEST_TIME' => 1460970525
+]
+2016-04-18 17:59:38 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#8 [internal function]: frontend\controllers\IndexController->actionIndex()
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[]')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#12 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#13 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#6 [internal function]: frontend\controllers\IndexController->actionIndex()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[]')
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-18 17:59:17 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1988'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64335'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460973557.3942
+    'REQUEST_TIME' => 1460973557
+]
+2016-04-18 19:00:15 [127.0.0.1][-][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDO::__construct(): MySQL server has gone away' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'PDO::__construc...', 'D:\\day8\\fyb\\rui...', 579, Array)
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#8 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#9 [internal function]: frontend\controllers\IndexController->actionDetails()
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+
+Next exception 'PDOException' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(0): PDO->__construct()
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#8 [internal function]: frontend\controllers\IndexController->actionDetails()
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\day8\fyb\ruipu\frontend\controllers\IndexController.php(50): yii\db\Command->queryOne()
+#6 [internal function]: frontend\controllers\IndexController->actionDetails()
+#7 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 D:\day8\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\day8\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-18 19:00:11 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/details'
+    'pro_id' => '2'
+]
+
+$_COOKIE = [
+    '_csrf' => '06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SJluZFJLZplMVBy36hykAyyZzbXL4aZR\";}'
+    'bdshare_firstime' => '1460957418549'
+    'PHPSESSID' => '9ql5lt0ql2absdb2tmn6b1k840'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1776'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details&pro_id=2'
+    'QUERY_STRING' => 'r=index/details&pro_id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50934'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=06372b6e73ffc2df5adf84c0e23595cfd8bfaf2cec9bf12427f749f55045e008a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SJluZFJLZplMVBy36hykAyyZzbXL4aZR%22%3B%7D; bdshare_firstime=1460957418549; PHPSESSID=9ql5lt0ql2absdb2tmn6b1k840'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460977211.5122
+    'REQUEST_TIME' => 1460977211
+]

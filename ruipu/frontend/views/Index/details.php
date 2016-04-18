@@ -288,7 +288,7 @@ function clear_history_Response(res){
             <p class="shop_number_msg clearfix">
               <span class="fl clo9 wy font12" style="width:70px;text-align:left;_margin-top:10px;">数量</span>
               <span class="fl shop_number">
-                  <input class="shop_sum wy font12" onblur="changePrice();" name="number" id="number" class="text" value="1" title="请输入购买量" type="text">
+                  <input class="shop_sum wy font12" onkeyup="change()" name="number" id="number" class="text" value="1" title="请输入购买量" type="text">
                   <span class="number_add" style="clear:both">
                     <span class="pointer add" class="increase" onclick="goods_add();/*changePrice()*/"></span>
                     <span class="pointer minus" class="decrease" onclick="goods_cut();/*changePrice()*/"></span>
@@ -296,7 +296,7 @@ function clear_history_Response(res){
               </span>
               <span class="wy font12" style="margin: 0 10px 0 35px;">件</span>
               <font id="ECS_GOODS_AMOUNT" class="shop" style="display: none;"></font>&nbsp;&nbsp;
-              <span class="clo9 wy font12" id="max_num">库存 <?php echo $arr['pro_count']?>&nbsp;&nbsp; </span>
+              <span class="clo9 wy font12" id="max_num">库存 <span id='max_count'><?php echo $arr['pro_count']?></span> &nbsp;&nbsp; </span>
               
                 <span class="wx01" style="position: absolute; display: none; z-index: 9990; border: 1px solid #ccc; padding:2px; width: 124px; height: 160px; left: 0px; top: -180px; background: #fff;">
                 <span style="overflow: hidden; text-overflow:ellipsis;white-space:nowrap; width: 124px; word-wrap:normal;display:block; height: 30px; color: #333;">{{$v->s_name}}</span>
@@ -314,12 +314,25 @@ function clear_history_Response(res){
                 num_val.value=Num;
             }
             function goods_add(){
+                var max_count=document.getElementById('max_count').innerText;
                 var num_val=document.getElementById('number');
                 var new_num=num_val.value;
                  if(isNaN(new_num)){jAlert('请输入数字');return false}
                 var Num = parseInt(new_num);
                 Num=Num+1;
+                if(Num > max_count){
+                    return false;
+                }
                 num_val.value=Num;
+                
+            }
+            function change(){
+                var max_count=document.getElementById('max_count').innerText;
+                var number = document.getElementById('number').value;
+                if(parseInt(number) > parseInt(max_count)){
+                    document.getElementById('number').value = max_count;
+                    alert("已超过库存数量");
+                }
             }
         </script>
             </p>                            
@@ -456,12 +469,12 @@ function clear_history_Response(res){
         /**
         * 点选可选属性或改变数量时修改商品价格的函数
         */
-        function changePrice()
-        {
-            var attr = getSelectedAttributes(document.forms['ECS_FORMBUY']);
-            var qty = document.forms['ECS_FORMBUY'].elements['number'].value;
-            Ajax.call('goods.php', 'act=price&id=' + goodsId + '&attr=' + attr + '&number=' + qty, changePriceResponse, 'GET', 'JSON');
-        }
+        // function changePrice()
+        // {
+        //     var attr = getSelectedAttributes(document.forms['ECS_FORMBUY']);
+        //     var qty = document.forms['ECS_FORMBUY'].elements['number'].value;
+        //     // Ajax.call('goods.php', 'act=price&id=' + goodsId + '&attr=' + attr + '&number=' + qty, changePriceResponse, 'GET', 'JSON');
+        // }
         /**
         * 接收返回的信息
         */
@@ -931,55 +944,6 @@ function catbox_hidden(elfm)
     },10)
 }
 </script>
-    <link href="indexs/css/wb_Css.css" type="text/css" rel="stylesheet"/>
-    <div id="LoginBox" class="Show_K">
-        <div class="Show_Box">
-            <div class="Show_Top">
-                <div class="Show_Top1">美食商城</div>
-                <div class="Show_Top2">X</div>
-            </div>
-            <div class="Show_Main">
-                <div class="Login1">亲，请登陆！</div>
-                <div class="Login2">用户名/手机号/邮箱：</div>
-                <div class="Login3">
-                    <input id="username" class="Login_Text" type="text" placeholder="输入用户名/手机号/邮箱" value="" maxlength="50" />
-                </div>
-                <div class="Login2">密码：</div>
-                <div class="Login3">
-                    <input id="password" class="Login_Text" type="password" placeholder="密码" value="" maxlength="20" />
-                </div>
-                                <input class="Login_Submit" type="button" value="登录" onclick="myCheckLogin()" />
-                <div class="Login4">
-                    <input type="hidden" id="goods_id" value="" />
-                    <input class="Login4_1" type="checkbox" id="remember" value=1 />
-                    <div class="Login4_2">记住用户名</div>
-                    <div class="Login4_3">
-                        <a class="Login4_3_Link" href="user.php?act=register">免费注册</a>
-                        <div class="Login4_3_FG">|</div>
-                        <a class="Login4_3_Link" href="find_pwd.php">忘记密码</a>
-                    </div>
-                </div>
-                <div class="Login5">
-                        <div class="denglubaidu" id="denglubaidu" style="width:100%;">
-<script type="text/javascript" id="bd_soc_login_boot" src=""></script>
-<script type="text/javascript">
-(function(){
-var t = new Date().getTime(),
-  script = document.getElementById("bd_soc_login_boot"),
-  redirect_uri = encodeURIComponent("http://kshop.abcd.com/denglu.php?dtype=baidu"),
-  domid = "denglubaidu",
-  src = "http://openapi.baidu.com/social/oauth/2.0/connect/login?redirect_uri=" + redirect_uri + "&domid=" + domid + "&client_type=web&response_type=code&media_types=sinaweibo%2Cqqdenglu%2Cbaidu%2Cqqweibo%2Ckaixin%2Crenren&size=-1&button_type=4&client_id=SH68XBbvgZsskQiHPcUZN4U5&view=embedded&t=" + t;
-script.src = src;
-})();
-</script>
-                        </div>
-                </div>
-            </div>
-            <div class="Show_Box_BG"></div>
-        </div>
-        <div class="Show_BG"></div>
-    </div>
-   
      <script type="text/javascript">
             $(
                 function(){
