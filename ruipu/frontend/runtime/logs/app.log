@@ -3350,3 +3350,1684 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1460946022.9323
     'REQUEST_TIME' => 1460946022
 ]
+2016-04-18 10:26:21 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php:9
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php(9): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\WWW\\fyb\\ruip...', 9, Array)
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\WWW\\fyb\\ruip...')
+#2 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\WWW\\fyb\\ruip...', Array)
+#3 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(388): yii\base\View->renderFile('D:\\WWW\\fyb\\ruip...', Array, Object(yii\gii\controllers\DefaultController))
+#4 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(374): yii\base\Controller->renderContent('         <li><a...')
+#5 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(504): yii\base\Controller->render('//layouts/nav')
+#6 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#7 [internal function]: yii\base\Controller->__construct('default', Object(yii\gii\Module), Array)
+#8 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#9 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\gii\\control...', Array, Array)
+#10 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('yii\\gii\\control...', Array)
+#11 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('yii\\gii\\control...', Array)
+#12 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('default')
+#13 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(513): yii\base\Module->createController('')
+#14 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('gii')
+#15 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('gii', Array)
+#16 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2016-04-18 10:26:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    'menuClosed' => '#user_menu_loan#'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1916'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=gii'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '55787'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; menuClosed=%23user_menu_loan%23; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460946380.6948
+    'REQUEST_TIME' => 1460946380
+]
+2016-04-18 10:26:21 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 10:26:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    'menuClosed' => '#user_menu_loan#'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1916'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=gii'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '55787'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; menuClosed=%23user_menu_loan%23; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460946380.6948
+    'REQUEST_TIME' => 1460946380
+]
+2016-04-18 10:53:09 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php:9
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-gii\views\layouts\generator.php(9): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\WWW\\fyb\\ruip...', 9, Array)
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\WWW\\fyb\\ruip...')
+#2 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\WWW\\fyb\\ruip...', Array)
+#3 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(388): yii\base\View->renderFile('D:\\WWW\\fyb\\ruip...', Array, Object(yii\gii\controllers\DefaultController))
+#4 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(374): yii\base\Controller->renderContent('         <li><a...')
+#5 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(504): yii\base\Controller->render('//layouts/nav')
+#6 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#7 [internal function]: yii\base\Controller->__construct('default', Object(yii\gii\Module), Array)
+#8 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#9 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\gii\\control...', Array, Array)
+#10 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('yii\\gii\\control...', Array)
+#11 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('yii\\gii\\control...', Array)
+#12 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('default')
+#13 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(513): yii\base\Module->createController('')
+#14 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('gii')
+#15 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('gii', Array)
+#16 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2016-04-18 10:53:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    'menuClosed' => '#user_menu_loan#'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '400'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=gii'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56308'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; menuClosed=%23user_menu_loan%23; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460947988.5187
+    'REQUEST_TIME' => 1460947988
+]
+2016-04-18 10:53:09 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 10:53:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    'menuClosed' => '#user_menu_loan#'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '400'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=gii'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56308'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; menuClosed=%23user_menu_loan%23; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460947988.5187
+    'REQUEST_TIME' => 1460947988
+]
+2016-04-18 11:21:41 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: userinfo' in D:\WWW\fyb\ruipu\frontend\views\Index\personalpwd.php:115
+Stack trace:
+#0 D:\WWW\fyb\ruipu\frontend\views\Index\personalpwd.php(115): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\WWW\\fyb\\ruip...', 115, Array)
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\WWW\\fyb\\ruip...')
+#2 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\WWW\\fyb\\ruip...', Array)
+#3 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\WWW\\fyb\\ruip...', Array, Object(frontend\controllers\IndexController))
+#4 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('personalpwd', Array, Object(frontend\controllers\IndexController))
+#5 D:\WWW\fyb\ruipu\frontend\controllers\IndexController.php(71): yii\base\Controller->render('personalpwd')
+#6 [internal function]: frontend\controllers\IndexController->actionUser_center()
+#7 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('user_center', Array)
+#10 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/user_cent...', Array)
+#11 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-18 11:21:40 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][info][application] $_GET = [
+    'r' => 'index/user_center'
+    'm' => 'personal_pwd'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1860'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'QUERY_STRING' => 'r=index/user_center&m=personal_pwd'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56857'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460949700.3236
+    'REQUEST_TIME' => 1460949700
+]
+2016-04-18 11:21:41 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 11:21:40 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][info][application] $_GET = [
+    'r' => 'index/user_center'
+    'm' => 'personal_pwd'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1860'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'QUERY_STRING' => 'r=index/user_center&m=personal_pwd'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56857'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460949700.3236
+    'REQUEST_TIME' => 1460949700
+]
+2016-04-18 11:27:18 [127.0.0.1][-][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDO::__construct(): MySQL server has gone away' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'PDO::__construc...', 'D:\\WWW\\fyb\\ruip...', 579, Array)
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#2 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#3 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#4 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#5 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#6 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#7 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#8 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(500): yii\db\Command->queryAll()
+#9 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#10 [internal function]: yii\base\Controller->__construct('<span class="st...', Object(yii\web\Application), '[]')
+#11 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs('[<span class="s...')
+#12 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('<span class="st...', '[<span class="s...', '[]')
+#13 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('<span class="st...', '[<span class="s...')
+#14 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('<span class="st...', '[<span class="s...')
+#15 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('<span class="st...')
+#16 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('<span class="st...')
+#17 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#18 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+
+Next exception 'PDOException' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(0): PDO->__construct()
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(500): yii\db\Command->queryAll()
+#8 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#9 [internal function]: yii\base\Controller->__construct('<span class="st...', Object(yii\web\Application), '[]')
+#10 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs('[<span class="s...')
+#11 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('<span class="st...', '[<span class="s...', '[]')
+#12 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('<span class="st...', '[<span class="s...')
+#13 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('<span class="st...', '[<span class="s...')
+#14 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('<span class="st...')
+#15 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('<span class="st...')
+#16 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#17 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#19 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(500): yii\db\Command->queryAll()
+#6 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#7 [internal function]: yii\base\Controller->__construct('<span class="st...', Object(yii\web\Application), '[]')
+#8 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs('[<span class="s...')
+#9 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('<span class="st...', '[<span class="s...', '[]')
+#10 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('<span class="st...', '[<span class="s...')
+#11 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('<span class="st...', '[<span class="s...')
+#12 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('<span class="st...')
+#13 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('<span class="st...')
+#14 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#15 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#17 {main}
+Additional Information:
+
+2016-04-18 11:27:14 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/user_center'
+    'm' => 'personal_pwd'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1860'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'QUERY_STRING' => 'r=index/user_center&m=personal_pwd'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56963'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460950034.3817
+    'REQUEST_TIME' => 1460950034
+]
+2016-04-18 11:27:18 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#6 {main}
+2016-04-18 11:27:14 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/user_center'
+    'm' => 'personal_pwd'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1860'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'QUERY_STRING' => 'r=index/user_center&m=personal_pwd'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56963'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460950034.3817
+    'REQUEST_TIME' => 1460950034
+]
+2016-04-18 13:29:15 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.php?r=index/user_center".' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index.php?r=ind...', Array)
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-18 13:29:14 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][info][application] $_GET = [
+    'r' => 'index.php?r=index/user_center'
+    'm' => 'personal_pwd_pro'
+]
+
+$_POST = [
+    'old_pwd' => 'qwe'
+    'new_pwd' => '123'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index.php?r=index/user_center&m=personal_pwd_pro'
+    'QUERY_STRING' => 'r=index.php?r=index/user_center&m=personal_pwd_pro'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58843'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://www.study.com'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '23'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957354.9525
+    'REQUEST_TIME' => 1460957354
+]
+2016-04-18 13:29:19 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.php?r=index/user_center".' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index.php?r=ind...', Array)
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-18 13:29:19 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][info][application] $_GET = [
+    'r' => 'index.php?r=index/user_center'
+    'm' => 'personal_pwd_pro'
+]
+
+$_POST = [
+    'old_pwd' => 'qwe'
+    'new_pwd' => '123'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1916'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index.php?r=index/user_center&m=personal_pwd_pro'
+    'QUERY_STRING' => 'r=index.php?r=index/user_center&m=personal_pwd_pro'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58848'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://www.study.com'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '23'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957359.0607
+    'REQUEST_TIME' => 1460957359
+]
+2016-04-18 13:29:17 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.php?r=index/user_center".' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index.php?r=ind...', Array)
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-18 13:29:17 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][info][application] $_GET = [
+    'r' => 'index.php?r=index/user_center'
+    'm' => 'personal_pwd_pro'
+]
+
+$_POST = [
+    'old_pwd' => 'qwe'
+    'new_pwd' => '123'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index.php?r=index/user_center&m=personal_pwd_pro'
+    'QUERY_STRING' => 'r=index.php?r=index/user_center&m=personal_pwd_pro'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58843'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://www.study.com'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '23'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957357.8916
+    'REQUEST_TIME' => 1460957357
+]
+2016-04-18 13:29:30 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.php?r=index/user_center".' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index.php?r=ind...', Array)
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-18 13:29:30 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][info][application] $_GET = [
+    'r' => 'index.php?r=index/user_center'
+    'm' => 'personal_pwd_pro'
+]
+
+$_POST = [
+    'old_pwd' => 'qwe'
+    'new_pwd' => '123'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index.php?r=index/user_center&m=personal_pwd_pro'
+    'QUERY_STRING' => 'r=index.php?r=index/user_center&m=personal_pwd_pro'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58851'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://www.study.com'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '23'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957370.9114
+    'REQUEST_TIME' => 1460957370
+]
+2016-04-18 13:30:32 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.php?r=index/personal_pwd_pro".' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index.php?r=ind...', Array)
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-18 13:30:32 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][info][application] $_GET = [
+    'r' => 'index.php?r=index/personal_pwd_pro'
+]
+
+$_POST = [
+    'old_pwd' => 'qwe'
+    'new_pwd' => '123'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index.php?r=index/personal_pwd_pro'
+    'QUERY_STRING' => 'r=index.php?r=index/personal_pwd_pro'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58869'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://www.study.com'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '23'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957432.1099
+    'REQUEST_TIME' => 1460957432
+]
+2016-04-18 13:30:32 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.php?r=index/personal_pwd_pro".' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index.php?r=ind...', Array)
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-18 13:30:32 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][info][application] $_GET = [
+    'r' => 'index.php?r=index/personal_pwd_pro'
+]
+
+$_POST = [
+    'old_pwd' => 'qwe'
+    'new_pwd' => '123'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1916'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index.php?r=index/personal_pwd_pro'
+    'QUERY_STRING' => 'r=index.php?r=index/personal_pwd_pro'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58864'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://www.study.com'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '23'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957432.0809
+    'REQUEST_TIME' => 1460957432
+]
+2016-04-18 13:31:06 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.php?r=index/personal_pwd_pro".' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index.php?r=ind...', Array)
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-18 13:31:06 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][info][application] $_GET = [
+    'r' => 'index.php?r=index/personal_pwd_pro'
+]
+
+$_POST = [
+    'old_pwd' => '123'
+    'new_pwd' => '123'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index.php?r=index/personal_pwd_pro'
+    'QUERY_STRING' => 'r=index.php?r=index/personal_pwd_pro'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58880'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://www.study.com'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '23'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957466.7779
+    'REQUEST_TIME' => 1460957466
+]
+2016-04-18 13:31:06 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.php?r=index/personal_pwd_pro".' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index.php?r=ind...', Array)
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-18 13:31:06 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][info][application] $_GET = [
+    'r' => 'index.php?r=index/personal_pwd_pro'
+]
+
+$_POST = [
+    'old_pwd' => '123'
+    'new_pwd' => '123'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1916'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index.php?r=index/personal_pwd_pro'
+    'QUERY_STRING' => 'r=index.php?r=index/personal_pwd_pro'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58881'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://www.study.com'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '23'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957466.8119
+    'REQUEST_TIME' => 1460957466
+]
+2016-04-18 13:32:35 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('personal_pwd_pr...', Array)
+#2 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/personal_...', Array)
+#3 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2016-04-18 13:32:34 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][info][application] $_GET = [
+    'r' => 'index/personal_pwd_pro'
+]
+
+$_POST = [
+    'old_pwd' => '123'
+    'new_pwd' => '456'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1916'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/personal_pwd_pro'
+    'QUERY_STRING' => 'r=index/personal_pwd_pro'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58904'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://www.study.com'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '23'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957554.6839
+    'REQUEST_TIME' => 1460957554
+]
+2016-04-18 13:32:35 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\BadRequestHttpException))
+#7 {main}
+2016-04-18 13:32:34 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][info][application] $_GET = [
+    'r' => 'index/personal_pwd_pro'
+]
+
+$_POST = [
+    'old_pwd' => '123'
+    'new_pwd' => '456'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1916'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/personal_pwd_pro'
+    'QUERY_STRING' => 'r=index/personal_pwd_pro'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58904'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://www.study.com'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '23'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957554.6839
+    'REQUEST_TIME' => 1460957554
+]
+2016-04-18 13:32:35 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(151): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('personal_pwd_pr...', Array)
+#2 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/personal_...', Array)
+#3 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2016-04-18 13:32:34 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][info][application] $_GET = [
+    'r' => 'index/personal_pwd_pro'
+]
+
+$_POST = [
+    'old_pwd' => '123'
+    'new_pwd' => '456'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/personal_pwd_pro'
+    'QUERY_STRING' => 'r=index/personal_pwd_pro'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58902'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://www.study.com'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '23'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957554.7009
+    'REQUEST_TIME' => 1460957554
+]
+2016-04-18 13:32:35 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\BadRequestHttpException))
+#7 {main}
+2016-04-18 13:32:34 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][info][application] $_GET = [
+    'r' => 'index/personal_pwd_pro'
+]
+
+$_POST = [
+    'old_pwd' => '123'
+    'new_pwd' => '456'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/personal_pwd_pro'
+    'QUERY_STRING' => 'r=index/personal_pwd_pro'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58902'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://www.study.com'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '23'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957554.7009
+    'REQUEST_TIME' => 1460957554
+]
+2016-04-18 13:33:23 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/personal_pwd_pro' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php:124
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('personal_pwd_pr...', Array)
+#1 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/personal_...', Array)
+#2 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\WWW\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-18 13:33:22 [127.0.0.1][-][d45tknl4q5204regqu3sad4f54][info][application] $_GET = [
+    'r' => 'index/personal_pwd_pro'
+]
+
+$_POST = [
+    'old_pwd' => '123'
+    'new_pwd' => '345'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    '_csrf' => '01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz\";}'
+    'PHPSESSID' => 'd45tknl4q5204regqu3sad4f54'
+    'menuClosed' => ''
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/personal_pwd_pro'
+    'QUERY_STRING' => 'r=index/personal_pwd_pro'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58931'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; _csrf=01dbeb3e53baba43901f38309a9e65921b6f51cd71de41deb06fa9c0dd2f30faa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Pc3foQxSVLLOFN53X9AM9gf3nPXcxhdz%22%3B%7D; PHPSESSID=d45tknl4q5204regqu3sad4f54; menuClosed='
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.study.com/fyb/ruipu/frontend/web/index.php?r=index/user_center&m=personal_pwd'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://www.study.com'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '23'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957602.7386
+    'REQUEST_TIME' => 1460957602
+]

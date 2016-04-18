@@ -15,13 +15,23 @@
                 <h3 class="t1">
                     我的个人天地<span title="折叠"></span></h3>
                 <ul class="sub">
-                    <li><a  href="index.php?r=index/user_center&m=">个人主页</a></li>
+                    <li><a href="index.php?r=index/user_center&m=">个人主页</a></li>
                     <li><a class="current" href="index.php?r=index/user_center&m=personal_data">个人资料</a></li>
-
                     <li><a href="">密码设置</a></li>
                     <li><a href="">收货地址</a></li>
                     <li><a href="">我的消息</a></li>
                     <li><a href="">我的微留言</a></li>
+                </ul>
+            </li>
+
+            <li class="item" id="user_menu_invest" name="user_menu_invest">
+                <h3 class="t4">
+                    我的订单<span title="折叠"></span></h3>
+                <ul class="sub">
+                    <li><a href="">所有订单</a></li>
+                    <li><a href="">已支付</a></li>
+                    <li><a href="">未支付</a></li>
+                    <li><a href="">失效订单</a></li>
                 </ul>
             </li>
             <li class="item" id="user_menu_funds" name="user_menu_funds">
@@ -33,17 +43,16 @@
 
                 </ul>
             </li>
-            <li class="item" id="user_menu_invest" name="user_menu_invest">
-                <h3 class="t4">
-                    我的订单<span title="折叠"></span></h3>
+            <li class="item" id="user_menu_loan" name="user_menu_loan">
+                <h3 class="t3">
+                    我的优惠券<a name="user_login"></a><span title="折叠"></span></h3>
                 <ul class="sub">
-                    <li><a href="我的投资.htm">所有订单</a></li>
-                    <li><a href="自动投标.htm">已支付</a></li>
-                    <li><a href="理财统计.htm">未支付</a></li>
-                </ul>
+                    <li><a  href="">全部优惠券</a></li>
+
+                    <li><a href="">已过期</a></li></ul>
             </li>
 
-        </ul>
+  </ul>
         <script type="text/javascript">
             var menuClosed = Ops.getCookie('menuClosed');
 

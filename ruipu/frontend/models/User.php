@@ -87,4 +87,15 @@ class User extends \yii\db\ActiveRecord
          $arr = $db->createCommand("select * from user u join exercise as ex on u.u_id=ex.u_id join doctor as doc on ex.d_id=doc.doc_id where u.u_name = '$user_name'")->queryAll();
          return $arr;
      }
+     /*
+      * 修改密码
+      * */
+      public function pwd_update(){
+          $old_pwd = $_GET['old_pwd'];
+          $new_pwd = $_GET['new_pwd'];
+          $user_name = '张晨阳';
+          $arr = $this->find()->where("u_name = '$user_name'")->asArray()->one();
+
+
+      }
 }
