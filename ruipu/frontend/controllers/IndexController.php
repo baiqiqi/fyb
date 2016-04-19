@@ -51,7 +51,11 @@ class IndexController extends Controller
     	$arr=\Yii::$app->db->createCommand($sql)->queryOne();
     	return $this->render('details',['arr'=>$arr]); 
 	}
-	//用户中心
+	/*
+	 * 用户中心
+	 * @author：周晶晶
+	 *
+	 * */
 	public  function actionUser_center(){
 		$this->layout="header";
 		$model = new User();
@@ -88,6 +92,10 @@ class IndexController extends Controller
 		}
 
 	}
+	/*
+	 * 执行密码设置
+	 * @author 周晶晶
+	 * */
     public  function actionPersonal_pwd_pro(){
       $model = new User();
       $info = $model->pwd_update();
