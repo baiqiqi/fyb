@@ -7432,3 +7432,2746 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1460983320.8014
     'REQUEST_TIME' => 1460983320
 ]
+2016-04-18 13:12:12 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in D:\chongci\fyb\ruipu\frontend\views\check\pay.php:42
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\views\check\pay.php(42): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\chongci\\fyb\\...', 42, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(frontend\controllers\CheckController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('pay', Array, Object(frontend\controllers\CheckController))
+#5 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(42): yii\base\Controller->render('pay')
+#6 [internal function]: frontend\controllers\CheckController->actionPay()
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-18 13:12:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '56752'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460956332.147
+    'REQUEST_TIME' => 1460956332
+]
+2016-04-18 13:12:12 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-18 13:12:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '56752'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460956332.147
+    'REQUEST_TIME' => 1460956332
+]
+2016-04-18 13:23:30 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in D:\chongci\fyb\ruipu\frontend\views\check\pay.php:42
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\views\check\pay.php(42): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\chongci\\fyb\\...', 42, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(frontend\controllers\CheckController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('pay', Array, Object(frontend\controllers\CheckController))
+#5 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(54): yii\base\Controller->render('pay', Array)
+#6 [internal function]: frontend\controllers\CheckController->actionPay()
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-18 13:23:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '57775'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957010.001
+    'REQUEST_TIME' => 1460957010
+]
+2016-04-18 13:23:30 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 13:23:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '57775'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957010.001
+    'REQUEST_TIME' => 1460957010
+]
+2016-04-18 13:25:56 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: rec_name' in D:\chongci\fyb\ruipu\frontend\views\check\pay.php:42
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\views\check\pay.php(42): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\chongci\\fyb\\...', 42, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(frontend\controllers\CheckController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('pay', Array, Object(frontend\controllers\CheckController))
+#5 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(54): yii\base\Controller->render('pay', Array)
+#6 [internal function]: frontend\controllers\CheckController->actionPay()
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-18 13:25:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '58136'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957155.654
+    'REQUEST_TIME' => 1460957155
+]
+2016-04-18 13:25:56 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 13:25:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '58136'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957155.654
+    'REQUEST_TIME' => 1460957155
+]
+2016-04-18 13:31:01 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: rec_name' in D:\chongci\fyb\ruipu\frontend\views\check\pay.php:42
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\views\check\pay.php(42): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\chongci\\fyb\\...', 42, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(frontend\controllers\CheckController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('pay', Array, Object(frontend\controllers\CheckController))
+#5 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(55): yii\base\Controller->render('pay', Array)
+#6 [internal function]: frontend\controllers\CheckController->actionPay()
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-18 13:31:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '58728'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957460.867
+    'REQUEST_TIME' => 1460957460
+]
+2016-04-18 13:31:01 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 13:31:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '58728'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957460.867
+    'REQUEST_TIME' => 1460957460
+]
+2016-04-18 13:33:53 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: rec_id' in D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php:49
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(49): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\chongci\\fyb\\...', 49, Array)
+#1 [internal function]: frontend\controllers\CheckController->actionPay()
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-18 13:33:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '59048'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957633.073
+    'REQUEST_TIME' => 1460957633
+]
+2016-04-18 13:33:53 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-18 13:33:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '59048'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957633.073
+    'REQUEST_TIME' => 1460957633
+]
+2016-04-18 13:36:49 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: rec_name' in D:\chongci\fyb\ruipu\frontend\views\check\pay.php:48
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\views\check\pay.php(48): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\chongci\\fyb\\...', 48, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(frontend\controllers\CheckController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('pay', Array, Object(frontend\controllers\CheckController))
+#5 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(55): yii\base\Controller->render('pay', Array)
+#6 [internal function]: frontend\controllers\CheckController->actionPay()
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-18 13:36:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '59398'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957809.443
+    'REQUEST_TIME' => 1460957809
+]
+2016-04-18 13:36:49 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 13:36:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '59398'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460957809.443
+    'REQUEST_TIME' => 1460957809
+]
+2016-04-18 13:49:04 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'main(): Failed opening required 'alipay.config.php' (include_path='.;C:\php\pear')' in D:\chongci\fyb\ruipu\frontend\views\check\alipay.php:24
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-18 13:49:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=check/pay'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '60871'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460958544.032
+    'REQUEST_TIME' => 1460958544
+]
+2016-04-18 13:55:04 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: no' in D:\chongci\fyb\ruipu\frontend\views\check\alipay.php:26
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\views\check\alipay.php(26): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\chongci\\fyb\\...', 26, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(frontend\controllers\CheckController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('alipay', Array, Object(frontend\controllers\CheckController))
+#5 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(76): yii\base\Controller->render('alipay')
+#6 [internal function]: frontend\controllers\CheckController->actionAlipay()
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('alipay', Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/alipay', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-18 13:55:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=check/pay'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '61668'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460958904.627
+    'REQUEST_TIME' => 1460958904
+]
+2016-04-18 13:55:04 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-18 13:55:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=check/pay'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '61668'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460958904.627
+    'REQUEST_TIME' => 1460958904
+]
+2016-04-18 14:30:52 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: no' in D:\chongci\fyb\ruipu\frontend\views\check\alipay.php:26
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\views\check\alipay.php(26): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\chongci\\fyb\\...', 26, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(frontend\controllers\CheckController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('alipay', Array, Object(frontend\controllers\CheckController))
+#5 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(79): yii\base\Controller->render('alipay')
+#6 [internal function]: frontend\controllers\CheckController->actionAlipay()
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('alipay', Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/alipay', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-18 14:30:52 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '49505'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460961052.498
+    'REQUEST_TIME' => 1460961052
+]
+2016-04-18 14:30:52 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-18 14:30:52 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '49505'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460961052.498
+    'REQUEST_TIME' => 1460961052
+]
+2016-04-18 14:33:23 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: no' in D:\chongci\fyb\ruipu\frontend\views\check\alipay.php:26
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\views\check\alipay.php(26): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\chongci\\fyb\\...', 26, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(frontend\controllers\CheckController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('alipay', Array, Object(frontend\controllers\CheckController))
+#5 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(79): yii\base\Controller->render('alipay')
+#6 [internal function]: frontend\controllers\CheckController->actionAlipay()
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('alipay', Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/alipay', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-18 14:33:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=check/pay'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '49844'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460961203.414
+    'REQUEST_TIME' => 1460961203
+]
+2016-04-18 14:33:23 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-18 14:33:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=check/pay'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '49844'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460961203.414
+    'REQUEST_TIME' => 1460961203
+]
+2016-04-18 15:18:47 [127.0.0.1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Object of class frontend\yii2_alipay\AlipayPay could not be converted to string' in D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php:96
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(96): yii\base\ErrorHandler->handleError(4096, 'Object of class...', 'D:\\chongci\\fyb\\...', 96, Array)
+#1 [internal function]: frontend\controllers\CheckController->actionAlipay()
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('alipay', Array)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/alipay', Array)
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-18 15:18:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=check/pay'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '55302'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460963927.663
+    'REQUEST_TIME' => 1460963927
+]
+2016-04-18 15:18:47 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-18 15:18:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=check/pay'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '55302'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460963927.663
+    'REQUEST_TIME' => 1460963927
+]
+2016-04-18 15:18:50 [127.0.0.1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Object of class frontend\yii2_alipay\AlipayPay could not be converted to string' in D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php:96
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(96): yii\base\ErrorHandler->handleError(4096, 'Object of class...', 'D:\\chongci\\fyb\\...', 96, Array)
+#1 [internal function]: frontend\controllers\CheckController->actionAlipay()
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('alipay', Array)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/alipay', Array)
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-18 15:18:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=check/pay'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '55303'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460963930.073
+    'REQUEST_TIME' => 1460963930
+]
+2016-04-18 15:18:50 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-18 15:18:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=check/pay'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '55303'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460963930.073
+    'REQUEST_TIME' => 1460963930
+]
+2016-04-18 15:37:19 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: order_id' in D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php:97
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(97): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\chongci\\fyb\\...', 97, Array)
+#1 [internal function]: frontend\controllers\CheckController->actionAlipay()
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('alipay', Array)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/alipay', Array)
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-18 15:37:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '57937'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965039.93
+    'REQUEST_TIME' => 1460965039
+]
+2016-04-18 15:37:20 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-18 15:37:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '57937'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965039.93
+    'REQUEST_TIME' => 1460965039
+]
+2016-04-18 15:37:36 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 5 for frontend\yii2_alipay\AlipayPay::requestPay(), called in D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php on line 97 and defined' in D:\chongci\fyb\ruipu\frontend\yii2_alipay\AlipayPay.php:71
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\yii2_alipay\AlipayPay.php(71): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', 'D:\\chongci\\fyb\\...', 71, Array)
+#1 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(97): frontend\yii2_alipay\AlipayPay->requestPay('\xE5\x85\x83\xE5\xAE\x9D\xE5\x85\x85\xE5\x80\xBC', 0.01, '\xE5\x85\x83\xE5\xAE\x9D\xE5\x85\x85\xE5\x80\xBC\xE6\xB5\x8B...', 'http://www.phpm...')
+#2 [internal function]: frontend\controllers\CheckController->actionAlipay()
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('alipay', Array)
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/alipay', Array)
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-04-18 15:37:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '57982'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965056.12
+    'REQUEST_TIME' => 1460965056
+]
+2016-04-18 15:37:36 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-18 15:37:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '57982'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965056.12
+    'REQUEST_TIME' => 1460965056
+]
+2016-04-18 15:47:02 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\models\Receipt::selectall()' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(51): yii\base\Component->__call('selectall', Array)
+#1 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(51): app\models\Receipt->selectall()
+#2 [internal function]: frontend\controllers\CheckController->actionPay()
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-04-18 15:47:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '58883'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965622.596
+    'REQUEST_TIME' => 1460965622
+]
+2016-04-18 15:47:02 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownMethodException))
+#6 {main}
+2016-04-18 15:47:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '58883'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965622.596
+    'REQUEST_TIME' => 1460965622
+]
+2016-04-18 15:47:57 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\models\Receipt::selectall()' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(51): yii\base\Component->__call('selectall', Array)
+#1 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(51): app\models\Receipt->selectall()
+#2 [internal function]: frontend\controllers\CheckController->actionPay()
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-04-18 15:47:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '58953'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965677.197
+    'REQUEST_TIME' => 1460965677
+]
+2016-04-18 15:47:57 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownMethodException))
+#6 {main}
+2016-04-18 15:47:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '58953'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965677.197
+    'REQUEST_TIME' => 1460965677
+]
+2016-04-18 15:47:58 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\models\Receipt::selectall()' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(51): yii\base\Component->__call('selectall', Array)
+#1 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(51): app\models\Receipt->selectall()
+#2 [internal function]: frontend\controllers\CheckController->actionPay()
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-04-18 15:47:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '58963'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965678.51
+    'REQUEST_TIME' => 1460965678
+]
+2016-04-18 15:47:58 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownMethodException))
+#6 {main}
+2016-04-18 15:47:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '58963'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965678.51
+    'REQUEST_TIME' => 1460965678
+]
+2016-04-18 15:48:15 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\models\Receipt::selectall()' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(51): yii\base\Component->__call('selectall', Array)
+#1 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(51): app\models\Receipt->selectall()
+#2 [internal function]: frontend\controllers\CheckController->actionPay()
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-04-18 15:48:15 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '58993'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965695.16
+    'REQUEST_TIME' => 1460965695
+]
+2016-04-18 15:48:15 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownMethodException))
+#6 {main}
+2016-04-18 15:48:15 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '58993'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965695.16
+    'REQUEST_TIME' => 1460965695
+]
+2016-04-18 15:48:51 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\models\Receipt::selectall()' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(51): yii\base\Component->__call('selectall', Array)
+#1 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(51): app\models\Receipt->selectall()
+#2 [internal function]: frontend\controllers\CheckController->actionPay()
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-04-18 15:48:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '59014'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965731.534
+    'REQUEST_TIME' => 1460965731
+]
+2016-04-18 15:48:51 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownMethodException))
+#6 {main}
+2016-04-18 15:48:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '59014'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965731.534
+    'REQUEST_TIME' => 1460965731
+]
+2016-04-18 15:49:01 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\models\Receipt::selectall()' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(51): yii\base\Component->__call('selectall', Array)
+#1 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(51): app\models\Receipt->selectall()
+#2 [internal function]: frontend\controllers\CheckController->actionPay()
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-04-18 15:49:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '59016'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965741.613
+    'REQUEST_TIME' => 1460965741
+]
+2016-04-18 15:49:01 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownMethodException))
+#6 {main}
+2016-04-18 15:49:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '59016'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460965741.613
+    'REQUEST_TIME' => 1460965741
+]
+2016-04-18 16:01:10 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$enableCsrfValidation' (T_VARIABLE), expecting function (T_FUNCTION)' in D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php:86
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-18 16:01:10 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '59990'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460966470.747
+    'REQUEST_TIME' => 1460966470
+]
+2016-04-18 19:10:02 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: u_name' in D:\chongci\fyb\ruipu\frontend\views\check\pay.php:49
+Stack trace:
+#0 D:\chongci\fyb\ruipu\frontend\views\check\pay.php(49): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\chongci\\fyb\\...', 49, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(frontend\controllers\CheckController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('pay', Array, Object(frontend\controllers\CheckController))
+#5 D:\chongci\fyb\ruipu\frontend\controllers\CheckController.php(60): yii\base\Controller->render('pay', Array)
+#6 [internal function]: frontend\controllers\CheckController->actionPay()
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/pay', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\chongci\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-18 19:10:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '54707'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460977801.433
+    'REQUEST_TIME' => 1460977801
+]
+2016-04-18 19:10:02 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-18 19:10:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '54707'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460977801.433
+    'REQUEST_TIME' => 1460977801
+]
+2016-04-18 21:12:05 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\chongci\fyb\ruipu\frontend\yii2_alipay\AlipayPay.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-18 21:12:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '53257'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460985125.296
+    'REQUEST_TIME' => 1460985125
+]
+2016-04-18 21:12:13 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\chongci\fyb\ruipu\frontend\yii2_alipay\AlipayPay.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-18 21:12:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '53272'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460985133.672
+    'REQUEST_TIME' => 1460985133
+]
+2016-04-18 21:12:38 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\chongci\fyb\ruipu\frontend\yii2_alipay\AlipaySubmit.php:15
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-18 21:12:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '53280'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460985157.976
+    'REQUEST_TIME' => 1460985157
+]
+2016-04-18 21:13:00 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\chongci\fyb\ruipu\frontend\yii2_alipay\AlipayCore.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-18 21:13:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/alipay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'ivgfblcmmijh8lleovuefn6kb1'
+    '_csrf' => '16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; menuClosed=%23user_menu_loan%23; PHPSESSID=ivgfblcmmijh8lleovuefn6kb1; _csrf=16104fa55dca1d3d3aaa8e83ec07a4109b6fd9b2c3c3e5aa1d98c833b7a8e78ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fTQNRACa6Asj_DwHUOOs7jYtFu9a_dKt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '53293'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/alipay'
+    'REQUEST_URI' => '/index.php?r=check/alipay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460985180.04
+    'REQUEST_TIME' => 1460985180
+]

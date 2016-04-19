@@ -53,6 +53,17 @@ class Receipt extends \yii\db\ActiveRecord
             'u_id' => 'U ID',
         ];
     }
+
+    /*
+    * 赵思敏
+    * 根据用户id查询数据
+    */
+
+    public function selectall(){
+        $sql = "select * from receipt inner join user on receipt.u_id=user.u_id ";
+        return  $info = \Yii::$app -> db -> createCommand($sql)->queryAll();
+    }            
+    }
     /*
      *获取用户的收货地址
      * */
