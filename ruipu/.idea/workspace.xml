@@ -29,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.216475">
-              <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+            <state vertical-scroll-proportion="-1.21875">
+              <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
               <folding>
                 <element signature="e#86#109#0#PHP" expanded="true" />
                 <marker date="1461028235281" expanded="true" signature="671:692" placeholder="select * fro..product..." />
@@ -44,12 +44,34 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="personaldata.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/views/Index/personaldata.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40229884">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Receipt.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/models/Receipt.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="66" column="69" selection-start-line="66" selection-start-column="69" selection-end-line="66" selection-end-column="69" />
-              <folding />
+              <caret line="77" column="69" selection-start-line="77" selection-start-column="69" selection-end-line="77" selection-end-column="69" />
+              <folding>
+                <marker date="1461028327083" expanded="true" signature="43:274" placeholder=" This is the model class for table &quot;receipt&quot;. ..." />
+                <marker date="1461028327083" expanded="true" signature="319:1843" placeholder="{...}" />
+                <marker date="1461028327083" expanded="true" signature="329:354" placeholder=" @inheritdoc ..." />
+                <marker date="1461028327083" expanded="true" signature="395:433" placeholder="{...}" />
+                <marker date="1461028327083" expanded="true" signature="442:467" placeholder=" @inheritdoc ..." />
+                <marker date="1461028327083" expanded="true" signature="497:849" placeholder="{...}" />
+                <marker date="1461028327083" expanded="true" signature="520:841" placeholder="..." />
+                <marker date="1461028327083" expanded="true" signature="858:883" placeholder=" @inheritdoc ..." />
+                <marker date="1461028327083" expanded="true" signature="923:1183" placeholder="{...}" />
+                <marker date="1461028327083" expanded="true" signature="946:1175" placeholder="..." />
+                <marker date="1461028327083" expanded="true" signature="1512:1840" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,8 +89,8 @@
       <file leaf-file-name="usercenter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/views/Index/usercenter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="173" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.8125">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -108,7 +130,6 @@
         <option value="$PROJECT_DIR$/common/config/main-local.php" />
         <option value="$PROJECT_DIR$/frontend/views/layouts/header.php" />
         <option value="$PROJECT_DIR$/frontend/models/AdminUser.php" />
-        <option value="$PROJECT_DIR$/frontend/views/Index/personaldata.php" />
         <option value="$PROJECT_DIR$/frontend/views/Index/personalpwd.php" />
         <option value="$PROJECT_DIR$/backend/models/User.php" />
         <option value="$PROJECT_DIR$/frontend/views/Index/usercenter.php" />
@@ -116,6 +137,7 @@
         <option value="$PROJECT_DIR$/frontend/views/Index/getaddress.php" />
         <option value="$PROJECT_DIR$/frontend/models/User.php" />
         <option value="$PROJECT_DIR$/frontend/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/frontend/views/Index/personaldata.php" />
       </list>
     </option>
   </component>
@@ -214,6 +236,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruipu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruipu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -270,7 +314,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="6" width="1366" height="722" extended-state="0" />
+    <frame x="0" y="6" width="1366" height="722" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17357911" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -635,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/views/Index/personaldata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.625">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="6" selection-end-line="54" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveRecord.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2694497">
@@ -664,14 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/views/Index/usercenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="173" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/db/QueryTrait.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.74904215">
@@ -690,8 +719,20 @@
     <entry file="file://$PROJECT_DIR$/frontend/models/Receipt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="69" selection-start-line="66" selection-start-column="69" selection-end-line="66" selection-end-column="69" />
-          <folding />
+          <caret line="77" column="69" selection-start-line="77" selection-start-column="69" selection-end-line="77" selection-end-column="69" />
+          <folding>
+            <marker date="1461028327083" expanded="true" signature="43:274" placeholder=" This is the model class for table &quot;receipt&quot;. ..." />
+            <marker date="1461028327083" expanded="true" signature="319:1843" placeholder="{...}" />
+            <marker date="1461028327083" expanded="true" signature="329:354" placeholder=" @inheritdoc ..." />
+            <marker date="1461028327083" expanded="true" signature="395:433" placeholder="{...}" />
+            <marker date="1461028327083" expanded="true" signature="442:467" placeholder=" @inheritdoc ..." />
+            <marker date="1461028327083" expanded="true" signature="497:849" placeholder="{...}" />
+            <marker date="1461028327083" expanded="true" signature="520:841" placeholder="..." />
+            <marker date="1461028327083" expanded="true" signature="858:883" placeholder=" @inheritdoc ..." />
+            <marker date="1461028327083" expanded="true" signature="923:1183" placeholder="{...}" />
+            <marker date="1461028327083" expanded="true" signature="946:1175" placeholder="..." />
+            <marker date="1461028327083" expanded="true" signature="1512:1840" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -709,14 +750,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.216475">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        <state vertical-scroll-proportion="-1.21875">
+          <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
           <folding>
             <element signature="e#86#109#0#PHP" expanded="true" />
             <marker date="1461028235281" expanded="true" signature="671:692" placeholder="select * fro..product..." />
             <marker date="1461028235281" expanded="true" signature="766:797" placeholder="select * fro..product..." />
             <marker date="1461028235281" expanded="true" signature="1074:1118" placeholder="select * fro..product..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/Index/usercenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8125">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/Index/personaldata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40229884">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
