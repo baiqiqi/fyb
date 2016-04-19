@@ -68,50 +68,27 @@ class User extends \yii\db\ActiveRecord
         ];
     }
     /*
-     * @arthurdou
+     * @白琪琪
      * @登录
      * @return int
      */
     public function signin(){
         $uname = htmlspecialchars(Yii::$app->request->post('u_name'));
-        $passwd = htmlspecialchars(md5(Yii::$app->request->post('passwd')));
+        $passwd = htmlspecialchars((Yii::$app->request->post('passwd')));
         if(strpos($uname,'@')){
             return $this->find()->asArray()
                 ->select('*')
-                ->join('INNER JOIN','user_role','user.u_id = user_role.u_id')
-                ->join('INNER JOIN','role','user_role.r_id = role.r_id')
-                ->where(['u_email'=>$uname,'passwd'=>$passwd])->one();
+                //->join('INNER JOIN','user_role','user.u_id = user_role.u_id')
+                //->join('INNER JOIN','role','user_role.r_id = role.r_id')
+                ->where(['u_name'=>$uname,'u_pwd'=>$passwd])->one();
         }else{
             return $this->find()->asArray()
                 ->select('*')
-                ->join('INNER JOIN','user_role','user.u_id = user_role.u_id')
-                ->join('INNER JOIN','role','user_role.r_id = role.r_id')
-                ->where(['u_name'=>$uname,'passwd'=>$passwd])->one();
+                //->join('INNER JOIN','user_role','user.u_id = user_role.u_id')
+                //->join('INNER JOIN','role','user_role.r_id = role.r_id')
+                ->where(['u_name'=>$uname,'u_pwd'=>$passwd])->one();
         }
     }
-    /*
-     * 获取权限
-     * 首页菜单 left_menu
-     * */
-   /* public  function checkAccess(){
-        $ip = $_SERVER['REMOTE_ADDR'];
-        $u_info = Yii::$app->session->get($ip);
-        $u_id = $u_info['u_id'];
-        $db = Yii::$app->db;
-        $arr = $db->createCommand("SELECT * FROM `user` INNER JOIN `user_role` `ur` ON ur.u_id=user.u_id INNER JOIN `role` `r` ON r.r_id=ur.r_id INNER JOIN `role_node` `rn` ON rn.r_id=r.r_id INNER JOIN `node` `n` ON n.n_id=rn.n_id WHERE user.u_id=".$u_id)->queryAll();
-        foreach($arr as $key=>$v){
-
-
-        }
-
-
-      return $arr;
-    }*/
-
-    /*
-     *
-     * return UserRole
-     * */
 
     public  function getUserRole(){
       return $this->hasMany(UserRole::className(), ['u_id' => 'u_id']);

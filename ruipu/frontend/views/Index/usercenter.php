@@ -145,34 +145,7 @@ use yii\helpers\Html;
                     </div>
                 </div>
             </div>
-            <!--  <div class="ucenter-info mt10">
-                 <div class="ucenter-tab-box">
-                     <ul class="u-tab clearfix">
-                         <li class="current"><a>我关注的用户</a></li>
-                         <li><a>关注我的用户</a></li>
-                         <li><a>投标记录</a></li>
-                         <li><a>贷款记录</a></li>
-                     </ul>
-                 </div>
-                <div id="tab_box">
-                     <div class="u-form-wrap">
-                         <div>
-                             这是我关注的用户</div>
-                     </div>
-                     <div class="u-form-wrap" style="display: none;">
-                         <div>
-                             这是关注我的用户</div>
-                     </div>
-                     <div class="u-form-wrap" style="display: none;">
-                         <div>
-                             这是我的投标记录</div>
-                     </div>
-                     <div class="u-form-wrap" style="display: none;">
-                         <div>
-                             这是我的贷款记录</div>
-                     </div>
-                 </div>
-            </div>-->
+
             <script type="text/javascript">
 
                 var $div_li = $(".ucenter-tab-box ul li");
