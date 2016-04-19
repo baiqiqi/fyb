@@ -26021,3 +26021,2203 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1460977382.6095
     'REQUEST_TIME' => 1460977382
 ]
+2016-04-19 09:07:10 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}'' in E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php:173
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-19 09:07:10 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/signin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '548'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'QUERY_STRING' => 'r=login/signin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51861'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461028030.4217
+    'REQUEST_TIME' => 1461028030
+]
+2016-04-19 09:09:06 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}'' in E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php:173
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-19 09:09:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/signin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '548'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'QUERY_STRING' => 'r=login/signin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51879'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461028146.4635
+    'REQUEST_TIME' => 1461028146
+]
+2016-04-19 09:18:02 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'selsect * from user where u_name='太阳' and u_pwd='eeqewqe'' at line 1' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(182): yii\db\Command->queryOne()
+#3 [internal function]: frontend\controllers\LoginController->actionDologin()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'selsect * from user where u_name='太阳' and u_pwd='eeqewqe'' at line 1
+The SQL being executed was: selsect * from user where u_name='太阳' and u_pwd='eeqewqe'' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'selsect * from ...')
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(182): yii\db\Command->queryOne()
+#3 [internal function]: frontend\controllers\LoginController->actionDologin()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'selsect * from user where u_name='太阳' and u_pwd='eeqewqe'' at line 1
+)
+
+2016-04-19 09:18:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dologin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => '1'
+    'username' => '太阳'
+    'pwd' => 'eeqewqe'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '464'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dologin'
+    'QUERY_STRING' => 'r=login/dologin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51933'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '54'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461028680.7811
+    'REQUEST_TIME' => 1461028680
+]
+2016-04-19 09:20:29 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: doctor' in E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php:162
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(162): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\PHPstudy\\zzz...', 162, Array)
+#1 [internal function]: frontend\controllers\LoginController->actionDologin()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dologin', Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/dologin', Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-19 09:20:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dologin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '464'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dologin'
+    'QUERY_STRING' => 'r=login/dologin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51958'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461028828.9541
+    'REQUEST_TIME' => 1461028828
+]
+2016-04-19 09:20:29 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-19 09:20:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dologin'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '464'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dologin'
+    'QUERY_STRING' => 'r=login/dologin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51958'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461028828.9541
+    'REQUEST_TIME' => 1461028828
+]
+2016-04-19 09:59:07 [127.0.0.1][-][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDO::__construct(): MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'PDO::__construc...', 'E:\\PHPstudy\\zzz...', 579, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#8 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(183): yii\db\Command->queryOne()
+#9 [internal function]: frontend\controllers\LoginController->actionDologin()
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+
+Next exception 'PDOException' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(0): PDO->__construct()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(183): yii\db\Command->queryOne()
+#8 [internal function]: frontend\controllers\LoginController->actionDologin()
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(183): yii\db\Command->queryOne()
+#6 [internal function]: frontend\controllers\LoginController->actionDologin()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-19 09:59:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dologin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => '1'
+    'username' => '太阳'
+    'pwd' => '1234'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '548'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dologin'
+    'QUERY_STRING' => 'r=login/dologin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52302'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '51'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461031143.2839
+    'REQUEST_TIME' => 1461031143
+]
+2016-04-19 10:00:53 [127.0.0.1][-][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDO::__construct(): MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'PDO::__construc...', 'E:\\PHPstudy\\zzz...', 579, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#8 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(183): yii\db\Command->queryOne()
+#9 [internal function]: frontend\controllers\LoginController->actionDologin()
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+
+Next exception 'PDOException' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(0): PDO->__construct()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(183): yii\db\Command->queryOne()
+#8 [internal function]: frontend\controllers\LoginController->actionDologin()
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(183): yii\db\Command->queryOne()
+#6 [internal function]: frontend\controllers\LoginController->actionDologin()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-19 10:00:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dologin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => '1'
+    'username' => '太阳'
+    'pwd' => '1234'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '548'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dologin'
+    'QUERY_STRING' => 'r=login/dologin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52318'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '51'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461031249.5654
+    'REQUEST_TIME' => 1461031249
+]
+2016-04-19 10:07:46 [127.0.0.1][-][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDO::__construct(): MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'PDO::__construc...', 'E:\\PHPstudy\\zzz...', 579, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#8 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(183): yii\db\Command->queryOne()
+#9 [internal function]: frontend\controllers\LoginController->actionDologin()
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+
+Next exception 'PDOException' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(0): PDO->__construct()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(183): yii\db\Command->queryOne()
+#8 [internal function]: frontend\controllers\LoginController->actionDologin()
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(183): yii\db\Command->queryOne()
+#6 [internal function]: frontend\controllers\LoginController->actionDologin()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-19 10:07:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dologin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => '1'
+    'username' => '1www'
+    'pwd' => 'wwwww'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1868'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dologin'
+    'QUERY_STRING' => 'r=login/dologin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52392'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '38'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461031662.2812
+    'REQUEST_TIME' => 1461031662
+]
+2016-04-19 10:19:12 [127.0.0.1][-][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDO::__construct(): MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'PDO::__construc...', 'E:\\PHPstudy\\zzz...', 579, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare(true)
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('fetch', NULL)
+#8 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(133): yii\db\Command->queryOne()
+#9 [internal function]: frontend\controllers\LoginController->actionCheckoutemail()
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('checkoutemail', Array)
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/checkoute...', Array)
+#14 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+
+Next exception 'PDOException' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(0): PDO->__construct()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare(true)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('fetch', NULL)
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(133): yii\db\Command->queryOne()
+#8 [internal function]: frontend\controllers\LoginController->actionCheckoutemail()
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('checkoutemail', Array)
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/checkoute...', Array)
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare(true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('fetch', NULL)
+#5 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(133): yii\db\Command->queryOne()
+#6 [internal function]: frontend\controllers\LoginController->actionCheckoutemail()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('checkoutemail', Array)
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/checkoute...', Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-19 10:19:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/checkoutemail'
+    'email' => '1321297808@qq.com'
+    'table' => 'user'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '540'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/checkoutemail&email=1321297808%40qq.com&table=user'
+    'QUERY_STRING' => 'r=login/checkoutemail&email=1321297808%40qq.com&table=user'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52560'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461032348.7099
+    'REQUEST_TIME' => 1461032348
+]
+2016-04-19 10:19:12 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#6 {main}
+2016-04-19 10:19:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/checkoutemail'
+    'email' => '1321297808@qq.com'
+    'table' => 'user'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '540'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/checkoutemail&email=1321297808%40qq.com&table=user'
+    'QUERY_STRING' => 'r=login/checkoutemail&email=1321297808%40qq.com&table=user'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52560'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/signin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461032348.7099
+    'REQUEST_TIME' => 1461032348
+]
+2016-04-19 10:21:25 [127.0.0.1][-][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDO::__construct(): MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'PDO::__construc...', 'E:\\PHPstudy\\zzz...', 579, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#8 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(183): yii\db\Command->queryOne()
+#9 [internal function]: frontend\controllers\LoginController->actionDologin()
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+
+Next exception 'PDOException' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(0): PDO->__construct()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(183): yii\db\Command->queryOne()
+#8 [internal function]: frontend\controllers\LoginController->actionDologin()
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(183): yii\db\Command->queryOne()
+#6 [internal function]: frontend\controllers\LoginController->actionDologin()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-19 10:21:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/dologin'
+]
+
+$_POST = [
+    'doctor' => ''
+    'user' => '1'
+    'username' => '帅到被砍'
+    'pwd' => 'wwww'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/dologin'
+    'QUERY_STRING' => 'r=login/dologin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52643'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=login/login'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://www.zcy.com'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '69'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461032481.8578
+    'REQUEST_TIME' => 1461032481
+]
+2016-04-19 13:17:15 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: session' in E:\PHPstudy\zzz\fyb\ruipu\frontend\views\layouts\header.php:47
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\frontend\views\layouts\header.php(47): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\PHPstudy\\zzz...', 47, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('E:\\PHPstudy\\zzz...')
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\PHPstudy\\zzz...', Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(388): yii\base\View->renderFile('E:\\PHPstudy\\zzz...', Array, Object(frontend\controllers\IndexController))
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(374): yii\base\Controller->renderContent('<script>\r\n    $...')
+#5 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php(39): yii\base\Controller->render('index', Array)
+#6 [internal function]: frontend\controllers\IndexController->actionIndex()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-19 13:17:14 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '544'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '55358'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'menuClosed=%23user_menu_loan%23; PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461043034.6635
+    'REQUEST_TIME' => 1461043034
+]
+2016-04-19 13:17:15 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-19 13:17:14 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '544'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '55358'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'menuClosed=%23user_menu_loan%23; PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461043034.6635
+    'REQUEST_TIME' => 1461043034
+]
+2016-04-19 14:14:38 [127.0.0.1][-][dhuga3sttm1u7scc0b4epk9vi1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: usrname' in E:\PHPstudy\zzz\fyb\ruipu\frontend\views\layouts\header.php:47
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\frontend\views\layouts\header.php(47): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\PHPstudy\\zzz...', 47, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('E:\\PHPstudy\\zzz...')
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\PHPstudy\\zzz...', Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(388): yii\base\View->renderFile('E:\\PHPstudy\\zzz...', Array, Object(frontend\controllers\IndexController))
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(374): yii\base\Controller->renderContent('<script>\r\n    $...')
+#5 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php(39): yii\base\Controller->render('index', Array)
+#6 [internal function]: frontend\controllers\IndexController->actionIndex()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-19 14:14:37 [127.0.0.1][-][dhuga3sttm1u7scc0b4epk9vi1][info][application] $_COOKIE = [
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'token' => '帅到被砍-qq1234-user-1321297808@qq.com'
+    'username' => '帅到被砍'
+    'uname' => '帅到被砍'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1864'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '55776'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'menuClosed=%23user_menu_loan%23; PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461046477.5851
+    'REQUEST_TIME' => 1461046477
+]
+2016-04-19 14:14:38 [127.0.0.1][-][dhuga3sttm1u7scc0b4epk9vi1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-19 14:14:37 [127.0.0.1][-][dhuga3sttm1u7scc0b4epk9vi1][info][application] $_COOKIE = [
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'token' => '帅到被砍-qq1234-user-1321297808@qq.com'
+    'username' => '帅到被砍'
+    'uname' => '帅到被砍'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1864'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '55776'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'menuClosed=%23user_menu_loan%23; PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461046477.5851
+    'REQUEST_TIME' => 1461046477
+]
+2016-04-19 14:14:53 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: m' in E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php:57
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php(57): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\PHPstudy\\zzz...', 57, Array)
+#1 [internal function]: frontend\controllers\IndexController->actionUser_center()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('user_center', Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/user_cent...', Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-19 14:14:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/user_center'
+]
+
+$_COOKIE = [
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '472'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/user_center'
+    'QUERY_STRING' => 'r=index/user_center'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '55787'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'menuClosed=%23user_menu_loan%23; PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461046493.7687
+    'REQUEST_TIME' => 1461046493
+]
+2016-04-19 14:14:53 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-19 14:14:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/user_center'
+]
+
+$_COOKIE = [
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '472'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/user_center'
+    'QUERY_STRING' => 'r=index/user_center'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '55787'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'menuClosed=%23user_menu_loan%23; PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461046493.7687
+    'REQUEST_TIME' => 1461046493
+]
+2016-04-19 14:15:13 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: m' in E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php:57
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php(57): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\PHPstudy\\zzz...', 57, Array)
+#1 [internal function]: frontend\controllers\IndexController->actionUser_center()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('user_center', Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/user_cent...', Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-19 14:15:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/user_center'
+]
+
+$_COOKIE = [
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '472'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/user_center'
+    'QUERY_STRING' => 'r=index/user_center'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '55790'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'menuClosed=%23user_menu_loan%23; PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461046513.4061
+    'REQUEST_TIME' => 1461046513
+]
+2016-04-19 14:15:13 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-19 14:15:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/user_center'
+]
+
+$_COOKIE = [
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '472'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/user_center'
+    'QUERY_STRING' => 'r=index/user_center'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '55790'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'menuClosed=%23user_menu_loan%23; PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461046513.4061
+    'REQUEST_TIME' => 1461046513
+]
+2016-04-19 14:41:55 [127.0.0.1][-][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDO::__construct(): MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'PDO::__construc...', 'E:\\PHPstudy\\zzz...', 579, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#8 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#9 [internal function]: frontend\controllers\IndexController->actionIndex()
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+
+Next exception 'PDOException' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(0): PDO->__construct()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#8 [internal function]: frontend\controllers\IndexController->actionIndex()
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#6 [internal function]: frontend\controllers\IndexController->actionIndex()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-19 14:41:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1912'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56474'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'menuClosed=%23user_menu_loan%23; PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461048111.8682
+    'REQUEST_TIME' => 1461048111
+]
+2016-04-19 18:20:37 [127.0.0.1][-][dhuga3sttm1u7scc0b4epk9vi1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "lindex/index".' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('lindex/index', Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-19 18:20:36 [127.0.0.1][-][dhuga3sttm1u7scc0b4epk9vi1][info][application] $_GET = [
+    'r' => 'lindex/index'
+]
+
+$_COOKIE = [
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1900'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=lindex/index'
+    'QUERY_STRING' => 'r=lindex/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58976'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'menuClosed=%23user_menu_loan%23; PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461061236.9611
+    'REQUEST_TIME' => 1461061236
+]
+2016-04-19 18:20:49 [127.0.0.1][-][dhuga3sttm1u7scc0b4epk9vi1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "lindex/index".' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('lindex/index', Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-19 18:20:49 [127.0.0.1][-][dhuga3sttm1u7scc0b4epk9vi1][info][application] $_GET = [
+    'r' => 'lindex/index'
+]
+
+$_COOKIE = [
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+    '_csrf' => '5a61bdcf86dbbb5bce89f8d0b72c96340703c50bf1e8f0f046cf0a7c18e80a8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"i5o8sW7xP5L10AYfnFrWUBchNd-OFiB5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1900'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=lindex/index'
+    'QUERY_STRING' => 'r=lindex/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58985'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'menuClosed=%23user_menu_loan%23; PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1; _csrf=5a61bdcf86dbbb5bce89f8d0b72c96340703c50bf1e8f0f046cf0a7c18e80a8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22i5o8sW7xP5L10AYfnFrWUBchNd-OFiB5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461061249.6523
+    'REQUEST_TIME' => 1461061249
+]
+2016-04-19 18:21:46 [127.0.0.1][-][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDO::__construct(): MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'PDO::__construc...', 'E:\\PHPstudy\\zzz...', 579, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#8 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#9 [internal function]: frontend\controllers\IndexController->actionIndex()
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+
+Next exception 'PDOException' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(0): PDO->__construct()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#8 [internal function]: frontend\controllers\IndexController->actionIndex()
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#6 [internal function]: frontend\controllers\IndexController->actionIndex()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-19 18:21:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+    '_csrf' => '5a61bdcf86dbbb5bce89f8d0b72c96340703c50bf1e8f0f046cf0a7c18e80a8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"i5o8sW7xP5L10AYfnFrWUBchNd-OFiB5\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1900'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58988'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'menuClosed=%23user_menu_loan%23; PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1; _csrf=5a61bdcf86dbbb5bce89f8d0b72c96340703c50bf1e8f0f046cf0a7c18e80a8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22i5o8sW7xP5L10AYfnFrWUBchNd-OFiB5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461061303.0751
+    'REQUEST_TIME' => 1461061303
+]
+2016-04-19 18:22:26 [127.0.0.1][-][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDO::__construct(): MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'PDO::__construc...', 'E:\\PHPstudy\\zzz...', 579, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#8 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#9 [internal function]: frontend\controllers\IndexController->actionIndex()
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+
+Next exception 'PDOException' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(0): PDO->__construct()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#8 [internal function]: frontend\controllers\IndexController->actionIndex()
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#6 [internal function]: frontend\controllers\IndexController->actionIndex()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-19 18:22:22 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+    '_csrf' => '5a61bdcf86dbbb5bce89f8d0b72c96340703c50bf1e8f0f046cf0a7c18e80a8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"i5o8sW7xP5L10AYfnFrWUBchNd-OFiB5\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '59083'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'menuClosed=%23user_menu_loan%23; PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1; _csrf=5a61bdcf86dbbb5bce89f8d0b72c96340703c50bf1e8f0f046cf0a7c18e80a8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22i5o8sW7xP5L10AYfnFrWUBchNd-OFiB5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461061342.3103
+    'REQUEST_TIME' => 1461061342
+]
+2016-04-19 18:22:41 [127.0.0.1][-][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDO::__construct(): MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'PDO::__construc...', 'E:\\PHPstudy\\zzz...', 579, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=123....', 'aqian', 'root', NULL)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#8 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#9 [internal function]: frontend\controllers\IndexController->actionIndex()
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+
+Next exception 'PDOException' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(0): PDO->__construct()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#8 [internal function]: frontend\controllers\IndexController->actionIndex()
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(216): yii\db\Connection->getSlavePdo()
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(831): yii\db\Command->prepare('<span class="ke...')
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\IndexController.php(36): yii\db\Command->queryAll()
+#6 [internal function]: frontend\controllers\IndexController->actionIndex()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2016-04-19 18:22:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+    '_csrf' => '5a61bdcf86dbbb5bce89f8d0b72c96340703c50bf1e8f0f046cf0a7c18e80a8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"i5o8sW7xP5L10AYfnFrWUBchNd-OFiB5\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1900'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '59086'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'menuClosed=%23user_menu_loan%23; PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1; _csrf=5a61bdcf86dbbb5bce89f8d0b72c96340703c50bf1e8f0f046cf0a7c18e80a8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22i5o8sW7xP5L10AYfnFrWUBchNd-OFiB5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461061357.6182
+    'REQUEST_TIME' => 1461061357
+]
+2016-04-19 18:26:01 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: session' in E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php:207
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\frontend\controllers\LoginController.php(207): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\PHPstudy\\zzz...', 207, Array)
+#1 [internal function]: frontend\controllers\LoginController->actionBack()
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('back', Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/back', Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\PHPstudy\zzz\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-19 18:26:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/back'
+]
+
+$_COOKIE = [
+    'menuClosed' => '#user_menu_loan#'
+    '_csrf' => '5a61bdcf86dbbb5bce89f8d0b72c96340703c50bf1e8f0f046cf0a7c18e80a8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"i5o8sW7xP5L10AYfnFrWUBchNd-OFiB5\";}'
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/back'
+    'QUERY_STRING' => 'r=login/back'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '59116'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'menuClosed=%23user_menu_loan%23; _csrf=5a61bdcf86dbbb5bce89f8d0b72c96340703c50bf1e8f0f046cf0a7c18e80a8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22i5o8sW7xP5L10AYfnFrWUBchNd-OFiB5%22%3B%7D; PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=index/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461061561.3281
+    'REQUEST_TIME' => 1461061561
+]
+2016-04-19 18:26:01 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-19 18:26:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/back'
+]
+
+$_COOKIE = [
+    'menuClosed' => '#user_menu_loan#'
+    '_csrf' => '5a61bdcf86dbbb5bce89f8d0b72c96340703c50bf1e8f0f046cf0a7c18e80a8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"i5o8sW7xP5L10AYfnFrWUBchNd-OFiB5\";}'
+    'PHPSESSID' => 'dhuga3sttm1u7scc0b4epk9vi1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=login/back'
+    'QUERY_STRING' => 'r=login/back'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '59116'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'menuClosed=%23user_menu_loan%23; _csrf=5a61bdcf86dbbb5bce89f8d0b72c96340703c50bf1e8f0f046cf0a7c18e80a8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22i5o8sW7xP5L10AYfnFrWUBchNd-OFiB5%22%3B%7D; PHPSESSID=dhuga3sttm1u7scc0b4epk9vi1'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/frontend/web/index.php?r=index/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.163.400 QQBrowser/9.3.7175.400'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461061561.3281
+    'REQUEST_TIME' => 1461061561
+]

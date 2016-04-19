@@ -37,27 +37,39 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- start header_right -->
     <div class="header_right">
       <div class="rgt-bottom">
-        <li><a href="index.php?r=index/index">首页</a></li>
-        <li><a href="index.php?r=login/signin">注册  </a><a href="index.php?r=login/login">登录</a></li>
+      <li><a href="index.php?r=index/index">首页</a></li>
+          <?php 
+              $session = Yii::$app->session;
+              $session->open();    
+              $username = $session->get('uname');
+              if($username)
+              {
+             echo "<a href='index.php?r=index/user_center&m='>$username</a>";
+                          }
+              else{
+          ?>
+        
+        <li class="status"><a href="index.php?r=login/signin">注册  </a><a href="index.php?r=login/login">登录</a></li>
+        <?php }?>
         <li><a href="index.php?r=index/user_center&m=">用户中心</a></li>
-
+        <li><a href="index.php?r=login/back">退出</a></li>
         <li a="" href="#">
-          <div class="drop-down">
+ <!--          <div class="drop-down">
               <select class="d-arrow">
-                <option value="Eng">Eng</option>
-                <option value="Fren">Fren</option>
+                <option><a href="index.php?r=index/user_center&m=">用户中心</a></option>
+                <option value="Fren">个人资料</option>
                 <option value="Russ">Russ</option>
                 <option value="Chin">Chin</option>
               </select>
-          </div>
+          </div> -->
         </li>
         <li a="" href="#">
-          <div class="drop-down">
+  <!--         <div class="drop-down">
               <select class="d-arrow">
                 <option value="$">$</option>
                 <option value="€">€</option>
               </select>
-          </div>
+          </div> -->
         </li>       
       <div class="clearfix"> </div>
     </div>
