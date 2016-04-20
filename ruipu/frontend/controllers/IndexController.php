@@ -63,6 +63,45 @@ class IndexController extends Controller
 	 * */
 	public  function actionUser_center(){
 		$this->layout="header";
+<<<<<<< HEAD
+		$model = new User();
+		$model_receipt =new Receipt();
+		$model_region = new Region();
+		$m = $_GET['m'];
+		switch ($m) {
+     		//个人主页
+			case '' :$user_info = $model->user_center();
+
+				return  $this->render('usercenter',['userinfo'=>$user_info]);
+				break;
+			//个人资料
+			case 'personal_data' :
+			    $personal_data = $model->personal_data();
+			  
+				return  $this->render('personaldata',['personal'=>$personal_data]);
+			    break;
+			//密码设置
+			case 'personal_pwd': return $this->render('personalpwd');
+			    break;
+			//收货地址
+			case 'get_address':
+			    $address = $model_receipt->get_address();
+			 
+			    return $this->render('getaddress',['address'=>$address]);
+			    break;
+			//添加新的收货地址
+			case 'address_add':
+			    $country = $model_region->address_country();
+				return $this->render('addaddress',['country'=>$country]);
+			    break;
+			//我的消息
+			case 'personal_news' : return $this->render('personalnews') ;
+			    break;
+			//我的微留言
+			case 'personal_words' : return $this->render('personalwords') ;
+			    break;
+=======
+>>>>>>> 6929f0902b00bc3278efbfc65381ad568fa2595d
 
 		$session = Yii::$app->session;
 		if($session->has('uname')){

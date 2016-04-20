@@ -12,7 +12,7 @@ $ip = $_SERVER['REMOTE_ADDR'];
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>『有主机上线』后台管理</title>
+    <title>『瑞普』后台管理</title>
     <link rel="stylesheet" type="text/css" href="css/common.css"/>
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <script type="text/javascript" src="js/libs/modernizr.min.js"></script>
@@ -52,8 +52,13 @@ $ip = $_SERVER['REMOTE_ADDR'];
                         <li><a href=""><i class="icon-font">&#xe006;</i>分类管理</a></li>
                         <li><a href=""><i class="icon-font">&#xe004;</i>留言管理</a></li>
                         <li><a href=""><i class="icon-font">&#xe012;</i>评论管理</a></li>
-                        <li><a href=""><i class="icon-font">&#xe052;</i>友情链接</a></li>
+                        <li><a href="index.php?r=about/agency"><i class="icon-font">&#xe052;</i>代理商管理</a></li>
                         <li><a href=""><i class="icon-font">&#xe033;</i>广告管理</a></li>
+                        <li><a href="index.php?r=indent/show"><i class="icon-font">&#xe006;</i>订单管理</a></li>
+                        <li><a href="index.php?r=userinfo/info"><i class="icon-font">&#xe004;</i>用户管理</a></li>
+                        <li><a href="index.php?r=doctor/dinfo"><i class="icon-font">&#xe012;</i>医生管理</a></li>
+                        <li><a href=""><i class="icon-font">&#xe052;</i>友情链接</a></li>
+                        <li><a href="index.php?r=index/articles"><i class="icon-font">&#xe033;</i>文章管理</a></li>
                     </ul>
                 </li>
                 <li>
