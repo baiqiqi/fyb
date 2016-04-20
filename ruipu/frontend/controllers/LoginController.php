@@ -158,6 +158,10 @@ class LoginController extends Controller
 		        $key <= $strCount  && isset($strArr[$key]) && $strArr[$key][1] === $value && $strArr[$key] = $strArr[$key][0];
 		    return base64_decode(join('', $strArr));
 	}
+    /*
+     * 登录
+     *@author 张晨阳
+     * */
 	public function actionDologin()
 	{
 			
@@ -202,6 +206,10 @@ class LoginController extends Controller
 		    }
 		}
 	}
+	/*
+	 * 退出
+	 * @author 张晨阳
+	 * */
 	public function actionBack()
 	{
 		$session = Yii::$app->session;

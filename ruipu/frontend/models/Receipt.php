@@ -68,7 +68,7 @@ class Receipt extends \yii\db\ActiveRecord
      *获取用户的收货地址
      * */
      public function get_address(){
-      $user_name = '张晨阳';
+      $user_name =  Yii::$app->session->get('uname');
       $arr =(new \yii\db\Query())
              ->select('u_id')
              ->from('user as u')
@@ -87,7 +87,7 @@ class Receipt extends \yii\db\ActiveRecord
         $rec_tel = $_GET['rec_tel'];
         $rec_address = $_GET['rec_address'];
         $is_moren = $_GET['is_moren'];
-        $user_name = '张晨阳';
+        $user_name =  Yii::$app->session->get('uname');
          $arr =(new \yii\db\Query())
              ->select('u_id')
              ->from('user as u')
@@ -112,7 +112,14 @@ class Receipt extends \yii\db\ActiveRecord
        * return string 修改结果
        * */
        public  function address_edit(){
-        
+           $user_name =  Yii::$app->session->get('uname');
+           $arr =(new \yii\db\Query())
+               ->select('u_id')
+               ->from('user as u')
+               ->where("u.u_name = '$user_name'")
+               ->one();
+           $u_id=$arr['u_id'];
+
 
        }
 }
