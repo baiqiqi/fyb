@@ -16443,3 +16443,1068 @@ $_SERVER = [
     'REQUEST_TIME' => 1461054120
 >>>>>>> caq19.10
 ]
+2016-04-20 08:14:58 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 08:14:57 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '64595'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461111297.641
+    'REQUEST_TIME' => 1461111297
+]
+2016-04-20 08:25:48 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 08:25:47 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '64945'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461111947.783
+    'REQUEST_TIME' => 1461111947
+]
+2016-04-20 08:34:00 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 08:33:59 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '65059'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461112439.782
+    'REQUEST_TIME' => 1461112439
+]
+2016-04-20 08:34:21 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 08:34:21 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '65071'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461112461.234
+    'REQUEST_TIME' => 1461112461
+]
+2016-04-20 14:08:55 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 14:08:54 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '57543'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461132534.407
+    'REQUEST_TIME' => 1461132534
+]
+2016-04-20 14:09:02 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 14:09:00 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_GET = [
+    'r' => 'about/intro'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '57543'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/intro'
+    'REQUEST_URI' => '/index.php?r=about/intro'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461132540.124
+    'REQUEST_TIME' => 1461132540
+]
+2016-04-20 14:09:12 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 14:09:12 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_GET = [
+    'r' => 'about/about'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=about/intro'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '57566'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/about'
+    'REQUEST_URI' => '/index.php?r=about/about'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461132552.146
+    'REQUEST_TIME' => 1461132552
+]
+2016-04-20 14:09:18 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 14:09:17 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_GET = [
+    'r' => 'about/agency'
+    'ag_id' => '1'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=about/about'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '57566'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/agency&ag_id=1'
+    'REQUEST_URI' => '/index.php?r=about/agency&ag_id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461132557.587
+    'REQUEST_TIME' => 1461132557
+]
+2016-04-20 16:30:58 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 16:30:58 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '60868'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461141058.039
+    'REQUEST_TIME' => 1461141058
+]
+2016-04-20 16:31:03 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 16:31:02 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_GET = [
+    'r' => 'index/details'
+    'pro_id' => '2'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '60868'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/details&pro_id=2'
+    'REQUEST_URI' => '/index.php?r=index/details&pro_id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461141062.866
+    'REQUEST_TIME' => 1461141062
+]
+2016-04-20 16:31:06 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 16:31:05 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_GET = [
+    'r' => 'check/check'
+    'pro_id' => '2'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=index/details&pro_id=2'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '60868'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/check&pro_id=2'
+    'REQUEST_URI' => '/index.php?r=check/check&pro_id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461141065.989
+    'REQUEST_TIME' => 1461141065
+]
+2016-04-20 16:31:09 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 16:31:08 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_GET = [
+    'r' => 'check/pay'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=check/check&pro_id=2'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '60868'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=check/pay'
+    'REQUEST_URI' => '/index.php?r=check/pay'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461141068.937
+    'REQUEST_TIME' => 1461141068
+]
+2016-04-20 16:31:14 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 16:31:14 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_GET = [
+    'r' => 'about/about'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=check/pay'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '60868'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/about'
+    'REQUEST_URI' => '/index.php?r=about/about'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461141074.422
+    'REQUEST_TIME' => 1461141074
+]
+2016-04-20 16:31:18 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 16:31:18 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_GET = [
+    'r' => 'about/agency'
+    'ag_id' => '3'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=about/about'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '60868'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/agency&ag_id=3'
+    'REQUEST_URI' => '/index.php?r=about/agency&ag_id=3'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461141078.289
+    'REQUEST_TIME' => 1461141078
+]
+2016-04-20 16:31:35 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 16:31:35 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_GET = [
+    'r' => 'about/about'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=check/pay'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '60905'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/about'
+    'REQUEST_URI' => '/index.php?r=about/about'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461141095.481
+    'REQUEST_TIME' => 1461141095
+]
+2016-04-20 16:31:40 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 16:31:40 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_GET = [
+    'r' => 'about/agency'
+    'ag_id' => '2'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=about/about'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '60905'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/agency&ag_id=2'
+    'REQUEST_URI' => '/index.php?r=about/agency&ag_id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461141100.294
+    'REQUEST_TIME' => 1461141100
+]
+2016-04-20 16:32:01 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32615 bytes' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\chongci\\fyb\\...', 86, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< 8ff1966...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-20 16:32:01 [127.0.0.1][-][6lsht6ua7h7qleq712i2og6dr4][info][application] $_GET = [
+    'r' => 'about/about'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1460683538522'
+    'PHPSESSID' => '6lsht6ua7h7qleq712i2og6dr4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.cn/index.php?r=check/pay'
+    'HTTP_COOKIE' => 'bdshare_firstime=1460683538522; PHPSESSID=6lsht6ua7h7qleq712i2og6dr4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/frontend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/frontend/web/index.php'
+    'REMOTE_PORT' => '60926'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/about'
+    'REQUEST_URI' => '/index.php?r=about/about'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461141121.026
+    'REQUEST_TIME' => 1461141121
+]

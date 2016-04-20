@@ -105,13 +105,4 @@ class Receipt extends \yii\db\ActiveRecord
             }
 
       }
-      /*
-       * @author 周晶晶
-       * 修改收货地址
-       * return string 修改结果
-       * */
-       public  function address_edit(){
-        
-
-       }
 }

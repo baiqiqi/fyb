@@ -89,7 +89,6 @@ class Details extends \yii\db\ActiveRecord
             $det_time=$request->post(date('y-m-d h:i:s',time()));
             $res = Yii::$app->db->createCommand()->insert('details',['pro_id'=>$pro_id,'pro_num'=>$pro_num,'user_id'=>$user_id,'det_price'=>$det_price,'pro_price'=>$pro_price,'det_numbur'=>$det_numbur,'det_time'=>$det_time])->query();
             return $res;
-
         }
      }
 }

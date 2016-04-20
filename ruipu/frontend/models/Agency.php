@@ -64,7 +64,7 @@ class Agency extends \yii\db\ActiveRecord
         return $this->findBySql("SELECT * FROM agency")->asArray()->all();
     }
     
-     /*
+    /*
     * 赵思敏
     * 查询一条数据
     */

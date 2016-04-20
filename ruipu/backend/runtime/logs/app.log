@@ -12418,3 +12418,1608 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1460982929.2519
     'REQUEST_TIME' => 1460982929
 ]
+2016-04-20 14:54:45 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\Company' not found' in D:\chongci\fyb\ruipu\backend\controllers\AboutController.php:24
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-20 14:54:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/agency'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=index/nav'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '58478'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/agency'
+    'REQUEST_URI' => '/index.php?r=about/agency'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461135285.2
+    'REQUEST_TIME' => 1461135285
+]
+2016-04-20 15:26:17 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\UploadForm' not found' in D:\chongci\fyb\ruipu\backend\controllers\AboutController.php:42
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-20 15:26:17 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/upload'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about%2Fagency&page=2&per-page=1'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '59081'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/upload'
+    'REQUEST_URI' => '/index.php?r=about/upload'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461137177.147
+    'REQUEST_TIME' => 1461137177
+]
+2016-04-20 15:28:14 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'include(../views/left.php): failed to open stream: No such file or directory' in D:\chongci\fyb\ruipu\backend\views\about\agency_add.php:35
+Stack trace:
+#0 D:\chongci\fyb\ruipu\backend\views\about\agency_add.php(35): yii\base\ErrorHandler->handleError(2, 'include(../view...', 'D:\\chongci\\fyb\\...', 35, Array)
+#1 D:\chongci\fyb\ruipu\backend\views\about\agency_add.php(35): include()
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(backend\controllers\AboutController))
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(404): yii\base\View->render('agency_add', Array, Object(backend\controllers\AboutController))
+#6 D:\chongci\fyb\ruipu\backend\controllers\AboutController.php(73): yii\base\Controller->renderPartial('agency_add', Array)
+#7 [internal function]: backend\controllers\AboutController->actionUpload()
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('upload', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('about/upload', Array)
+#12 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\chongci\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2016-04-20 15:28:14 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/upload'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about%2Fagency&page=2&per-page=1'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '59120'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/upload'
+    'REQUEST_URI' => '/index.php?r=about/upload'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461137293.985
+    'REQUEST_TIME' => 1461137293
+]
+2016-04-20 15:28:14 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-20 15:28:14 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/upload'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about%2Fagency&page=2&per-page=1'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '59120'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/upload'
+    'REQUEST_URI' => '/index.php?r=about/upload'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461137293.985
+    'REQUEST_TIME' => 1461137293
+]
+2016-04-20 16:20:11 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: ag_y' in D:\chongci\fyb\ruipu\backend\controllers\AboutController.php:59
+Stack trace:
+#0 D:\chongci\fyb\ruipu\backend\controllers\AboutController.php(59): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\chongci\\fyb\\...', 59, Array)
+#1 [internal function]: backend\controllers\AboutController->actionUpload()
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('upload', Array)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('about/upload', Array)
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\chongci\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-20 16:20:11 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/upload'
+]
+
+$_POST = [
+    '_csrf' => 'LjBMUnRjSlpmAhogWTEyH0J/BRwkNxg7YEp4Hh1XAjtlBAkVGTchLA=='
+    'ag_name' => '龙江第一人民医院'
+    'UploadForm' => [
+        'file' => ''
+    ]
+    'ag_content' => '你问我我问谁去，你说你是不是傻呀。'
+    'ag_addr' => '龙江镇正阳路107号'
+    'ag_x' => '123.197831'
+    'ag_y_________' => '47.349276'
+]
+
+$_FILES = [
+    'UploadForm' => [
+        'name' => [
+            'file' => '18.jpg'
+        ]
+        'type' => [
+            'file' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'file' => 'C:\\Users\\Administrator\\AppData\\Local\\Temp\\php548D.tmp'
+        ]
+        'error' => [
+            'file' => 0
+        ]
+        'size' => [
+            'file' => 19682
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about/upload'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------94572064928792'
+    'CONTENT_LENGTH' => '20746'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '60616'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=about/upload'
+    'REQUEST_URI' => '/index.php?r=about/upload'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461140410.929
+    'REQUEST_TIME' => 1461140410
+]
+2016-04-20 16:20:11 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-20 16:20:11 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/upload'
+]
+
+$_POST = [
+    '_csrf' => 'LjBMUnRjSlpmAhogWTEyH0J/BRwkNxg7YEp4Hh1XAjtlBAkVGTchLA=='
+    'ag_name' => '龙江第一人民医院'
+    'UploadForm' => [
+        'file' => ''
+    ]
+    'ag_content' => '你问我我问谁去，你说你是不是傻呀。'
+    'ag_addr' => '龙江镇正阳路107号'
+    'ag_x' => '123.197831'
+    'ag_y_________' => '47.349276'
+]
+
+$_FILES = [
+    'UploadForm' => [
+        'name' => [
+            'file' => '18.jpg'
+        ]
+        'type' => [
+            'file' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'file' => 'C:\\Users\\Administrator\\AppData\\Local\\Temp\\php548D.tmp'
+        ]
+        'error' => [
+            'file' => 0
+        ]
+        'size' => [
+            'file' => 19682
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about/upload'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------94572064928792'
+    'CONTENT_LENGTH' => '20746'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '60616'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=about/upload'
+    'REQUEST_URI' => '/index.php?r=about/upload'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461140410.929
+    'REQUEST_TIME' => 1461140410
+]
+2016-04-20 16:25:03 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: ag_y' in D:\chongci\fyb\ruipu\backend\controllers\AboutController.php:59
+Stack trace:
+#0 D:\chongci\fyb\ruipu\backend\controllers\AboutController.php(59): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\chongci\\fyb\\...', 59, Array)
+#1 [internal function]: backend\controllers\AboutController->actionUpload()
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('upload', Array)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('about/upload', Array)
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\chongci\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-20 16:25:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/upload'
+]
+
+$_POST = [
+    '_csrf' => 'LjBMUnRjSlpmAhogWTEyH0J/BRwkNxg7YEp4Hh1XAjtlBAkVGTchLA=='
+    'ag_name' => '龙江第一人民医院'
+    'UploadForm' => [
+        'file' => ''
+    ]
+    'ag_content' => '你问我我问谁去，你说你是不是傻呀。'
+    'ag_addr' => '龙江镇正阳路107号'
+    'ag_x' => '123.197831'
+    'ag_y_________' => '47.349276'
+]
+
+$_FILES = [
+    'UploadForm' => [
+        'name' => [
+            'file' => '18.jpg'
+        ]
+        'type' => [
+            'file' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'file' => 'C:\\Users\\Administrator\\AppData\\Local\\Temp\\phpCBED.tmp'
+        ]
+        'error' => [
+            'file' => 0
+        ]
+        'size' => [
+            'file' => 19682
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about/upload'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------94572064928792'
+    'CONTENT_LENGTH' => '20746'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '60722'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=about/upload'
+    'REQUEST_URI' => '/index.php?r=about/upload'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461140703.773
+    'REQUEST_TIME' => 1461140703
+]
+2016-04-20 16:25:03 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-20 16:25:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/upload'
+]
+
+$_POST = [
+    '_csrf' => 'LjBMUnRjSlpmAhogWTEyH0J/BRwkNxg7YEp4Hh1XAjtlBAkVGTchLA=='
+    'ag_name' => '龙江第一人民医院'
+    'UploadForm' => [
+        'file' => ''
+    ]
+    'ag_content' => '你问我我问谁去，你说你是不是傻呀。'
+    'ag_addr' => '龙江镇正阳路107号'
+    'ag_x' => '123.197831'
+    'ag_y_________' => '47.349276'
+]
+
+$_FILES = [
+    'UploadForm' => [
+        'name' => [
+            'file' => '18.jpg'
+        ]
+        'type' => [
+            'file' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'file' => 'C:\\Users\\Administrator\\AppData\\Local\\Temp\\phpCBED.tmp'
+        ]
+        'error' => [
+            'file' => 0
+        ]
+        'size' => [
+            'file' => 19682
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about/upload'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------94572064928792'
+    'CONTENT_LENGTH' => '20746'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '60722'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=about/upload'
+    'REQUEST_URI' => '/index.php?r=about/upload'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461140703.773
+    'REQUEST_TIME' => 1461140703
+]
+2016-04-20 16:25:19 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: ag_y' in D:\chongci\fyb\ruipu\backend\controllers\AboutController.php:59
+Stack trace:
+#0 D:\chongci\fyb\ruipu\backend\controllers\AboutController.php(59): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\chongci\\fyb\\...', 59, Array)
+#1 [internal function]: backend\controllers\AboutController->actionUpload()
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('upload', Array)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('about/upload', Array)
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\chongci\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-20 16:25:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/upload'
+]
+
+$_POST = [
+    '_csrf' => 'LjBMUnRjSlpmAhogWTEyH0J/BRwkNxg7YEp4Hh1XAjtlBAkVGTchLA=='
+    'ag_name' => '龙江第一人民医院'
+    'UploadForm' => [
+        'file' => ''
+    ]
+    'ag_content' => '你问我我问谁去，你说你是不是傻呀。'
+    'ag_addr' => '龙江镇正阳路107号'
+    'ag_x' => '123.197831'
+    'ag_y_________' => '47.349276'
+]
+
+$_FILES = [
+    'UploadForm' => [
+        'name' => [
+            'file' => '18.jpg'
+        ]
+        'type' => [
+            'file' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'file' => 'C:\\Users\\Administrator\\AppData\\Local\\Temp\\phpA5E.tmp'
+        ]
+        'error' => [
+            'file' => 0
+        ]
+        'size' => [
+            'file' => 19682
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about/upload'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------94572064928792'
+    'CONTENT_LENGTH' => '20746'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '60732'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=about/upload'
+    'REQUEST_URI' => '/index.php?r=about/upload'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461140719.759
+    'REQUEST_TIME' => 1461140719
+]
+2016-04-20 16:25:19 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-20 16:25:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/upload'
+]
+
+$_POST = [
+    '_csrf' => 'LjBMUnRjSlpmAhogWTEyH0J/BRwkNxg7YEp4Hh1XAjtlBAkVGTchLA=='
+    'ag_name' => '龙江第一人民医院'
+    'UploadForm' => [
+        'file' => ''
+    ]
+    'ag_content' => '你问我我问谁去，你说你是不是傻呀。'
+    'ag_addr' => '龙江镇正阳路107号'
+    'ag_x' => '123.197831'
+    'ag_y_________' => '47.349276'
+]
+
+$_FILES = [
+    'UploadForm' => [
+        'name' => [
+            'file' => '18.jpg'
+        ]
+        'type' => [
+            'file' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'file' => 'C:\\Users\\Administrator\\AppData\\Local\\Temp\\phpA5E.tmp'
+        ]
+        'error' => [
+            'file' => 0
+        ]
+        'size' => [
+            'file' => 19682
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about/upload'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------94572064928792'
+    'CONTENT_LENGTH' => '20746'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '60732'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=about/upload'
+    'REQUEST_URI' => '/index.php?r=about/upload'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461140719.759
+    'REQUEST_TIME' => 1461140719
+]
+2016-04-20 16:27:00 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ag_name' in 'field list'' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php:781
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(781): PDOStatement->execute()
+#1 D:\chongci\fyb\ruipu\backend\models\Agency.php(75): yii\db\Command->execute()
+#2 D:\chongci\fyb\ruipu\backend\controllers\AboutController.php(60): app\models\Agency->add('<span class="st...', '<span class="st...', '<span class="st...', '<span class="st...', '...', '47.349276')
+#3 [internal function]: backend\controllers\AboutController->actionUpload()
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\chongci\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ag_name' in 'field list'
+The SQL being executed was: insert into company (ag_name,ag_img,ag_content,ag_addr,ag_x,ag_y) values('龙江第一人民医院','./images/18.jpg','你问我我问谁，你说你是不是傻呀！','龙江镇正阳路107号','123.197831','47.349276')' in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Schema->convertException(Object(PDOException), 'insert into com...')
+#1 D:\chongci\fyb\ruipu\backend\models\Agency.php(75): yii\db\Command->execute()
+#2 D:\chongci\fyb\ruipu\backend\controllers\AboutController.php(60): app\models\Agency->add('<span class="st...', '<span class="st...', '<span class="st...', '<span class="st...', '...', '47.349276')
+#3 [internal function]: backend\controllers\AboutController->actionUpload()
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#6 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\chongci\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'ag_name' in 'field list'
+)
+
+2016-04-20 16:26:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/upload'
+]
+
+$_POST = [
+    '_csrf' => 'ckZGOE9SWC06dBBKYgAgaB4JD3YfBgpMPDxydCZmEEw5cgN/IgYzWw=='
+    'ag_name' => '龙江第一人民医院'
+    'UploadForm' => [
+        'file' => ''
+    ]
+    'ag_content' => '你问我我问谁，你说你是不是傻呀！'
+    'ag_addr' => '龙江镇正阳路107号'
+    'ag_x' => '123.197831'
+    'ag_y' => '47.349276'
+]
+
+$_FILES = [
+    'UploadForm' => [
+        'name' => [
+            'file' => '18.jpg'
+        ]
+        'type' => [
+            'file' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'file' => 'C:\\Users\\Administrator\\AppData\\Local\\Temp\\php91DA.tmp'
+        ]
+        'error' => [
+            'file' => 0
+        ]
+        'size' => [
+            'file' => 19682
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about/upload'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------27692621519444'
+    'CONTENT_LENGTH' => '20734'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '60777'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=about/upload'
+    'REQUEST_URI' => '/index.php?r=about/upload'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461140819.983
+    'REQUEST_TIME' => 1461140819
+]
+2016-04-20 17:58:57 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: val' in D:\chongci\fyb\ruipu\backend\views\index\update_show.php:15
+Stack trace:
+#0 D:\chongci\fyb\ruipu\backend\views\index\update_show.php(15): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\chongci\\fyb\\...', 15, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(backend\controllers\IndexController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('update_show', Array, Object(backend\controllers\IndexController))
+#5 D:\chongci\fyb\ruipu\backend\controllers\IndexController.php(32): yii\base\Controller->render('update_show', Array)
+#6 [internal function]: backend\controllers\IndexController->actionUpdate_show()
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update_show', Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/update_sh...', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\chongci\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-20 17:58:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/update_show'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=index/nav'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '64674'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/update_show&id=1'
+    'REQUEST_URI' => '/index.php?r=index/update_show&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461146337.218
+    'REQUEST_TIME' => 1461146337
+]
+2016-04-20 17:58:57 [127.0.0.1][-][17vhturgj0gbqfk6s4hmt37833][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-20 17:58:57 [127.0.0.1][-][17vhturgj0gbqfk6s4hmt37833][info][application] $_GET = [
+    'r' => 'index/update_show'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=index/nav'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '64674'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/update_show&id=1'
+    'REQUEST_URI' => '/index.php?r=index/update_show&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461146337.218
+    'REQUEST_TIME' => 1461146337
+]
+2016-04-20 18:21:48 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in D:\chongci\fyb\ruipu\backend\views\about\agency_exit.php:41
+Stack trace:
+#0 D:\chongci\fyb\ruipu\backend\views\about\agency_exit.php(41): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\chongci\\fyb\\...', 41, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(backend\controllers\AboutController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(404): yii\base\View->render('agency_exit', Array, Object(backend\controllers\AboutController))
+#5 D:\chongci\fyb\ruipu\backend\controllers\AboutController.php(86): yii\base\Controller->renderPartial('agency_exit', Array)
+#6 [internal function]: backend\controllers\AboutController->actionExit()
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('exit', Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('about/exit', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\chongci\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-20 18:21:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/exit'
+    'ag_id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about/agency'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '65255'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/exit&ag_id=1'
+    'REQUEST_URI' => '/index.php?r=about/exit&ag_id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461147708.174
+    'REQUEST_TIME' => 1461147708
+]
+2016-04-20 18:21:48 [127.0.0.1][-][17vhturgj0gbqfk6s4hmt37833][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-20 18:21:48 [127.0.0.1][-][17vhturgj0gbqfk6s4hmt37833][info][application] $_GET = [
+    'r' => 'about/exit'
+    'ag_id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about/agency'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '65255'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/exit&ag_id=1'
+    'REQUEST_URI' => '/index.php?r=about/exit&ag_id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461147708.174
+    'REQUEST_TIME' => 1461147708
+]
+2016-04-20 19:46:06 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Declaration of app\models\Agency::delete() must be compatible with yii\db\ActiveRecordInterface::delete()' in D:\chongci\fyb\ruipu\backend\models\Agency.php:20
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-20 19:46:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/exit'
+    'ag_id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about/agency'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '53694'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/exit&ag_id=1'
+    'REQUEST_URI' => '/index.php?r=about/exit&ag_id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461152765.67
+    'REQUEST_TIME' => 1461152765
+]
+2016-04-20 19:47:04 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Declaration of app\models\Agency::delete() must be compatible with yii\db\ActiveRecordInterface::delete()' in D:\chongci\fyb\ruipu\backend\models\Agency.php:20
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-20 19:47:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/agency'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=index/nav'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '53732'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/agency'
+    'REQUEST_URI' => '/index.php?r=about/agency'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461152824.696
+    'REQUEST_TIME' => 1461152824
+]
+2016-04-20 19:47:08 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Declaration of app\models\Agency::delete() must be compatible with yii\db\ActiveRecordInterface::delete()' in D:\chongci\fyb\ruipu\backend\models\Agency.php:20
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-20 19:47:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/agency'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=index/nav'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '53733'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/agency'
+    'REQUEST_URI' => '/index.php?r=about/agency'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461152828.436
+    'REQUEST_TIME' => 1461152828
+]
+2016-04-20 20:58:26 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ')', expecting '&' or variable (T_VARIABLE)' in D:\chongci\fyb\ruipu\backend\models\Agency.php:103
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-20 20:58:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/agency'
+    'page' => '2'
+    'per-page' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about/agency'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '56888'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about%2Fagency&page=2&per-page=2'
+    'REQUEST_URI' => '/index.php?r=about%2Fagency&page=2&per-page=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461157105.921
+    'REQUEST_TIME' => 1461157105
+]
+2016-04-20 20:58:55 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in D:\chongci\fyb\ruipu\backend\views\about\agency_exit.php:36
+Stack trace:
+#0 D:\chongci\fyb\ruipu\backend\views\about\agency_exit.php(36): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\chongci\\fyb\\...', 36, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(backend\controllers\AboutController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(404): yii\base\View->render('agency_exit', Array, Object(backend\controllers\AboutController))
+#5 D:\chongci\fyb\ruipu\backend\controllers\AboutController.php(117): yii\base\Controller->renderPartial('agency_exit', Array)
+#6 [internal function]: backend\controllers\AboutController->actionUpload()
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('upload', Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('about/upload', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\chongci\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-20 20:58:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/upload'
+    'ag_id' => '3'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about%2Fagency&page=2&per-page=2'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '56912'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/upload&ag_id=3'
+    'REQUEST_URI' => '/index.php?r=about/upload&ag_id=3'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461157135.328
+    'REQUEST_TIME' => 1461157135
+]
+2016-04-20 20:58:55 [127.0.0.1][-][17vhturgj0gbqfk6s4hmt37833][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-20 20:58:55 [127.0.0.1][-][17vhturgj0gbqfk6s4hmt37833][info][application] $_GET = [
+    'r' => 'about/upload'
+    'ag_id' => '3'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about%2Fagency&page=2&per-page=2'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '56912'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/upload&ag_id=3'
+    'REQUEST_URI' => '/index.php?r=about/upload&ag_id=3'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461157135.328
+    'REQUEST_TIME' => 1461157135
+]
+2016-04-20 20:59:59 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in D:\chongci\fyb\ruipu\backend\views\about\agency_exit.php:36
+Stack trace:
+#0 D:\chongci\fyb\ruipu\backend\views\about\agency_exit.php(36): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\chongci\\fyb\\...', 36, Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('D:\\chongci\\fyb\\...')
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\chongci\\fyb\\...', Array)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\chongci\\fyb\\...', Array, Object(backend\controllers\AboutController))
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(404): yii\base\View->render('agency_exit', Array, Object(backend\controllers\AboutController))
+#5 D:\chongci\fyb\ruipu\backend\controllers\AboutController.php(119): yii\base\Controller->renderPartial('agency_exit', Array)
+#6 [internal function]: backend\controllers\AboutController->actionUpload()
+#7 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('upload', Array)
+#10 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('about/upload', Array)
+#11 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\chongci\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-20 20:59:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'about/upload'
+    'ag_id' => '3'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about%2Fagency&page=2&per-page=2'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '56967'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/upload&ag_id=3'
+    'REQUEST_URI' => '/index.php?r=about/upload&ag_id=3'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461157199.468
+    'REQUEST_TIME' => 1461157199
+]
+2016-04-20 20:59:59 [127.0.0.1][-][17vhturgj0gbqfk6s4hmt37833][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\chongci\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-20 20:59:59 [127.0.0.1][-][17vhturgj0gbqfk6s4hmt37833][info][application] $_GET = [
+    'r' => 'about/upload'
+    'ag_id' => '3'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '17vhturgj0gbqfk6s4hmt37833'
+    '_csrf' => 'fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.reap.hou'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.reap.hou/index.php?r=about%2Fagency&page=2&per-page=2'
+    'HTTP_COOKIE' => 'PHPSESSID=17vhturgj0gbqfk6s4hmt37833; _csrf=fcd94602269596a42216deac48632fa2035b22ee9da6ebafa919d1adcaf04849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H2Vr-RxElOINPTRaNz4Li4HaK4EGmTkv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\bin;C:\\Program Files\\TortoiseSVN\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.reap.hou'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/chongci/fyb/ruipu/backend/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/chongci/fyb/ruipu/backend/web/index.php'
+    'REMOTE_PORT' => '56967'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=about/upload&ag_id=3'
+    'REQUEST_URI' => '/index.php?r=about/upload&ag_id=3'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461157199.468
+    'REQUEST_TIME' => 1461157199
+]
