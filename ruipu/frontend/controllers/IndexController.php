@@ -60,13 +60,13 @@ class IndexController extends Controller
 		switch ($m) {
      		//个人主页
 			case '' :$user_info = $model->user_center();
-				//print_r($user_info);die;
+				
 				return  $this->render('usercenter',['userinfo'=>$user_info]);
 				break;
 			//个人资料
 			case 'personal_data' :
 			    $personal_data = $model->personal_data();
-			    //print_r($personal_data);
+			  
 				return  $this->render('personaldata',['personal'=>$personal_data]);
 			    break;
 			//密码设置
@@ -75,7 +75,7 @@ class IndexController extends Controller
 			//收货地址
 			case 'get_address':
 			    $address = $model_receipt->get_address();
-			   // print_r($address);die;
+			 
 			    return $this->render('getaddress',['address'=>$address]);
 			    break;
 			//我的消息
