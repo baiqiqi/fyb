@@ -15,12 +15,12 @@
                 <h3 class="t1">
                     我的个人天地<span title="折叠"></span></h3>
                 <ul class="sub">
-                    <li><a href="index.php?r=index/user_center&m=">个人主页</a></li>
+                    <li><a  href="index.php?r=index/user_center&m=">个人主页</a></li>
                     <li><a class="current" href="index.php?r=index/user_center&m=personal_data">个人资料</a></li>
-                    <li><a href="">密码设置</a></li>
-                    <li><a href="">收货地址</a></li>
-                    <li><a href="">我的消息</a></li>
-                    <li><a href="">我的微留言</a></li>
+                    <li><a href="index.php?r=index/user_center&m=personal_pwd">密码设置</a></li>
+                    <li><a href="index.php?r=index/user_center&m=get_address">收货地址</a></li>
+                    <li><a href="index.php?r=index/user_center&m=personal_news">我的消息</a></li>
+                    <li><a href="index.php?r=index/user_center&m=personal_words">我的微留言</a></li>
                 </ul>
             </li>
 
@@ -52,7 +52,7 @@
                     <li><a href="">已过期</a></li></ul>
             </li>
 
-  </ul>
+        </ul>
         <script type="text/javascript">
             var menuClosed = Ops.getCookie('menuClosed');
 

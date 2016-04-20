@@ -35,8 +35,13 @@ class CheckController extends Controller
 {
 	/*
 	*购物车
+<<<<<<< HEAD
   * check 购物车界面显示
   * delete 购物车商品删除
+=======
+  *购物车界面显示  check
+  *购物车商品删除  delete
+>>>>>>> 48148b87d5dfa2e2f496555625b5cc2657db9f7c
 	*作者：程啊倩
 	*时间：2016/04/18 9.10	
 	*/

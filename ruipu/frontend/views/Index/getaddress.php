@@ -116,15 +116,10 @@ use yii\helpers\Html;
                                         <img src="images/dingwei.png"  width="20px">
                                         &nbsp;&nbsp;<span><font color="red">寄送至</font></span>&nbsp;&nbsp;<input type="radio" checked/>&nbsp;&nbsp;<?= $v['rec_address']?>(<?= $v['rec_name'];?>)    <?= $v['rec_tel'];?>&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">默认地址</font>&nbsp;&nbsp;<a href="" style="float: right;margin-left:35px">修改本地址</a>&nbsp;&nbsp;<em style="display: none;float: right;" id="moren"><font color="blue" size="">设为默认收货地址</font></em></li>
                             <?php } else{?>
-
                                 <li  class="ulli">
-
                                    &nbsp;&nbsp;<input type="radio" style="margin-left: 75px;"/>&nbsp;&nbsp;<?= $v['rec_address']?>(<?= $v['rec_name'];?>)    <?= $v['rec_tel'];?>&nbsp;&nbsp;<a href="" style="float: right;margin-left:35px">修改本地址</a>&nbsp;&nbsp;<em style="display: none;float: right;" id="moren"><font color="blue" size="">设为默认收货地址</font></em></li>
-
                             <?php }?>
                             <?php }?>
-
-
 
                                 </ul>
                             </div>
@@ -132,15 +127,14 @@ use yii\helpers\Html;
                             <script>
                                 $(".ulli").hover(function(){
                                     $(this).find("em").css('display','block');
-                                   //$("#moren").css('display','block');
                                 },function(){
-                                    //$("#moren"). css('display','none');
                                     $(this).find("em").css('display','none');
                                 })
                             </script>
                             <div class="row">
-                                <input type="button" id="add_address" style="margin-left: 103px;background: url(//img.alicdn.com/tps/i2/TB1kJUdGFXXXXcyaXXX08VS7pXX-176-1320.png) no-repeat -28px -70px;width: 90px;height: 25px;display: inline-block;font-size: 0;text-indent: -99px;vertical-align: text-top;"></div>
+                                <a href="index.php?r=index/user_center&m=address_add">  <input type="button" id="add_address" style="margin-left: 103px;background: url(//img.alicdn.com/tps/i2/TB1kJUdGFXXXXcyaXXX08VS7pXX-176-1320.png) no-repeat -28px -70px;width: 90px;height: 25px;display: inline-block;font-size: 0;text-indent: -99px;vertical-align: text-top;"></a></div>
                         </div>
+
                         <div class="clear">
                         </div>
                     </div>

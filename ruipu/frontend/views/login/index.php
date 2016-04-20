@@ -54,7 +54,7 @@
 		</div>
 		 <!-----start-copyright---->
    					<div class="copy-right">
-						<p>瑞普医疗 <a href="http://www.cssmoban.com/" target="_blank" title="瑞普医疗">ruipu.com</a></p> 
+						<p>瑞普医疗 <a href="index.php?r=index/index" target="_blank" title="瑞普医疗">repa.com</a></p> 
 					</div>
 				<!-----//end-copyright---->
 

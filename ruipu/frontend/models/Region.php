@@ -54,7 +54,25 @@ class Region extends \yii\db\ActiveRecord
     */
 
     public function selectall(){
-
         return $this->findBySql("SELECT * FROM region")->asArray()->all();
+    }
+    /*
+     * @author 周晶晶
+     * 获取地区列表
+     * */
+     public function address_country(){
+        $arr = $this->find()->where("parent_id =0")->asArray()->all();
+        return $arr;
+     }
+     /*
+      *@author 周晶晶
+      * 获取城市信息
+      * */
+    public function addr_ajax(){
+      $p_name = $_GET['v'];
+      $arr1 = $this->find()->where("region_name='$p_name'")->asArray()->one();
+      $p_id = $arr1['region_id'];
+      $arr = $this->find()->where("parent_id = $p_id")->asArray()->all();
+      return $arr;
     }
 }
