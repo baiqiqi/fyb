@@ -62,6 +62,30 @@ class User extends \yii\db\ActiveRecord
         ];
     }
     /*
+     * @arthur 周晶晶
+     * @登录
+     * @return int
+     */
+    public function signin(){
+        $uname = htmlspecialchars(Yii::$app->request->post('u_name'));
+        $passwd = htmlspecialchars(md5(Yii::$app->request->post('passwd')));
+        if(strpos($uname,'@')){
+            return $this->find()->asArray()
+                ->select('*')
+
+                ->where(['u_email'=>$uname,'passwd'=>$passwd])->one();
+        }else{
+            return $this->find()->asArray()
+                ->select('*')
+                ->join('INNER JOIN','user_role','user.u_id = user_role.u_id')
+                ->join('INNER JOIN','role','user_role.r_id = role.r_id')
+                ->where(['u_name'=>$uname,'passwd'=>$passwd])->one();
+        }
+    }
+
+
+
+    /*
      * 用户中心 user_center
      * */
     public  function  user_center(){
@@ -91,8 +115,8 @@ class User extends \yii\db\ActiveRecord
       * 修改密码
       * */
       public function pwd_update(){
-          $old_pwd = $_GET['old_pwd'];
-          $new_pwd = $_GET['new_pwd'];
+          $old_pwd = md5($_GET['old_pwd']);
+          $new_pwd = md5($_GET['new_pwd']);
           $user_name = '张晨阳';
           $arr = $this->find()->where("u_name = '$user_name'")->asArray()->one();
           if($old_pwd == $arr['u_pwd']){

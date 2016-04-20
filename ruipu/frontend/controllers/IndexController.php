@@ -6,6 +6,7 @@ namespace frontend\controllers;
  *时间：2016/04/13 14:04
  */
 use app\models\Receipt;
+use app\models\Region;
 use app\models\User;
 use Yii;
 use common\models\LoginForm;
@@ -40,7 +41,7 @@ class IndexController extends Controller
     	return $this->render('index',['arr'=>$arr,'row'=>$row]);  			
 	}
 	/*
-	*详情显示
+	*详情显示  details
 	*作者：程啊倩
 	*时间：2016/4/14  16:16
 	*/
@@ -49,18 +50,24 @@ class IndexController extends Controller
 		$pro_id=$_GET['pro_id'];
     	$sql="select * from product where pro_id='$pro_id'";
     	$arr=\Yii::$app->db->createCommand($sql)->queryOne();
-    	return $this->render('details',['arr'=>$arr]); 
+    	$sql="select * from evaluate where pro_id='$pro_id'";
+		$evaluate=\Yii::$app->db->createCommand($sql)->queryAll();
+    	return $this->render('details',['arr'=>$arr,'evaluate'=>$evaluate]); 
 	}
-	//用户中心
+	/*
+	 * 用户中心
+	 * @author：周晶晶
+	 * @$m 页面跳转参数
+	 * */
 	public  function actionUser_center(){
 		$this->layout="header";
 		$model = new User();
 		$model_receipt =new Receipt();
+		$model_region = new Region();
 		$m = $_GET['m'];
 		switch ($m) {
      		//个人主页
 			case '' :$user_info = $model->user_center();
-				//print_r($user_info);die;
 				return  $this->render('usercenter',['userinfo'=>$user_info]);
 				break;
 			//个人资料
@@ -78,6 +85,11 @@ class IndexController extends Controller
 			   // print_r($address);die;
 			    return $this->render('getaddress',['address'=>$address]);
 			    break;
+			//添加新的收货地址
+			case 'address_add':
+			    $country = $model_region->address_country();
+				return $this->render('addaddress',['country'=>$country]);
+			    break;
 			//我的消息
 			case 'personal_news' : return $this->render('personalnews') ;
 			    break;
@@ -85,14 +97,45 @@ class IndexController extends Controller
 			case 'personal_words' : return $this->render('personalwords') ;
 			    break;
 
+
 		}
 
 	}
+	/*
+	 * 执行密码设置
+	 * @author 周晶晶
+	 * return string 返回提示信息
+	 * */
     public  function actionPersonal_pwd_pro(){
       $model = new User();
       $info = $model->pwd_update();
       print_r($info);
 
+    }
+    /*
+     * 收获地址 获取城市信息
+     * @author 周晶晶
+     * return string
+     * */
+
+     public function actionAddr_ajax(){
+      $model = new Region();
+      $arr = $model->addr_ajax();
+      $str = "<option value='".'0'."'>"."--请选择--"."</option>";
+      foreach($arr as $k=>$v){
+        $str .="<option value='".$v['region_name']."'>".$v['region_name']."</option>";
+      }
+      print_r($str);
+     }
+    /*
+     * 添加收货地址
+     * @author 周晶晶
+     * return string 提示信息
+     * */
+    public function actionAddress_insert(){
+     $model =new Receipt();
+     $info = $model->address_insert();
+     print_r($info);
     }
 
 	public function actionContact()
