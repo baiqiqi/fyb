@@ -29,17 +29,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6054688">
-              <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
+            <state vertical-scroll-proportion="-6.064516">
+              <caret line="106" column="45" selection-start-line="106" selection-start-column="42" selection-end-line="106" selection-end-column="50" />
               <folding>
-                <element signature="e#86#109#0#PHP" expanded="true" />
-                <marker date="1461139543762" expanded="true" signature="716:737" placeholder="select * fro..product..." />
-                <marker date="1461139543762" expanded="true" signature="811:842" placeholder="select * fro..product..." />
-                <marker date="1461139543762" expanded="true" signature="1128:1172" placeholder="select * fro..product..." />
-                <marker date="1461139543762" expanded="true" signature="1245:1290" placeholder="select * fro..evaluate..." />
+                <element signature="e#86#107#0#PHP" expanded="true" />
+                <marker date="1461154462298" expanded="true" signature="738:759" placeholder="select * fro..product..." />
+                <marker date="1461154462298" expanded="true" signature="833:864" placeholder="select * fro..product..." />
+                <marker date="1461154462298" expanded="true" signature="1150:1194" placeholder="select * fro..product..." />
+                <marker date="1461154462298" expanded="true" signature="1267:1312" placeholder="select * fro..evaluate..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myorders.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/views/Index/myorders.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.75">
+              <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+              <folding>
+                <element signature="e#6#46#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,21 +61,18 @@
       <file leaf-file-name="personaldata.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/views/Index/personaldata.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.875">
-              <caret line="163" column="28" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="1.4375">
+              <caret line="103" column="14" selection-start-line="98" selection-start-column="8" selection-end-line="103" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/models/User.php">
+      <file leaf-file-name="Order.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/models/Order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.3125">
-              <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+            <state vertical-scroll-proportion="-9.09375">
+              <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -71,8 +81,8 @@
       <file leaf-file-name="usercenter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/views/Index/usercenter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.4375">
-              <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="34" />
+            <state vertical-scroll-proportion="-2.875">
+              <caret line="4" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,14 +112,16 @@
         <option value="$PROJECT_DIR$/frontend/models/Region.php" />
         <option value="$PROJECT_DIR$/frontend/controllers/LoginController.php" />
         <option value="$PROJECT_DIR$/frontend/views/login/login.php" />
-        <option value="$PROJECT_DIR$/frontend/models/Receipt.php" />
-        <option value="$PROJECT_DIR$/frontend/views/Index/usercenter.php" />
         <option value="$PROJECT_DIR$/frontend/views/Index/addaddress.php" />
         <option value="$PROJECT_DIR$/frontend/views/Index/getaddress.php" />
         <option value="$PROJECT_DIR$/frontend/views/Index/personalpwd.php" />
-        <option value="$PROJECT_DIR$/frontend/views/Index/personaldata.php" />
+        <option value="$PROJECT_DIR$/frontend/models/Receipt.php" />
         <option value="$PROJECT_DIR$/frontend/models/User.php" />
+        <option value="$PROJECT_DIR$/frontend/views/Index/personaldata.php" />
         <option value="$PROJECT_DIR$/frontend/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/frontend/views/Index/usercenter.php" />
+        <option value="$PROJECT_DIR$/frontend/models/Order.php" />
+        <option value="$PROJECT_DIR$/frontend/views/Index/myorders.php" />
       </list>
     </option>
   </component>
@@ -283,24 +295,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ruipu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ruipu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -412,36 +406,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/frontend/views/Index/usercenter.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/views/layouts/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/config/main-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
-            <element signature="e#86#109#0#PHP" expanded="true" />
-            <marker date="1461139543762" expanded="true" signature="716:737" placeholder="select * fro..product..." />
-            <marker date="1461139543762" expanded="true" signature="811:842" placeholder="select * fro..product..." />
-            <marker date="1461139543762" expanded="true" signature="1128:1172" placeholder="select * fro..product..." />
-            <marker date="1461139543762" expanded="true" signature="1245:1290" placeholder="select * fro..evaluate..." />
+            <element signature="e#86#107#0#PHP" expanded="true" />
+            <marker date="1461154462298" expanded="true" signature="738:759" placeholder="select * fro..product..." />
+            <marker date="1461154462298" expanded="true" signature="833:864" placeholder="select * fro..product..." />
+            <marker date="1461154462298" expanded="true" signature="1150:1194" placeholder="select * fro..product..." />
+            <marker date="1461154462298" expanded="true" signature="1267:1312" placeholder="select * fro..evaluate..." />
           </folding>
         </state>
       </provider>
@@ -457,6 +442,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -488,11 +474,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
-            <element signature="e#86#109#0#PHP" expanded="true" />
-            <marker date="1461139543762" expanded="true" signature="716:737" placeholder="select * fro..product..." />
-            <marker date="1461139543762" expanded="true" signature="811:842" placeholder="select * fro..product..." />
-            <marker date="1461139543762" expanded="true" signature="1128:1172" placeholder="select * fro..product..." />
-            <marker date="1461139543762" expanded="true" signature="1245:1290" placeholder="select * fro..evaluate..." />
+            <element signature="e#86#107#0#PHP" expanded="true" />
+            <marker date="1461154462298" expanded="true" signature="738:759" placeholder="select * fro..product..." />
+            <marker date="1461154462298" expanded="true" signature="833:864" placeholder="select * fro..product..." />
+            <marker date="1461154462298" expanded="true" signature="1150:1194" placeholder="select * fro..product..." />
+            <marker date="1461154462298" expanded="true" signature="1267:1312" placeholder="select * fro..evaluate..." />
           </folding>
         </state>
       </provider>
@@ -707,6 +693,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.74904215">
           <caret line="314" column="55" selection-start-line="314" selection-start-column="54" selection-end-line="314" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -731,18 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-30.90625">
           <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/models/Receipt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <marker date="1461139435576" expanded="true" signature="1276:1339" placeholder="select * fro..receipt..." />
-            <marker date="1461139435576" expanded="true" signature="2543:2584" placeholder="update recei..." />
-            <marker date="1461139435576" expanded="true" signature="2543:2585" placeholder="update recei..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,43 +755,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/views/Index/usercenter.php">
+    <entry file="file://$PROJECT_DIR$/frontend/models/Receipt.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.4375">
-          <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/views/Index/personaldata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.875">
-          <caret line="163" column="28" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
+        <state vertical-scroll-proportion="33.3125">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <marker date="1461139775561" expanded="true" signature="1276:1339" placeholder="select * fro..receipt..." />
+            <marker date="1461139775561" expanded="true" signature="2468:2509" placeholder="update recei..." />
+            <marker date="1461139775561" expanded="true" signature="2468:2510" placeholder="update recei..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.3125">
-          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+        <state vertical-scroll-proportion="-2.875">
+          <caret line="87" column="54" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+          <folding>
+            <marker date="1461146462137" expanded="true" signature="2675:2736" placeholder="update user ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/Index/usercenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.875">
+          <caret line="4" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6054688">
-          <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
+        <state vertical-scroll-proportion="-6.064516">
+          <caret line="106" column="45" selection-start-line="106" selection-start-column="42" selection-end-line="106" selection-end-column="50" />
           <folding>
-            <element signature="e#86#109#0#PHP" expanded="true" />
-            <marker date="1461139543762" expanded="true" signature="716:737" placeholder="select * fro..product..." />
-            <marker date="1461139543762" expanded="true" signature="811:842" placeholder="select * fro..product..." />
-            <marker date="1461139543762" expanded="true" signature="1128:1172" placeholder="select * fro..product..." />
-            <marker date="1461139543762" expanded="true" signature="1245:1290" placeholder="select * fro..evaluate..." />
+            <element signature="e#86#107#0#PHP" expanded="true" />
+            <marker date="1461154462298" expanded="true" signature="738:759" placeholder="select * fro..product..." />
+            <marker date="1461154462298" expanded="true" signature="833:864" placeholder="select * fro..product..." />
+            <marker date="1461154462298" expanded="true" signature="1150:1194" placeholder="select * fro..product..." />
+            <marker date="1461154462298" expanded="true" signature="1267:1312" placeholder="select * fro..evaluate..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/models/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.09375">
+          <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/Index/personaldata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4375">
+          <caret line="103" column="14" selection-start-line="98" selection-start-column="8" selection-end-line="103" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/Index/myorders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75">
+          <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+          <folding>
+            <element signature="e#6#46#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
