@@ -12418,3 +12418,1595 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1460982929.2519
     'REQUEST_TIME' => 1460982929
 ]
+2016-04-20 13:09:32 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: nav' in E:\PHPstudy\zzz\fyb\ruipu\backend\views\index\index.php:36
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\backend\views\index\index.php(36): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\PHPstudy\\zzz...', 36, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('E:\\PHPstudy\\zzz...')
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\PHPstudy\\zzz...', Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\PHPstudy\\zzz...', Array, Object(backend\controllers\IndexController))
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('index', Array, Object(backend\controllers\IndexController))
+#5 E:\PHPstudy\zzz\fyb\ruipu\backend\controllers\IndexController.php(21): yii\base\Controller->render('index')
+#6 [internal function]: backend\controllers\IndexController->actionIndex()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/index', Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-20 13:09:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1852'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51731'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461128971.8874
+    'REQUEST_TIME' => 1461128971
+]
+2016-04-20 13:09:32 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-04-20 13:09:31 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1852'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51731'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461128971.8874
+    'REQUEST_TIME' => 1461128971
+]
+2016-04-20 15:17:22 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: indent/index' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php:124
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('indent/index', Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-20 15:17:22 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][info][application] $_GET = [
+    'r' => 'indent/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=indent/index'
+    'QUERY_STRING' => 'r=indent/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53629'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=index/nav'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461136642.8159
+    'REQUEST_TIME' => 1461136642
+]
+2016-04-20 15:25:16 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: indent/index' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php:124
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('indent/index', Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-20 15:25:16 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][info][application] $_GET = [
+    'r' => 'indent/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1936'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=indent/index'
+    'QUERY_STRING' => 'r=indent/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53850'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=index/nav'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461137116.1864
+    'REQUEST_TIME' => 1461137116
+]
+2016-04-20 15:25:18 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: indent/index' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php:124
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('indent/index', Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-20 15:25:18 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][info][application] $_GET = [
+    'r' => 'indent/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1936'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=indent/index'
+    'QUERY_STRING' => 'r=indent/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53850'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=index/nav'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461137118.5355
+    'REQUEST_TIME' => 1461137118
+]
+2016-04-20 16:48:47 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: det_number' in E:\PHPstudy\zzz\fyb\ruipu\backend\views\indent\show.php:46
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\backend\views\indent\show.php(46): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\PHPstudy\\zzz...', 46, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('E:\\PHPstudy\\zzz...')
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\PHPstudy\\zzz...', Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\PHPstudy\\zzz...', Array, Object(backend\controllers\IndentController))
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('show', Array, Object(backend\controllers\IndentController))
+#5 E:\PHPstudy\zzz\fyb\ruipu\backend\controllers\IndentController.php(20): yii\base\Controller->render('show', Array)
+#6 [internal function]: backend\controllers\IndentController->actionShow()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('show', Array)
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('indent/show', Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-20 16:48:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'indent/show'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1864'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=indent/show'
+    'QUERY_STRING' => 'r=indent/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54534'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=index/nav'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461142127.0773
+    'REQUEST_TIME' => 1461142127
+]
+2016-04-20 16:48:47 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-20 16:48:47 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][info][application] $_GET = [
+    'r' => 'indent/show'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1864'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=indent/show'
+    'QUERY_STRING' => 'r=indent/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54534'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=index/nav'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461142127.0773
+    'REQUEST_TIME' => 1461142127
+]
+2016-04-20 16:49:29 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: det_number' in E:\PHPstudy\zzz\fyb\ruipu\backend\views\indent\show.php:46
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\backend\views\indent\show.php(46): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\PHPstudy\\zzz...', 46, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('E:\\PHPstudy\\zzz...')
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\PHPstudy\\zzz...', Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\PHPstudy\\zzz...', Array, Object(backend\controllers\IndentController))
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('show', Array, Object(backend\controllers\IndentController))
+#5 E:\PHPstudy\zzz\fyb\ruipu\backend\controllers\IndentController.php(20): yii\base\Controller->render('show', Array)
+#6 [internal function]: backend\controllers\IndentController->actionShow()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('show', Array)
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('indent/show', Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-20 16:49:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'indent/show'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1864'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=indent/show'
+    'QUERY_STRING' => 'r=indent/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54544'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=index/nav'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461142169.5874
+    'REQUEST_TIME' => 1461142169
+]
+2016-04-20 16:49:29 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-20 16:49:29 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][info][application] $_GET = [
+    'r' => 'indent/show'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1864'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=indent/show'
+    'QUERY_STRING' => 'r=indent/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54544'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=index/nav'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461142169.5874
+    'REQUEST_TIME' => 1461142169
+]
+2016-04-20 16:51:15 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: det_number' in E:\PHPstudy\zzz\fyb\ruipu\backend\views\indent\show.php:46
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\backend\views\indent\show.php(46): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\PHPstudy\\zzz...', 46, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('E:\\PHPstudy\\zzz...')
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\PHPstudy\\zzz...', Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\PHPstudy\\zzz...', Array, Object(backend\controllers\IndentController))
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('show', Array, Object(backend\controllers\IndentController))
+#5 E:\PHPstudy\zzz\fyb\ruipu\backend\controllers\IndentController.php(20): yii\base\Controller->render('show', Array)
+#6 [internal function]: backend\controllers\IndentController->actionShow()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('show', Array)
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('indent/show', Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-20 16:51:14 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'indent/show'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1864'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=indent/show'
+    'QUERY_STRING' => 'r=indent/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54558'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=index/nav'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461142274.9086
+    'REQUEST_TIME' => 1461142274
+]
+2016-04-20 16:51:15 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-20 16:51:14 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][info][application] $_GET = [
+    'r' => 'indent/show'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1864'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=indent/show'
+    'QUERY_STRING' => 'r=indent/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54558'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=index/nav'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461142274.9086
+    'REQUEST_TIME' => 1461142274
+]
+2016-04-20 16:59:53 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: val' in E:\PHPstudy\zzz\fyb\ruipu\backend\views\index\update_show.php:15
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\backend\views\index\update_show.php(15): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\PHPstudy\\zzz...', 15, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('E:\\PHPstudy\\zzz...')
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\PHPstudy\\zzz...', Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\PHPstudy\\zzz...', Array, Object(backend\controllers\IndexController))
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('update_show', Array, Object(backend\controllers\IndexController))
+#5 E:\PHPstudy\zzz\fyb\ruipu\backend\controllers\IndexController.php(32): yii\base\Controller->render('update_show', Array)
+#6 [internal function]: backend\controllers\IndexController->actionUpdate_show()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update_show', Array)
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/update_sh...', Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-20 16:59:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/update_show'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1896'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=index/update_show&id=1'
+    'QUERY_STRING' => 'r=index/update_show&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54617'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=index/nav'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461142793.1725
+    'REQUEST_TIME' => 1461142793
+]
+2016-04-20 16:59:53 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-20 16:59:53 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][info][application] $_GET = [
+    'r' => 'index/update_show'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1896'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=index/update_show&id=1'
+    'QUERY_STRING' => 'r=index/update_show&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54617'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=index/nav'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461142793.1725
+    'REQUEST_TIME' => 1461142793
+]
+2016-04-20 19:32:09 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "doctorinfo/dinfo".' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('doctorinfo/dinf...', Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-20 19:32:09 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][info][application] $_GET = [
+    'r' => 'doctorinfo/dinfo'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1836'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=doctorinfo/dinfo'
+    'QUERY_STRING' => 'r=doctorinfo/dinfo'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56864'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=userinfo/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461151929.1263
+    'REQUEST_TIME' => 1461151929
+]
+2016-04-20 19:32:09 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "doctorinfo/dinfo".' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('doctorinfo/dinf...', Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-20 19:32:09 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][info][application] $_GET = [
+    'r' => 'doctorinfo/dinfo'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1836'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=doctorinfo/dinfo'
+    'QUERY_STRING' => 'r=doctorinfo/dinfo'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56866'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=userinfo/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461151929.8363
+    'REQUEST_TIME' => 1461151929
+]
+2016-04-20 19:32:10 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "doctorinfo/dinfo".' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('doctorinfo/dinf...', Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-20 19:32:10 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][info][application] $_GET = [
+    'r' => 'doctorinfo/dinfo'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1836'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=doctorinfo/dinfo'
+    'QUERY_STRING' => 'r=doctorinfo/dinfo'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56867'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=userinfo/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461151930.2593
+    'REQUEST_TIME' => 1461151930
+]
+2016-04-20 19:32:27 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "doctorinfo/dinfo".' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('doctorinfo/dinf...', Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-20 19:32:27 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][info][application] $_GET = [
+    'r' => 'doctorinfo/dinfo'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1836'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=doctorinfo/dinfo'
+    'QUERY_STRING' => 'r=doctorinfo/dinfo'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56876'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=userinfo/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461151947.0864
+    'REQUEST_TIME' => 1461151947
+]
+2016-04-20 19:32:46 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: E:\PHPstudy\zzz\fyb\ruipu\backend\views\doctor\dinfo.php' in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\PHPstudy\\zzz...', Array, Object(backend\controllers\DoctorController))
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('dinfo', Array, Object(backend\controllers\DoctorController))
+#2 E:\PHPstudy\zzz\fyb\ruipu\backend\controllers\DoctorController.php(23): yii\base\Controller->render('dinfo', Array)
+#3 [internal function]: backend\controllers\DoctorController->actionDinfo()
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#6 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dinfo', Array)
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('doctor/dinfo', Array)
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-04-20 19:32:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'doctor/dinfo'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1836'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=doctor/dinfo'
+    'QUERY_STRING' => 'r=doctor/dinfo'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56887'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=userinfo/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461151966.0795
+    'REQUEST_TIME' => 1461151966
+]
+2016-04-20 19:32:46 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidParamException))
+#7 {main}
+2016-04-20 19:32:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'doctor/dinfo'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1836'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=doctor/dinfo'
+    'QUERY_STRING' => 'r=doctor/dinfo'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56887'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=userinfo/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461151966.0795
+    'REQUEST_TIME' => 1461151966
+]
+2016-04-20 19:37:54 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '；' (T_STRING), expecting ',' or ';'' in E:\PHPstudy\zzz\fyb\ruipu\backend\views\userinfo\info.php:48
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-20 19:37:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'userinfo/info'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1984'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=userinfo/info'
+    'QUERY_STRING' => 'r=userinfo/info'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56970'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=doctor/dinfo'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461152273.212
+    'REQUEST_TIME' => 1461152273
+]
+2016-04-20 19:38:29 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '；' (T_STRING), expecting ',' or ';'' in E:\PHPstudy\zzz\fyb\ruipu\backend\views\userinfo\info.php:48
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-20 19:38:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'userinfo/info'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1984'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=userinfo/info'
+    'QUERY_STRING' => 'r=userinfo/info'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56984'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=doctor/dinfo'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461152308.9442
+    'REQUEST_TIME' => 1461152308
+]
+2016-04-20 19:40:14 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: u_sex' in E:\PHPstudy\zzz\fyb\ruipu\backend\views\doctor\dinfo.php:44
+Stack trace:
+#0 E:\PHPstudy\zzz\fyb\ruipu\backend\views\doctor\dinfo.php(44): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\PHPstudy\\zzz...', 44, Array)
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('E:\\PHPstudy\\zzz...')
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\PHPstudy\\zzz...', Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\PHPstudy\\zzz...', Array, Object(backend\controllers\DoctorController))
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('dinfo', Array, Object(backend\controllers\DoctorController))
+#5 E:\PHPstudy\zzz\fyb\ruipu\backend\controllers\DoctorController.php(23): yii\base\Controller->render('dinfo', Array)
+#6 [internal function]: backend\controllers\DoctorController->actionDinfo()
+#7 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dinfo', Array)
+#10 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('doctor/dinfo', Array)
+#11 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\PHPstudy\zzz\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-20 19:40:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'doctor/dinfo'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1984'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=doctor/dinfo'
+    'QUERY_STRING' => 'r=doctor/dinfo'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57006'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=userinfo/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461152413.8888
+    'REQUEST_TIME' => 1461152413
+]
+2016-04-20 19:40:14 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\PHPstudy\zzz\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-20 19:40:13 [127.0.0.1][-][rsgclo1i46jghdmakn1cfc6s63][info][application] $_GET = [
+    'r' => 'doctor/dinfo'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'bdshare_firstime' => '1461024487736'
+    'PHPSESSID' => 'rsgclo1i46jghdmakn1cfc6s63'
+    '_csrf' => 'a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JuZcupl8jMzNeS-AtilydaQNyzLtEetD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1984'
+    'SCRIPT_NAME' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/backend/web/index.php?r=doctor/dinfo'
+    'QUERY_STRING' => 'r=doctor/dinfo'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57006'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; bdshare_firstime=1461024487736; PHPSESSID=rsgclo1i46jghdmakn1cfc6s63; _csrf=a7a02cdd71567f32e2876aca4fef8d1e66e13ee8c8089ce1dccabc3efb728971a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JuZcupl8jMzNeS-AtilydaQNyzLtEetD%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.zcy.com/fyb/ruipu/backend/web/index.php?r=userinfo/info'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461152413.8888
+    'REQUEST_TIME' => 1461152413
+]

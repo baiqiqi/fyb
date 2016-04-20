@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>导航栏管理</title>
+	<title>订单管理</title>
 	<style>
 		#nav{
 			font-size: 20px;
@@ -20,37 +20,38 @@
 <body>
 <div id="nav">
 <center>
-<h1>导航栏管理</h1>
+<h1>订单管理</h1>
 <br />
 <table border="1;solid">
 <tr>
 <td></td>
 <td>ID</td>
-<td>导航名称</td>
-<td>导航路径</td>
-<td>是否启用</td>
-<td>显示顺序</td>
+<td>用户名称</td>
+<td>商品名称</td>
+<td>商品总价</td>
+<td>商品数量</td>
+<td>快递名称</td>
+<td>订单号</td>
+<td>订单时间</td>
 <td>管理操作</td>
 </tr>
-<?php foreach ($nav as $key => $val) {?>
+<?php foreach ($arr as $k => $v) {?>
 <tr id="div">
 <td><input type="checkbox" name="stu" /></td>
-<td><?php echo $val["nav_id"];?></td>
-<td><?php echo $val["nav_name"];?></td>
-<td><?php echo $val["nav_url"];?></td>
-<td><?php if ($val["nav_status"]==1) {
-	echo "启用";
-}
-else{
-	echo "未启用";
-	}?></td>
-<td><?php echo $val["nav_sort"];?></td>
-<td><a href="">删除</a><a href="index.php?r=index/update_show&id=<?php echo $val["nav_id"]?>">修改</a></td>
+<td><?php echo $v["ord_id"];?></td>
+<td><?php echo $v["u_name"];?></td>
+<td><?php echo $v["pro_name"];?></td>
+<td><?php echo $v["pro_price"];?></td>
+<td><?php echo $v["pro_num"];?></td>
+<td><?php echo $v["ex_name"];?></td>
+<td><?php echo $v["det_numbur"];?></td>
+<td><?php echo $v["det_time"];?></td>
+<td><a href="">删除</a>||<a href="">修改</a></td>
 
 </tr>
 <?php } ?>
 </div>
-<tr id="operation"><td colspan="7" ><a href="">添加导航</a><input type="button" value="全选" onclick="allSelectType();"/><input type="button" value="反选" onclick="invertSelectType();"/><input type="button" value="批量删除" onclick="invertSelectType();"/>
+<tr id="operation"><td colspan="10" ><input type="button" value="全选" onclick="allSelectType();"/><input type="button" value="反选" onclick="invertSelectType();"/><input type="button" value="批量删除" onclick="invertSelectType();"/>
 </td></tr>
 </table>
 </center>
