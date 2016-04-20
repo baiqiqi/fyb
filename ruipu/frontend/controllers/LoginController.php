@@ -1,5 +1,4 @@
 <?php
-namespace frontend\controllers;
 /*
  *调用页面控制器
  *作者：张晨阳 
@@ -7,6 +6,8 @@ namespace frontend\controllers;
  *绰号：帅到被人砍	
  *时间：2016/04/14 19:08
  */
+namespace frontend\controllers;
+
 use Yii;
 use common\models\LoginForm;
 use frontend\models\PasswordResetRequestForm;
@@ -158,6 +159,10 @@ class LoginController extends Controller
 		        $key <= $strCount  && isset($strArr[$key]) && $strArr[$key][1] === $value && $strArr[$key] = $strArr[$key][0];
 		    return base64_decode(join('', $strArr));
 	}
+    /*
+     * 登录
+     *@author 张晨阳
+     * */
 	public function actionDologin()
 	{
 			
@@ -202,6 +207,10 @@ class LoginController extends Controller
 		    }
 		}
 	}
+	/*
+	 * 退出
+	 * @author 张晨阳
+	 * */
 	public function actionBack()
 	{
 		$session = Yii::$app->session;

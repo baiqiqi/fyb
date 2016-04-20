@@ -1,4 +1,4 @@
-
+ <?php include('../views/layouts/top.php');?>
     <!--/sidebar-->
     <div class="main-wrap">
         <div class="crumb-wrap">

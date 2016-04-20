@@ -29,18 +29,18 @@ use yii\helpers\Html;
                     <h3 class="t4">
                         我的订单<span title="折叠"></span></h3>
                     <ul class="sub">
-                        <li><a href="">所有订单</a></li>
-                        <li><a href="">已支付</a></li>
-                        <li><a href="">未支付</a></li>
-                        <li><a href="">失效订单</a></li>
+                        <li><a href="index.php?r=index/user_center&m=order_all">所有订单</a></li>
+                        <li><a href="index.php?r=index/user_center&m=order_pay_yes">已支付</a></li>
+                        <li><a href="index.php?r=index/user_center&m=order_pay_no">未支付</a></li>
+                        <li><a href="index.php?r=index/user_center&m=order_invalid">失效订单</a></li>
                     </ul>
                 </li>
                 <li class="item" id="user_menu_funds" name="user_menu_funds">
                     <h3 class="t2">
                         积分管理<span title="折叠"></span></h3>
                     <ul class="sub">
-                        <li><a href="">积分记录</a></li>
-                        <li><a href="">充值记录</a></li>
+                        <li><a href="index.php?r=index/user_center&m=points_record">积分记录</a></li>
+                        <li><a href="index.php?r=index/user_center&m=rechange_record">充值记录</a></li>
 
                     </ul>
                 </li>
@@ -48,9 +48,8 @@ use yii\helpers\Html;
                     <h3 class="t3">
                         我的优惠券<a name="user_login"></a><span title="折叠"></span></h3>
                     <ul class="sub">
-                        <li><a  href="">全部优惠券</a></li>
-
-                        <li><a href="">已过期</a></li></ul>
+                        <li><a  href="index.php?r=index/user_center&m=coupon_all">全部优惠券</a></li>
+                        <li><a href="index.php?r=index/user_center&m=coupon_invalid">已过期</a></li></ul>
                 </li>
 
             </ul>

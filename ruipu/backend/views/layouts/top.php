@@ -23,7 +23,7 @@ $ip = $_SERVER['REMOTE_ADDR'];
         <div class="topbar-logo-wrap clearfix">
             <h1 class="topbar-logo none"><a href="index.html" class="navbar-brand">后台管理</a></h1>
             <ul class="navbar-list clearfix">
-                <li><a class="on" href="index.html">首页</a></li>
+                <li><a class="on" href="index.php?r=index/index">首页</a></li>
                 <li><a href="#" target="_blank">网站首页</a></li>
             </ul>
         </div>
@@ -54,6 +54,11 @@ $ip = $_SERVER['REMOTE_ADDR'];
                         <li><a href=""><i class="icon-font">&#xe012;</i>评论管理</a></li>
                         <li><a href="index.php?r=about/agency"><i class="icon-font">&#xe052;</i>代理商管理</a></li>
                         <li><a href=""><i class="icon-font">&#xe033;</i>广告管理</a></li>
+                        <li><a href="index.php?r=indent/show"><i class="icon-font">&#xe006;</i>订单管理</a></li>
+                        <li><a href="index.php?r=userinfo/info"><i class="icon-font">&#xe004;</i>用户管理</a></li>
+                        <li><a href="index.php?r=doctor/dinfo"><i class="icon-font">&#xe012;</i>医生管理</a></li>
+                        <li><a href=""><i class="icon-font">&#xe052;</i>友情链接</a></li>
+                        <li><a href="index.php?r=index/articles"><i class="icon-font">&#xe033;</i>文章管理</a></li>
                     </ul>
                 </li>
                 <li>
@@ -61,7 +66,7 @@ $ip = $_SERVER['REMOTE_ADDR'];
                     <ul class="sub-menu">
                         <li><a href=""><i class="icon-font">&#xe017;</i>系统设置</a></li>
                         <li><a href=""><i class="icon-font">&#xe037;</i>清理缓存</a></li>
-                        <li><a href=""><i class="icon-font">&#xe046;</i>数据备份</a></li>
+                        <li><a href="index.php?r=index/backups"><i class="icon-font">&#xe046;</i>数据备份</a></li>
                         <li><a href=""><i class="icon-font">&#xe045;</i>数据还原</a></li>
                     </ul>
                 </li>

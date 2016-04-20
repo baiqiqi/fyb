@@ -16,6 +16,7 @@ use Yii;
  * @property string $u_age
  * @property double $u_height
  * @property double $u_weight
+ * @property string $u_email
  */
 class User extends \yii\db\ActiveRecord
 {
@@ -33,9 +34,9 @@ class User extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['u_name', 'u_pwd', 'u_img', 'u_tel', 'u_age', 'u_height', 'u_weight'], 'required'],
+            [['u_name', 'u_pwd'], 'required'],
             [['u_height', 'u_weight'], 'number'],
-            [['u_name'], 'string', 'max' => 100],
+            [['u_name', 'u_email'], 'string', 'max' => 100],
             [['u_pwd'], 'string', 'max' => 32],
             [['u_img'], 'string', 'max' => 200],
             [['u_tel'], 'string', 'max' => 11],
@@ -59,76 +60,7 @@ class User extends \yii\db\ActiveRecord
             'u_age' => 'U Age',
             'u_height' => 'U Height',
             'u_weight' => 'U Weight',
+            'u_email' => 'U Email',
         ];
     }
-    /*
-     * @arthur 周晶晶
-     * @登录
-     * @return int
-     */
-    public function signin(){
-        $uname = htmlspecialchars(Yii::$app->request->post('u_name'));
-        $passwd = htmlspecialchars(md5(Yii::$app->request->post('passwd')));
-        if(strpos($uname,'@')){
-            return $this->find()->asArray()
-                ->select('*')
-
-                ->where(['u_email'=>$uname,'passwd'=>$passwd])->one();
-        }else{
-            return $this->find()->asArray()
-                ->select('*')
-                ->join('INNER JOIN','user_role','user.u_id = user_role.u_id')
-                ->join('INNER JOIN','role','user_role.r_id = role.r_id')
-                ->where(['u_name'=>$uname,'passwd'=>$passwd])->one();
-        }
-    }
-
-
-
-    /*
-     * 用户中心 user_center
-     * */
-    public  function  user_center(){
-       $user_name = '张晨阳';
-        $db = Yii::$app->db;
-        //$arr = $db->createCommand("select * from user where u_name = '$user_name'")->queryAll();
-      $arr =(new \yii\db\Query())
-              ->select('*')
-              ->from('user as u')
-              ->innerJoin("exercise as ex","u.u_id=ex.u_id")
-              ->innerJoin("doctor as doc","ex.d_id=doc.doc_id")
-              ->where("u.u_name = '$user_name'")
-              ->one();
-       return $arr;
-    }
-    /*
-     * 个人资料 personal_data
-     *
-     * */
-     public  function personal_data(){
-        $user_name = '张晨阳';
-         $db = Yii::$app->db;
-         $arr = $db->createCommand("select * from user u join exercise as ex on u.u_id=ex.u_id join doctor as doc on ex.d_id=doc.doc_id where u.u_name = '$user_name'")->queryAll();
-         return $arr;
-     }
-     /*
-      * 修改密码
-      * */
-      public function pwd_update(){
-          $old_pwd = md5($_GET['old_pwd']);
-          $new_pwd = md5($_GET['new_pwd']);
-          $user_name = '张晨阳';
-          $arr = $this->find()->where("u_name = '$user_name'")->asArray()->one();
-          if($old_pwd == $arr['u_pwd']){
-           $info = Yii::$app->db->createCommand("update user set u_pwd= '$new_pwd' where u_name = '$user_name'")->execute();
-            if($info){
-              return "密码设置成功";
-            }else{
-              return '密码设置失败';
-            }
-          }else{
-            return "原密码填写错误" ;
-          }
-
-      }
 }
