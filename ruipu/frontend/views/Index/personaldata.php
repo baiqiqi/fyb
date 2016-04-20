@@ -15,8 +15,8 @@
                 <h3 class="t1">
                     我的个人天地<span title="折叠"></span></h3>
                 <ul class="sub">
-                    <li><a  href="index.php?r=index/user_center&m=">个人主页</a></li>
-                    <li><a class="current" href="index.php?r=index/user_center&m=personal_data">个人资料</a></li>
+                    <li><a href="index.php?r=index/user_center&m=">个人主页</a></li>
+                    <li><a class="current"  href="index.php?r=index/user_center&m=personal_data">个人资料</a></li>
                     <li><a href="index.php?r=index/user_center&m=personal_pwd">密码设置</a></li>
                     <li><a href="index.php?r=index/user_center&m=get_address">收货地址</a></li>
                     <li><a href="index.php?r=index/user_center&m=personal_news">我的消息</a></li>
@@ -28,18 +28,18 @@
                 <h3 class="t4">
                     我的订单<span title="折叠"></span></h3>
                 <ul class="sub">
-                    <li><a href="">所有订单</a></li>
-                    <li><a href="">已支付</a></li>
-                    <li><a href="">未支付</a></li>
-                    <li><a href="">失效订单</a></li>
+                    <li><a href="index.php?r=index/user_center&m=order_all">所有订单</a></li>
+                    <li><a href="index.php?r=index/user_center&m=order_pay_yes">已支付</a></li>
+                    <li><a href="index.php?r=index/user_center&m=order_pay_no">未支付</a></li>
+                    <li><a href="index.php?r=index/user_center&m=order_invalid">失效订单</a></li>
                 </ul>
             </li>
             <li class="item" id="user_menu_funds" name="user_menu_funds">
                 <h3 class="t2">
                     积分管理<span title="折叠"></span></h3>
                 <ul class="sub">
-                    <li><a href="">积分记录</a></li>
-                    <li><a href="">充值记录</a></li>
+                    <li><a href="index.php?r=index/user_center&m=points_record">积分记录</a></li>
+                    <li><a href="index.php?r=index/user_center&m=rechange_record">充值记录</a></li>
 
                 </ul>
             </li>
@@ -47,9 +47,8 @@
                 <h3 class="t3">
                     我的优惠券<a name="user_login"></a><span title="折叠"></span></h3>
                 <ul class="sub">
-                    <li><a  href="">全部优惠券</a></li>
-
-                    <li><a href="">已过期</a></li></ul>
+                    <li><a  href="index.php?r=index/user_center&m=coupon_all">全部优惠券</a></li>
+                    <li><a href="index.php?r=index/user_center&m=coupon_invalid">已过期</a></li></ul>
             </li>
 
         </ul>
@@ -100,8 +99,7 @@
         <div id="tab_menu">
             <ul class="u-tab clearfix">
                 <li class="current"><a>个人详细信息</a></li>
-                <li><a>工作认证信息</a></li>
-                <li><a>联系人信息</a></li>
+
             </ul>
         </div>
         <div id="tab_box">
@@ -109,24 +107,69 @@
                 <div class="uf-tips">
                     <span class="red">*</span> 为必填项，所有资料均会严格保密。
                 </div>
-                <div>
-                    这是个人详细信息</div>
+                <style>
+                    #person tr{
+                      height: 30px;
+
+                    }
+                    #person td{
+                      text-align: center;
+                    }
+                    .avatars{
+                       margin-top: 10px;
+                    }
+                </style>
+                <div style="margin-top: 5px;margin-bottom: 20px;">
+
+                        <?php if($personal['u_img']){?>
+                            <span><img src="<?= $personal['u_img'];?>" class="avatars" /></span>
+                        <?php }else{?>
+                            <span><img src="images/touxiang.png" class="avatars" /></span>
+                        <?php }?>
+
+                    <table border="1" style="float: right;width:75%;margin-left:px;" id="person">
+
+                        <tr>
+                            <td>用户名：</td>
+                            <td><?= $personal['u_name'];?></td>
+                        </tr>
+                        <tr>
+                            <td>性别：</td>
+                            <td><?php if($personal['u_sex']==1){?>
+                                    <input type="radio" name="sex" value="1" checked>男
+                                    <input type="radio" name="sex" value="0">女
+                                <?php }else{?>
+                                    <input type="radio" name="sex" value="1">男
+                                    <input type="radio" name="sex" value="0" checked>女
+                                <?php }?>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>年龄：</td>
+                            <td><?= $personal['u_age']?></td>
+                        </tr>
+                        <tr>
+                            <td>身高：</td>
+                            <td><?= $personal['u_height'];?>cm</td>
+                        </tr>
+                        <tr>
+                            <td>体重：</td>
+                            <td><?= $personal['u_weight'];?>kg</td>
+                        </tr>
+                        <tr>
+                            <td>手机号：</td>
+                            <td><?= $personal['u_tel']?></td>
+                        </tr>
+                        <tr>
+                            <td>邮箱：</td>
+                            <td><?= $personal['u_email'];?></td>
+                        </tr>
+                    </table>
+
+                    </div>
             </div>
-            <div class="u-form-wrap" style="display: none;">
-                <!-- uf-tips -->
-                <div class="uf-tips">
-                    <span class="red">*</span> 为必填项，所有资料均会严格保密。
-                </div>
-                <div>
-                    这是工作认证信息</div>
-            </div>
-            <div class="u-form-wrap" style="display: none;">
-                <div class="uf-tips">
-                    <span class="red">*</span> 为必填项，所有资料均会严格保密。
-                </div>
-                <div>
-                    这是联系人信息</div>
-            </div>
+
         </div>
     </div>
     <script type="text/javascript">

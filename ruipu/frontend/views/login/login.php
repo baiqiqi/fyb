@@ -41,7 +41,7 @@
 		                    <input type="text" class="text" name="username"  placeholder="请输入您的用户名">
 		                   <!--  <input type="text"  id='text' class="email" name="email" placeholder="请输入您的邮箱" pattern="^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$" required> -->
 		                     <input type="password" class="text" name="pwd"  placeholder="请输入您的密码">
-							</diyuy8v>
+							</div>
 
 							<div class="clear"> </div>
 							 <h3>快速登录：<span><a href="#">QQ</a>&nbsp&nbsp&nbsp&nbsp<a href="#">微博</a>&nbsp&nbsp&nbsp&nbsp<a href="#">微信</a><span></h3>
@@ -74,27 +74,3 @@
 		})
 	})
 </script>
-// <script type="text/javascript">
-// 	$(function(){
-
-// 		$('.email').blur(function(){
-// 			var email = $('.email').val()
-// 			if($('.span').hasClass('check')) var table = 'doctor';
-// 			if($('.span1').hasClass('check')) var table = 'user';
-// 			$.ajax({
-// 				url: 'index.php?r=login/checkoutemail',
-// 				data: {email:email,table:table},
-// 				type: 'GET',
-// 				success: function(msg){
-// 					if(msg == 1)
-// 					{
-// 						alert('您的邮箱已经被注册，请重新输入');
-// 						 $('#sub').attr({"disabled":"disabled"});
-// 					}else{
-// 						$('#sub').removeAttr("disabled");
-// 					}
-// 				}
-// 			})
-// 		})
-// 	})
-// </script>

@@ -29,18 +29,18 @@ use yii\helpers\Html;
                 <h3 class="t4">
                     我的订单<span title="折叠"></span></h3>
                 <ul class="sub">
-                    <li><a href="">所有订单</a></li>
-                    <li><a href="">已支付</a></li>
-                    <li><a href="">未支付</a></li>
-                    <li><a href="">失效订单</a></li>
+                    <li><a href="index.php?r=index/user_center&m=order_all">所有订单</a></li>
+                    <li><a href="index.php?r=index/user_center&m=order_pay_yes">已支付</a></li>
+                    <li><a href="index.php?r=index/user_center&m=order_pay_no">未支付</a></li>
+                    <li><a href="index.php?r=index/user_center&m=order_invalid">失效订单</a></li>
                 </ul>
             </li>
             <li class="item" id="user_menu_funds" name="user_menu_funds">
                 <h3 class="t2">
                     积分管理<span title="折叠"></span></h3>
                 <ul class="sub">
-                    <li><a href="">积分记录</a></li>
-                    <li><a href="">充值记录</a></li>
+                    <li><a href="index.php?r=index/user_center&m=points_record">积分记录</a></li>
+                    <li><a href="index.php?r=index/user_center&m=rechange_record">充值记录</a></li>
 
                 </ul>
             </li>
@@ -48,9 +48,8 @@ use yii\helpers\Html;
                 <h3 class="t3">
                     我的优惠券<a name="user_login"></a><span title="折叠"></span></h3>
                 <ul class="sub">
-                    <li><a  href="">全部优惠券</a></li>
-
-                    <li><a href="">已过期</a></li></ul>
+                 <li><a  href="index.php?r=index/user_center&m=coupon_all">全部优惠券</a></li>
+                 <li><a href="index.php?r=index/user_center&m=coupon_invalid">已过期</a></li></ul>
             </li>
 
         </ul>
@@ -107,38 +106,23 @@ use yii\helpers\Html;
                 </div>
                 <div class="info">
                     <ul class="info-img">
+                    <?php if($userinfo['u_img']){?>
                      <li><img src="<?= $userinfo['u_img'];?>" class="avatar" /></li>
+                     <?php }else{?>
+                     <li><img src="images/touxiang.png" class="avatar" /></li>
+                     <?php }?>
                     </ul>
                     <div class="info-main">
                         <div class="row">
                             <label>
-                                用户名：</label><?= $userinfo['u_name'];?></div>
-                        <div class="row">
-                            <label>
-                                性别：</label>
-                                <?php if($userinfo['u_sex']==1){?>
-                            <input type="radio" name="sex" value="1" checked>男
-                            <input type="radio" name="sex" value="0">女
-                            <?php }else{?>
-                               <input type="radio" name="sex" value="1" >男
-                                <input type="radio" name="sex" value="0" checked>女
-                             <?php }?>
-                                </div>
-                        <div class="row">
-                            <label>
-                                手机号：</label><?= $userinfo['u_tel'];?></div>
-                        <div class="row">
-                            <label>
-                                身高：</label><?= $userinfo['u_height'];?>&nbsp;cm</div>
-                        <div class="row">
-                            <label>
-                                体重：</label><?= $userinfo['u_weight'];?>&nbsp;&nbsp;kg</div>
-                        <div class="row">
-                            <label style="width: 80px;">
-                               主治医生：</label><?= $userinfo['doc_name'];?>&nbsp;&nbsp;医生</div>
-                        <div class="row">
-                            <label style="width: 100px;">
-                                我的锻炼计划：</label><span class="orange"><?= $userinfo['exe_content'];?></span></div>
+                                用户名：</label><?= $userinfo['u_name'];?>
+                        </div>
+
+                        <div class="row" style="margin-bottom:0px;">
+                            <br>
+                            <br>
+                            <a href="index.php?r=index/user_center&m=personal_data" style="float:right;color: blue;font-weight: bold">去编辑更多资料</a>
+                        </div>
 
                     </div>
                     <div class="clear">
