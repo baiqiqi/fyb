@@ -74,7 +74,7 @@ class User extends \yii\db\ActiveRecord
      */
     public function signin(){
         $uname = htmlspecialchars(Yii::$app->request->post('u_name'));
-        $passwd = htmlspecialchars((Yii::$app->request->post('passwd')));
+        $passwd = htmlspecialchars(md5((Yii::$app->request->post('passwd'))));
         if(strpos($uname,'@')){
             return $this->find()->asArray()
                 ->select('*')

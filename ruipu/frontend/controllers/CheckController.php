@@ -35,6 +35,13 @@ class CheckController extends Controller
 {
 	/*
 	*购物车
+<<<<<<< HEAD
+  * check 购物车界面显示
+  * delete 购物车商品删除
+=======
+  *购物车界面显示  check
+  *购物车商品删除  delete
+>>>>>>> 48148b87d5dfa2e2f496555625b5cc2657db9f7c
 	*作者：程啊倩
 	*时间：2016/04/18 9.10	
 	*/
@@ -117,7 +124,8 @@ class CheckController extends Controller
 
         $alipay = new AlipayPay();
         $verify_result = $alipay->verifyNotify();
-        if ($verify_result) {//验证成功
+        if ($verify_result) {
+            //验证成功
             //商户订单号
             $out_trade_no = $_POST['out_trade_no'];
             //支付宝交易号

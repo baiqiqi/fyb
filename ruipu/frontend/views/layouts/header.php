@@ -80,13 +80,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           <input type="submit" value="">
         </form>
       </div>
-      <div class="cart box_1">
-          <a href="checkout.html">
-            <h3>CART <span class="simpleCart_total"> ($0.00) </span>  <img src="images/bag.png" alt=""></h3>
-          </a>  
-          <p><a href="./index.php?r=check/check" class="simpleCart_empty">(empty card)</a></p>
-          <div class="clearfix"> </div>
-        </div>
+      
       <div class="clearfix"> </div>
     </div>
     </div>

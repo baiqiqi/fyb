@@ -49,16 +49,16 @@
 		</div>
 		<div class="col-md-6 banner-right">
 			<div class="col-md-6 banner-top">
-				<h6>Dialysis Chairs</h6>
+				<a href="index.php?r=index/contact"><h6>Dialysis Chairs</h6></a>
 			</div>
 			<div class="col-md-6 banner-top1">
-				<h6>Surgical Bed</h6>
+				<a href="index.php?r=index/contact"><h6>Surgical Bed</h6></a>
 			</div>
 			<div class="col-md-6 banner-top2">
-				<h6>Wheel Chairs</h6>
+			    <a href="index.php?r=index/contact"><h6>Wheel Chairs</h6></a>
 			</div>
 			<div class="col-md-6 banner-top3">
-				<h6>Radiant Warmers</h6>
+			   <a href="index.php?r=index/contact"><h6>Radiant Warmers</h6>
 			</div>
 			<div class="clearfix"> </div>
 		</div>

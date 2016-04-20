@@ -2,17 +2,10 @@
 <link rel="stylesheet" type="text/css" href="css/ej_class.css" />
 <link rel="stylesheet" type="text/css" href="css/gwc.css" />
 <body>
- <div class="w_980 fl_l">
-  		<div class="gwc_pos first">
-                  <div class="sel fl_l">1.我的购物车</div>
-                  <div class="un fl_l">2.填写核对订单信息</div>
-                  <div class="un fl_l">3.成功填写订单</div>                
-            </div>            
-  </div>
-    <div class="w_978 fl_l bor">
-              <div class="title">我挑选的商品</div>
+    <div>
+              <div class="title">&nbsp;&nbsp;&nbsp;&nbsp;我挑选的商品</div>
               <div class="gwc_c">
-                <table width="130%" border="0" align="center" cellpadding="0" cellspacing="0" class="gwc_table">
+                <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0" class="gwc_table">
                   <tr>
                     <td width="10%" class="title">商品编号</td>
                     <td width="20%" class="title">商品图片</td>

@@ -231,11 +231,10 @@ function clear_history_Response(res){
                             <p class="wy font18" style="font-weight: 700;font-style: normal;"><strong><?php echo $arr['pro_name']?></strong></p><br>
                             <span class="clo9 wy font12">详情</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="wy font13" ><?php echo $arr['pro_content']?></span>
                             <p class="clo9 shop_txt wy font13" style="font-family: 'font-style: normal;color: #797979;">
-                                
                             </p>
                             <p class="clo9 shop_txt wy font12" style="display:none;">商品货号：&nbsp;&nbsp;<span class='code'>ECS0001</span></p>
                             <p class="wy font13">
-                            <span class="clo9 wy font12">促销价</span>
+                            <span class="clo9 wy font12">价格</span>
                             <span id="ECS_SHOPPRICE" class="a_b1 font20 new_parce ecymar" style="font-size:30px">￥<?php echo $arr['pro_price']?></span>
             <script language="javascript">
                 $(function(){
@@ -257,8 +256,6 @@ function clear_history_Response(res){
                                     <span class="clo9 wy font12">运&nbsp;&nbsp;&nbsp;费</span>
                                     <span class="yun_parce wy font12">免运费</span>
                             </p>
-                        
-                        
                             <ul id="shop_msg_ul" style="height:78px;margin-top:20px">
                                 <li>
                                     <a class="nou" href="javascript:;">
@@ -347,13 +344,16 @@ function clear_history_Response(res){
                        td{
                         width: 300px;
                        }
+                       .commo{
+                        display: none;
+                       }
                     </style>
                     
                     <div style="clear: both;"></div>
                     <div class="shop_content">
                         <p class="shop_btn">
                             <a href="javascript:;" class="nou selected font14">商品介绍</a>
-                            <a name="comment" id="comment" href="javascript:;" class="nou font14">商品评价</a>
+                            <a name="comment" id="comment" href="javascript:;" class="nou common font14">商品评价</a>
                         </p>
                         <div class="shop_one">
                             <blockquote>
@@ -370,6 +370,20 @@ function clear_history_Response(res){
                                 </tr>
                              </table>
                         </div>
+                        <div class="commo">
+                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           <table>
+                           <?php foreach ($evaluate as $k => $v) {?>
+                               <tr> 
+                                    <td><img src="<?php echo $v['eva_image']?>" width="120" height="80"></td>
+                                    <td><?php echo $v['eva_time']?></td>
+                                    <td><?php echo $v['eva_content']?></td>
+                                    <td><?php echo $v['eva_name']?></td>
+                               </tr>
+                               <?php } ?>
+                           </table>
+                        </div>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <div class="shop_two hide">
                         <br>
                             <script type="text/javascript" src="indexs/js/utils.js"></script><div id="ECS_COMMENT" style="shop_two hide">   <p class="clo9 wy font12"><?php echo $arr['pro_name']?></p>
@@ -382,6 +396,19 @@ function clear_history_Response(res){
     </div>
   <script type="text/javascript">
     $(function(){
+        $(document).on('click','.nou',function(){
+            // alert(1234);return false;    
+         var obj = $(this);
+         if(obj.hasClass('selected')){
+            $(".shop_one").css("display",'block');
+            $(".commo").css("display",'none');
+         }
+         if(obj.hasClass('common')){
+            $(".shop_one").css("display",'none');
+            $(".commo").css("display",'block');
+         }
+
+       })
       var menber = $(".activity_list dl").length;
       var vheight = menber*198+"px";
        if(menber > 1){
@@ -407,6 +434,7 @@ function clear_history_Response(res){
         function $id(element) {
             return document.getElementById(element);
         }
+
         //切屏--是按钮，_v是内容平台，_h是内容库
         function reg(str){
             var bt=$id(str+"_b").getElementsByTagName("h2");
@@ -469,12 +497,12 @@ function clear_history_Response(res){
         /**
         * 点选可选属性或改变数量时修改商品价格的函数
         */
-        // function changePrice()
-        // {
-        //     var attr = getSelectedAttributes(document.forms['ECS_FORMBUY']);
-        //     var qty = document.forms['ECS_FORMBUY'].elements['number'].value;
-        //     // Ajax.call('goods.php', 'act=price&id=' + goodsId + '&attr=' + attr + '&number=' + qty, changePriceResponse, 'GET', 'JSON');
-        // }
+        function changePrice()
+        {
+            var attr = getSelectedAttributes(document.forms['ECS_FORMBUY']);
+            var qty = document.forms['ECS_FORMBUY'].elements['number'].value;
+            // Ajax.call('goods.php', 'act=price&id=' + goodsId + '&attr=' + attr + '&number=' + qty, changePriceResponse, 'GET', 'JSON');
+        }
         /**
         * 接收返回的信息
         */

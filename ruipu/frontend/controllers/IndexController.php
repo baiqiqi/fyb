@@ -42,7 +42,7 @@ class IndexController extends Controller
     	return $this->render('index',['arr'=>$arr,'row'=>$row]);  			
 	}
 	/*
-	*详情显示
+	*详情显示  details
 	*作者：程啊倩
 	*时间：2016/4/14  16:16
 	*/
@@ -51,7 +51,9 @@ class IndexController extends Controller
 		$pro_id=$_GET['pro_id'];
     	$sql="select * from product where pro_id='$pro_id'";
     	$arr=\Yii::$app->db->createCommand($sql)->queryOne();
-    	return $this->render('details',['arr'=>$arr]); 
+    	$sql="select * from evaluate where pro_id='$pro_id'";
+		$evaluate=\Yii::$app->db->createCommand($sql)->queryAll();
+    	return $this->render('details',['arr'=>$arr,'evaluate'=>$evaluate]); 
 	}
 	/*
 	 * 用户中心
@@ -60,6 +62,7 @@ class IndexController extends Controller
 	 * */
 	public  function actionUser_center(){
 		$this->layout="header";
+
 		$session = Yii::$app->session;
 		if($session->has('uname')){
 			$model = new User();
@@ -102,8 +105,6 @@ class IndexController extends Controller
 				case 'personal_words' :
 					return $this->render('personalwords');
 					break;
-
-
 			}
 		}else{
 		   echo "<script>alert('请先登录');location='index.php?r=login/login';</script>";

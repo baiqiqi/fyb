@@ -8,13 +8,14 @@
 <body>
 <center>
 <h1>修改页面</h1>
-<form action="index.php?r=index/update" method="post">
+<form action="index.php?r=index/upda" method="post">
 	<table>
+	<?php foreach ($update_show as $val) {?>
 	<tr>
 			<td>导航ID</td>
 			<td><input type="text" value="<?php echo $val["nav_id"]?>" name="nav_id"/></td>
 		</tr>
-	<?php foreach ($update_show as $val) {?>
+	
 		<tr>
 			<td>导航名称</td>
 			<td><input type="text" value="<?php echo $val["nav_name"]?>" name="nav_name"/></td>
@@ -26,9 +27,9 @@
 		<tr>
 			<td>是否启用</td>
 			<td><?php if ($val["nav_status"] == 1) {?>
-				<input type='radio' checked='checked'/>是<input type='radio'/>否;
+				<input type='radio' checked='checked' name="1" />是<input type='radio'/>否;
 			<?php }else{?>
-				<input type='radio'/>是<input type='radio' checked='checked'/>否;
+				<input type='radio'/>是<input type='radio' checked='checked' name="1" />否;
 			<?php }?></td>
 		</tr>
 		<tr>
@@ -37,8 +38,7 @@
 		</tr>
 		<?php }?>
 		<tr>
-			<td><input type="submit" value="修改" /></td>
-			<td></td>
+			<td colspan="2"><input type="submit" value="修改" /></td>
 		</tr>
 	</table>
 </form>

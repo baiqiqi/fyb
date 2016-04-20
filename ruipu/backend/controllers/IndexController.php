@@ -6,6 +6,7 @@
 namespace backend\controllers;
 use yii\web\Controller;
 use DB;
+use mysqli;
 
 /*
  * nav 导航栏管理显示页面
@@ -18,12 +19,12 @@ class IndexController extends Controller
 {
     public $layout = false ;  //布局
     public function actionIndex(){
-     return $this->render('index');
+     return $this->render('//login/welcome');
     }
     public function actionNav(){
     	$sql="select * from nav";
     	$nav=\Yii::$app->db->createCommand($sql)->queryAll();
-    	return $this->render('index',['nav'=>$nav]);  		
+    	return $this->render('nav',['nav'=>$nav]);  		
     }
     public function actionUpdate_show(){
     	$id = $_GET["id"];
@@ -31,11 +32,14 @@ class IndexController extends Controller
     	$update_show = \Yii::$app->db->createCommand($sql)->queryAll();
     	return $this->render('update_show',['update_show'=>$update_show]);
     }
-    public function actionUpdate(){
+    public function actionUpda(){
     	$id = $_POST["nav_id"];
-    	echo $id;
+    	//$arr = $_POST;
+        print_r($_POST);die;
+        return $this->render('index');
     }
-
-
+    public function actionBackups(){ 
+       
+    }
 }
 ?>

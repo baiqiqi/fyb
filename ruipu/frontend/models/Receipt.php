@@ -63,7 +63,11 @@ class Receipt extends \yii\db\ActiveRecord
         $sql = "select * from receipt inner join user on receipt.u_id=user.u_id ";
         return  $info = \Yii::$app -> db -> createCommand($sql)->queryAll();
     }            
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> 48148b87d5dfa2e2f496555625b5cc2657db9f7c
     /*
      *获取用户的收货地址
      * */
