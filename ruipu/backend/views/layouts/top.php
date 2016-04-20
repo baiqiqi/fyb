@@ -53,7 +53,7 @@ $ip = $_SERVER['REMOTE_ADDR'];
                         <li><a href=""><i class="icon-font">&#xe004;</i>留言管理</a></li>
                         <li><a href=""><i class="icon-font">&#xe012;</i>评论管理</a></li>
                         <li><a href=""><i class="icon-font">&#xe052;</i>友情链接</a></li>
-                        <li><a href=""><i class="icon-font">&#xe033;</i>广告管理</a></li>
+                        <li><a href="index.php?r=index/articles"><i class="icon-font">&#xe033;</i>文章管理</a></li>
                     </ul>
                 </li>
                 <li>

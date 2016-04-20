@@ -68,10 +68,7 @@ class IndexController extends Controller
 		switch ($m) {
      		//个人主页
 			case '' :$user_info = $model->user_center();
-<<<<<<< HEAD
-				
-=======
->>>>>>> 48148b87d5dfa2e2f496555625b5cc2657db9f7c
+
 				return  $this->render('usercenter',['userinfo'=>$user_info]);
 				break;
 			//个人资料
