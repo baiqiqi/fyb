@@ -123,9 +123,9 @@
                 <div style="margin-top: 5px;margin-bottom: 20px;text-align: center">
                      <?php if($personal['u_tel']){?>
                         <?php if($personal['u_img']){?>
-                            <span><img src="<?= $personal['u_img'];?>" title="更换头像" class="avatars" id="upload_update "/></span>
+                            <span><img src="<?= $personal['u_img'];?>" title="更换头像" class="avatars" id="upload_update " style="width: 170px;height: 195px;"/></span>
                         <?php }else{?>
-                            <span><img src="images/touxiang.png" title="上传头像" class="avatars" id="upload"/></span>
+                            <span><img src="images/touxiang.png" title="上传头像" class="avatars" id="upload" style="width: 170px;height: 195px;"/></span>
                         <?php }?>
 
                     <table border="1" style="float: right;width:75%;margin-left:px;color: black;font-size: 14px" class="person">
@@ -191,9 +191,9 @@
                             <td align="center">头像</td>
                             <td>
                                 <?php if($personal['u_img']){?>
-                                    <img src="<?= $personal['u_img'];?>" title="更换头像" width="60" style="margin: 5px auto;margin-left: 60px" alt="" id="upload_update">
+                                    <img src="<?= $personal['u_img'];?>" title="更换头像" width="60" style="margin: 5px auto;margin-left: 60px;width: 170px;height: 195px;" alt="" id="upload_update">
                                 <?php }else{?>
-                                    <img src="images/touxiang.png" title="上传头像" style="margin: 5px auto;margin-left: 60px" id="upload">
+                                    <img src="images/touxiang.png" title="上传头像" style="margin: 5px auto;margin-left: 60px;width: 170px;height: 195px;" id="upload">
                                 <?php }?>
                                 
                             </td>
