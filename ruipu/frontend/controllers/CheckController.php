@@ -51,6 +51,17 @@ class CheckController extends Controller
     	$arr=\Yii::$app->db->createCommand($sql)->queryOne();
     	return $this->render('checkout',['arr'=>$arr]);  			
 	}
+  public function actionAdd(){
+     $shop_name=$_GET['shop_name'];
+     $shop_img=$_GET['shop_img'];
+     $shop_price=$_GET['shop_price'];
+     $shop_num=$_GET['shop_num'];
+     $sql="insert into shop(shop_name,shop_img,shop_price,shop_num) values('$shop_name','$shop_img','$shop_price','$shop_num')";
+     $d=\Yii::$app->db->createCommand($sql)->execute();
+     if ($d) {
+        echo "<script>location.href='index.php?r=check/check'</script>";
+      }
+  }
     public function actionDelete(){
     	$pro_id=$_GET['pro_id'];
     	$delete="delete * from product where pro_id='$pro_id'";

@@ -56,8 +56,25 @@ class Product extends \yii\db\ActiveRecord
             'pro_sales' => 'Pro Sales',
         ];
     }
+    /*
+    * 添加数据 add
+    * 程啊倩  15.20
+    */
     public function add($pro_img,$pro_name,$pro_content,$pro_price,$pro_count,$pro_sales){
         $sql="insert into product(pro_img,pro_name,pro_content,pro_price,pro_count,pro_sales) values('$pro_img','$pro_name','$pro_content','$pro_price','$pro_count','$pro_sales')";
         return $d=\Yii::$app->db->createCommand($sql)->execute();
     }
+
+     /*
+    * 修改数据 updates
+    * 程啊倩  10.30
+    */
+     public function updates($pro_id,$pro_img,$pro_name,$pro_content,$pro_price,$pro_count,$pro_sales){
+        $sql="update product set pro_img='$pro_img',pro_name='$pro_name',pro_content='$pro_content',pro_price='$pro_price',pro_count='$pro_count',pro_sales='$pro_sales' where pro_id='$pro_id'";
+        return $d=\Yii::$app->db->createCommand($sql)->execute();
+     }
+     public function selectone($pro_id=''){
+        $sql="select * from product where pro_id='$pro_id'";
+        return $d=\Yii::$app->db->createCommand($sql)->queryOne();
+     }
 }
