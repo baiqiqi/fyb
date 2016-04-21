@@ -64,6 +64,6 @@ class Order extends \yii\db\ActiveRecord
 
     public function selectall(){
 
-        return $this->findBySql("SELECT * FROM order")->asArray()->all();
+        return $this->find()->asArray()->all();
     }
 }

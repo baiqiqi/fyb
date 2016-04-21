@@ -14,7 +14,6 @@
 		}
 		#operation input{
 			margin-left: 20px;
-
 		}
 	</style>
 </head>

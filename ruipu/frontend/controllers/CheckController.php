@@ -25,6 +25,7 @@ use app\models\ExpressType;
 use app\models\Order;
 use app\models\PayType;
 use app\models\Receipt;
+use app\models\Shop;
 
 
 
@@ -35,13 +36,10 @@ class CheckController extends Controller
 {
 	/*
 	*购物车
-<<<<<<< HEAD
   * check 购物车界面显示
   * delete 购物车商品删除
-=======
   *购物车界面显示  check
   *购物车商品删除  delete
->>>>>>> 48148b87d5dfa2e2f496555625b5cc2657db9f7c
 	*作者：程啊倩
 	*时间：2016/04/18 9.10	
 	*/
@@ -70,15 +68,14 @@ class CheckController extends Controller
 		$this->layout="header";
 		$model = new Receipt();
 		$data = $model -> selectall();
-		// print_r($data);die;
 		$model_express = new ExpressType();
 		$data_express = $model_express -> selectall();
 		$model_pay = new PayType();
 		$data_pay = $model_pay -> selectall();
-		$model_details = new Details();
-		$data_details = $model_details ->selectall();
-		// print_r($data_details);die;
-		return $this->render('pay',['data'=>$data,'data_express'=>$data_express,'data_pay'=>$data_pay,'data_details'=>$data_details]);
+		$model_shop = new Shop();
+		$data_shop = $model_shop ->selectall();
+		// print_r($data_shop);die;
+		return $this->render('pay',['data'=>$data,'data_express'=>$data_express,'data_pay'=>$data_pay,'data_shop'=>$data_shop]);
 	}
     
     /*
@@ -86,13 +83,15 @@ class CheckController extends Controller
 	*作者：赵思敏
 	*时间：2016/04/18 
 	*/
-
-	public function actionPay_hou(){
+    public $enableCsrfValidation = false;
+	public function actionAlipay(){
 		$this->layout="header";
-		return $this->render('pay_hou');
+		$model = new Details();
+		$data = $model -> add();
+		return $this->render('alipayapi');
 	}
 	
-	/**
+	   /**
      * 生成充值跳转链接
      * @return string
      * 赵思敏
@@ -108,9 +107,7 @@ class CheckController extends Controller
         $body = 'aaa';
         $show_url = 'http://www.phpman.cn';
         $alipay = new AlipayPay();
-        // var_dump($alipay);die;
         $html = $alipay->requestPay($order_id, $gift_name, $money, $body, $show_url);
-        // var_dump($html);
         echo $html;
     }
 

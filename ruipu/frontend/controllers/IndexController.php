@@ -5,6 +5,7 @@ namespace frontend\controllers;
  *作者：张晨阳
  *时间：2016/04/13 14:04
  */
+use app\models\Order;
 use app\models\Receipt;
 use app\models\Region;
 use app\models\User;
@@ -107,31 +108,26 @@ class IndexController extends Controller
 			$model = new User();
 			$model_receipt = new Receipt();
 			$model_region = new Region();
+			$model_order = new Order();
 			$m = $_GET['m'];
 			switch ($m) {
-				//个人主页
 				case '' :
-					$user_info = $model->user_center();
-			//print_r($user_info);die;
+					$user_info = $model->user_center();//print_r($user_info);die;
 					return $this->render('usercenter', ['userinfo' => $user_info]);
 					break;
 				//个人资料
 				case 'personal_data' :
 					$personal_data = $model->personal_data();
-					print_r($personal_data);die;
+					//print_r($personal_data);die;
 					return $this->render('personaldata', ['personal' => $personal_data]);
 					break;
-				//密码设置
 				case 'personal_pwd':
 					return $this->render('personalpwd');
 					break;
-				//收货地址
 				case 'get_address':
 					$address = $model_receipt->get_address();
-					// print_r($address);die;
 					return $this->render('getaddress', ['address' => $address]);
 					break;
-				//添加新的收货地址
 				case 'address_add':
 					$country = $model_region->address_country();
 					return $this->render('addaddress', ['country' => $country]);
@@ -144,6 +140,11 @@ class IndexController extends Controller
 				case 'personal_words' :
 					return $this->render('personalwords');
 					break;
+				//我的订单
+				case 'order_all' :
+                    $order_all= $model_order->selectall();
+				    return $this->render('myorders',['all_order'=>$order_all]);
+				    break;
 			}
 		}else{
 		   echo "<script>alert('请先登录');location='index.php?r=login/login';</script>";
@@ -182,11 +183,22 @@ class IndexController extends Controller
      * @author 周晶晶
      * return string 提示信息
      * */
-    public function actionAddress_insert(){
-     $model =new Receipt();
-     $info = $model->address_insert();
-     print_r($info);
-    }
+    public function actionAddress_insert()
+	{
+		$model = new Receipt();
+		$info = $model->address_insert();
+		print_r($info);
+	}
+
+    /*
+     * 用户完善信息 user_info_add
+     * @author 周晶晶
+     *
+     * */
+     public function actionUser_info_add(){
+
+
+	 }
 
 	public function actionContact()
 	{
