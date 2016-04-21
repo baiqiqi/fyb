@@ -63,7 +63,7 @@ class IndexController extends Controller
 	 * */
 	public  function actionUser_center(){
 		$this->layout="header";
-<<<<<<< HEAD
+
 		$model = new User();
 		$model_receipt =new Receipt();
 		$model_region = new Region();
@@ -100,8 +100,7 @@ class IndexController extends Controller
 			//我的微留言
 			case 'personal_words' : return $this->render('personalwords') ;
 			    break;
-=======
->>>>>>> 6929f0902b00bc3278efbfc65381ad568fa2595d
+
 
 		$session = Yii::$app->session;
 		if($session->has('uname')){
@@ -152,6 +151,7 @@ class IndexController extends Controller
 		}
 
 	}
+}
 	/*
 	 * 执行密码设置
 	 * @author 周晶晶
