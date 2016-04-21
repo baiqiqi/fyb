@@ -100,9 +100,9 @@ class Agency extends \yii\db\ActiveRecord
     *  删除数据
     */
 
-    // public function upload($ag_id,)
-    // {
-    //     $sql =
-    // }
+    public function upload($ag_id)
+    {
+        $sql ="UPDATE agency SET id='$id' WHERE ";
+    }
 
 }
