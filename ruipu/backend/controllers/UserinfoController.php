@@ -15,11 +15,51 @@ use DB;
 class UserinfoController extends Controller
 {
 	public $layout = false ;  
+	public $enableCsrfValidation = false;
 	public function actionInfo()
 	{
-     	$sql = "select * from user";
+     	$sql = "select * from user where u_status='1'";
     	$arr =\Yii::$app->db->createCommand($sql)->queryAll();
     	// print_r($arr);die;     	
      	return $this->render('info',['arr'=>$arr]);
+	}
+	public function actionDelete()
+	{
+		$id = $_GET['id'];
+        $info =\Yii::$app->db->createCommand()->update('user',['u_status'=>0],"u_id='$id'")->query();
+		if($info)
+		{
+			echo "<script>location.href='index.php?r=userinfo/info'</script>";
+		}else{
+			echo "移除错误";
+		}	
+	}
+	public function actionSave()
+	{
+		$id = $_GET['id'];
+		// echo $id;
+		$sql = "select * from user where u_id=$id";
+		$arr = \Yii::$app->db->createCommand($sql)->queryAll();
+		// print_r($arr);die;
+		return $this->render('xiu',['arr'=>$arr]);
+	}
+	public function actionDoxiu()
+	{
+		// echo '111';
+		$u_name = $_POST['u_name'];
+		$u_id = $_POST['u_id'];
+		$u_tel = $_POST['u_tel'];
+		$u_sex = $_POST['u_sex'];
+		$u_age = $_POST['u_age'];
+		$u_height = $_POST['u_height'];
+		$u_weight = $_POST['u_weight'];
+		$u_email = $_POST['u_email'];
+		$update = \Yii::$app->db->createCommand()->update('user',['u_name'=>$u_name,'u_tel'=>$u_tel,'u_sex'=>$u_sex,'u_age'=>$u_age,'u_height'=>$u_height,'u_email'=>$u_email],"u_id='$u_id'")->query();
+		if($update)
+		{
+			echo "<script>location.href='index.php?r=userinfo/info'</script>";
+		}else{
+			echo '修改错误';
+		}
 	}
 }

@@ -50,7 +50,7 @@
 <td><?php echo $v["doc_age"];?></td>
 <td><?php echo $v["doc_education"];?></td>
 <td><?php echo $v["u_email"];?></td>
-<td><a href="">删除</a>||<a href="">修改</a></td>
+<td><a onclick="if(confirm('确定删除？')) return true; else return false;" href="index.php?r=doctor/delete&id=<?php echo $v['doc_id']?>" class='outiong'>移除</a>||<a href="index.php?r=doctor/save&id=<?php echo $v['doc_id']?>">修改</a></td>
 
 </tr>
 <?php } ?>
