@@ -62,10 +62,11 @@ class Receipt extends \yii\db\ActiveRecord
     public function selectall(){
         $sql = "select * from receipt inner join user on receipt.u_id=user.u_id limit 1";
         return  $info = \Yii::$app -> db -> createCommand($sql)->queryAll();
-    }            
+    }
     /*
+     * @author 周晶晶
      *获取用户的收货地址
-    * */
+     * */
      public function get_address(){
       $user_name =  Yii::$app->session->get('uname');
       $arr =(new \yii\db\Query())
