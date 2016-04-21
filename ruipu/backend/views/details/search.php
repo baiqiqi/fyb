@@ -15,12 +15,11 @@ use yii\widgets\LinkPager;
         </div>
         <div class="search-wrap">
             <div class="search-content">
-                <form action="index.php?r=details/search" method="post">
+                <form action="#" method="post">
                     <table class="search-tab">
-                        <tr>
                             <th width="70">关键字:</th>
-                            <td><input class="common-text" placeholder="关键字" name="search" value="" id="search" type="text"></td>
-                            <td><input class="btn btn-primary btn2" value="查询" type="submit"></td>
+                            <td><input class="common-text" placeholder="关键字" name="keywords" value="" id="" type="text"></td>
+                            <td><input class="btn btn-primary btn2" name="sub" value="查询" type="submit"></td>
                         </tr>
                     </table>
                 </form>
@@ -48,7 +47,7 @@ use yii\widgets\LinkPager;
                             <th width="6%">操作</th>
                         </tr>
                         <?php
-                         foreach ($model as $k => $v) {?>
+                         foreach ($re as $k => $v) {?>
                         <tr>
                              <td><input type="checkbox"></td>
                              <td><?php echo $v['pro_id']?></td>
@@ -65,7 +64,7 @@ use yii\widgets\LinkPager;
                         </tr>
                          <?php } ?>
                     </table>
-                    <div class="list-page"><?= LinkPager::widget(['pagination' => $pages]); ?></div>
+                    <div class="list-page"></div>
                 </div>
             </form>
         </div>

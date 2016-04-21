@@ -67,5 +67,11 @@ class DetailsController extends Controller
             echo "<script>alert('删除成功');location.href='index.php?r=details/details';</script>";
         }
     }
+    public function actionSearch(){
+      $search=$_POST['search'];
+      $sql="select * from product where pro_name like '$search'";
+      $search=\Yii::$app->db->createCommand($sql)->queryAll();
+      return $this->render('search',['re'=>$search]);
+    }
 }
 ?>

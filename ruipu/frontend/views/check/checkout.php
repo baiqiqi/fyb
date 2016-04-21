@@ -22,9 +22,9 @@
                     <td><?php echo $arr['pro_price']?>元</td>
                     <td><span id="aaa"><?php echo $arr['pro_price']?></span>元</td>
                     <td>
-                    <span class="min"><img src="images/bag_close.gif" width="9" height="9" /></span>
-                    <input id="text_box" class="text_box" name="" type="text" value="1" size="2" /> 
-                    <span class="add"><img src="images/bag_open.gif" width="9" height="9" /></span></td>
+                       <span class="min"><img src="images/bag_close.gif" width="9" height="9" /></span>
+                       <input id="text_box" class="text_box" name="" type="text" value="<?php echo $arr['count']?>" size="2" /> 
+                       <span class="add"><img src="images/bag_open.gif" width="9" height="9" /></span></td>
                     <td><a href="index.php?r=check/delete&pro_id=<?php echo $arr['pro_id']?>">删除</a></td>
                   </tr>
                   <tr>
