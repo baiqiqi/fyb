@@ -63,8 +63,6 @@ class IndexController extends Controller
 	 * */
 	public  function actionUser_center(){
 		$this->layout="header";
-
-
 		$session = Yii::$app->session;
 		if($session->has('uname')){
 			$model = new User();
@@ -114,6 +112,7 @@ class IndexController extends Controller
 		}
 
 	}
+}
 	/*
 	 * 执行密码设置
 	 * @author 周晶晶
@@ -123,7 +122,6 @@ class IndexController extends Controller
       $model = new User();
       $info = $model->pwd_update();
       print_r($info);
-
     }
     /*
      * 收获地址 获取城市信息

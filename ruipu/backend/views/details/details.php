@@ -15,19 +15,12 @@ use yii\widgets\LinkPager;
         </div>
         <div class="search-wrap">
             <div class="search-content">
-                <form action="#" method="post">
+                <form action="index.php?r=details/search" method="post">
                     <table class="search-tab">
                         <tr>
-                            <th width="120">选择分类:</th>
-                            <td>
-                                <select name="search-sort" id="">
-                                    <option value="">全部</option>
-                                    <option value="19">精品界面</option><option value="20">推荐界面</option>
-                                </select>
-                            </td>
                             <th width="70">关键字:</th>
-                            <td><input class="common-text" placeholder="关键字" name="keywords" value="" id="" type="text"></td>
-                            <td><input class="btn btn-primary btn2" name="sub" value="查询" type="submit"></td>
+                            <td><input class="common-text" placeholder="关键字" name="search" value="" id="search" type="text"></td>
+                            <td><input class="btn btn-primary btn2" value="查询" type="submit"></td>
                         </tr>
                     </table>
                 </form>
@@ -66,7 +59,7 @@ use yii\widgets\LinkPager;
                              <td><?php echo $v['pro_count']?></td>
                              <td><?php echo $v['pro_sales']?></td>
                              <td>
-                                <a class="link-update" href="index.php?r=details/update">修改</a>
+                                <a class="link-update" href="index.php?r=details/xiu&pro_id=<?php echo $v['pro_id']?>">修改</a>
                                 <a class="link-del" href="index.php?r=details/delete&pro_id=<?php echo $v['pro_id']?>">删除</a>
                             </td>
                         </tr>
