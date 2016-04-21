@@ -22507,3 +22507,62 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1461154760.8587
     'REQUEST_TIME' => 1461154760
 ]
+2016-04-22 07:14:56 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '<<' (T_SL)' in D:\WWW\fyb\ruipu\frontend\controllers\IndexController.php:66
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-22 07:14:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '6824312832'
+    'Hm_lvt_080836300300be57b7f34f4b3e97d911' => '1460528982'
+    'Huiskin' => 'green'
+    'PHPSESSID' => 'dbv7dsqasgrk86adspdompb2i1'
+    'menuClosed' => '#user_menu_loan#'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\phpStudy\\php55n;D:\\SVN\\install_file\\bin;D:\\SVN\\TortoiseSVN\\bin;.;;.;;.;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/wamp/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1916'
+    'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_URI' => '/fyb/ruipu/frontend/web/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60491'
+    'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.study.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'pgv_pvi=6824312832; Hm_lvt_080836300300be57b7f34f4b3e97d911=1460528982; Huiskin=green; PHPSESSID=dbv7dsqasgrk86adspdompb2i1; menuClosed=%23user_menu_loan%23'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.study.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/fyb/ruipu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461280495.8901
+    'REQUEST_TIME' => 1461280495
+]
