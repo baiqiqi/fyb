@@ -20,8 +20,8 @@ use app\models\AddForm;
 class AboutController extends Controller
 {
 	/**
-	 * 作者：赵思敏
-	 * 代理列表展示
+	* 作者：赵思敏
+	* 代理列表展示
 	*/
 	public function actionAgency(){
 
@@ -86,7 +86,8 @@ class AboutController extends Controller
 		$model = new UploadForm();
         $m     = new Agency();
 
-         $ag_id = $_GET['ag_id'];
+        $ag_id = $_GET['ag_id'];
+        $data  = $m -> selectone($ag_id);
 
        if (Yii::$app->request->isPost) {
 
@@ -98,12 +99,13 @@ class AboutController extends Controller
 
                 $imgs = $_FILES['UploadForm']['name']['file'];
                 $ag_img = './images/'.$imgs;
+                $ag_id  = $_GET['ag_id'];
                 $ag_name = $_POST['ag_name'];
                 $ag_content = $_POST['ag_content'];
                 $ag_addr = $_POST['ag_addr'];
                 $ag_x = $_POST['ag_x'];
                 $ag_y = $_POST['ag_y'];
-                $arr = $m->add($ag_name,$ag_img,$ag_content,$ag_addr,$ag_x,$ag_y);
+                $arr = $m->upload($ag_id,$ag_name,$ag_img,$ag_content,$ag_addr,$ag_x,$ag_y);
 
                 if($arr){
 
@@ -111,14 +113,14 @@ class AboutController extends Controller
 
                 }else{
 
-                    echo "<script>alert('修改失败失败');location.href='index.php?r=about/upload';</script>";
+                    echo "<script>alert('修改失败');location.href='index.php?r=about/agency';</script>";
                 }
 
         }
     }
-		return $this->renderPartial('agency_exit',['model'=>$model]);
+		return $this->renderPartial('agency_exit',['model'=>$model,'data'=>$data]);
 	}
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 	/**
 	 * 作者：赵思敏
 	 * 代理删除
@@ -133,10 +135,22 @@ class AboutController extends Controller
       $data = $model -> deletes($ag_id);
 
       if($data){
-      	echo "<script>confirm('删除成功');location.href='index.php?r=about/agency';</script>";
+      	echo "<script>alert('删除成功');location.href='index.php?r=about/agency';</script>";
       }else{
       	echo "<script>alert('删除失败');location.href='index.php?r=about/agency';</script>";	
       }
 
 	}
+
+    /**
+     * 作者：赵思敏
+     * 代理搜索
+    */
+    public $enableCsrfValidation = false;
+    public function actionSearch(){
+        $model = new Agency();
+        $data = $model ->search();
+
+        return $this->renderPartial('search',['data' => $data]);
+    }
 }

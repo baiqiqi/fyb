@@ -97,12 +97,26 @@ class Agency extends \yii\db\ActiveRecord
 
     /*
     *  赵思敏
-    *  删除数据
+    *  修改数据
     */
 
-    // public function upload($ag_id,)
-    // {
-    //     $sql =
-    // }
+    public function upload($ag_id,$ag_name,$ag_img,$ag_content,$ag_addr,$ag_x,$ag_y)
+    {
+        $sql ="UPDATE agency SET ag_name='$ag_name',ag_img='$ag_img',ag_content='$ag_content',ag_addr='$ag_addr',ag_x='$ag_x',ag_y='$ag_y' WHERE ag_id='$ag_id'";
+        return $d=\Yii::$app->db->createCommand($sql)->execute();
+    }
+
+    /*
+    *  赵思敏
+    *  搜索
+    */
+
+    public function search(){
+        $search = $_POST['search'];
+        $sql="SELECT * FROM agency WHERE ag_name like '%$search%' or ag_addr like '%$search%'";
+        return $d=\Yii::$app->db->createCommand($sql)->queryAll(); 
+        
+    }
 
 }
+                                                                                                                                                                                                                                                                                                                                                       

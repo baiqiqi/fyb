@@ -24,12 +24,12 @@ use yii\widgets\LinkPager;
         </div>
         <div class="search-wrap">
             <div class="search-content">
-                <form action="#" method="post">
+                <form action="./index.php?r=about/search" method="post">
                     <table class="search-tab">
                         <tr>
 
                             <th width="70">关键字:</th>
-                            <td><input class="common-text" placeholder="关键字" name="keywords" value="" id="" type="text"></td>
+                            <td><input class="common-text" placeholder="关键字" name="search" value="" id="search" type="text"></td>
                             <td><input class="btn btn-primary btn2" name="sub" value="查询" type="submit"></td>
                         </tr>
                     </table>
@@ -65,9 +65,9 @@ use yii\widgets\LinkPager;
                             <td class="tc" ><?php echo $v['ag_x']?></td>
                             <td class="tc" ><?php echo $v['ag_y']?></td>
                             <td class="tc" >
-                            <a class="link-update" href="./index.php?r=about/upload&ag_id=<?php echo $v['ag_id'] ?>">修改</a>
+                            <a class="link-update" href="./index.php?r=about/upload&ag_id=<?php echo $v['ag_id'] ?>" onclick="javascript:return confirm('您确定要修改吗?');"><img src="./images/update.jpg" width="50" height="50"></a>
                             ||
-                            <a class="link-del" href="./index.php?r=about/deletes&ag_id=<?php echo $v['ag_id'] ?>" onclick="javascript:return confirm('是否要删除?');">删除</a></td>
+                            <a class="link-del" href="./index.php?r=about/deletes&ag_id=<?php echo $v['ag_id'] ?>" onclick="javascript:return confirm('您确定要删除吗?');"><img src="./images/delete.jpg" width="50" height="50"></a></td>
                         </tr>
                         <?php }?>
                     </table>

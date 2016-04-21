@@ -51,6 +51,17 @@ class CheckController extends Controller
     	$arr=\Yii::$app->db->createCommand($sql)->queryOne();
     	return $this->render('checkout',['arr'=>$arr]);  			
 	}
+  public function actionAdd(){
+     $shop_name=$_GET['shop_name'];
+     $shop_img=$_GET['shop_img'];
+     $shop_price=$_GET['shop_price'];
+     $shop_num=$_GET['shop_num'];
+     $sql="insert into shop(shop_name,shop_img,shop_price,shop_num) values('$shop_name','$shop_img','$shop_price','$shop_num')";
+     $d=\Yii::$app->db->createCommand($sql)->execute();
+     if ($d) {
+        echo "<script>location.href='index.php?r=check/check'</script>";
+      }
+  }
     public function actionDelete(){
     	$pro_id=$_GET['pro_id'];
     	$delete="delete * from product where pro_id='$pro_id'";
@@ -74,115 +85,20 @@ class CheckController extends Controller
 		$data_pay = $model_pay -> selectall();
 		$model_shop = new Shop();
 		$data_shop = $model_shop ->selectall();
-		// print_r($data_shop);die;
+
 		return $this->render('pay',['data'=>$data,'data_express'=>$data_express,'data_pay'=>$data_pay,'data_shop'=>$data_shop]);
 	}
     
-    /*
-	*支付后
-	*作者：赵思敏
-	*时间：2016/04/18 
-	*/
-    public $enableCsrfValidation = false;
-	public function actionAlipay(){
-		$this->layout="header";
-		$model = new Details();
-		$data = $model -> add();
-		return $this->render('alipayapi');
-	}
-	
-	   /**
-     * 生成充值跳转链接
-     * @return string
-     * 赵思敏
-     */
-	public $enableCsrfValidation = false;
-
-    public function actionAlipay()
-    {
-
-        $order_id = '200000001' . time();
-        $gift_name = 'aaa';
-        $money = 0.01;
-        $body = 'aaa';
-        $show_url = 'http://www.phpman.cn';
-        $alipay = new AlipayPay();
-        $html = $alipay->requestPay($order_id, $gift_name, $money, $body, $show_url);
-        echo $html;
-    }
-
-    /**
-     * @var String 服务器异步通知页面路径
-     * 赵思敏
-     * 需http://格式的完整路径，不能加?id=123这类自定义参数
-     */
-    public function actionNotify_call()
-    {
-
-        $alipay = new AlipayPay();
-        $verify_result = $alipay->verifyNotify();
-        if ($verify_result) {
-            //验证成功
-            //商户订单号
-            $out_trade_no = $_POST['out_trade_no'];
-            //支付宝交易号
-            $trade_no = $_POST['trade_no'];
-            //交易状态
-            $trade_status = $_POST['trade_status'];
-
-            //记录支付宝回调数据
-            $alipay_log = array();
-            $alipay_log['subject'] = $_POST['subject'];
-            $alipay_log['trade_no'] = $trade_no;
-            $alipay_log['buyer_email'] = $_POST['buyer_email'];
-            $alipay_log['gmt_create'] = $_POST['gmt_create'];
-            $alipay_log['out_trade_no'] = $out_trade_no;
-            $alipay_log['notify_time'] = $_POST['notify_time'];
-            $alipay_log['trade_status'] = $trade_status;
-
-
-            /* $this->vip_recharge_model->addAlipayLog($alipay_log);
-
-              if ($trade_status == 'TRADE_FINISHED' || $trade_status == 'TRADE_SUCCESS') {
-              //取该订单信息
-              $order_info = $this->vip_recharge_model->getOrder($out_trade_no);
-              if (!$order_info) {
-              //未找到该订单？
-              }
-              //判断该笔订单是否在商户网站中已经做过处理
-              $order_status = $order_info['status'];
-              if ($order_status == 0) {
-              //完成订单
-              $this->vip_recharge_model->changeOrderStatus($out_trade_no, ORDER_SUCCESS);
-              } else {
-              //已处理过的订单 不做处理
-              }
-              } */
-
-            //返回状态
-            echo "success";
-        } else {
-            //验证失败
-            echo "fail";
-        }
-    }
-
-
-    /**
-     * @var String 页面跳转同步通知页面路径
-     * 赵思敏
-     * 需http://格式的完整路径，不能加?id=123这类自定义参数，不能写成http://localhost/
-     */
-    public function actionReturn_call()
-    {
-        //判断结果，跳转到不同页面
-        $success = $_GET['trade_status'];
-        $out_trade_no = $_GET['out_trade_no'];
-        if ($success == 'TRADE_SUCCESS') {
-            echo 'ok';
-        } else {
-            echo 'no';
-        }
-    }
-
+  /*
+  *支付后
+  *作者：赵思敏
+  *时间：2016/04/18 
+  */
+  public $enableCsrfValidation = false;
+  public function actionAlipay(){
+    $this->layout="header";
+    $model = new Details();
+    $data = $model -> add();
+    return $this->render('alipayapi');
+  }
 }
