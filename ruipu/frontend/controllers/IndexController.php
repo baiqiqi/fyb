@@ -147,7 +147,7 @@ class IndexController extends Controller
 		   echo "<script>alert('请先登录');location='index.php?r=login/login';</script>";
 
 		}
-
+}
 	}
 	/*
 	 * 执行密码设置
