@@ -23,16 +23,12 @@
 header('content-type:text/html;charset=utf8');
 include("../views/check/lib/alipay_submit.class.php");
 include('../views/check/alipay.config.php'); 
-$no=$_GET['no'];
-$sql="select * from `order` where ordernum='$no'";
-//echo $sql;
-$arr=mysql_query($sql);
-$re=mysql_fetch_assoc($arr);
+
 //print_r($re);                                                         
 /**************************请求参数**************************/
 
         //支付类型
-        $payment_type = "1";
+        $payment_type = $re['pay_id'];
         //必填，不能修改
         //服务器异步通知页面路径  ---->给商户
         $notify_url = "http://www.com133.com/notify_url.php";
@@ -43,15 +39,15 @@ $re=mysql_fetch_assoc($arr);
         //需http://格式的完整路径，不能加?id=123这类自定义参数，不能写成http://localhost/
 
         //商户订单号
-        $out_trade_no =$re['ordernum'];
+        $out_trade_no =$re['ord_number'];
         //商户网站订单系统中唯一订单号，必填
 
         //订单名称
-        $subject =$re['ordernum'];
+        $subject =$re['pro_id'];
         //必填
 
         //付款金额
-        $total_fee =$re['money'];
+        $total_fee =$re['ord_price'];
         //必填
 
         //订单描述
@@ -99,7 +95,7 @@ echo  $html_text;   //---->自动跳转到https://mapi.alipay.com/gateway.do?_in
 ?>
 </body>
 </html>
-<script src="./jq.js"></script>
+<script src="js/jq.js"></script>
 <script>
         $(".aa").ready(function(){
          location.href="https://mapi.alipay.com/gateway.do?_input_charset=utf-8";

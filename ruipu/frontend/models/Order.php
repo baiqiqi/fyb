@@ -15,6 +15,10 @@ use Yii;
  * @property string $ord_accept
  * @property string $ord_goods
  * @property string $ord_number
+ * @property integer $u_id
+ * @property integer $pro_id
+ * @property string $ord_sum
+ * @property string $ex_price
  */
 class Order extends \yii\db\ActiveRecord
 {
@@ -32,11 +36,12 @@ class Order extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['ord_time', 'ord_price', 'ord_status', 'pay_id', 'ord_accept', 'ord_goods'], 'required'],
+            [['ord_time', 'ord_price', 'ord_status', 'pay_id', 'ord_accept', 'ord_goods', 'u_id'], 'required'],
             [['ord_time'], 'safe'],
             [['ord_price'], 'number'],
-            [['pay_id'], 'integer'],
-            [['ord_status', 'ord_accept', 'ord_goods', 'ord_number'], 'string', 'max' => 255]
+            [['pay_id', 'u_id', 'pro_id'], 'integer'],
+            [['ord_status', 'ord_accept', 'ord_goods', 'ord_number', 'ord_sum'], 'string', 'max' => 255],
+            [['ex_price'], 'string', 'max' => 11]
         ];
     }
 
@@ -54,17 +59,19 @@ class Order extends \yii\db\ActiveRecord
             'ord_accept' => 'Ord Accept',
             'ord_goods' => 'Ord Goods',
             'ord_number' => 'Ord Number',
+            'u_id' => 'U ID',
+            'pro_id' => 'Pro ID',
+            'ord_sum' => 'Ord Sum',
+            'ex_price' => 'Ex Price',
         ];
     }
-
-    /*
+        /*
     * 赵思敏
     * 查询表中所有数据
     */
+     public function selectall(){
 
-    public function selectall(){
-
-        $sql = "SELECT * FROM order INNER JOIN user ON order.u_id=user.u_id INNER JOIN product ON order.pro_id=product.pro_id INNER JOIN pay_type ON order.pay_id=pay_type.pay_id inner join express_type ON order.ord_eid=express_type.ex_id";
+        $sql = "SELECT * FROM `order` INNER JOIN `user` ON `order`.u_id=`user`.u_id INNER JOIN product ON `order`.pro_id=product.pro_id";
         return  $info = \Yii::$app -> db -> createCommand($sql)->queryAll();
     }
     
@@ -76,16 +83,25 @@ class Order extends \yii\db\ActiveRecord
     public function add(){
 
         $request=Yii::$app->request;
-        if ($_POST) {
+        if ($request->ispost) {
             $pro_id=$request->post("pro_id");
-            $pro_num=$request->post("pro_num");
-            $user_id = $request->post('user_id');
-            $det_price=$request->post("det_price");
-            $pro_price=$request->post("pro_price");
-            $det_numbur=$request->post("det_numbur");
-            $det_time=$request->post(date('y-m-d h:i:s',time()));
-            $res = Yii::$app->db->createCommand()->insert('order',['pro_id'=>$pro_id,'pro_num'=>$pro_num,'user_id'=>$user_id,'det_price'=>$det_price,'pro_price'=>$pro_price,'det_numbur'=>$det_numbur,'det_time'=>$det_time])->query();
+            $ord_sum=$request->post("ord_sum");
+            $u_id = $request->post('u_id');
+            $ex_price=$request->post("ex_price");
+            $ord_price=$request->post("ord_price");          
+            $ord_time=date('y-m-d h:i:s',time()); 
+            $ord_number = date('Ymd').substr(implode(NULL, array_map('ord', str_split(substr(uniqid(), 7, 13), 1))), 0, 8);
+
+            $res = Yii::$app->db->createCommand()->insert('order',['pro_id'=>$pro_id,'ord_sum'=>$ord_sum,'u_id'=>$u_id,'ex_price'=>$ex_price,'ord_price'=>$ord_price,'ord_time'=>$ord_time,'ord_number'=>$ord_number])->query();
             return $res;
         }
      }
+
+     // public function selectnum(){
+     //    // $ord_number=$_GET['ord_number'];
+     //    $sql="SELECT * FROM order WHERE ord_number ='$ord_number'";
+     //    return  $info = \Yii::$app -> db -> createCommand($sql)->queryAll();
+
+          
+     // }
 }

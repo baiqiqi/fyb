@@ -34,7 +34,7 @@
                             <td><?php echo $value['pro_price'] ?></td>
                             <td class="redfont"><span id="aaa"><?php echo $value['pro_price'] ?></span></td>
                             <td>
-                                <input type="hidden" value="<?php echo $value['shop_num']?>" name="pro_num">
+                                <input type="hidden" value="<?php echo $value['shop_num']?>" name="ord_sum">
                                 <span class="min"><img src="images/bag_close.gif" width="9" height="9" /></span>
                                 <input id="text_box" class="text_box" name="" type="text" value="<?php echo $value['shop_num'] ?>" size="2" /> 
                                 <span class="add"><img src="images/bag_open.gif" width="9" height="9" /></span>
@@ -62,7 +62,7 @@
          </tr>
           <?php if ($value['u_id']==$value['u_id']): ?>
             <tr>
-            <input type="hidden" value="<?php echo $value['u_id']?>" name="user_id">
+            <input type="hidden" value="<?php echo $value['u_id']?>" name="u_id">
              <td><?php echo $value['rec_name'] ?></td>
              <td><?php echo $value['rec_tel'] ?></td>
              <td><?php echo $value['rec_address'] ?></td>
@@ -87,7 +87,7 @@
                           </tr>
                           <?php foreach ($data_express as $key => $value): ?>
                             <tr>
-                            <td><span><input type="radio"  class="radio1" name="ex_id" value="<?php echo $value['ex_price'] ?>" <?php echo ($key==0)?'checked':''; ?> /></span></td>
+                            <td><span><input type="radio"  class="radio1" name="ex_price" value="<?php echo $value['ex_price'] ?>" <?php echo ($key==0)?'checked':''; ?> /></span></td>
                             <td><?php echo $value['ex_name'] ?></td>
                             <td><?php echo $value['ex_content'] ?></td>
                             <td>￥<span id="bb"><?php echo $value['ex_price'] ?></span> 元</td>
@@ -131,7 +131,7 @@
         <td class="te_r">商品总价：￥<span class="redfont font_c_14" id="zong1"><?php echo $value['shop_price'] ?></span> 元</td>
       </tr>
       <tr>
-        <input type="hidden" value="<?php echo $value['shop_price']?>" name="pro_price">
+        <input type="hidden" id="money_sum" value="<?php echo $value['shop_price']?>" name="ord_price">
         <td class="te_r">应付款金额：￥<span class="redfont font_c_14" id="zong2"><?php echo $value['shop_price'] ?></span> 元</td>
       </tr>
       <?php endforeach ?>
@@ -153,6 +153,7 @@
       var total2 = $('#total2')
       var zong1 = $('#zong1')
       var zong2 = $('#zong2')
+      var money_sum = $('#money_sum')
       $(".add").click(function(){ 
         var t=$(this).parent().find('input[class*=text_box]'); 
         t.val(parseInt(t.val())+1)
@@ -162,6 +163,7 @@
         total2.text(val*price)
         zong1.text(val*price)
         zong2.text(val*price)
+        money_sum.text(val*price)
         // setTotal();
       }) 
       $(".min").click(function(){ 
@@ -176,6 +178,7 @@
         total2.text(val*price)
         zong1.text(val*price)
         zong2.text(val*price)
+        money_sum.text(val*price)
         // setTotal(); 
       })
     }) 
@@ -191,8 +194,10 @@
       zong2.text(parseInt($(".radio1[checked]").val())+parseInt(price))
       $(".radio1").click(function(){
         var obj = $(this);
-        var val = obj.val()        
-        zong2.text(parseInt(val)+parseInt(price))
+        var val = obj.val()   
+        var sum = parseInt(val)+parseInt(price)
+        zong2.text(sum)
+        $('#money_sum').val(sum)
       }) 
     }) 
 </script> 

@@ -111,8 +111,6 @@ class IndexController extends Controller
 
 		}
 }
-	}
-}
 	/*
 	 * 执行密码设置
 	 * @author 周晶晶

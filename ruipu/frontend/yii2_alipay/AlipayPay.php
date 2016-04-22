@@ -10,17 +10,17 @@ class AlipayPay {
     /**
      * @var String 合作身份者id，以2088开头的16位纯数字
      */
-    public $partner = '2088002075883504';
+    public $partner = '';
 
     /**
      * @var String 收款支付宝账号
      */
-    public $seller_email = 'li1209@126.com';
+    public $seller_email = '';
 
     /**
      * @var String 安全检验码，以数字和字母组成的32位字符
      */
-    public $key = 'ijq5x5s04b2fq9umkvg29fay6cum8ndu';
+    public $key = '';
 
     //↑↑↑↑↑↑↑↑↑↑请在这里配置您的基本信息↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
@@ -55,7 +55,7 @@ class AlipayPay {
      * @var String 页面跳转同步通知页面路径
      * 需http://格式的完整路径，不能加?id=123这类自定义参数，不能写成http://localhost/
      */
-    public $return_url = 'http://www.phpman.cn/index.php?r=order/notify_call';
+    public $return_url = 'http://www.phpman.cn/index.php?r=order/return_call';
     public $extra_common_param = '';
 
     /**

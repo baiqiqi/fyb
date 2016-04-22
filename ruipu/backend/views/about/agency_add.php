@@ -33,7 +33,7 @@ use yii\widgets\ActiveForm;
                             <tr>
                                 <th><i class="require-red">*</i>代理商名：</th>
                                 <td>
-                                    <input class="common-text required" id="title" name="ag_name" size="50" value="" type="text">
+                                    <input required class="common-text required" id="title" name="ag_name" size="50" value="" type="text">
                                 </td>
                             </tr>
                             <tr>
@@ -42,24 +42,24 @@ use yii\widgets\ActiveForm;
                             </tr>
                             <tr>
                                 <th><i class="require-red">*</i>简介：</th>
-                                <td><textarea id="htmlbox_icon_set_green" name="ag_content"></textarea></td>
+                                <td><textarea id="htmlbox_icon_set_green" required name="ag_content"></textarea></td>
                             </tr>
                             <tr>
                                 <th><i class="require-red">*</i>代理商地址：</th>
                                 <td>
-                                    <input class="common-text required" id="title" name="ag_addr" size="50" value="" type="text">
+                                    <input required class="common-text required" id="title" name="ag_addr" size="50" value="" type="text">
                                 </td>
                             </tr>
                             <tr>
                                 <th><i class="require-red">*</i>经度：</th>
                                 <td>
-                                    <input class="common-text required" id="title" name="ag_x" size="20" value="" type="text">
+                                    <input required class="common-text required" id="title" name="ag_x" size="20" value="" type="text">
                                 </td>
                             </tr>
                             <tr>
                                 <th><i class="require-red">*</i>纬度：</th>
                                 <td>
-                                   <input class="common-text required" id="title" name="ag_y" size="20" value="" type="text">
+                                   <input required class="common-text required" id="title" name="ag_y" size="20" value="" type="text">
                                 </td>
                             </tr>
                             <tr>

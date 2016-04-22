@@ -20,6 +20,7 @@ use yii\filters\AccessControl;
 
 use frontend\yii2_alipay\Alipaypay;
 
+
 use app\models\Details;
 use app\models\ExpressType;
 use app\models\Order;
@@ -97,8 +98,10 @@ class CheckController extends Controller
   public $enableCsrfValidation = false;
   public function actionAlipay(){
     $this->layout="header";
-    $model = new Details();
+    $model = new Order();
     $data = $model -> add();
-    return $this->render('alipayapi');
+    $re = $model ->selectall();
+    if($data)
+    return $this->render('pay_hou',['re'=>$re]);
   }
 }
