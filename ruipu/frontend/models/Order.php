@@ -64,6 +64,28 @@ class Order extends \yii\db\ActiveRecord
 
     public function selectall(){
 
-        return $this->find()->asArray()->all();
+        $sql = "SELECT * FROM order INNER JOIN user ON order.u_id=user.u_id INNER JOIN product ON order.pro_id=product.pro_id INNER JOIN pay_type ON order.pay_id=pay_type.pay_id inner join express_type ON order.ord_eid=express_type.ex_id";
+        return  $info = \Yii::$app -> db -> createCommand($sql)->queryAll();
     }
+    
+    /*
+    * 赵思敏
+    * 添加数据
+    */
+
+    public function add(){
+
+        $request=Yii::$app->request;
+        if ($_POST) {
+            $pro_id=$request->post("pro_id");
+            $pro_num=$request->post("pro_num");
+            $user_id = $request->post('user_id');
+            $det_price=$request->post("det_price");
+            $pro_price=$request->post("pro_price");
+            $det_numbur=$request->post("det_numbur");
+            $det_time=$request->post(date('y-m-d h:i:s',time()));
+            $res = Yii::$app->db->createCommand()->insert('order',['pro_id'=>$pro_id,'pro_num'=>$pro_num,'user_id'=>$user_id,'det_price'=>$det_price,'pro_price'=>$pro_price,'det_numbur'=>$det_numbur,'det_time'=>$det_time])->query();
+            return $res;
+        }
+     }
 }

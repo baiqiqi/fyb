@@ -43,17 +43,43 @@ class CheckController extends Controller
 	*作者：程啊倩
 	*时间：2016/04/18 9.10	
 	*/
+
+  public function actionAdd(){
+     $pro_id=$_GET['pro_id'];
+     $pro_name=$_GET['pro_name'];
+     $pro_price=$_GET['pro_price'];
+     $pro_img=$_GET['pro_img'];
+     $number=$_GET['number'];
+     $sqll="select * from shop where pro_id='$pro_id'";
+     $db=\Yii::$app->db->createCommand($sqll)->queryOne();
+     if ($db) {
+       $number+=$db['shop_num'];
+       $update="update shop set shop_num='$number' where pro_id='$pro_id'";
+       $re=\Yii::$app->db->createCommand($update)->execute();
+     }else{
+       $sql="insert into shop(pro_id,shop_name,shop_price,shop_image,shop_num) values('$pro_id','$pro_name','$pro_price','$pro_img','$number')";
+       $re=\Yii::$app->db->createCommand($sql)->execute();
+     }
+     if ($re) {
+        echo "<script>alert('添加成功');location.href='index.php?r=check/check'</script>";
+      }
+  }
+
 	public function actionCheck()
 	{  
     	$this->layout="header";
-    	$pro_id=$_GET['pro_id'];
-    	$sql="select * from product where pro_id='$pro_id'";
-    	$arr=\Yii::$app->db->createCommand($sql)->queryOne();
-    	return $this->render('checkout',['arr'=>$arr]);  			
+    	$sql="select * from shop";
+      $arr=\Yii::$app->db->createCommand($sql)->queryAll();
+      $sum_money = 0;
+      foreach ($arr as $k => $v) {
+         $sum_money+=$v['shop_num']*$v['shop_price'];
+      }
+    	return $this->render('checkout',['arr'=>$arr,'sum_money'=>$sum_money]);  			
 	}
+  
     public function actionDelete(){
-    	$pro_id=$_GET['pro_id'];
-    	$delete="delete * from product where pro_id='$pro_id'";
+    	$shop_id=$_GET['shop_id'];
+    	$delete="delete * from shop where shop_id='$shop_id'";
     	if ($delete) {
     		echo "<script>alert('删除成功');location.href='index.php?r=index/index'</script>";
     	}
@@ -74,6 +100,7 @@ class CheckController extends Controller
 		$data_pay = $model_pay -> selectall();
 		$model_shop = new Shop();
 		$data_shop = $model_shop ->selectall();
+
 		return $this->render('pay',['data'=>$data,'data_express'=>$data_express,'data_pay'=>$data_pay,'data_shop'=>$data_shop]);
 	}
     

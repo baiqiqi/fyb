@@ -48,6 +48,13 @@ $ip = $_SERVER['REMOTE_ADDR'];
                     <a href="#"><i class="icon-font">&#xe003;</i>常用操作</a>
                     <ul class="sub-menu">
                         <li><a href="index.php?r=index/nav"><i class="icon-font">&#xe008;</i>导航栏管理</a></li>
+<<<<<<< HEAD
+=======
+                        <li><a href="index.php?r=details/details"><i class="icon-font">&#xe005;</i>商品管理</a></li>
+                        <li><a href=""><i class="icon-font">&#xe006;</i>分类管理</a></li>
+                        <li><a href=""><i class="icon-font">&#xe004;</i>留言管理</a></li>
+                        <li><a href=""><i class="icon-font">&#xe012;</i>评论管理</a></li>
+>>>>>>> 99f35cdd4ecb487937d40b86370e627839f64126
                         <li><a href="index.php?r=about/agency"><i class="icon-font">&#xe052;</i>代理商管理</a></li>
                         <li><a href="index.php?r=indent/show"><i class="icon-font">&#xe006;</i>订单管理</a></li>
                         <li><a href="index.php?r=userinfo/info"><i class="icon-font">&#xe004;</i>用户管理</a></li>

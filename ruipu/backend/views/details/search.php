@@ -52,7 +52,7 @@ use yii\widgets\LinkPager;
                              <td><input type="checkbox"></td>
                              <td><?php echo $v['pro_id']?></td>
                              <td><img src="<?php echo $v['pro_img']?>" width="120" height="120"></td>
-                             <td><?php echo mb_substr($v['pro_name'],0,30)?></td>
+                             <td><?php echo $v['pro_name']?></td>
                              <td><?php echo $v['pro_content']?></td>
                              <td><?php echo $v['pro_price']?></td>
                              <td><?php echo $v['pro_count']?></td>

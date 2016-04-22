@@ -59,7 +59,7 @@ use yii\widgets\LinkPager;
                              <td><?php echo $v['pro_count']?></td>
                              <td><?php echo $v['pro_sales']?></td>
                              <td>
-                                <a class="link-update" href="index.php?r=details/update">修改</a>
+                                <a class="link-update" href="index.php?r=details/xiu&pro_id=<?php echo $v['pro_id']?>">修改</a>
                                 <a class="link-del" href="index.php?r=details/delete&pro_id=<?php echo $v['pro_id']?>">删除</a>
                             </td>
                         </tr>
