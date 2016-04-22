@@ -101,7 +101,6 @@ class IndexController extends Controller
 			case 'personal_words' : return $this->render('personalwords') ;
 			    break;
 
-
 		$session = Yii::$app->session;
 		if($session->has('uname')){
 			$model = new User();
@@ -161,7 +160,6 @@ class IndexController extends Controller
       $model = new User();
       $info = $model->pwd_update();
       print_r($info);
-
     }
     /*
      * 收获地址 获取城市信息

@@ -105,10 +105,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-       <?php //include('../views/layouts/nav.php');?>
+       <?php include('../views/layouts/nav.php');?>
 
        <!-- 首页导航开始 -->
-        <li class="active"><a href="index.php?r=index/index">首页 </a><li>
+      <!--   <li class="active"><a href="index.php?r=index/index">首页 </a><li>
         <li class="active"><a href="index.php?r=index/contact">商品</a><li>
      <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sale <span class="caret"></span></a>
@@ -121,7 +121,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <li>
     <li><a href="index.php?r=about/about">关于我们</a><li>
     <li><a href="">Contact Us</a><li>
-      </ul>
+      </ul> -->
     <!-- 首页导航结束 -->
 
       </ul>
