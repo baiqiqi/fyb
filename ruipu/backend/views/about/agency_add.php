@@ -22,7 +22,7 @@ use yii\widgets\ActiveForm;
     <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/jscss/admin/design/">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/jscss/admin/design/">代理商添加</a><span class="crumb-step">&gt;</span><span>新增代理商</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="./index.php?r=index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="./index.php?r=about/agency">代理商列表</a><span class="crumb-step">&gt;</span><span>新增代理商</span></div>
         </div>
         <div class="result-wrap">
             <div class="result-content">

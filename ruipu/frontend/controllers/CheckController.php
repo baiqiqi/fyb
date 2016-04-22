@@ -85,6 +85,7 @@ class CheckController extends Controller
 		$data_pay = $model_pay -> selectall();
 		$model_shop = new Shop();
 		$data_shop = $model_shop ->selectall();
+
 		return $this->render('pay',['data'=>$data,'data_express'=>$data_express,'data_pay'=>$data_pay,'data_shop'=>$data_shop]);
 	}
     

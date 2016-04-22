@@ -1,0 +1,14 @@
+<table>
+	<tr>
+		<td>用户名称</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>商品名称</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>商品总价</td>
+		<td></td>
+	</tr>
+</table>

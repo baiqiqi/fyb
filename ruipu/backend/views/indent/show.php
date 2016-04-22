@@ -46,7 +46,7 @@
 <td><?php echo $v["ex_name"];?></td>
 <td><?php echo $v["det_numbur"];?></td>
 <td><?php echo $v["det_time"];?></td>
-<td><a href="">删除</a>||<a href="">修改</a></td>
+<td><a onclick="if(confirm('确定删除？')) return true; else return false;" href="index.php?r=indent/delete&id=<?php echo $v['ord_id']?>" class='outiong'>移除</a>||<a href="index.php?r=indent/save&id=<?php echo $v['ord_id']?>">修改</a></td>
 
 </tr>
 <?php } ?>
