@@ -61,4 +61,4 @@ class DoctorController extends Controller
 			echo '修改错误';
 		}
 	}
-}merging
+}

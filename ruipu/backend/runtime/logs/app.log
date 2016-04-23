@@ -55196,3 +55196,3242 @@ $_SERVER = [
 >>>>>>> 38fa663615553e7571bb77383a8d699a93f47431
 >>>>>>> 99f35cdd4ecb487937d40b86370e627839f64126
 ]
+2016-04-23 08:07:54 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:07:53 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2076'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52999'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370073.4105
+    'REQUEST_TIME' => 1461370073
+]
+2016-04-23 08:09:00 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:08:59 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'login/index'
+]
+
+$_POST = [
+    'u_name' => '帅到被砍'
+    'passwd' => 'qq1234'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2080'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=login/index'
+    'QUERY_STRING' => 'r=login/index'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53041'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://reaps.com/'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://reaps.com'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '57'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370139.7473
+    'REQUEST_TIME' => 1461370139
+]
+2016-04-23 08:09:01 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:09:00 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'login/welcome'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2080'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=login%2Fwelcome'
+    'QUERY_STRING' => 'r=login%2Fwelcome'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53041'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370140.6063
+    'REQUEST_TIME' => 1461370140
+]
+2016-04-23 08:09:37 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:09:36 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'login/welcome'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2080'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=login%2Fwelcome'
+    'QUERY_STRING' => 'r=login%2Fwelcome'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53054'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370176.8107
+    'REQUEST_TIME' => 1461370176
+]
+2016-04-23 08:09:42 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: E:\www\php11\ruipu\fyb\ruipu\backend\views\index/index.php' in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\www\\php11\\ru...', Array, Object(backend\controllers\IndexController))
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('//index/index', Array, Object(backend\controllers\IndexController))
+#2 E:\www\php11\ruipu\fyb\ruipu\backend\controllers\IndexController.php(29): yii\base\Controller->render('//index/index')
+#3 [internal function]: backend\controllers\IndexController->actionIndex()
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#6 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/index', Array)
+#8 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\www\php11\ruipu\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-04-23 08:09:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2076'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53056'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=login%2Fwelcome'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370182.2322
+    'REQUEST_TIME' => 1461370182
+]
+2016-04-23 08:09:43 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidParamException))
+#7 {main}
+2016-04-23 08:09:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2076'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53056'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=login%2Fwelcome'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370182.2322
+    'REQUEST_TIME' => 1461370182
+]
+2016-04-23 08:09:53 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:09:52 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'login/welcome'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2072'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=login%2Fwelcome'
+    'QUERY_STRING' => 'r=login%2Fwelcome'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53064'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=eqpga2a3v0o75uab7lhvk162o4; _csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370192.8234
+    'REQUEST_TIME' => 1461370192
+]
+2016-04-23 08:09:55 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: E:\www\php11\ruipu\fyb\ruipu\backend\views\index/index.php' in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\www\\php11\\ru...', Array, Object(backend\controllers\IndexController))
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('//index/index', Array, Object(backend\controllers\IndexController))
+#2 E:\www\php11\ruipu\fyb\ruipu\backend\controllers\IndexController.php(29): yii\base\Controller->render('//index/index')
+#3 [internal function]: backend\controllers\IndexController->actionIndex()
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#6 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/index', Array)
+#8 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\www\php11\ruipu\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-04-23 08:09:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2072'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53064'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=login%2Fwelcome'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370194.9355
+    'REQUEST_TIME' => 1461370194
+]
+2016-04-23 08:09:55 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidParamException))
+#7 {main}
+2016-04-23 08:09:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2072'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53064'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=login%2Fwelcome'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370194.9355
+    'REQUEST_TIME' => 1461370194
+]
+2016-04-23 08:09:56 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:09:56 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'login/welcome'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2072'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=login%2Fwelcome'
+    'QUERY_STRING' => 'r=login%2Fwelcome'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53066'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370196.1775
+    'REQUEST_TIME' => 1461370196
+]
+2016-04-23 08:09:57 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:09:57 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'login/welcome'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2072'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=login%2Fwelcome'
+    'QUERY_STRING' => 'r=login%2Fwelcome'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53066'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=login%2Fwelcome'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370197.1066
+    'REQUEST_TIME' => 1461370197
+]
+2016-04-23 08:10:42 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:10:42 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'login/welcome'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2080'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=login%2Fwelcome'
+    'QUERY_STRING' => 'r=login%2Fwelcome'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53082'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370242.2734
+    'REQUEST_TIME' => 1461370242
+]
+2016-04-23 08:10:44 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:10:43 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2080'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53085'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=login%2Fwelcome'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370243.4553
+    'REQUEST_TIME' => 1461370243
+]
+2016-04-23 08:10:49 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:10:48 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2080'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53085'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370248.4955
+    'REQUEST_TIME' => 1461370248
+]
+2016-04-23 08:12:28 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:12:27 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2080'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53137'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370347.1537
+    'REQUEST_TIME' => 1461370347
+]
+2016-04-23 08:13:01 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:13:01 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'login/welcome'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2072'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=login%2Fwelcome'
+    'QUERY_STRING' => 'r=login%2Fwelcome'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53227'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370381.3889
+    'REQUEST_TIME' => 1461370381
+]
+2016-04-23 08:13:01 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:13:01 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2076'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53229'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370381.3949
+    'REQUEST_TIME' => 1461370381
+]
+2016-04-23 08:14:59 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:14:59 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53297'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370499.2848
+    'REQUEST_TIME' => 1461370499
+]
+2016-04-23 08:15:03 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:15:01 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'index/nav'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/nav'
+    'QUERY_STRING' => 'r=index/nav'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53299'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=index/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370501.6232
+    'REQUEST_TIME' => 1461370501
+]
+2016-04-23 08:15:04 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected end of file' in E:\www\php11\ruipu\fyb\ruipu\backend\controllers\DoctorController.php:64
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-23 08:15:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'doctor/dinfo'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=doctor/dinfo'
+    'QUERY_STRING' => 'r=doctor/dinfo'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53298'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=index/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370504.3131
+    'REQUEST_TIME' => 1461370504
+]
+2016-04-23 08:15:04 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(247): yii\log\Logger->flush(true)
+#7 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#8 {main}
+2016-04-23 08:15:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'doctor/dinfo'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=doctor/dinfo'
+    'QUERY_STRING' => 'r=doctor/dinfo'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53298'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=index/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370504.3131
+    'REQUEST_TIME' => 1461370504
+]
+2016-04-23 08:15:24 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:15:23 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'doctor/dinfo'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=doctor/dinfo'
+    'QUERY_STRING' => 'r=doctor/dinfo'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53308'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=index/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370523.522
+    'REQUEST_TIME' => 1461370523
+]
+2016-04-23 08:15:27 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:15:26 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'index/nav'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/nav'
+    'QUERY_STRING' => 'r=index/nav'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53312'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=doctor/dinfo'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370526.647
+    'REQUEST_TIME' => 1461370526
+]
+2016-04-23 08:15:28 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:15:28 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'index/nav_add'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/nav_add'
+    'QUERY_STRING' => 'r=index/nav_add'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53312'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=index/nav'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370528.4702
+    'REQUEST_TIME' => 1461370528
+]
+2016-04-23 08:15:31 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:15:31 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'index/nav'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/nav'
+    'QUERY_STRING' => 'r=index/nav'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53312'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=doctor/dinfo'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370531.0474
+    'REQUEST_TIME' => 1461370531
+]
+2016-04-23 08:15:34 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:15:33 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'index/update_show'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/update_show&id=1'
+    'QUERY_STRING' => 'r=index/update_show&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53312'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=index/nav'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370533.1026
+    'REQUEST_TIME' => 1461370533
+]
+2016-04-23 08:15:36 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:15:36 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'index/nav'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/nav'
+    'QUERY_STRING' => 'r=index/nav'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53312'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=doctor/dinfo'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370536.0163
+    'REQUEST_TIME' => 1461370536
+]
+2016-04-23 08:15:38 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:15:38 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'details/details'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=details/details'
+    'QUERY_STRING' => 'r=details/details'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53312'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=index/nav'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370538.4789
+    'REQUEST_TIME' => 1461370538
+]
+2016-04-23 08:15:46 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:15:44 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'details/xiu'
+    'pro_id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=details/xiu&pro_id=1'
+    'QUERY_STRING' => 'r=details/xiu&pro_id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53331'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=details/details'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370544.5521
+    'REQUEST_TIME' => 1461370544
+]
+2016-04-23 08:15:48 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:15:48 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'details/details'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=details/details'
+    'QUERY_STRING' => 'r=details/details'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53331'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=index/nav'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370548.065
+    'REQUEST_TIME' => 1461370548
+]
+2016-04-23 08:15:52 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:15:51 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'details/upload'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=details/upload'
+    'QUERY_STRING' => 'r=details/upload'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53331'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=details/details'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370551.6063
+    'REQUEST_TIME' => 1461370551
+]
+2016-04-23 08:15:55 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:15:54 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'details/upload'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=details/upload'
+    'QUERY_STRING' => 'r=details/upload'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53331'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=details/upload'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370554.5428
+    'REQUEST_TIME' => 1461370554
+]
+2016-04-23 08:16:28 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:16:27 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'details/upload'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=details/upload'
+    'QUERY_STRING' => 'r=details/upload'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53364'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=details/upload'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370587.5208
+    'REQUEST_TIME' => 1461370587
+]
+2016-04-23 08:16:30 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:16:29 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'about/agency'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=about/agency'
+    'QUERY_STRING' => 'r=about/agency'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53366'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=details/upload'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370589.4701
+    'REQUEST_TIME' => 1461370589
+]
+2016-04-23 08:16:33 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:16:32 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'about/add'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=about/add'
+    'QUERY_STRING' => 'r=about/add'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53366'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=about/agency'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370592.8782
+    'REQUEST_TIME' => 1461370592
+]
+2016-04-23 08:16:40 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:16:40 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'indent/show'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=indent/show'
+    'QUERY_STRING' => 'r=indent/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53381'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=about/add'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370600.0249
+    'REQUEST_TIME' => 1461370600
+]
+2016-04-23 08:16:46 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:16:45 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'userinfo/info'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=userinfo/info'
+    'QUERY_STRING' => 'r=userinfo/info'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53386'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=indent/show'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370605.9195
+    'REQUEST_TIME' => 1461370605
+]
+2016-04-23 08:16:53 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:16:53 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'indent/show'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=indent/show'
+    'QUERY_STRING' => 'r=indent/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53395'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=userinfo/info'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370613.4069
+    'REQUEST_TIME' => 1461370613
+]
+2016-04-23 08:16:55 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:16:54 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'userinfo/info'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=userinfo/info'
+    'QUERY_STRING' => 'r=userinfo/info'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53395'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=indent/show'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370614.5996
+    'REQUEST_TIME' => 1461370614
+]
+2016-04-23 08:16:59 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30844 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:16:58 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'doctor/dinfo'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=doctor/dinfo'
+    'QUERY_STRING' => 'r=doctor/dinfo'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53395'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=userinfo/info'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370618.7422
+    'REQUEST_TIME' => 1461370618
+]
+2016-04-23 08:17:02 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/articles' in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php:124
+Stack trace:
+#0 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('articles', Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/articles', Array)
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\www\php11\ruipu\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\www\php11\ruipu\fyb\ruipu\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-23 08:17:01 [127.0.0.1][-][eqpga2a3v0o75uab7lhvk162o4][info][application] $_GET = [
+    'r' => 'index/articles'
+]
+
+$_COOKIE = [
+    '_csrf' => '8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS\";}'
+    'PHPSESSID' => 'eqpga2a3v0o75uab7lhvk162o4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '127.0.0.1' => [
+        'u_id' => '5'
+        'u_name' => '帅到被砍'
+        'u_pwd' => '4547e2781bd1d816166766fda702c7d9'
+        'u_img' => 'images/zcy.gif'
+        'u_tel' => '98745632114'
+        'u_sex' => '1'
+        'u_age' => '12'
+        'u_height' => '78'
+        'u_weight' => '54'
+        'u_email' => ''
+        'u_status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/articles'
+    'QUERY_STRING' => 'r=index/articles'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53395'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reaps.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=8c07ae12f3c3c2821a984419d08e6a660842ed345f05be748cbbc495c8659358a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VG5Jn0YMb-RNMOQXCO2A1WGp8GdVR5SS%22%3B%7D; PHPSESSID=eqpga2a3v0o75uab7lhvk162o4'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reaps.com/index.php?r=doctor/dinfo'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reaps.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370621.7982
+    'REQUEST_TIME' => 1461370621
+]

@@ -64,8 +64,6 @@ class IndexController extends Controller
 	 * */
 	public  function actionUser_center(){
 		$this->layout="header";
-<<<<<<< HEAD
-
 		$model = new User();
 		$model_receipt =new Receipt();
 		$model_region = new Region();
@@ -102,9 +100,6 @@ class IndexController extends Controller
 			//我的微留言
 			case 'personal_words' : return $this->render('personalwords') ;
 			    break;
-
-=======
->>>>>>> 99f35cdd4ecb487937d40b86370e627839f64126
 		$session = Yii::$app->session;
 		if($session->has('uname')){
 			$model = new User();
@@ -152,6 +147,7 @@ class IndexController extends Controller
 		   echo "<script>alert('请先登录');location='index.php?r=login/login';</script>";
 
 		}
+}
 }
 	
 

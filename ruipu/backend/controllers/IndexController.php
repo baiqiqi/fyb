@@ -26,7 +26,7 @@ class IndexController extends Controller
     public $enableCsrfValidation = false;
     public $layout = false ;  //布局
     public function actionIndex(){
-     return $this->render('//index/index');
+     return $this->render('//login/welcome');
     }
     public function actionNav(){
          $data = Nav::find();
@@ -150,4 +150,4 @@ class IndexController extends Controller
         }
     }
 }
-?>
+?> 
