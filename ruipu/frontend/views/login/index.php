@@ -38,8 +38,8 @@
 		                    <div class="clear"> </div>
 		                    <div class="lable-2">
 		                    <!-- <label for="username">Runner:</label> -->
-		                    <input type="text" class="text" name="username"  placeholder="请输入您的用户名:" pattern="^[\u4E00-\u9FFF]{2,4}$" required>
-		                    <input type="text"  id='text' class="email" name="email" placeholder="请输入您的邮箱" pattern="^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$" required>
+		                    <input type="text" class="text" name="username"  placeholder="请输入您的用户名:两位到四位汉字" pattern="^[\u4E00-\u9FFF]{2,4}$" required>
+		                    <input type="text"  id='text' class="email" name="email" placeholder="请输入您的邮箱：xxxx@xx.com" pattern="^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$" required>
 		                     <input type="password" class="text" name="pwd"  placeholder="请输入您的密码：六位以上数字,字母,下划线组合,不能以下划线开头" pattern="^[a-zA-Z0-9][a-zA-Z0-9_]{5,9}$" required>
 							</diyuy8v>
 

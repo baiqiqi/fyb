@@ -18,10 +18,24 @@ class UserinfoController extends Controller
 	public $enableCsrfValidation = false;
 	public function actionInfo()
 	{
-     	$sql = "select * from user where u_status='1'";
-    	$arr =\Yii::$app->db->createCommand($sql)->queryAll();
-    	// print_r($arr);die;     	
-     	return $this->render('info',['arr'=>$arr]);
+     // 	$sql = "select * from user where u_status='1'";
+    	// $arr =\Yii::$app->db->createCommand($sql)->queryAll();
+    	// print_r($arr);die;   
+		$connection = \Yii::$app->db;
+         if (empty($_GET['page'])) {
+           $page = 1;
+        }else{
+            $page = $_GET['page'];
+        }
+        $pagesize = 2;
+        $command = $connection->createCommand('SELECT COUNT(*) FROM user');   
+        $postCount = $command->queryScalar();
+        $countpage = ceil($postCount/$pagesize);
+        $limit2 = ($page-1)*$pagesize;
+        $command = $connection->createCommand("select * from user where u_status=1 order by u_id desc limit $limit2,$pagesize");
+        $arr = $command->queryAll();
+        return $this->render('info',['arr'=>$arr,'page'=>$page,'countpage'=>$countpage]);  	
+     	// return $this->render('info',['arr'=>$arr]);
 	}
 	public function actionDelete()
 	{

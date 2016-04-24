@@ -31,8 +31,10 @@
 <td>商品总价</td>
 <td>商品数量</td>
 <td>快递名称</td>
+<td>支付方式</td>
 <td>订单号</td>
 <td>订单时间</td>
+<td>订单状态</td>
 <td>管理操作</td>
 </tr>
 <?php foreach ($arr as $k => $v) {?>
@@ -41,11 +43,13 @@
 <td><?php echo $v["ord_id"];?></td>
 <td><?php echo $v["u_name"];?></td>
 <td><?php echo $v["pro_name"];?></td>
-<td><?php echo $v["pro_price"];?></td>
-<td><?php echo $v["pro_num"];?></td>
+<td><?php echo $v["ord_price"];?></td>
+<td><?php echo $v["ord_sum"];?></td>
 <td><?php echo $v["ex_name"];?></td>
-<td><?php echo $v["det_numbur"];?></td>
-<td><?php echo $v["det_time"];?></td>
+<td><?php echo $v["pay_name"];?></td>
+<td><?php echo $v["ord_status"];?></td>
+<td><?php echo $v["ord_numbur"];?></td>
+<td><?php echo $v["ord_time"];?></td>
 <td><a onclick="if(confirm('确定删除？')) return true; else return false;" href="index.php?r=indent/delete&id=<?php echo $v['ord_id']?>" class='outiong'>移除</a>||<a href="index.php?r=indent/save&id=<?php echo $v['ord_id']?>">修改</a></td>
 
 </tr>
