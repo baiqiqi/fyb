@@ -31,7 +31,7 @@ $ip = $_SERVER['REMOTE_ADDR'];
             <ul class="top-info-list clearfix">
                 <li><a href="http://www.jscss.me">管理员</a></li>
                 <li><a href="http://www.jscss.me">修改密码</a></li>
-                <li><a href="http://www.jscss.me">退出</a></li>
+                <li><a href="index.php?r=login/index">退出</a></li>
             </ul>
         </div>
     </div>
@@ -49,15 +49,10 @@ $ip = $_SERVER['REMOTE_ADDR'];
                     <ul class="sub-menu">
                         <li><a href="index.php?r=index/nav"><i class="icon-font">&#xe008;</i>导航栏管理</a></li>
                         <li><a href="index.php?r=details/details"><i class="icon-font">&#xe005;</i>商品管理</a></li>
-                        <li><a href=""><i class="icon-font">&#xe006;</i>分类管理</a></li>
-                        <li><a href=""><i class="icon-font">&#xe004;</i>留言管理</a></li>
-                        <li><a href=""><i class="icon-font">&#xe012;</i>评论管理</a></li>
                         <li><a href="index.php?r=about/agency"><i class="icon-font">&#xe052;</i>代理商管理</a></li>
-                        <li><a href=""><i class="icon-font">&#xe033;</i>广告管理</a></li>
                         <li><a href="index.php?r=indent/show"><i class="icon-font">&#xe006;</i>订单管理</a></li>
                         <li><a href="index.php?r=userinfo/info"><i class="icon-font">&#xe004;</i>用户管理</a></li>
                         <li><a href="index.php?r=doctor/dinfo"><i class="icon-font">&#xe012;</i>医生管理</a></li>
-                        <li><a href=""><i class="icon-font">&#xe052;</i>友情链接</a></li>
                         <li><a href="index.php?r=index/articles"><i class="icon-font">&#xe033;</i>文章管理</a></li>
                     </ul>
                 </li>

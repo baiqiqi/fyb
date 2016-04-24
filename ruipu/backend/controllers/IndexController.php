@@ -7,12 +7,18 @@ namespace backend\controllers;
 use yii\web\Controller;
 use DB;
 use CDbExpression;
+use app\models\nav;
+use yii\data\Pagination;
 /*
  * @nav 导航栏管理显示页面
  * @Update_show 修改导航栏显示页面
  * @upda 修改导航
  * @backups 数据库备份 
  * @huanups 数据库恢复
+ * @adds 导航添加
+ * @add_sort 导航添加判断排序
+ * @nav_del 导航删除
+ * @art_show 文章详情
  * @白琪琪
  * @2016-4-18 1：50 
  */
@@ -24,10 +30,14 @@ class IndexController extends Controller
      return $this->render('//login/welcome');
     }
     public function actionNav(){
-    	$sql="select * from nav";
-    	$nav=\Yii::$app->db->createCommand($sql)->queryAll();
-    	return $this->render('nav',['nav'=>$nav]);  		
-    }
+         $data = Nav::find();
+       $pages = new Pagination(['totalCount' =>$data->count(), 'pageSize' => '5']);
+       $model = $data->offset($pages->offset)->limit($pages->limit)->all();
+       return $this->render('nav',[
+             'nav' => $model,
+             'pages' => $pages,
+       ]);
+  }
     public function actionUpdate_show(){
     	$id = $_GET["id"];
     	$sql = "select * from nav where nav_id='$id'";
@@ -47,7 +57,6 @@ class IndexController extends Controller
             ),
             "nav_id=".$id
             )->query();
-        //print_r($update_nav);die;
         if ($update_nav) {
             return $this->redirect("index.php?r=index/nav");
         }
@@ -92,17 +101,59 @@ class IndexController extends Controller
             $tmpFile = (dirname(__FILE__))."\\".'mysql\\'.$filename;
             // 用MySQLDump命令导入数据库
             exec("mysql -u$cfg_dbuser -p$cfg_dbpwd $cfg_dbname < ".$tmpFile);
-                // echo "mysql -u$cfg_dbuser -p$cfg_dbpwd $cfg_dbname < ".$tmpFile;die;
             //将备份数据插入到huan.xml文件内
             $huan=(dirname(__FILE__))."\\".'huan\\huan.xml';
             $current = file_get_contents($huan);
             $current .= "\n".$time.','.$tmpFile;
             file_put_contents($huan, $current);
     }
-    public function actionArtciles(){
-        $sql = "select * from artcile";
-        $artcile = \Yii::$app->db->createCommand($sql)->queryAll();
-        return $this->render('artcile',['artcile'=>$artcile]);
+    public function actionArticles(){
+        $sql = "select * from article";
+        $article = \Yii::$app->db->createCommand($sql)->queryAll();
+        return $this->render('article',['article'=>$article]);
+    }
+    public function actionNav_add(){
+        return $this->render("nav_add");
+    }
+    public function actionAdd_sort(){
+        $nav_sort=$_POST["nav_sort"];
+        $sql = "select nav_sort from nav";
+        $nav = \Yii::$app->db->createCommand($sql)->queryAll();
+        foreach ($nav as $key => $value) {
+            $add_sort = $value;
+        if (in_array($nav_sort, $add_sort)) {
+            echo "存在";die;
+        }else{
+            echo "不存在";die;
+        }
+        }      
+    }
+    public function actionAdds(){
+        $nav = new Nav();
+        $nav->nav_name = $_POST["nav_name"];
+        $nav->nav_url = $_POST["nav_url"];
+        $nav->nav_status = $_POST["nav_status"];
+        $nav->nav_sort = $_POST["nav_sort"];
+        if($nav->save()){ 
+           return $this->redirect("index.php?r=index/nav");
+        }else{ 
+            echo "添加失败"; 
+        }
+    }
+    public function actionNav_del(){
+        $id = $_GET["id"];
+        $nav_del= Nav::findOne($id)->delete();
+        if ($nav_del) {
+            return $this->redirect("index.php?r=index/nav");
+        }else{
+            return $this->redirect("index.php?r=index/nav");
+        }
+    }
+    public function actionArt_show(){
+        $id = $_GET["art_id"];
+         $sql = "select * from article where art_id=".$id;
+        $art_show = \Yii::$app->db->createCommand($sql)->queryAll();
+        return $this->render('article_show',['art_show'=>$art_show]);
     }
 }
-?>
+?> 

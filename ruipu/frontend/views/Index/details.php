@@ -8,14 +8,14 @@
 <link rel="stylesheet" type="text/css" href="indexs/css/base.css"/>
 <link rel="stylesheet" type="text/css" href="indexs/css/shopDetails.css"/>
 <link rel="stylesheet" href="indexs/css/jquery-zoom.css" />
-<script type="text/javascript" src="indexs/js/jquery.min.js"></script>
+<script type="text/javascript" src="indexs/js/jquery.min.js"></script> 
 <script type="text/javascript" src="indexs/js/common.js"></script>
 <script type="text/javascript" src="indexs/js/shopDetails.js" ></script>
 <link rel="stylesheet" type="text/css" href="indexs/css/gift_view.css">
 <script type="text/javascript" src="indexs/js/gift_pc.js"></script>
 <script src="indexs/js/jquery.alerts.js" type="text/javascript"></script>
 <style>
-    .wy{
+    .wy{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
         font-family: 微软雅黑 Bold, 微软雅黑;
     }
     .font12{
@@ -235,7 +235,7 @@ function clear_history_Response(res){
                             <p class="clo9 shop_txt wy font12" style="display:none;">商品货号：&nbsp;&nbsp;<span class='code'>ECS0001</span></p>
                             <p class="wy font13">
                             <span class="clo9 wy font12">价格</span>
-                            <span id="ECS_SHOPPRICE" class="a_b1 font20 new_parce ecymar" style="font-size:30px">￥<?php echo $arr['pro_price']?></span>
+                            ￥<span id="pro_price" class="a_b1 font20 new_parce ecymar" style="font-size:30px"><?php echo $arr['pro_price']?></span>
             <script language="javascript">
                 $(function(){
                     var num = $(".ppyt ul li").length;
@@ -273,7 +273,7 @@ function clear_history_Response(res){
                                 <li>
                                     <a class="nou" href="javascript:;">
                                         <p id="points" class="wy font12 " style="color:#2C822E;font-weight:bold">+1</p>
-                                        <span class="clo9 wy font12">送285U商城积分</span>
+                                        <span class="clo9 wy font12">送瑞普医疗积分</span>
                                     </a>
                                 </li>
                                 
@@ -295,6 +295,14 @@ function clear_history_Response(res){
               <font id="ECS_GOODS_AMOUNT" class="shop" style="display: none;"></font>&nbsp;&nbsp;
               <span class="clo9 wy font12" id="max_num">库存 <span id='max_count'><?php echo $arr['pro_count']?></span> &nbsp;&nbsp; </span>
               
+              <!-- 商品id -->
+              <input type="hidden" id="pro_id" name="pro_id" value="<?php echo $arr['pro_id'];?>">
+              <!-- 商品图片 -->
+              <input type="hidden" id="pro_img" value="<?php echo $arr['pro_img'];?>">
+              <!-- 商品名称 -->
+              <input type="hidden" id="pro_name" value="<?php echo $arr['pro_name'];?>">
+
+
                 <span class="wx01" style="position: absolute; display: none; z-index: 9990; border: 1px solid #ccc; padding:2px; width: 124px; height: 160px; left: 0px; top: -180px; background: #fff;">
                 <span style="overflow: hidden; text-overflow:ellipsis;white-space:nowrap; width: 124px; word-wrap:normal;display:block; height: 30px; color: #333;">{{$v->s_name}}</span>
                 <img src="indexs/images/qr.jpg" width="124px" height="130px"/>  
@@ -302,8 +310,9 @@ function clear_history_Response(res){
                 <i class="wx02" style="position: absolute;  display:none;height: 20px; width: 120px; left: 10px; top: -16px; z-index: 9999; background: url(indexs/images/qr.jpg) no-repeat;"></i>
               </a>
         <script language="javascript" type="text/javascript">
+            // 数量加减
             function goods_cut(){
-                var num_val=document.getElementById('number');
+                var num_val=document.getElementById('   number');
                 var new_num=num_val.value;
                  if(isNaN(new_num)){jAlert('请输入数字');return false}
                 var Num = parseInt(new_num);
@@ -323,6 +332,7 @@ function clear_history_Response(res){
                 num_val.value=Num;
                 
             }
+            // 判断数量不可大于库存
             function change(){
                 var max_count=document.getElementById('max_count').innerText;
                 var number = document.getElementById('number').value;
@@ -331,11 +341,12 @@ function clear_history_Response(res){
                     alert("已超过库存数量");
                 }
             }
+
         </script>
             </p>                            
                             <p>
                                 <input class="pointer add_pay" type="button" name="now_buy" id="now_buy" value="立即购买" onclick="addToCart(371,0,1)" style="background-color: rgb(255, 237, 237); color: rgb(196, 0, 0); border: 1px solid rgb(196, 0, 0); width: 170px; font-family: microsoft yahei; font-size: 16px;"/></a>
-                                <a href="index.php?r=check/check&pro_id=<?php echo $arr['pro_id']?>"><input class="pointer paying" type="button" name="add_to_cart" id="add_to_cart" value="加入购物车" onclick="javascript:addToCart_choose(371)" style="background-color:#c40000;width: 170px; font-family: microsoft yahei; font-size: 16px;" />
+                               <input class="pointer paying" type="button"  value="加入购物车" onclick="fun()" style="background-color:#c40000;width: 170px; font-family: microsoft yahei; font-size: 16px;" />
                             </p>
                         </div>
                         </form>
@@ -394,7 +405,9 @@ function clear_history_Response(res){
       <a href="javascript:void();" class="onclickmore">
       查看更多活动&nbsp;<img src="indexs/images/down.png"></a>
     </div>
+    <script src="js/jq.js"></script>
   <script type="text/javascript">
+    // 商品评价显示
     $(function(){
         $(document).on('click','.nou',function(){
             // alert(1234);return false;    
@@ -425,6 +438,17 @@ function clear_history_Response(res){
        });
       //alert(menber);
     })
+
+    //添加到购物车
+   function fun()
+    {
+        var pro_id=$('#pro_id').val();
+        var pro_name=$("#pro_name").val();
+        var pro_price=$("#pro_price").text();
+        var pro_img=$("#pro_img").val();
+        var number=$("#number").val();
+       location.href="index.php?r=check/add&&pro_id="+pro_id+"&&pro_price="+pro_price+"&&number="+number+"&&pro_img="+pro_img+"&&pro_name="+pro_name;
+    }
 </script>
                     <div style="clear: both;"></div>
                 </div>

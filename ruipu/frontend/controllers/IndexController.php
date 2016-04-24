@@ -52,6 +52,7 @@ class IndexController extends Controller
 		$pro_id=$_GET['pro_id'];
     	$sql="select * from product where pro_id='$pro_id'";
     	$arr=\Yii::$app->db->createCommand($sql)->queryOne();
+
     	$sql="select * from evaluate where pro_id='$pro_id'";
 		$evaluate=\Yii::$app->db->createCommand($sql)->queryAll();
     	return $this->render('details',['arr'=>$arr,'evaluate'=>$evaluate]); 
@@ -63,6 +64,7 @@ class IndexController extends Controller
 	 * */
 	public  function actionUser_center(){
 		$this->layout="header";
+		
 		$session = Yii::$app->session;
 		if($session->has('uname')){
 			$model = new User();
@@ -112,6 +114,7 @@ class IndexController extends Controller
 		}
 }
 
+
 	/*
 	 * 执行密码设置
 	 * @author 周晶晶
@@ -122,6 +125,7 @@ class IndexController extends Controller
       $info = $model->pwd_update();
       print_r($info);
     }
+
     /*
      * 收获地址 获取城市信息
      * @author 周晶晶
