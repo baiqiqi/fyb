@@ -18,6 +18,7 @@ use yii\data\Pagination;
  * @adds 导航添加
  * @add_sort 导航添加判断排序
  * @nav_del 导航删除
+ * @art_show 文章详情
  * @白琪琪
  * @2016-4-18 1：50 
  */
@@ -100,17 +101,16 @@ class IndexController extends Controller
             $tmpFile = (dirname(__FILE__))."\\".'mysql\\'.$filename;
             // 用MySQLDump命令导入数据库
             exec("mysql -u$cfg_dbuser -p$cfg_dbpwd $cfg_dbname < ".$tmpFile);
-                // echo "mysql -u$cfg_dbuser -p$cfg_dbpwd $cfg_dbname < ".$tmpFile;die;
             //将备份数据插入到huan.xml文件内
             $huan=(dirname(__FILE__))."\\".'huan\\huan.xml';
             $current = file_get_contents($huan);
             $current .= "\n".$time.','.$tmpFile;
             file_put_contents($huan, $current);
     }
-    public function actionArtciles(){
-        $sql = "select * from artcile";
-        $artcile = \Yii::$app->db->createCommand($sql)->queryAll();
-        return $this->render('artcile',['artcile'=>$artcile]);
+    public function actionArticles(){
+        $sql = "select * from article";
+        $article = \Yii::$app->db->createCommand($sql)->queryAll();
+        return $this->render('article',['article'=>$article]);
     }
     public function actionNav_add(){
         return $this->render("nav_add");
@@ -148,6 +148,12 @@ class IndexController extends Controller
         }else{
             return $this->redirect("index.php?r=index/nav");
         }
+    }
+    public function actionArt_show(){
+        $id = $_GET["art_id"];
+         $sql = "select * from article where art_id=".$id;
+        $art_show = \Yii::$app->db->createCommand($sql)->queryAll();
+        return $this->render('article_show',['art_show'=>$art_show]);
     }
 }
 ?> 
