@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="css/common.css" />
+<!-- <link rel="stylesheet" type="text/css" href="css/common.css" />
 <link rel="stylesheet" type="text/css" href="css/ej_class.css" />
 <link rel="stylesheet" type="text/css" href="css/gwc.css" />
 <body>
@@ -14,4 +14,11 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
+
+<form action="https://shenghuo.alipay.com/send/payment/fill.htm" method="post" target="_blank">
+<input name="optEmail" type="hidden" value="1962611416@qq.com"><input name="payAmount" type="hidden" value="0.01">
+<input name="title" type="hidden" value="【测试：0.01元】" placeholder="付款说明">
+<input name="pay" type="image" value="购买域名" src="http://www.woaika.cn/img/zhifubao.png">
+<input name="memo" type="hidden" value="注意：收款人和金额已设定，支付过程中请勿修改任何信息，直接点击 下一步 ">
+</form>

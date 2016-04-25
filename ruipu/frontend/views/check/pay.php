@@ -1,6 +1,9 @@
 <link rel="stylesheet" type="text/css" href="css/common.css" />
 <link rel="stylesheet" type="text/css" href="css/ej_class.css" />
 <link rel="stylesheet" type="text/css" href="css/gwc.css" />
+<style type="text/css">
+.btn{display:block;width:113px;height:28px;line-height:28px;border:none;cursor:pointer;padding:0;background:url(http://api.d3pay.net:99/css/btn.png) 0 0 no-repeat;color:#fff;font-size:14px;font-weight:bold;}
+</style>
 <body>
 <div style="clear:both;"></div>
 <div class="w_980 m">
@@ -11,7 +14,6 @@
             <div class="un fl_l">3.成功填写订单</div>                
       </div>            
 </div>
-    <!-- <div class=" g_sec fl_l"><h1><b>填写核对订单信息</b></h1></div> -->
     <form name="form1" action="./index.php?r=check/alipay" method="post" enctype="multipart/form-data">
     <div class="w_978 fl_l bor">
               <div class="title"><span class="fl_r font12"><a href="#" class=" redfont">修改</a></span>商品列表</div>
@@ -97,7 +99,7 @@
                         </table>
       </div>
     </div>
-<!--   <div class="w_978 fl_l bor ma_t10">
+   <div class="w_978 fl_l bor ma_t10">
       <div class="title">支付方式</div>
       <div class="gwc_c">
         <table width="97%" border="0" align="center" cellpadding="0" cellspacing="0" class="gwc_table">
@@ -106,19 +108,17 @@
                             <td width="10%">&nbsp;</td>
                             <td width="8%">名称</td>
                             <td width="64%">描述</td>
-                            <td width="18%">手续费</td>
                           </tr> 
-                          <?php //foreach ($data_pay as $key => $value): ?>
+                          <?php foreach ($data_pay as $key => $value): ?>
                             <tr>
-                            <td><input type="radio" name="radio" id="radio" value="radio" <?php //echo ($key==0)?'checked':''; ?> /></td>
-                            <td><?php //echo $value['pay_name'] ?></td>
-                            <td><?php //echo $value['pay_content'] ?></td>
-                            <td>￥<?php //echo $value['pay_money'] ?>元</td>
+                            <td><input type="radio" name="pay_id" id="radio" value="<?php echo $value['pay_id'] ?>" <?php echo ($key==0)?'checked':''; ?> /></td>
+                            <td><?php echo $value['pay_name'] ?></td>
+                            <td><?php echo $value['pay_content'] ?></td>
                             </tr>
-                          <?php //endforeach ?>                                       
+                          <?php endforeach ?>                                       
                         </table>
       </div>
-    </div>  --> 
+    </div>
     <div class="w_978 fl_l bor ma_t10">
       <div class="title">费用总计</div>
       <div class="gwc_c">
@@ -163,7 +163,6 @@
         total2.text(val*price)
         zong1.text(val*price)
         zong2.text(val*price)
-        money_sum.text(val*price)
         // setTotal();
       }) 
       $(".min").click(function(){ 
@@ -178,7 +177,6 @@
         total2.text(val*price)
         zong1.text(val*price)
         zong2.text(val*price)
-        money_sum.text(val*price)
         // setTotal(); 
       })
     }) 

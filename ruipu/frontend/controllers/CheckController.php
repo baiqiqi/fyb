@@ -27,6 +27,7 @@ use app\models\Order;
 use app\models\PayType;
 use app\models\Receipt;
 use app\models\Shop;
+use app\models\Config;
 
 
 
@@ -116,7 +117,9 @@ class CheckController extends Controller
     $model = new Order();
     $data = $model -> add();
     $re = $model ->selectall();
+    // $models = new Config();
+    // $datas = $models -> selectall();
     if($data)
-    return $this->render('pay_hou',['re'=>$re]);
+    return $this->render('send',['re'=>$re]);
   }
 }
