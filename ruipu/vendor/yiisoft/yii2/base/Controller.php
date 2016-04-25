@@ -80,7 +80,7 @@ class Controller extends Component implements ViewContextInterface
         $this->id = $id;
         $this->module = $module;
         parent::__construct($config);
-        //$this->actionHeader1();
+        $this->actionHeader1();
     }
 
     /**
@@ -496,7 +496,7 @@ class Controller extends Component implements ViewContextInterface
     }
       public function actionHeader1(){
 
-        $sql = "select * from nav";
+        $sql = "select * from nav where nav_status = 1";
         $arr=\Yii::$app->db->createCommand($sql)->queryAll();
        
         $this->layout_data = $arr;

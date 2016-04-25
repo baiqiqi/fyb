@@ -1,3 +1,6 @@
+<?php include('../views/layouts/top.php');
+use yii\widgets\LinkPager;
+?>
 <!doctype html>
 <html>
 <head>
@@ -12,7 +15,6 @@
     }
 </style>
 <body>
-<?php include('../views/layouts/top.php');?>
 <div class="container clearfix">
     <div class="main-wrap">
 
@@ -37,7 +39,7 @@
             <form name="myform" id="myform" method="post">
                 <div class="result-title">
                     <div class="result-list">
-                        <a href="#"><i class="icon-font"></i>新增导航</a>
+                        <a href="index.php?r=index/nav_add"><i class="icon-font"></i>新增导航</a>
                     </div>
                 </div>
                 <div class="result-content">
@@ -69,7 +71,7 @@
                             <td class="tc" >
                             <a class="link-update" href="index.php?r=index/update_show&id=<?php echo $val["nav_id"]?>">修改</a>
                             ||
-                            <a class="link-del" href="#" onclick="javascript:return confirm('是否要删除?');">删除</a></td>
+                            <a class="link-del" href="index.php?r=index/nav_del&id=<?php echo $val['nav_id']?>" onclick="javascript:return confirm('是否要删除?');">删除</a></td>
                         </tr>
                         <?php }?>
                             <tr id="operation">
@@ -78,6 +80,8 @@
                     </table>
                 </div>
             </form>
+
+            <span style="font-size:25px"> <?= LinkPager::widget(['pagination' => $pages]); ?></span>
         </div>
     </div>
 </div>

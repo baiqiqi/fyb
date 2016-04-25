@@ -22507,7 +22507,34 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1461154760.8587
     'REQUEST_TIME' => 1461154760
 ]
+<<<<<<< HEAD
+<<<<<<< HEAD
+2016-04-21 08:07:35 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '<<' (T_SL)' in E:\www\php11\ruipu\fyb\ruipu\frontend\controllers\IndexController.php:66
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-21 08:07:34 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2004'
+=======
+2016-04-21 08:17:29 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '<<' (T_SL)' in D:\day8\fyb\ruipu\frontend\controllers\IndexController.php:66
+=======
 2016-04-22 07:14:56 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '<<' (T_SL)' in D:\WWW\fyb\ruipu\frontend\controllers\IndexController.php:66
+>>>>>>> 99f35cdd4ecb487937d40b86370e627839f64126
 Stack trace:
 #0 [internal function]: yii\base\ErrorHandler->handleFatalError()
 #1 {main}
@@ -22530,6 +22557,69 @@ $_SERVER = [
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\Windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
+<<<<<<< HEAD
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1788'
+>>>>>>> 9216d80285e291006ccecc5579a5a540ffa65db1
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+<<<<<<< HEAD
+    'REMOTE_PORT' => '51526'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461197254.962
+    'REQUEST_TIME' => 1461197254
+]
+2016-04-21 08:37:23 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '<<' (T_SL)' in E:\www\php11\ruipu\fyb\ruipu\frontend\controllers\IndexController.php:66
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-21 08:37:23 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2108'
+=======
+    'REMOTE_PORT' => '51506'
+    'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
+=======
     'PHPRC' => 'D:/wamp/phpStudy/php56n'
     '_FCGI_SHUTDOWN_EVENT_' => '1916'
     'SCRIPT_NAME' => '/fyb/ruipu/frontend/web/index.php'
@@ -22540,6 +22630,7 @@ $_SERVER = [
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'REMOTE_PORT' => '60491'
     'SCRIPT_FILENAME' => 'D:/WWW/fyb/ruipu/frontend/web/index.php'
+>>>>>>> 99f35cdd4ecb487937d40b86370e627839f64126
     'SERVER_ADMIN' => 'admin@phpStudy.net'
     'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
     'CONTEXT_PREFIX' => ''
@@ -22601,14 +22692,43 @@ $_SERVER = [
     'WINDIR' => 'C:\\Windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
     'PHPRC' => 'D:/phpStudy/php55n'
+<<<<<<< HEAD
+    '_FCGI_SHUTDOWN_EVENT_' => '1788'
+>>>>>>> 9216d80285e291006ccecc5579a5a540ffa65db1
+=======
     '_FCGI_SHUTDOWN_EVENT_' => '1884'
+>>>>>>> 99f35cdd4ecb487937d40b86370e627839f64126
     'SCRIPT_NAME' => '/index.php'
     'REQUEST_URI' => '/index.php?r=check/check&pro_id=3&pro_name=SD%E6%95%A2%E8%BE%BE'
     'QUERY_STRING' => 'r=check/check&pro_id=3&pro_name=SD%E6%95%A2%E8%BE%BE'
     'REQUEST_METHOD' => 'GET'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
+<<<<<<< HEAD
+<<<<<<< HEAD
+    'REMOTE_PORT' => '59369'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+=======
+    'REMOTE_PORT' => '51507'
+=======
     'REMOTE_PORT' => '51803'
+>>>>>>> 99f35cdd4ecb487937d40b86370e627839f64126
     'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
     'SERVER_ADMIN' => 'admin@phpStudy.net'
     'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
@@ -22627,9 +22747,39 @@ $_SERVER = [
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
     'HTTP_REFERER' => 'http://www.reap.com/index.php?r=index/details&pro_id=3'
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+>>>>>>> 9216d80285e291006ccecc5579a5a540ffa65db1
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
     'HTTP_CONNECTION' => 'close'
+<<<<<<< HEAD
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461199043.654
+    'REQUEST_TIME' => 1461199043
+]
+2016-04-21 08:37:54 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'public' (T_PUBLIC)' in E:\www\php11\ruipu\fyb\ruipu\frontend\controllers\IndexController.php:159
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-21 08:37:54 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2108'
+=======
     'HTTP_HOST' => 'www.reap.com'
     'FCGI_ROLE' => 'RESPONDER'
     'PHP_SELF' => '/index.php'
@@ -22668,14 +22818,43 @@ $_SERVER = [
     'WINDIR' => 'C:\\Windows'
     'PHP_FCGI_MAX_REQUESTS' => '1000'
     'PHPRC' => 'D:/phpStudy/php55n'
+<<<<<<< HEAD
+    '_FCGI_SHUTDOWN_EVENT_' => '1788'
+>>>>>>> 9216d80285e291006ccecc5579a5a540ffa65db1
+=======
     '_FCGI_SHUTDOWN_EVENT_' => '1884'
+>>>>>>> 99f35cdd4ecb487937d40b86370e627839f64126
     'SCRIPT_NAME' => '/index.php'
     'REQUEST_URI' => '/index.php?r=check/check&pro_id=3&pro_name=SD%E6%95%A2%E8%BE%BE'
     'QUERY_STRING' => 'r=check/check&pro_id=3&pro_name=SD%E6%95%A2%E8%BE%BE'
     'REQUEST_METHOD' => 'GET'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
+<<<<<<< HEAD
+<<<<<<< HEAD
+    'REMOTE_PORT' => '59374'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+=======
+    'REMOTE_PORT' => '51520'
+=======
     'REMOTE_PORT' => '51803'
+>>>>>>> 99f35cdd4ecb487937d40b86370e627839f64126
     'SCRIPT_FILENAME' => 'D:/day8/fyb/ruipu/frontend/web/index.php'
     'SERVER_ADMIN' => 'admin@phpStudy.net'
     'CONTEXT_DOCUMENT_ROOT' => 'D:/day8/fyb/ruipu/frontend/web'
@@ -22694,9 +22873,17 @@ $_SERVER = [
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
     'HTTP_REFERER' => 'http://www.reap.com/index.php?r=index/details&pro_id=3'
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+>>>>>>> 9216d80285e291006ccecc5579a5a540ffa65db1
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
     'HTTP_CONNECTION' => 'close'
+<<<<<<< HEAD
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461199074.2302
+    'REQUEST_TIME' => 1461199074
+=======
     'HTTP_HOST' => 'www.reap.com'
     'FCGI_ROLE' => 'RESPONDER'
     'PHP_SELF' => '/index.php'
@@ -28517,8 +28704,1824 @@ $_SERVER = [
     'HTTP_HOST' => 'www.reap.com'
     'FCGI_ROLE' => 'RESPONDER'
     'PHP_SELF' => '/index.php'
+<<<<<<< HEAD
+    'REQUEST_TIME_FLOAT' => 1461202773.3285
+    'REQUEST_TIME' => 1461202773
+>>>>>>> 9216d80285e291006ccecc5579a5a540ffa65db1
+]
+2016-04-21 10:31:17 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '<<' (T_SL)' in E:\www\php11\ruipu\fyb\ruipu\frontend\controllers\IndexController.php:66
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-21 10:31:17 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/details'
+    'pro_id' => '2'
+]
+
+$_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => 'ggardjjomemgd0p4rbghv8pa24'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2056'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details&pro_id=2'
+    'QUERY_STRING' => 'r=index/details&pro_id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49478'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=ggardjjomemgd0p4rbghv8pa24'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reap.com/index.php?r=index/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461205877.8772
+    'REQUEST_TIME' => 1461205877
+]
+2016-04-21 10:31:17 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32965 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(247): yii\log\Logger->flush(true)
+#7 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#8 {main}
+2016-04-21 10:31:17 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/details'
+    'pro_id' => '2'
+]
+
+$_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => 'ggardjjomemgd0p4rbghv8pa24'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2056'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details&pro_id=2'
+    'QUERY_STRING' => 'r=index/details&pro_id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49478'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=ggardjjomemgd0p4rbghv8pa24'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reap.com/index.php?r=index/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461205877.8772
+    'REQUEST_TIME' => 1461205877
+]
+2016-04-21 10:31:45 [127.0.0.1][-][ggardjjomemgd0p4rbghv8pa24][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32965 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-21 10:31:45 [127.0.0.1][-][ggardjjomemgd0p4rbghv8pa24][info][application] $_GET = [
+    'r' => 'index/details'
+    'pro_id' => '2'
+]
+
+$_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => 'ggardjjomemgd0p4rbghv8pa24'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2056'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details&pro_id=2'
+    'QUERY_STRING' => 'r=index/details&pro_id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49482'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=ggardjjomemgd0p4rbghv8pa24'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reap.com/index.php?r=index/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461205905.4955
+    'REQUEST_TIME' => 1461205905
+]
+2016-04-21 10:31:57 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: count' in E:\www\php11\ruipu\fyb\ruipu\frontend\views\check\checkout.php:26
+Stack trace:
+#0 E:\www\php11\ruipu\fyb\ruipu\frontend\views\check\checkout.php(26): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\www\\php11\\ru...', 26, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(325): require('E:\\www\\php11\\ru...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\www\\php11\\ru...', Array, Object(frontend\controllers\CheckController))
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(373): yii\base\View->render('checkout', Array, Object(frontend\controllers\CheckController))
+#5 E:\www\php11\ruipu\fyb\ruipu\frontend\controllers\CheckController.php(52): yii\base\Controller->render('checkout', Array)
+#6 [internal function]: frontend\controllers\CheckController->actionCheck()
+#7 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams(Array)
+#9 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('check', Array)
+#10 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('check/check', Array)
+#11 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\www\php11\ruipu\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-21 10:31:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/check'
+    'pro_id' => '2'
+]
+
+$_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => 'ggardjjomemgd0p4rbghv8pa24'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2056'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=check/check&pro_id=2'
+    'QUERY_STRING' => 'r=check/check&pro_id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49493'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=ggardjjomemgd0p4rbghv8pa24'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reap.com/index.php?r=index/details&pro_id=2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461205917.2625
+    'REQUEST_TIME' => 1461205917
+]
+2016-04-21 10:31:57 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-04-21 10:31:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'check/check'
+    'pro_id' => '2'
+]
+
+$_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => 'ggardjjomemgd0p4rbghv8pa24'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2056'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=check/check&pro_id=2'
+    'QUERY_STRING' => 'r=check/check&pro_id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49493'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=ggardjjomemgd0p4rbghv8pa24'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reap.com/index.php?r=index/details&pro_id=2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461205917.2625
+    'REQUEST_TIME' => 1461205917
+]
+2016-04-21 10:32:05 [127.0.0.1][-][ggardjjomemgd0p4rbghv8pa24][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32965 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-21 10:32:04 [127.0.0.1][-][ggardjjomemgd0p4rbghv8pa24][info][application] $_GET = [
+    'r' => 'index/details'
+    'pro_id' => '2'
+]
+
+$_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => 'ggardjjomemgd0p4rbghv8pa24'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2056'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/details&pro_id=2'
+    'QUERY_STRING' => 'r=index/details&pro_id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49495'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=ggardjjomemgd0p4rbghv8pa24'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reap.com/index.php?r=index/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461205924.7734
+    'REQUEST_TIME' => 1461205924
+]
+2016-04-21 10:32:12 [127.0.0.1][-][ggardjjomemgd0p4rbghv8pa24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/pay' in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php:124
+Stack trace:
+#0 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('pay', Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/pay', Array)
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\www\php11\ruipu\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\www\php11\ruipu\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-21 10:32:12 [127.0.0.1][-][ggardjjomemgd0p4rbghv8pa24][info][application] $_GET = [
+    'r' => 'index/pay'
+]
+
+$_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => 'ggardjjomemgd0p4rbghv8pa24'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2056'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/pay'
+    'QUERY_STRING' => 'r=index/pay'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49497'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=ggardjjomemgd0p4rbghv8pa24'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461205932.8676
+    'REQUEST_TIME' => 1461205932
+]
+2016-04-22 10:24:36 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(500): yii\db\Command->queryAll()
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#4 [internal function]: yii\base\Controller->__construct('<span class="st...', Object(yii\web\Application), '[]')
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs('[<span class="s...')
+#6 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('<span class="st...', '[<span class="s...', '[]')
+#7 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('<span class="st...', '[<span class="s...')
+#8 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('<span class="st...', '[<span class="s...')
+#9 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('<span class="st...')
+#10 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('<span class="st...')
+#11 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#12 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 E:\www\php11\ruipu\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: select * from nav where id = 1' in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'select * from n...')
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(500): yii\db\Command->queryAll()
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#4 [internal function]: yii\base\Controller->__construct('<span class="st...', Object(yii\web\Application), '[]')
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs('[<span class="s...')
+#6 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('<span class="st...', '[<span class="s...', '[]')
+#7 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('<span class="st...', '[<span class="s...')
+#8 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('<span class="st...', '[<span class="s...')
+#9 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('<span class="st...')
+#10 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('<span class="st...')
+#11 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#12 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 E:\www\php11\ruipu\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-04-22 10:24:36 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => 'g1oo9scl94409vn1f0q2i6uni2'
+    '_csrf' => '01fb008fc422b145e805933b5b2f3d393edbfcbc22c8d1329b4b0cb2bffafd98a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1bFdZ23Wy6x1guGW3CMleWzbVMBngpO2\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2260'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54787'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=g1oo9scl94409vn1f0q2i6uni2; _csrf=01fb008fc422b145e805933b5b2f3d393edbfcbc22c8d1329b4b0cb2bffafd98a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221bFdZ23Wy6x1guGW3CMleWzbVMBngpO2%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461291876.0789
+    'REQUEST_TIME' => 1461291876
+]
+2016-04-22 10:24:36 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#7 {main}
+2016-04-22 10:24:36 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => 'g1oo9scl94409vn1f0q2i6uni2'
+    '_csrf' => '01fb008fc422b145e805933b5b2f3d393edbfcbc22c8d1329b4b0cb2bffafd98a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1bFdZ23Wy6x1guGW3CMleWzbVMBngpO2\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2260'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54787'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=g1oo9scl94409vn1f0q2i6uni2; _csrf=01fb008fc422b145e805933b5b2f3d393edbfcbc22c8d1329b4b0cb2bffafd98a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221bFdZ23Wy6x1guGW3CMleWzbVMBngpO2%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461291876.0789
+    'REQUEST_TIME' => 1461291876
+]
+2016-04-22 10:24:37 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(500): yii\db\Command->queryAll()
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#4 [internal function]: yii\base\Controller->__construct('default', Object(yii\debug\Module), Array)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#6 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\debug\\contr...', Array, Array)
+#7 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('yii\\debug\\contr...', Array)
+#8 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('yii\\debug\\contr...', Array)
+#9 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('default')
+#10 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(513): yii\base\Module->createController('default/toolbar')
+#11 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('debug/default/t...')
+#12 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('debug/default/t...', Array)
+#13 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\www\php11\ruipu\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: select * from nav where id = 1' in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'select * from n...')
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(500): yii\db\Command->queryAll()
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(83): yii\base\Controller->actionHeader1()
+#4 [internal function]: yii\base\Controller->__construct('default', Object(yii\debug\Module), Array)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#6 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\debug\\contr...', Array, Array)
+#7 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('yii\\debug\\contr...', Array)
+#8 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(568): yii\BaseYii::createObject('yii\\debug\\contr...', Array)
+#9 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('default')
+#10 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(513): yii\base\Module->createController('default/toolbar')
+#11 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('debug/default/t...')
+#12 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('debug/default/t...', Array)
+#13 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\www\php11\ruipu\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-04-22 10:24:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'debug/default/toolbar'
+    'tag' => '57198b641d859'
+]
+
+$_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => 'g1oo9scl94409vn1f0q2i6uni2'
+    '_csrf' => '01fb008fc422b145e805933b5b2f3d393edbfcbc22c8d1329b4b0cb2bffafd98a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1bFdZ23Wy6x1guGW3CMleWzbVMBngpO2\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2260'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=debug%2Fdefault%2Ftoolbar&tag=57198b641d859'
+    'QUERY_STRING' => 'r=debug%2Fdefault%2Ftoolbar&tag=57198b641d859'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54788'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=g1oo9scl94409vn1f0q2i6uni2; _csrf=01fb008fc422b145e805933b5b2f3d393edbfcbc22c8d1329b4b0cb2bffafd98a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221bFdZ23Wy6x1guGW3CMleWzbVMBngpO2%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reap.com/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461291876.785
+    'REQUEST_TIME' => 1461291876
+]
+2016-04-22 10:24:37 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#7 {main}
+2016-04-22 10:24:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'debug/default/toolbar'
+    'tag' => '57198b641d859'
+]
+
+$_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => 'g1oo9scl94409vn1f0q2i6uni2'
+    '_csrf' => '01fb008fc422b145e805933b5b2f3d393edbfcbc22c8d1329b4b0cb2bffafd98a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1bFdZ23Wy6x1guGW3CMleWzbVMBngpO2\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2260'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=debug%2Fdefault%2Ftoolbar&tag=57198b641d859'
+    'QUERY_STRING' => 'r=debug%2Fdefault%2Ftoolbar&tag=57198b641d859'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54788'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=g1oo9scl94409vn1f0q2i6uni2; _csrf=01fb008fc422b145e805933b5b2f3d393edbfcbc22c8d1329b4b0cb2bffafd98a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221bFdZ23Wy6x1guGW3CMleWzbVMBngpO2%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reap.com/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461291876.785
+    'REQUEST_TIME' => 1461291876
+]
+2016-04-22 13:44:38 [127.0.0.1][-][l3shbsqekv4ovjlrp1tnu17072][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `is_moren` DESC' at line 1' in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all('<span class="ke...')
+#4 E:\www\php11\ruipu\fyb\ruipu\frontend\models\Receipt.php(78): yii\db\ActiveQuery->all()
+#5 E:\www\php11\ruipu\fyb\ruipu\frontend\controllers\IndexController.php(88): app\models\Receipt->get_address()
+#6 [internal function]: frontend\controllers\IndexController->actionUser_center()
+#7 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\www\php11\ruipu\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `is_moren` DESC' at line 1
+The SQL being executed was: SELECT * FROM `receipt` WHERE u_id =  ORDER BY `is_moren` DESC' in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all('<span class="ke...')
+#4 E:\www\php11\ruipu\fyb\ruipu\frontend\models\Receipt.php(78): yii\db\ActiveQuery->all()
+#5 E:\www\php11\ruipu\fyb\ruipu\frontend\controllers\IndexController.php(88): app\models\Receipt->get_address()
+#6 [internal function]: frontend\controllers\IndexController->actionUser_center()
+#7 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Controller.php(153): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\www\php11\ruipu\fyb\ruipu\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `is_moren` DESC' at line 1
+)
+
+2016-04-22 13:44:38 [127.0.0.1][-][l3shbsqekv4ovjlrp1tnu17072][info][application] $_GET = [
+    'r' => 'index/user_center'
+    'm' => 'get_address'
+]
+
+$_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    '_csrf' => 'b434d1484b50ae99fb90920acc0272cb5c21f2b749e4d91137c30d26a261a6eaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PmrZUBAB_rip1Qi4YcgGLaCrI1JeO3yL\";}'
+    'menuClosed' => '#user_menu_loan#'
+    'PHPSESSID' => 'l3shbsqekv4ovjlrp1tnu17072'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2092'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/user_center&m=get_address'
+    'QUERY_STRING' => 'r=index/user_center&m=get_address'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61127'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; _csrf=b434d1484b50ae99fb90920acc0272cb5c21f2b749e4d91137c30d26a261a6eaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PmrZUBAB_rip1Qi4YcgGLaCrI1JeO3yL%22%3B%7D; menuClosed=%23user_menu_loan%23; PHPSESSID=l3shbsqekv4ovjlrp1tnu17072'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reap.com/index.php?r=index/user_center&m=personal_pwd'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461303877.9906
+    'REQUEST_TIME' => 1461303877
+=======
     'REQUEST_TIME_FLOAT' => 1461313411.1451
     'REQUEST_TIME' => 1461313411
+>>>>>>> 99f35cdd4ecb487937d40b86370e627839f64126
+]
+2016-04-23 08:07:53 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '<<' (T_SL)' in E:\www\php11\ruipu\fyb\ruipu\frontend\controllers\IndexController.php:67
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-23 08:07:53 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2072'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53001'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370073.4105
+    'REQUEST_TIME' => 1461370073
+]
+2016-04-23 08:07:53 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '<<' (T_SL)' in E:\www\php11\ruipu\fyb\ruipu\frontend\controllers\IndexController.php:67
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-23 08:07:53 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2080'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53000'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370073.4108
+    'REQUEST_TIME' => 1461370073
+]
+2016-04-23 08:07:53 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30302 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(247): yii\log\Logger->flush(true)
+#7 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#8 {main}
+2016-04-23 08:07:53 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2072'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53001'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370073.4105
+    'REQUEST_TIME' => 1461370073
+]
+2016-04-23 08:07:53 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30302 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(247): yii\log\Logger->flush(true)
+#7 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#8 {main}
+2016-04-23 08:07:53 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2080'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53000'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370073.4108
+    'REQUEST_TIME' => 1461370073
+]
+2016-04-23 08:08:27 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'public' (T_PUBLIC)' in E:\www\php11\ruipu\fyb\ruipu\frontend\controllers\IndexController.php:158
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-23 08:08:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2080'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53012'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370107.9067
+    'REQUEST_TIME' => 1461370107
+]
+2016-04-23 08:08:27 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30302 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\base\ErrorHandler.php(247): yii\log\Logger->flush(true)
+#7 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#8 {main}
+2016-04-23 08:08:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2080'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53012'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370107.9067
+    'REQUEST_TIME' => 1461370107
+]
+2016-04-23 08:08:45 [127.0.0.1][-][20qb6583oief3itktamquq41v0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30302 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:08:44 [127.0.0.1][-][20qb6583oief3itktamquq41v0][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2080'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53029'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370124.4267
+    'REQUEST_TIME' => 1461370124
+]
+2016-04-23 08:21:18 [127.0.0.1][-][20qb6583oief3itktamquq41v0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30302 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:21:18 [127.0.0.1][-][20qb6583oief3itktamquq41v0][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => '20qb6583oief3itktamquq41v0'
+    '_csrf' => '6bd59ad4405bd87cc5b812c543c6f7626ccc0cdf1084771e67689afabfc183b8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TzfqhcpWQ8CLd1gA5nhSonT47orT-sk4\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53552'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=20qb6583oief3itktamquq41v0; _csrf=6bd59ad4405bd87cc5b812c543c6f7626ccc0cdf1084771e67689afabfc183b8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TzfqhcpWQ8CLd1gA5nhSonT47orT-sk4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370878.3583
+    'REQUEST_TIME' => 1461370878
+]
+2016-04-23 08:21:23 [127.0.0.1][-][20qb6583oief3itktamquq41v0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30302 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:21:22 [127.0.0.1][-][20qb6583oief3itktamquq41v0][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => '20qb6583oief3itktamquq41v0'
+    '_csrf' => '6bd59ad4405bd87cc5b812c543c6f7626ccc0cdf1084771e67689afabfc183b8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TzfqhcpWQ8CLd1gA5nhSonT47orT-sk4\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53552'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=20qb6583oief3itktamquq41v0; _csrf=6bd59ad4405bd87cc5b812c543c6f7626ccc0cdf1084771e67689afabfc183b8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TzfqhcpWQ8CLd1gA5nhSonT47orT-sk4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reap.com/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370882.7368
+    'REQUEST_TIME' => 1461370882
+]
+2016-04-23 08:21:25 [127.0.0.1][-][20qb6583oief3itktamquq41v0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30302 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:21:24 [127.0.0.1][-][20qb6583oief3itktamquq41v0][info][application] $_GET = [
+    'r' => 'index/sale'
+]
+
+$_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => '20qb6583oief3itktamquq41v0'
+    '_csrf' => '6bd59ad4405bd87cc5b812c543c6f7626ccc0cdf1084771e67689afabfc183b8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TzfqhcpWQ8CLd1gA5nhSonT47orT-sk4\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/sale'
+    'QUERY_STRING' => 'r=index/sale'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53552'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=20qb6583oief3itktamquq41v0; _csrf=6bd59ad4405bd87cc5b812c543c6f7626ccc0cdf1084771e67689afabfc183b8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TzfqhcpWQ8CLd1gA5nhSonT47orT-sk4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reap.com/index.php?r=index/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370884.9162
+    'REQUEST_TIME' => 1461370884
+]
+2016-04-23 08:21:26 [127.0.0.1][-][20qb6583oief3itktamquq41v0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30302 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:21:26 [127.0.0.1][-][20qb6583oief3itktamquq41v0][info][application] $_GET = [
+    'r' => 'about/about'
+]
+
+$_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => '20qb6583oief3itktamquq41v0'
+    '_csrf' => '6bd59ad4405bd87cc5b812c543c6f7626ccc0cdf1084771e67689afabfc183b8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TzfqhcpWQ8CLd1gA5nhSonT47orT-sk4\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=about/about'
+    'QUERY_STRING' => 'r=about/about'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53552'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=20qb6583oief3itktamquq41v0; _csrf=6bd59ad4405bd87cc5b812c543c6f7626ccc0cdf1084771e67689afabfc183b8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TzfqhcpWQ8CLd1gA5nhSonT47orT-sk4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reap.com/index.php?r=index/sale'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370886.0027
+    'REQUEST_TIME' => 1461370886
+]
+2016-04-23 08:21:27 [127.0.0.1][-][20qb6583oief3itktamquq41v0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30302 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 08:21:27 [127.0.0.1][-][20qb6583oief3itktamquq41v0][info][application] $_GET = [
+    'r' => 'index/contact'
+]
+
+$_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => '20qb6583oief3itktamquq41v0'
+    '_csrf' => '6bd59ad4405bd87cc5b812c543c6f7626ccc0cdf1084771e67689afabfc183b8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TzfqhcpWQ8CLd1gA5nhSonT47orT-sk4\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2084'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/contact'
+    'QUERY_STRING' => 'r=index/contact'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53552'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=20qb6583oief3itktamquq41v0; _csrf=6bd59ad4405bd87cc5b812c543c6f7626ccc0cdf1084771e67689afabfc183b8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TzfqhcpWQ8CLd1gA5nhSonT47orT-sk4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reap.com/index.php?r=about/about'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461370887.3296
+    'REQUEST_TIME' => 1461370887
+]
+2016-04-23 14:01:22 [127.0.0.1][-][20qb6583oief3itktamquq41v0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 30302 bytes' 
+
+in E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'E:\\www\\php11\\ru...', 86, Array)
+#1 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('E:\\www\\php11\\ru...', Array)
+#3 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 E:\www\php11\ruipu\fyb\ruipu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-04-23 14:01:21 [127.0.0.1][-][20qb6583oief3itktamquq41v0][info][application] $_GET = [
+    'r' => 'index/contact'
+]
+
+$_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '114.249.210.151'
+    '__utma' => '1.1406402121.1461027924.1461027924.1461027924.1'
+    '__utmz' => '1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'uid' => 'reap57158428414a47.59910402'
+    'bdshare_firstime' => '1461028680162'
+    'PHPSESSID' => '20qb6583oief3itktamquq41v0'
+    '_csrf' => '6bd59ad4405bd87cc5b812c543c6f7626ccc0cdf1084771e67689afabfc183b8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TzfqhcpWQ8CLd1gA5nhSonT47orT-sk4\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;E:\\svn2\\bin;E:\\svn1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/wamp/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2416'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/contact'
+    'QUERY_STRING' => 'r=index/contact'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61854'
+    'SCRIPT_FILENAME' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/www/php11/ruipu/fyb/ruipu/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'reap.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=114.249.210.151; __utma=1.1406402121.1461027924.1461027924.1461027924.1; __utmz=1.1461027924.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); uid=reap57158428414a47.59910402; bdshare_firstime=1461028680162; PHPSESSID=20qb6583oief3itktamquq41v0; _csrf=6bd59ad4405bd87cc5b812c543c6f7626ccc0cdf1084771e67689afabfc183b8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TzfqhcpWQ8CLd1gA5nhSonT47orT-sk4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://reap.com/index.php?r=about/about'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.15 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'reap.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1461391281.5428
+    'REQUEST_TIME' => 1461391281
 ]
 2016-04-23 08:27:01 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: pay_id' in D:\chongci\fyb\ruipu\frontend\views\check\alipayapi.php:31
 Stack trace:

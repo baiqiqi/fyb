@@ -33,10 +33,6 @@
 		<td><input type="text" value="<?php echo $arr['0']['u_weight']?>" name="u_weight"></td>
 	</tr>
 	<tr>
-		<td>邮箱</td>
-		<td><input type="text" value="<?php echo $arr['0']['u_email']?>" name="u_email"></td>
-	</tr>
-	<tr>
 		<td colspan="2"><input type="submit" value="提交"><input type="reset" value="清空"></td>
 	</tr>
 </table>

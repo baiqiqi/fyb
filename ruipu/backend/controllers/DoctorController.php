@@ -18,10 +18,20 @@ class DoctorController extends Controller
 	public $enableCsrfValidation = false;  
 	public function actionDinfo()
 	{
-     	$sql = "select * from doctor where doc_status='1'";
-    	$arr =\Yii::$app->db->createCommand($sql)->queryAll();
-    	// print_r($arr);die;  
-     	return $this->render('dinfo',['arr'=>$arr]);
+ 		$connection = \Yii::$app->db;
+         if (empty($_GET['page'])) {
+           $page = 1;
+        }else{
+            $page = $_GET['page'];
+        }
+        $pagesize = 2;
+        $command = $connection->createCommand('SELECT COUNT(*) FROM doctor');   
+        $postCount = $command->queryScalar();
+        $countpage = ceil($postCount/$pagesize);
+        $limit2 = ($page-1)*$pagesize;
+        $command = $connection->createCommand("select * from doctor where doc_status=1 order by doc_id desc limit $limit2,$pagesize");
+        $arr = $command->queryAll();
+        return $this->render('dinfo',['arr'=>$arr,'page'=>$page,'countpage'=>$countpage]);  	
 	}
 	public function actionDelete()
 	{
@@ -61,4 +71,4 @@ class DoctorController extends Controller
 			echo '修改错误';
 		}
 	}
-}merging
+}
